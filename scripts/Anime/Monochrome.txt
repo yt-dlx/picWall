@@ -1,18 +1,3 @@
-Moonlit Alley: A quiet alley with soft, glowing light reflecting off wet cobblestones.
-Rainy Train Platform: A dimly lit platform with a glowing umbrella, rain falling around it.
-Misty Forest: A dense forest fading into soft, gray mist with tall, shadowy trees.
-Lonely Hilltop: A single, gnarled tree standing on a hill under a cloudy, monochrome sky.
-Silent River: A calm river reflecting the soft silhouettes of surrounding trees.
-Abandoned Shrine: A weathered shrine surrounded by fog and overgrown plants.
-Empty Classroom: A quiet classroom with shadows from the blinds falling on the desks.
-Deserted Street: A silent street with glowing streetlights and empty sidewalks.
-Forest Path: A narrow dirt path winding through a forest with dappled gray light.
-Quiet Rooftop: A flat rooftop with a single bench and distant city lights.
-Rainy Window View: A window streaked with rain, showing a blurred urban landscape.
-Cherry Blossom Silhouette: Dark branches filled with softly glowing blossoms.
-Calm Ocean Horizon: A minimalist seascape with waves gently blending into the sky.
-Foggy Village: A small village shrouded in soft mist, with muted lights glowing in the windows.
-Lonely Train Tracks: Tracks disappearing into the fog with faint outlines of trees on either side.
 Moonlit Shrine Steps: Stone steps leading up to a small shrine glowing softly in the moonlight.
 Snow-Covered Street: A quiet, snow-covered road with faint footprints leading into the distance.
 Lighthouse Glow: A lighthouse casting a soft light over dark, crashing waves.

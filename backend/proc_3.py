@@ -145,8 +145,8 @@ if __name__ == "__main__":
     folder_names = [name for name in os.listdir(main_directory) if os.path.isdir(os.path.join(main_directory, name))]
     for name in folder_names:
         inference(
+            image_anime_style=("Anime" in os.path.join(main_directory, name)),
             input_path=os.path.join(main_directory, name),
-            image_anime_style=("Anime" in name),
             double_upscale_4x_to_16x=False,
             sharpness=80,
             brightness=8,
