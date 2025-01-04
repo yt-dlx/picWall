@@ -51,7 +51,9 @@ async function deleteContent(path, branch) {
     if (response.ok) {
       const items = await response.json();
       if (Array.isArray(items)) {
-        for (const item of items) await deleteContent(item.path, branch);
+        for (const item of items) {
+          await deleteContent(item.path, branch);
+        }
       } else {
         await fetch(`${apiUrl}/contents/${items.path}`, {
           method: "DELETE",
@@ -60,7 +62,9 @@ async function deleteContent(path, branch) {
         });
         console.log(`Deleted: ${items.path}`);
       }
-    } else console.error(`Error fetching content at path ${path}:`, await response.text());
+    } else {
+      console.error(`Error fetching content at path ${path}:`, await response.text());
+    }
   } catch (error) {
     console.error(`Error deleting content at path ${path}:`, error);
   }
@@ -90,8 +94,12 @@ async function createBranch(newBranch, sourceBranch = defaultBaseBranch) {
       if (response.ok) {
         console.log(`Branch ${newBranch} created successfully.`);
         await deleteFilesInBranch(newBranch);
-      } else console.error(`Error creating branch ${newBranch}:`, await response.text());
-    } else console.error(`Source branch ${sourceBranch} not found. Cannot create branch ${newBranch}.`);
+      } else {
+        console.error(`Error creating branch ${newBranch}:`, await response.text());
+      }
+    } else {
+      console.error(`Source branch ${sourceBranch} not found. Cannot create branch ${newBranch}.`);
+    }
   } catch (error) {
     console.error(`Error creating branch ${newBranch}:`, error);
   }
@@ -106,8 +114,11 @@ async function uploadFileToGitHub(filePath, remotePath, branch) {
       body: JSON.stringify({ message: commitMessage, content, branch }),
       headers: { Authorization: `token ${token}`, "Content-Type": "application/json" }
     });
-    if (response.ok) console.log(`File uploaded: ${remotePath}`);
-    else console.error(`Error uploading file ${remotePath}:`, await response.text());
+    if (response.ok) {
+      console.log(`File uploaded: ${remotePath}`);
+    } else {
+      console.error(`Error uploading file ${remotePath}:`, await response.text());
+    }
   } catch (error) {
     console.error(`Error uploading file ${filePath}:`, error);
   }
@@ -124,22 +135,20 @@ async function processDirectory(directory) {
       await createBranch(branchName);
     }
     const subdirectories = ["max", "min"];
-    await Promise.all(
-      subdirectories.map(async (subdir) => {
-        const subdirPath = join(directory, subdir);
-        if (statSync(subdirPath).isDirectory()) {
-          const files = readdirSync(subdirPath);
-          console.log(`Found files in ${subdirPath}: ${files.join(", ")}`);
-          await Promise.all(
-            files.map(async (file) => {
-              const filePath = join(subdirPath, file);
-              const remotePath = `${subFolderName}/${subdir}/${file}`;
-              await uploadFileToGitHub(filePath, remotePath, branchName);
-            })
-          );
-        } else console.log(`No directory found: ${subdirPath}`);
-      })
-    );
+    for (const subdir of subdirectories) {
+      const subdirPath = join(directory, subdir);
+      if (statSync(subdirPath).isDirectory()) {
+        const files = readdirSync(subdirPath);
+        console.log(`Found files in ${subdirPath}: ${files.join(", ")}`);
+        for (const file of files) {
+          const filePath = join(subdirPath, file);
+          const remotePath = `${subFolderName}/${subdir}/${file}`;
+          await uploadFileToGitHub(filePath, remotePath, branchName);
+        }
+      } else {
+        console.log(`No directory found: ${subdirPath}`);
+      }
+    }
   } catch (error) {
     console.error(`Error processing directory ${directory}:`, error);
   }
@@ -147,7 +156,9 @@ async function processDirectory(directory) {
 
 async function processAllDirectories() {
   try {
-    for (const directory of directories) await processDirectory(directory);
+    for (const directory of directories) {
+      await processDirectory(directory);
+    }
     console.log("All directories processed successfully.");
   } catch (error) {
     console.error("Error processing all directories:", error);
