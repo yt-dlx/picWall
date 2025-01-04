@@ -36,10 +36,10 @@ if __name__ == "__main__":
         exit()
     output_base_dir = os.path.join("sources", "output")
     directories = [
-        (folder, os.path.join(output_base_dir, folder, "highRes"), os.path.join(output_base_dir, folder, "lowRes"))
+        (folder, os.path.join(output_base_dir, folder, "max"), os.path.join(output_base_dir, folder, "min"))
         for folder in os.listdir(output_base_dir)
         if os.path.isdir(os.path.join(output_base_dir, folder)) and
-           os.path.isdir(os.path.join(output_base_dir, folder, "highRes"))
+           os.path.isdir(os.path.join(output_base_dir, folder, "max"))
     ]
     for _, _, target_dir in directories:
         os.makedirs(target_dir, exist_ok=True)

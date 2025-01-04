@@ -43,7 +43,7 @@ def process_images(input_folder, output_folder, text, font_path, orientation):
 input_base_dir = os.path.join("sources", "input")
 output_base_dir = os.path.join("sources", "output")
 input_folders = [os.path.join(input_base_dir, folder) for folder in os.listdir(input_base_dir) if os.path.isdir(os.path.join(input_base_dir, folder))]
-output_folders = [os.path.join(output_base_dir, folder, "highRes") for folder in os.listdir(input_base_dir) if os.path.isdir(os.path.join(input_base_dir, folder))]
+output_folders = [os.path.join(output_base_dir, folder, "max") for folder in os.listdir(input_base_dir) if os.path.isdir(os.path.join(input_base_dir, folder))]
 for output_folder in output_folders:
     os.makedirs(output_folder, exist_ok=True)
 text = "picWall™ AI"
