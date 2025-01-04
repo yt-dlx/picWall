@@ -134,7 +134,7 @@ async function processDirectory(directory) {
       console.log(`Branch ${branchName} does not exist. Creating it now.`);
       await createBranch(branchName);
     }
-    const subdirectories = ["max", "min"];
+    const subdirectories = ["min", "max"];
     for (const subdir of subdirectories) {
       const subdirPath = join(directory, subdir);
       if (statSync(subdirPath).isDirectory()) {
