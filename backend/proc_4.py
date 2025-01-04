@@ -1,7 +1,7 @@
 import os
 from PIL import Image, ImageDraw, ImageFont
 from concurrent.futures import ThreadPoolExecutor
-def add_watermark_to_image(input_path, output_path, text, font_path, orientation, opacity=255):
+def add_watermark_to_image(input_path, output_path, text, font_path, orientation, opacity=204):
     image = Image.open(input_path).convert("RGBA")
     watermark = Image.new("RGBA", image.size, (255, 255, 255, 0))
     draw = ImageDraw.Draw(watermark)

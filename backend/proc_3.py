@@ -91,7 +91,7 @@ def save_final_image(output_path):
 def cleanup(temp_image_path):
     if os.path.exists(temp_image_path):
         os.remove(temp_image_path)
-        print(f"{Fore.GREEN}INFO:{Style.RESET_ALL} 🗑️ Temporary image removed")
+        print(f"{Fore.GREEN}INFO:{Style.RESET_ALL}  🗑️ Temporary image removed")
     temp_dir = os.path.dirname(temp_image_path)
     if not os.listdir(temp_dir):
         os.rmdir(temp_dir)
