@@ -124,18 +124,22 @@ async function processDirectory(directory) {
       await createBranch(branchName);
     }
     const subdirectories = ["max", "min"];
-    for (const subdir of subdirectories) {
-      const subdirPath = join(directory, subdir);
-      if (statSync(subdirPath).isDirectory()) {
-        const files = readdirSync(subdirPath);
-        console.log(`Found files in ${subdirPath}: ${files.join(", ")}`);
-        for (const file of files) {
-          const filePath = join(subdirPath, file);
-          const remotePath = `${subFolderName}/${subdir}/${file}`;
-          await uploadFileToGitHub(filePath, remotePath, branchName);
-        }
-      } else console.log(`No directory found: ${subdirPath}`);
-    }
+    await Promise.all(
+      subdirectories.map(async (subdir) => {
+        const subdirPath = join(directory, subdir);
+        if (statSync(subdirPath).isDirectory()) {
+          const files = readdirSync(subdirPath);
+          console.log(`Found files in ${subdirPath}: ${files.join(", ")}`);
+          await Promise.all(
+            files.map(async (file) => {
+              const filePath = join(subdirPath, file);
+              const remotePath = `${subFolderName}/${subdir}/${file}`;
+              await uploadFileToGitHub(filePath, remotePath, branchName);
+            })
+          );
+        } else console.log(`No directory found: ${subdirPath}`);
+      })
+    );
   } catch (error) {
     console.error(`Error processing directory ${directory}:`, error);
   }
