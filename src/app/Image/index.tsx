@@ -6,13 +6,13 @@ import useAppState from "@/utils/store";
 import Colorizer from "@/utils/Colorizer";
 import Footer from "@/components/Footer";
 import * as FileSystem from "expo-file-system";
-import { createPreviewLink } from "@/utils/linker";
 import { ImageMetadata } from "@/types/database";
 import { useLocalSearchParams } from "expo-router";
 import * as MediaLibrary from "expo-media-library";
 import { LinearGradient } from "expo-linear-gradient";
 import React, { useState, useEffect, useRef } from "react";
 import { setWallpaper, TYPE_SCREEN } from "rn-wallpapers";
+import { createPreviewLink, createDownloadLink } from "@/utils/linker";
 import { FontAwesome5, MaterialIcons, Ionicons, FontAwesome6 } from "@expo/vector-icons";
 import { View, Text, Dimensions, StatusBar, ActivityIndicator, TouchableOpacity, Alert, Modal, Animated, Easing, ScrollView } from "react-native";
 const { width: screenWidth } = Dimensions.get("window");
@@ -37,7 +37,7 @@ const SuccessModal: React.FC<{ visible: boolean; message: string; onClose: () =>
           <Text className="mt-2.5 text-5xl" style={{ fontFamily: "Lobster_Regular", color: Colorizer("#25BE8B", 1.0) }}>
             Success
           </Text>
-          <Text className="my-2.5 text-center text-lg" style={{ fontFamily: "Kurale_Regular", color: Colorizer("#25BE8B", 1.0) }}>
+          <Text className="my-2.5 text-center text-lg" style={{ fontFamily: "Lobster_Regular", color: Colorizer("#25BE8B", 1.0) }}>
             {message}
           </Text>
           <TouchableOpacity className="mt-2.5 px-5 py-2 rounded-2xl overflow-hidden" style={{ backgroundColor: Colorizer("#25BE8B", 0.4) }} onPress={onClose}>
@@ -71,7 +71,7 @@ const ErrorModal: React.FC<{ visible: boolean; message: string; onClose: () => v
           <Text className="mt-2.5 text-5xl" style={{ fontFamily: "Lobster_Regular", color: Colorizer("#FFFFFF", 1.0) }}>
             Error
           </Text>
-          <Text className="my-2.5 text-center text-lg" style={{ fontFamily: "Kurale_Regular", color: Colorizer("#FFFFFF", 1.0) }}>
+          <Text className="my-2.5 text-center text-lg" style={{ fontFamily: "Lobster_Regular", color: Colorizer("#FFFFFF", 1.0) }}>
             {message}
           </Text>
           <TouchableOpacity className="mt-2.5 px-5 py-2 rounded-2xl overflow-hidden" style={{ backgroundColor: Colorizer("#FFFFFF", 0.4) }} onPress={onClose}>
@@ -121,10 +121,10 @@ const DownloadingModal: React.FC<{ visible: boolean; percentage: number; downloa
             <Animated.View style={{ width: widthInterpolated, backgroundColor: Colorizer(primaryColor, 1.0), height: "100%" }} />
           </View>
           <View className="flex-row justify-between w-full mt-4">
-            <Text className="text-lg" style={{ color: Colorizer(primaryColor, 1.0), fontFamily: "Kurale_Regular" }}>
+            <Text className="text-lg" style={{ color: Colorizer(primaryColor, 1.0), fontFamily: "Lobster_Regular" }}>
               {formatBytes(downloadRate)}/s
             </Text>
-            <Text className="text-lg" style={{ color: Colorizer(primaryColor, 1.0), fontFamily: "Kurale_Regular" }}>
+            <Text className="text-lg" style={{ color: Colorizer(primaryColor, 1.0), fontFamily: "Lobster_Regular" }}>
               ETA: {formatTime(eta)}
             </Text>
           </View>
@@ -167,7 +167,7 @@ const PreviewImage: React.FC<{ selectedImage: ImageMetadata; screenWidth: number
       {imageLoading && (
         <View className="absolute inset-0 z-40 justify-center items-center" style={{ backgroundColor: Colorizer("#0C0C0C", 1.0) }}>
           <ActivityIndicator size="large" color={Colorizer(selectedImage.primary, 1.0)} />
-          <Text className="mt-2.5" style={{ fontFamily: "Kurale_Regular", color: Colorizer(selectedImage.primary, 1.0) }}>
+          <Text className="mt-2.5" style={{ fontFamily: "Lobster_Regular", color: Colorizer(selectedImage.primary, 1.0) }}>
             Loading HD Image Preview...
           </Text>
         </View>
@@ -274,7 +274,7 @@ const OtherImages: React.FC<OtherImagesProps> = ({ otherImages, setCurrentIndex,
               >
                 <Image source={{ uri: lowResLink }} style={{ width: "100%", height: "100%" }} contentFit="cover" />
                 <View className="absolute top-1 left-1 bg-black/50 px-1 py-1 rounded-lg">
-                  <Text className="text-white text-xs" style={{ fontFamily: "Kurale_Regular" }}>
+                  <Text className="text-white text-xs" style={{ fontFamily: "Lobster_Regular" }}>
                     {img.original_file_name.replace(".jpg", "")}
                   </Text>
                 </View>
@@ -334,7 +334,7 @@ const WallModal: React.FC<WallModalProps> = ({ visible, onComplete, onCancel, wa
           <Text className="mt-2.5 text-5xl" style={{ fontFamily: "Lobster_Regular", color: Colorizer(primaryColor, 1.0) }}>
             {wallType === "BOTH" ? "Setting Both Screens" : wallType === "HOME" ? "Setting HomeScreen" : "Setting LockScreen"}
           </Text>
-          <Text className="my-2.5 text-center text-lg" style={{ fontFamily: "Kurale_Regular", color: Colorizer(primaryColor, 1.0) }}>
+          <Text className="my-2.5 text-center text-lg" style={{ fontFamily: "Lobster_Regular", color: Colorizer(primaryColor, 1.0) }}>
             Due to Android's Material You, the system UI will restart after setting the wallpaper. This is normal behavior.
           </Text>
           <Text className="text-6xl my-4" style={{ fontFamily: "Lobster_Regular", color: Colorizer(primaryColor, 1.0) }}>
@@ -486,7 +486,7 @@ const ImagePage: React.FC = () => {
       setEta(0);
       downloadStartTime.current = Date.now();
       const fileUri = FileSystem.documentDirectory + selectedImage.original_file_name;
-      const highResLink = createPreviewLink(selectedImage).replace("min", "max");
+      const highResLink = createDownloadLink(selectedImage).replace("min", "max");
       const downloadResumable = FileSystem.createDownloadResumable(highResLink, fileUri, {}, (downloadProgressEvent) => {
         const progress = downloadProgressEvent.totalBytesWritten / downloadProgressEvent.totalBytesExpectedToWrite;
         setPercentage(progress * 100);
@@ -537,7 +537,7 @@ const ImagePage: React.FC = () => {
               <FontAwesome5 name={index === 0 ? "adjust" : index === 1 ? "file-alt" : "ruler-combined"} size={16} color={Colorizer(selectedImage.primary, 1.0)} className="ml-1" />
               <View className="flex-row items-center mx-1">
                 <Text style={{ fontFamily: "Lobster_Regular", color: Colorizer(selectedImage.primary, 1.0) }}>{item.label}:</Text>
-                <Text className="ml-2" style={{ fontFamily: "Kurale_Regular", color: Colorizer(selectedImage.primary, 1.0) }}>
+                <Text className="ml-2" style={{ fontFamily: "Lobster_Regular", color: Colorizer(selectedImage.primary, 1.0) }}>
                   {item.value}
                 </Text>
               </View>
