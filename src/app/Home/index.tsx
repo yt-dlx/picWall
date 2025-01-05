@@ -7,9 +7,10 @@ import metaBase from "@/database";
 import Colorizer from "@/utils/Colorizer";
 import Footer from "@/components/Footer";
 import { LinearGradient } from "expo-linear-gradient";
-import { EnvironmentEntry, ImageMetadata } from "@/types/database";
 import HeaderAnimate from "@/components/HeaderAnimated";
 import { FontAwesome5, FontAwesome6 } from "@expo/vector-icons";
+import { EnvironmentEntry, ImageMetadata } from "@/types/database";
+import { createPreviewLink, createDownloadLink } from "@/utils/linker";
 import React, { useEffect, useRef, useCallback, useState, memo, FC } from "react";
 import { SubImagesProps, CardProps, CategoryButtonProps } from "@/types/components";
 import { Easing, useSharedValue, useAnimatedStyle, withTiming, withRepeat } from "react-native-reanimated";
@@ -25,14 +26,6 @@ interface Category {
 interface CategoryButtonExtendedProps extends CategoryButtonProps {
   selected: boolean;
   onPress: () => void;
-}
-/* ============================================================================================ */
-/* ============================================================================================ */
-function createPreviewLink(img: ImageMetadata) {
-  return `https://raw.githubusercontent.com/yt-dlx/picWall/${img.branch}/${img.folder}/min/${img.original_file_name}`;
-}
-function createDownloadLink(img: ImageMetadata) {
-  return `https://github.com/yt-dlx/picWall/blob/${img.branch}/${img.folder}/min/${img.original_file_name}`;
 }
 /* ============================================================================================ */
 /* ============================================================================================ */

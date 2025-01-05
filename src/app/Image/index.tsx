@@ -6,6 +6,7 @@ import useAppState from "@/utils/store";
 import Colorizer from "@/utils/Colorizer";
 import Footer from "@/components/Footer";
 import * as FileSystem from "expo-file-system";
+import { createPreviewLink } from "@/utils/linker";
 import { ImageMetadata } from "@/types/database";
 import { useLocalSearchParams } from "expo-router";
 import * as MediaLibrary from "expo-media-library";
@@ -15,11 +16,6 @@ import { setWallpaper, TYPE_SCREEN } from "rn-wallpapers";
 import { FontAwesome5, MaterialIcons, Ionicons, FontAwesome6 } from "@expo/vector-icons";
 import { View, Text, Dimensions, StatusBar, ActivityIndicator, TouchableOpacity, Alert, Modal, Animated, Easing, ScrollView } from "react-native";
 const { width: screenWidth } = Dimensions.get("window");
-/* ============================================================================================ */
-/* ============================================================================================ */
-function createPreviewLink(img: ImageMetadata) {
-  return `https://raw.githubusercontent.com/yt-dlx/picWall/${img.branch}/${img.folder}/min/${img.original_file_name}`;
-}
 /* ============================================================================================ */
 /* ============================================================================================ */
 const SuccessModal: React.FC<{ visible: boolean; message: string; onClose: () => void }> = ({ visible, message, onClose }) => {
@@ -529,7 +525,7 @@ const ImagePage: React.FC = () => {
       <ScrollView className="flex-1">
         <PreviewImage selectedImage={selectedImage} screenWidth={screenWidth} onViewFullScreen={() => setIsFullScreen(true)} />
         <View className="p-4 border-2 rounded-3xl" style={{ borderColor: Colorizer(selectedImage.primary, 1.0), backgroundColor: Colorizer("#0C0C0C", 1.0) }}>
-          <Text className="mb-2 text-5xl" style={{ fontFamily: "Lobster_Regular", color: Colorizer(selectedImage.primary, 1.0) }}>
+          <Text className="mb-2 text-3xl text-center" style={{ fontFamily: "Lobster_Regular", color: Colorizer(selectedImage.primary, 1.0) }}>
             {selectedImage.original_file_name.replace(".jpg", "")}
           </Text>
           {[
