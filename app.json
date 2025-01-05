@@ -1,6 +1,6 @@
 {
   "expo": {
-    "version": "1.0.17",
+    "version": "1.0.18",
     "owner": "shovit",
     "slug": "picWall",
     "name": "picWall",
@@ -31,7 +31,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "8d28e42e-f194-40ac-b49e-442b27d0d6ef"
+        "projectId": "4e44ff76-5be9-4d48-be0c-2cdc7ccf7e33"
       }
     },
     "android": {
