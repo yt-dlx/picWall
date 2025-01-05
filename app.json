@@ -12,15 +12,6 @@
       "typedRoutes": true
     },
     "icon": "./src/assets/picWall.png",
-    "ios": {
-      "supportsTablet": true,
-      "requiresFullScreen": true,
-      "bundleIdentifier": "com.shovit.picWall",
-      "infoPlist": {
-        "NSPhotoLibraryAddUsageDescription": "picWall: needs permission to save photos to your library.",
-        "NSPhotoLibraryUsageDescription": "picWall: requires access to your photo library to save images."
-      }
-    },
     "web": {
       "output": "static",
       "bundler": "metro",
@@ -35,6 +26,7 @@
       }
     },
     "android": {
+      "versionCode": 1,
       "requiresFullScreen": true,
       "package": "com.shovit.picWall",
       "adaptiveIcon": {
@@ -44,6 +36,12 @@
       "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE", "SET_WALLPAPER "]
     },
     "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-9464475307933754~6129093997"
+        }
+      ],
       "expo-router",
       [
         "expo-font",
