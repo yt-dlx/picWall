@@ -28,6 +28,8 @@ interface CategoryButtonExtendedProps extends CategoryButtonProps {
   selected: boolean;
   onPress: () => void;
 }
+/* ============================================================================================ */
+/* ============================================================================================ */
 function generateCategories(base: typeof metaBase) {
   let shuffleDB: Record<string, EnvironmentEntry> = {};
   const categoriesArray: Category[] = [{ name: "Shuffle Wallpapers", subcategories: [], database: {} }];
