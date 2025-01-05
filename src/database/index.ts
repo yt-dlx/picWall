@@ -1,20 +1,20 @@
-import Anime_Monochrome from "./Anime - Monochrome";
-import Anime_Background from "./Anime - Background";
-import Anime_Illustration from "./Anime - Illustration";
-import Anime_Manga from "./Anime - Manga";
-import DSLR_Photograpgy from "./DSLR - Photography";
-import Graphic_2D_Design from "./Graphic - 2D Design";
-import Graphic_3D_Design from "./Graphic - 3D Design";
-import Graphic_ArtDeco from "./Graphic - Art Deco";
-import Graphic_PopArt from "./Graphic - Pop Art";
-import Graphic_Vector from "./Graphic - Vector";
-import Portrait_Bokeh from "./Portrait - Bokeh";
-import Portrait_Cinematic from "./Portrait - Cinematic";
-import Portrait_CloseUp from "./Portrait - Close Up";
-import Portrait_Fashion from "./Portrait - Fashion";
-import Portrait_Film from "./Portrait - Film";
-import Portrait_Moody from "./Portrait - Moody";
-import Portrait_Retro from "./Portrait - Retro";
+import Anime_Monochrome from "./styles/Anime - Monochrome";
+import Anime_Background from "./styles/Anime - Background";
+import Anime_Illustration from "./styles/Anime - Illustration";
+import Anime_Manga from "./styles/Anime - Manga";
+import DSLR_Photograpgy from "./styles/DSLR - Photography";
+import Graphic_2D_Design from "./styles/Graphic - 2D Design";
+import Graphic_3D_Design from "./styles/Graphic - 3D Design";
+import Graphic_ArtDeco from "./styles/Graphic - Art Deco";
+import Graphic_PopArt from "./styles/Graphic - Pop Art";
+import Graphic_Vector from "./styles/Graphic - Vector";
+import Portrait_Bokeh from "./styles/Portrait - Bokeh";
+import Portrait_Cinematic from "./styles/Portrait - Cinematic";
+import Portrait_CloseUp from "./styles/Portrait - Close Up";
+import Portrait_Fashion from "./styles/Portrait - Fashion";
+import Portrait_Film from "./styles/Portrait - Film";
+import Portrait_Moody from "./styles/Portrait - Moody";
+import Portrait_Retro from "./styles/Portrait - Retro";
 const metaBase = {
   Anime: {
     Monochrome: Anime_Monochrome,
