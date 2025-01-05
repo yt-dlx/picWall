@@ -1,43 +1,39 @@
-const imageSets: string[][] = [
-  [
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Agricultural Fields Mosaic (1).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Autumn Forest Canopy (1).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Coastal Island Archipelago (1).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Coastal Shoreline Pattern (1).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Desert Dunes In Perspective (1).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Desert Road Through Dunes (1).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Frozen Tundra Landscape (1).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Mountain Lake From Above (1).jpg"
-  ],
-  [
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Autumn Misty Bridge (2).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Autumn Misty River (2).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Crystal Ice Palace (2).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Desert Oasis Dream (2).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Emerald Forest Glade (2).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Enchanted Garden Glade (2).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Floating Lantern Isles (2).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Hidden Fairy Springs (2).jpg"
-  ],
-  [
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Ocean Wave Foam (3).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Macro View Of Dragonfly Wings (3).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Petal With Morning Dew (3).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Textured Seashell Surface (3).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Textured Tree Bark (3).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Vibrant Butterfly Wings (3).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Water Droplet On Leaf (3).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Frost Patterns On Window (3).jpg"
-  ],
-  [
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Adventurous Hiker In Nature (4).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Adventurous Mountain Climber (4).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Casual Skater In Urban Setting (4).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Casual Skater In Urban Setting (4).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Casual Urban Explorer (4).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Cheerful Baker In Bakery (4).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Confident Business Leader (4).jpg",
-    "https://raw.githubusercontent.com/yt-dlx/picWall/lowRes/Confident Engineer With Blueprints (4).jpg"
-  ]
+type Category = {
+  base: string;
+  names: string[];
+  subCategories: string[];
+};
+type ImageSet = string[];
+const categories: Category[] = [
+  {
+    base: "Anime",
+    subCategories: ["Background", "Illustration", "Manga", "Monochrome"],
+    names: ["Bustling_City_Street", "Busy_Market", "Aerial_Battle", "Abandoned_Shrine"]
+  },
+  {
+    base: "Graphic",
+    subCategories: ["2D Design", "3D Design", "Art Deco", "Pop Art", "Vector"],
+    names: ["Abstract_Flow", "Abstract_Architecture", "Chrysler_Elegance", "Colorful_Lips", "Celestial_Precision"]
+  },
+  {
+    base: "DSLR",
+    subCategories: ["Photography"],
+    names: ["Beach_Vacation", "Corporate_Meeting", "Creative_Workspace", "Fitness_Routine", "Healthy_Breakfast", "Pet_Love", "Productivity_at_Work", "Remote_Work_Bliss"]
+  },
+  {
+    base: "Portrait",
+    subCategories: ["Bokeh", "Cinematic", "Close Up", "Fashion", "Film", "Moody", "Retro"],
+    names: ["Evening_Elegance", "Candlelit_Mystery", "Focused_Athlete", "Classic_Elegance", "Golden_Hour_Breeze", "Eyes_of_Sorrow", "Classic_Fedora", "Golden_Hour_Glow"]
+  }
 ];
+const generateImageUrls = (category: Category): ImageSet => {
+  const urls: ImageSet = [];
+  category.names.forEach((name, index) => {
+    const subCategory = category.subCategories[index % category.subCategories.length];
+    const randomIndex = (): number => Math.floor(Math.random() * 4) + 1;
+    urls.push(`https://raw.githubusercontent.com/yt-dlx/picWall/${category.base}/${subCategory}/min/${name} (${randomIndex()}).jpg`);
+  });
+  return urls;
+};
+const imageSets: ImageSet[] = categories.map((category) => generateImageUrls(category));
 export default imageSets;

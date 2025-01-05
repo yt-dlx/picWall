@@ -14,7 +14,8 @@ import { createPreviewLink, createDownloadLink } from "@/utils/linker";
 import React, { useEffect, useRef, useCallback, useState, memo, FC } from "react";
 import { SubImagesProps, CardProps, CategoryButtonProps } from "@/types/components";
 import { Easing, useSharedValue, useAnimatedStyle, withTiming, withRepeat } from "react-native-reanimated";
-import { Animated, View, Text, TouchableOpacity, FlatList, StatusBar, ScrollView, TextInput, Modal, ActivityIndicator } from "react-native";
+import { Animated, View, Text, TouchableOpacity, FlatList, StatusBar, ScrollView, TextInput, Modal, ActivityIndicator, StyleSheet, Dimensions } from "react-native";
+import { BlurView } from "expo-blur";
 /* ============================================================================================ */
 /* ============================================================================================ */
 type ParentKey = keyof typeof metaBase;
@@ -27,8 +28,6 @@ interface CategoryButtonExtendedProps extends CategoryButtonProps {
   selected: boolean;
   onPress: () => void;
 }
-/* ============================================================================================ */
-/* ============================================================================================ */
 function generateCategories(base: typeof metaBase) {
   let shuffleDB: Record<string, EnvironmentEntry> = {};
   const categoriesArray: Category[] = [{ name: "Shuffle Wallpapers", subcategories: [], database: {} }];
@@ -42,7 +41,7 @@ function generateCategories(base: typeof metaBase) {
       shuffleDB = { ...shuffleDB, ...environmentEntries };
       db[subKey] = environmentEntries;
     });
-    categoriesArray.push({ name: typedParent, subcategories: [...subCategories, "Randomized"], database: db });
+    categoriesArray.push({ name: typedParent, subcategories: [...subCategories, "Mixed-All"], database: db });
   });
   return { categoriesArray, shuffleDB };
 }
@@ -255,20 +254,24 @@ interface CategoryModalProps {
   selectedCategory: string;
   onSelectCategory: (parent: ParentKey | "Shuffle Wallpapers", child?: string) => void;
 }
+
 const CategoryModal: FC<CategoryModalProps> = ({ isVisible, onClose, onSelectCategory }) => {
   const [previewLinks, setPreviewLinks] = useState<Record<string, string>>({});
   const [activeParent, setActiveParent] = useState<ParentKey | "Shuffle Wallpapers">(rawCategoriesArray.find((cat) => cat.name !== "Shuffle Wallpapers")?.name || "Shuffle Wallpapers");
   const [selectedSubcategory, setSelectedSubcategory] = useState<string | null>(null);
+  const [modalVisible, setModalVisible] = useState(false);
   const scale = useRef(new Animated.Value(1)).current;
+  const slideAnim = useRef(new Animated.Value(0)).current;
   const animationRef = useRef<Animated.CompositeAnimation | null>(null);
   const grayscaleOpacity = scale.interpolate({ inputRange: [1, 1.06], outputRange: [0.6, 0] });
+
   const generatePreviewLinks = useCallback(() => {
     const newLinks: Record<string, string> = {};
     rawCategoriesArray.forEach((cat) => {
       if (cat.name === "Shuffle Wallpapers") return;
       const combinedEnvs: EnvironmentEntry[] = [];
       cat.subcategories
-        .filter((sub) => sub !== "Randomized")
+        .filter((sub) => sub !== "Mixed-All")
         .forEach((sub) => {
           const subObj = cat.database[sub];
           if (subObj) combinedEnvs.push(...Object.values(subObj));
@@ -287,116 +290,138 @@ const CategoryModal: FC<CategoryModalProps> = ({ isVisible, onClose, onSelectCat
     });
     setPreviewLinks(newLinks);
   }, []);
+
+  const handleClose = () => {
+    Animated.spring(slideAnim, {
+      toValue: 0,
+      useNativeDriver: true,
+      damping: 20,
+      mass: 0.8,
+      stiffness: 100
+    }).start(() => {
+      setModalVisible(false);
+      onClose();
+    });
+  };
+
   useEffect(() => {
-    if (isVisible) generatePreviewLinks();
-  }, [isVisible, generatePreviewLinks]);
+    if (isVisible) {
+      setModalVisible(true);
+      slideAnim.setValue(0);
+      Animated.spring(slideAnim, {
+        toValue: 1,
+        useNativeDriver: true,
+        damping: 20,
+        mass: 0.8,
+        stiffness: 100
+      }).start();
+      generatePreviewLinks();
+    }
+  }, [isVisible, generatePreviewLinks, slideAnim]);
+
   useEffect(() => {
     if (animationRef.current) animationRef.current.stop();
     scale.setValue(1);
     animationRef.current = Animated.loop(
-      Animated.sequence([Animated.timing(scale, { toValue: 1.1, duration: 2000, useNativeDriver: true }), Animated.timing(scale, { toValue: 1, duration: 2000, useNativeDriver: true })])
+      Animated.sequence([
+        Animated.timing(scale, { toValue: 1.1, duration: 3000, easing: Easing.inOut(Easing.ease), useNativeDriver: true }),
+        Animated.timing(scale, { toValue: 1, duration: 3000, easing: Easing.inOut(Easing.ease), useNativeDriver: true })
+      ])
     );
     animationRef.current.start();
     return () => {
       if (animationRef.current) animationRef.current.stop();
     };
   }, [activeParent, scale]);
-  if (!isVisible) return null;
+
+  if (!modalVisible) return null;
+
+  const translateY = slideAnim.interpolate({
+    inputRange: [0, 1],
+    outputRange: [Dimensions.get("window").height, 0]
+  });
+
   return (
-    <Modal visible={isVisible} transparent animationType="slide">
-      <View className="flex-1 justify-end">
-        <View className="overflow-hidden" style={{ backgroundColor: Colorizer("#0C0C0C", 1.0), height: "90%" }}>
-          <View className="flex-row justify-between items-center p-6">
-            <Text className="text-5xl underline" style={{ fontFamily: "Lobster_Regular", color: "#FFFFFF" }}>
-              All Categories
-            </Text>
-            <TouchableOpacity onPress={onClose} className="p-2">
-              <FontAwesome5 name="times" size={24} color="#FFFFFF" />
-            </TouchableOpacity>
-          </View>
-          <View className="flex-row flex-1">
-            <View className="w-1/3">
-              <ScrollView className="h-full">
-                {rawCategoriesArray
-                  .filter((cat) => cat.name !== "Shuffle Wallpapers")
-                  .map((category) => (
-                    <TouchableOpacity
-                      key={String(category.name)}
-                      onPress={() => {
-                        setActiveParent(category.name);
-                        setSelectedSubcategory(null);
-                      }}
-                      className={`relative py-6 border-l-8 rounded-r-lg`}
-                      style={activeParent === category.name ? { borderColor: "#FFFFFF", backgroundColor: Colorizer("#141414", 1.0) } : { borderColor: "transparent", backgroundColor: "transparent" }}
-                    >
-                      <Image source={{ uri: previewLinks[category.name] }} style={{ position: "absolute", width: "100%", height: "100%" }} contentFit="cover" />
-                      <LinearGradient colors={["transparent", Colorizer("#0C0C0C", 0.8)]} style={{ position: "absolute", width: "100%", height: "100%" }} />
-                      <Text
-                        style={{
-                          fontFamily: "Lobster_Regular",
-                          fontSize: activeParent === category.name ? 20 : 15,
-                          color: activeParent === category.name ? "#FFFFFF" : Colorizer("#FFFFFF", 0.5)
-                        }}
-                        className="relative ml-4 z-10"
-                      >
-                        {category.name}
-                      </Text>
-                    </TouchableOpacity>
-                  ))}
-              </ScrollView>
-            </View>
-            <View className="flex-1" style={{ backgroundColor: Colorizer("#141414", 1.0) }}>
-              <Text className="underline text-center text-3xl m-4" style={{ fontFamily: "Lobster_Regular", color: "#FFFFFF" }}>
-                Style: {activeParent}
+    <Modal visible transparent animationType="none">
+      <View style={{ flex: 1, justifyContent: "flex-end" }}>
+        <Animated.View style={[{ transform: [{ translateY }] }, { height: Dimensions.get("window").height * 0.9, borderTopLeftRadius: 16, borderTopRightRadius: 16 }]}>
+          <BlurView intensity={80} style={StyleSheet.absoluteFill} tint="dark" experimentalBlurMethod="dimezisBlurView" blurReductionFactor={4} />
+          <View style={{ flex: 1, backgroundColor: Colorizer("#0C0C0C", 0.9) }}>
+            <View className="flex-row justify-between items-center p-4 border-b border-white">
+              <Text className="text-3xl" style={{ fontFamily: "Lobster_Regular", color: "#FFFFFF" }}>
+                Categories & Their Styles
               </Text>
-              <ScrollView className="h-full">
-                <View className="flex-row flex-wrap">
+              <TouchableOpacity onPress={handleClose} className="p-2">
+                <FontAwesome5 name="times" size={24} color="#FFFFFF" />
+              </TouchableOpacity>
+            </View>
+            <View className="flex-row flex-1">
+              <View className="w-1/3">
+                <ScrollView className="h-full">
                   {rawCategoriesArray
-                    .find((c) => c.name === activeParent)
-                    ?.subcategories.sort((a, b) => (a === "Randomized" ? -1 : b === "Randomized" ? 1 : 0))
-                    .map((child) => (
+                    .filter((cat) => cat.name !== "Shuffle Wallpapers")
+                    .map((category) => (
                       <TouchableOpacity
-                        key={child}
+                        key={String(category.name)}
                         onPress={() => {
-                          setSelectedSubcategory(child);
-                          onSelectCategory(activeParent, child === "Randomized" ? "Randomized" : child);
-                          onClose();
+                          setActiveParent(category.name);
+                          setSelectedSubcategory(null);
                         }}
-                        className="w-2/4 p-1"
+                        className="relative py-6 border-l-8 rounded-r-lg"
+                        style={activeParent === category.name ? { borderColor: "#FFFFFF", backgroundColor: Colorizer("#0C0C0C", 1.0) } : { borderColor: "transparent", backgroundColor: "transparent" }}
                       >
-                        <View className={`rounded-xl overflow-hidden border aspect-square ${selectedSubcategory === child ? "border-2 border-[#25BE8B]" : "border-white/20"}`}>
-                          {child === "Randomized" ? (
-                            <Image source={require("@/assets/shuffle.gif")} style={{ width: "100%", height: "100%" }} contentFit="cover" />
-                          ) : (
-                            <Animated.View style={{ transform: [{ scale }] }}>
-                              <Image source={{ uri: previewLinks[`${activeParent}-${child}`] }} style={{ width: "100%", height: "100%" }} contentFit="cover" />
-                              <Animated.View
-                                style={{
-                                  position: "absolute",
-                                  top: 0,
-                                  left: 0,
-                                  right: 0,
-                                  bottom: 0,
-                                  backgroundColor: "black",
-                                  opacity: grayscaleOpacity
-                                }}
-                              />
-                            </Animated.View>
-                          )}
-                          <LinearGradient colors={["transparent", Colorizer("#0C0C0C", 0.8)]} className="absolute inset-0" />
-                          <View className="absolute inset-0 justify-end p-4">
-                            <Text className="text-center text-lg" style={{ fontFamily: "Lobster_Regular", color: "#FFFFFF" }}>
-                              {child}
-                            </Text>
-                          </View>
-                        </View>
+                        <Image source={{ uri: previewLinks[category.name] }} style={{ position: "absolute", width: "100%", height: "100%" }} contentFit="cover" />
+                        <LinearGradient colors={["transparent", Colorizer("#0C0C0C", 0.8)]} style={{ position: "absolute", width: "100%", height: "100%" }} />
+                        <Text
+                          style={{ fontFamily: "Lobster_Regular", fontSize: activeParent === category.name ? 20 : 15, color: activeParent === category.name ? "#FFFFFF" : Colorizer("#FFFFFF", 0.5) }}
+                          className="relative ml-4 z-10"
+                        >
+                          {category.name}
+                        </Text>
                       </TouchableOpacity>
                     ))}
-                </View>
-              </ScrollView>
+                </ScrollView>
+              </View>
+              <View className="flex-1 border-l border-white/40">
+                <ScrollView className="h-full">
+                  <View className="flex-row flex-wrap">
+                    {rawCategoriesArray
+                      .find((c) => c.name === activeParent)
+                      ?.subcategories.sort((a, b) => (a === "Mixed-All" ? -1 : b === "Mixed-All" ? 1 : 0))
+                      .map((child) => (
+                        <TouchableOpacity
+                          key={child}
+                          onPress={() => {
+                            setSelectedSubcategory(child);
+                            onSelectCategory(activeParent, child === "Mixed-All" ? "Mixed-All" : child);
+                            handleClose();
+                          }}
+                          className="w-full p-1"
+                        >
+                          <View className={`rounded-2xl overflow-hidden border aspect-video ${selectedSubcategory === child ? "border-2 border-[#FFFFFF]" : "border-white/20"}`}>
+                            {child === "Mixed-All" ? (
+                              <Image source={require("@/assets/shuffle.gif")} style={{ width: "100%", height: "100%" }} contentFit="cover" />
+                            ) : (
+                              <Animated.View style={{ transform: [{ scale }] }}>
+                                <Image source={{ uri: previewLinks[`${activeParent}-${child}`] }} style={{ width: "100%", height: "100%" }} contentFit="cover" />
+                                <Animated.View style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, backgroundColor: "black", opacity: grayscaleOpacity }} />
+                              </Animated.View>
+                            )}
+                            <LinearGradient colors={["transparent", Colorizer("#0C0C0C", 0.8)]} className="absolute inset-0" />
+                            <View className="absolute inset-0 justify-end p-4">
+                              <Text className="text-center text-lg" style={{ fontFamily: "Lobster_Regular", color: "#FFFFFF" }}>
+                                Style - {child}
+                              </Text>
+                            </View>
+                          </View>
+                        </TouchableOpacity>
+                      ))}
+                  </View>
+                </ScrollView>
+              </View>
             </View>
           </View>
-        </View>
+        </Animated.View>
       </View>
     </Modal>
   );
@@ -411,7 +436,7 @@ const CategoryButton: FC<CategoryButtonExtendedProps> = memo(({ category, select
       rawCategoriesArray.forEach((cat) => {
         if (cat.name === "Shuffle Wallpapers") return;
         cat.subcategories
-          .filter((s) => s !== "Randomized")
+          .filter((s) => s !== "Mixed-All")
           .forEach((sub) => {
             const subObj = cat.database[sub];
             if (subObj) Object.values(subObj).forEach((env) => env.images.forEach((img) => allImages.push(createPreviewLink(img))));
@@ -424,7 +449,7 @@ const CategoryButton: FC<CategoryButtonExtendedProps> = memo(({ category, select
     updateShuffleImage();
   }, [updateShuffleImage]);
   return (
-    <TouchableOpacity onPress={() => onPress()} style={{ flex: 1, height: 50, width: "100%", borderWidth: 1, borderColor: Colorizer("#FFFFFF", 0.1), borderRadius: 10, margin: 1, overflow: "hidden" }}>
+    <TouchableOpacity onPress={() => onPress()} style={{ flex: 1, height: 80, width: "100%", borderWidth: 1, borderColor: Colorizer("#FFFFFF", 0.1), borderRadius: 10, margin: 1, overflow: "hidden" }}>
       <View style={{ borderRadius: 4, overflow: "hidden", width: "100%", height: "100%" }}>
         <Image source={category === "Shuffle Wallpapers" ? require("@/assets/shuffle.gif") : { uri: currentImage }} style={{ width: "100%", height: "100%", borderRadius: 10 }} contentFit="cover" />
         <LinearGradient colors={["transparent", Colorizer("#0C0C0C", 0.5), Colorizer("#0C0C0C", 1.0)]} style={{ position: "absolute", width: "100%", height: "100%", borderRadius: 10 }} />
@@ -466,7 +491,7 @@ const HeaderComponent: FC<{
           <Animated.View style={leftIconStyle}>
             <FontAwesome5 name="caret-left" size={24} color="#FFFFFF" />
           </Animated.View>
-          <Text style={{ fontFamily: "Lobster_Regular", fontSize: 40, color: "#FFFFFF", textAlign: "center", marginHorizontal: 10 }}>Our Gallery</Text>
+          <Text style={{ fontFamily: "Lobster_Regular", fontSize: 20, color: "#FFFFFF", textAlign: "center", marginHorizontal: 10 }}>Explore Our AI Generated Wallpapers</Text>
           <Animated.View style={rightIconStyle}>
             <FontAwesome5 name="caret-right" size={24} color="#FFFFFF" />
           </Animated.View>
@@ -515,7 +540,7 @@ export default function HomePage(): JSX.Element {
     if (!selectedChild) {
       const bigCombine: EnvironmentEntry[] = [];
       catObj.subcategories
-        .filter((s) => s !== "Randomized")
+        .filter((s) => s !== "Mixed-All")
         .forEach((sub) => {
           const subEnv = catObj.database[sub];
           if (!subEnv) return;
@@ -526,10 +551,10 @@ export default function HomePage(): JSX.Element {
       setFilteredData(shuffled);
       return;
     }
-    if (selectedChild === "Randomized") {
+    if (selectedChild === "Mixed-All") {
       const combinedEntries: EnvironmentEntry[] = [];
       catObj.subcategories
-        .filter((sub) => sub !== "Randomized")
+        .filter((sub) => sub !== "Mixed-All")
         .forEach((sub) => {
           const subObj = catObj.database[sub];
           if (!subObj) return;
