@@ -1,4 +1,6 @@
 // src/app/Image/index.tsx
+/* ============================================================================================ */
+/* ============================================================================================ */
 import { Image } from "expo-image";
 import useAppState from "@/utils/store";
 import Colorizer from "@/utils/Colorizer";
@@ -13,8 +15,13 @@ import { setWallpaper, TYPE_SCREEN } from "rn-wallpapers";
 import { FontAwesome5, MaterialIcons, Ionicons, FontAwesome6 } from "@expo/vector-icons";
 import { View, Text, Dimensions, StatusBar, ActivityIndicator, TouchableOpacity, Alert, Modal, Animated, Easing, ScrollView } from "react-native";
 const { width: screenWidth } = Dimensions.get("window");
-// ============================================================================================
-// ============================================================================================
+/* ============================================================================================ */
+/* ============================================================================================ */
+function createPreviewLink(img: ImageMetadata) {
+  return `https://raw.githubusercontent.com/yt-dlx/picWall/${img.branch}/${img.folder}/min/${img.original_file_name}`;
+}
+/* ============================================================================================ */
+/* ============================================================================================ */
 const SuccessModal: React.FC<{ visible: boolean; message: string; onClose: () => void }> = ({ visible, message, onClose }) => {
   const [modalAnim] = useState(new Animated.Value(0));
   useEffect(() => {
@@ -47,8 +54,8 @@ const SuccessModal: React.FC<{ visible: boolean; message: string; onClose: () =>
     </View>
   );
 };
-// ============================================================================================
-// ============================================================================================
+/* ============================================================================================ */
+/* ============================================================================================ */
 const ErrorModal: React.FC<{ visible: boolean; message: string; onClose: () => void }> = ({ visible, message, onClose }) => {
   const [modalAnim] = useState(new Animated.Value(0));
   useEffect(() => {
@@ -62,16 +69,7 @@ const ErrorModal: React.FC<{ visible: boolean; message: string; onClose: () => v
   return (
     <View className="absolute inset-0 justify-center items-center">
       <Animated.View className="absolute inset-0" style={[{ backgroundColor: Colorizer("#0C0C0C", 0.5) }, backdropStyle]} />
-      <Animated.View
-        className="w-4/5 rounded-3xl p-5 border-4"
-        style={[
-          {
-            backgroundColor: Colorizer("#0C0C0C", 1.0),
-            borderColor: Colorizer("#FFFFFF", 1.0)
-          },
-          modalStyle
-        ]}
-      >
+      <Animated.View className="w-4/5 rounded-3xl p-5 border-4" style={[{ backgroundColor: Colorizer("#0C0C0C", 1.0), borderColor: Colorizer("#FFFFFF", 1.0) }, modalStyle]}>
         <View className="items-center">
           <MaterialIcons name="error" size={50} color={Colorizer("#FFFFFF", 1.0)} />
           <Text className="mt-2.5 text-5xl" style={{ fontFamily: "Lobster_Regular", color: Colorizer("#FFFFFF", 1.0) }}>
@@ -90,8 +88,8 @@ const ErrorModal: React.FC<{ visible: boolean; message: string; onClose: () => v
     </View>
   );
 };
-// ============================================================================================
-// ============================================================================================
+/* ============================================================================================ */
+/* ============================================================================================ */
 const DownloadingModal: React.FC<{ visible: boolean; percentage: number; downloadRate: number; eta: number; primaryColor: string }> = ({ visible, percentage, downloadRate, eta, primaryColor }) => {
   const [progressAnim] = useState(new Animated.Value(percentage / 100));
   useEffect(() => {
@@ -114,13 +112,7 @@ const DownloadingModal: React.FC<{ visible: boolean; percentage: number; downloa
   return (
     <View className="absolute inset-0 justify-center items-center">
       <View className="absolute inset-0" style={{ backgroundColor: Colorizer("#0C0C0C", 0.5) }} />
-      <View
-        className="w-4/5 rounded-3xl p-5 border-4"
-        style={{
-          backgroundColor: Colorizer("#0C0C0C", 1.0),
-          borderColor: Colorizer(primaryColor, 1.0)
-        }}
-      >
+      <View className="w-4/5 rounded-3xl p-5 border-4" style={{ backgroundColor: Colorizer("#0C0C0C", 1.0), borderColor: Colorizer(primaryColor, 1.0) }}>
         <View className="items-center">
           <MaterialIcons name="cloud-download" size={50} color={Colorizer(primaryColor, 1.0)} />
           <Text className="mt-2.5 text-5xl" style={{ fontFamily: "Lobster_Regular", color: Colorizer(primaryColor, 1.0) }}>
@@ -145,8 +137,8 @@ const DownloadingModal: React.FC<{ visible: boolean; percentage: number; downloa
     </View>
   );
 };
-// ============================================================================================
-// ============================================================================================
+/* ============================================================================================ */
+/* ============================================================================================ */
 const PreviewImage: React.FC<{ selectedImage: ImageMetadata; screenWidth: number; onViewFullScreen: () => void }> = ({ selectedImage, screenWidth, onViewFullScreen }) => {
   const [imageLoading, setImageLoading] = useState(true);
   const aspectRatio = selectedImage.width / selectedImage.height;
@@ -159,6 +151,8 @@ const PreviewImage: React.FC<{ selectedImage: ImageMetadata; screenWidth: number
     ]);
     Animated.loop(animation).start();
   }, [scaleValue]);
+  const lowResLink = createPreviewLink(selectedImage);
+  const highResLink = lowResLink.replace("min", "max");
   return (
     <View className="relative">
       <View className="absolute inset-0 z-50 justify-center items-center">
@@ -188,7 +182,7 @@ const PreviewImage: React.FC<{ selectedImage: ImageMetadata; screenWidth: number
           cachePolicy="memory-disk"
           onLoadStart={() => setImageLoading(true)}
           onLoadEnd={() => setImageLoading(false)}
-          source={{ uri: selectedImage.previewLink.replace("lowRes", "highRes") }}
+          source={{ uri: highResLink }}
           style={{ width: "100%", height: "100%", borderTopLeftRadius: 20, borderTopRightRadius: 20 }}
           onError={() => {
             setImageLoading(false);
@@ -213,8 +207,8 @@ const PreviewImage: React.FC<{ selectedImage: ImageMetadata; screenWidth: number
     </View>
   );
 };
-// ============================================================================================
-// ============================================================================================
+/* ============================================================================================ */
+/* ============================================================================================ */
 interface DownloadButtonProps {
   onDownload?: (event: any) => void;
   colors: { primary: string; secondary: string; tertiary: string };
@@ -247,8 +241,8 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({ onDownload, colors }) =
     </TouchableOpacity>
   );
 };
-// ============================================================================================
-// ============================================================================================
+/* ============================================================================================ */
+/* ============================================================================================ */
 interface OtherImagesProps {
   primaryColor: string;
   tertiaryColor: string;
@@ -262,27 +256,30 @@ const OtherImages: React.FC<OtherImagesProps> = ({ otherImages, setCurrentIndex,
         Other Wallpapers:
       </Text>
       <View className="flex-row flex-wrap my-1">
-        {otherImages.map(({ img, idx }) => (
-          <TouchableOpacity
-            key={idx}
-            className="relative rounded-2xl overflow-hidden mx-0.5 flex-1"
-            style={{ aspectRatio: 9 / 16, borderRadius: 10, borderWidth: 1, borderColor: Colorizer(primaryColor, 1.0) }}
-            onPress={() => setCurrentIndex(idx)}
-          >
-            <Image source={{ uri: img.previewLink }} style={{ width: "100%", height: "100%" }} contentFit="cover" />
-            <View className="absolute top-1 left-1 bg-black/50 px-1 py-1 rounded-lg">
-              <Text className="text-white text-xs" style={{ fontFamily: "Kurale_Regular" }}>
-                {img.original_file_name.replace(".jpg", "")}
-              </Text>
-            </View>
-          </TouchableOpacity>
-        ))}
+        {otherImages.map(({ img, idx }) => {
+          const lowResLink = createPreviewLink(img);
+          return (
+            <TouchableOpacity
+              key={idx}
+              className="relative rounded-2xl overflow-hidden mx-0.5 flex-1"
+              style={{ aspectRatio: 9 / 16, borderRadius: 10, borderWidth: 1, borderColor: Colorizer(primaryColor, 1.0) }}
+              onPress={() => setCurrentIndex(idx)}
+            >
+              <Image source={{ uri: lowResLink }} style={{ width: "100%", height: "100%" }} contentFit="cover" />
+              <View className="absolute top-1 left-1 bg-black/50 px-1 py-1 rounded-lg">
+                <Text className="text-white text-xs" style={{ fontFamily: "Kurale_Regular" }}>
+                  {img.original_file_name.replace(".jpg", "")}
+                </Text>
+              </View>
+            </TouchableOpacity>
+          );
+        })}
       </View>
     </View>
   </View>
 );
-// ============================================================================================
-// ============================================================================================
+/* ============================================================================================ */
+/* ============================================================================================ */
 interface WallModalProps {
   visible: boolean;
   onComplete: () => void;
@@ -327,7 +324,7 @@ const WallModal: React.FC<WallModalProps> = ({ visible, onComplete, onCancel, wa
         <View className="items-center">
           <MaterialIcons name="warning" size={50} color={Colorizer(primaryColor, 1.0)} />
           <Text className="mt-2.5 text-5xl" style={{ fontFamily: "Lobster_Regular", color: Colorizer(primaryColor, 1.0) }}>
-            Setting {wallType === "BOTH" ? "Both Screens" : wallType === "HOME" ? "HomeScreen" : "LockScreen"}
+            {wallType === "BOTH" ? "Setting Both Screens" : wallType === "HOME" ? "Setting HomeScreen" : "Setting LockScreen"}
           </Text>
           <Text className="my-2.5 text-center text-lg" style={{ fontFamily: "Kurale_Regular", color: Colorizer(primaryColor, 1.0) }}>
             Due to Android's Material You, the system UI will restart after setting the wallpaper. This is normal behavior.
@@ -352,8 +349,8 @@ const WallModal: React.FC<WallModalProps> = ({ visible, onComplete, onCancel, wa
     </View>
   );
 };
-// ============================================================================================
-// ============================================================================================
+/* ============================================================================================ */
+/* ============================================================================================ */
 interface FullScreenViewProps {
   isFullScreen: boolean;
   selectedIndex: number;
@@ -372,14 +369,16 @@ const FullScreenView: React.FC<FullScreenViewProps> = ({ isFullScreen, setIsFull
   };
   const handleWallpaperSet = async () => {
     await saveCurrentState();
-    await setWallpaper({ uri: selectedImage.previewLink.replace("lowRes", "highRes") }, TYPE_SCREEN[wallType]);
+    const lowResLink = createPreviewLink(selectedImage);
+    const highResLink = lowResLink.replace("min", "max");
+    await setWallpaper({ uri: highResLink }, TYPE_SCREEN[wallType]);
     setShowWallModal(false);
   };
   return (
     <Modal visible={isFullScreen} transparent={false} onRequestClose={() => setIsFullScreen(false)} presentationStyle="fullScreen" statusBarTranslucent>
       <View style={{ flex: 1, backgroundColor: Colorizer("#0C0C0C", 1.0) }}>
         <ScrollView horizontal contentContainerStyle={{ flexGrow: 1, justifyContent: "center", alignItems: "center" }} showsHorizontalScrollIndicator={false}>
-          <Image contentFit="fill" source={{ uri: selectedImage.previewLink.replace("lowRes", "highRes") }} style={{ height: "100%", width: (Dimensions.get("window").height * 9) / 16 }} />
+          <Image contentFit="fill" source={{ uri: createPreviewLink(selectedImage).replace("min", "max") }} style={{ height: "100%", width: (Dimensions.get("window").height * 9) / 16 }} />
         </ScrollView>
         <View style={{ position: "absolute", bottom: 8, left: 10, right: 10, flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
           <LinearGradient
@@ -390,7 +389,7 @@ const FullScreenView: React.FC<FullScreenViewProps> = ({ isFullScreen, setIsFull
           >
             <TouchableOpacity
               style={{ flexDirection: "row", justifyContent: "center", alignItems: "center", height: "100%" }}
-              onPress={async () => {
+              onPress={() => {
                 setWallType("LOCK");
                 setShowWallModal(true);
               }}
@@ -407,7 +406,7 @@ const FullScreenView: React.FC<FullScreenViewProps> = ({ isFullScreen, setIsFull
           >
             <TouchableOpacity
               style={{ flexDirection: "row", justifyContent: "center", alignItems: "center", height: "100%" }}
-              onPress={async () => {
+              onPress={() => {
                 setWallType("HOME");
                 setShowWallModal(true);
               }}
@@ -424,7 +423,7 @@ const FullScreenView: React.FC<FullScreenViewProps> = ({ isFullScreen, setIsFull
           >
             <TouchableOpacity
               style={{ flexDirection: "row", justifyContent: "center", alignItems: "center", height: "100%" }}
-              onPress={async () => {
+              onPress={() => {
                 setWallType("BOTH");
                 setShowWallModal(true);
               }}
@@ -439,8 +438,8 @@ const FullScreenView: React.FC<FullScreenViewProps> = ({ isFullScreen, setIsFull
     </Modal>
   );
 };
-// ============================================================================================
-// ============================================================================================
+/* ============================================================================================ */
+/* ============================================================================================ */
 const ImagePage = () => {
   const params = useLocalSearchParams();
   const [eta, setEta] = useState<number>(0);
@@ -479,7 +478,8 @@ const ImagePage = () => {
       setEta(0);
       downloadStartTime.current = Date.now();
       const fileUri = FileSystem.documentDirectory + selectedImage.original_file_name;
-      const downloadResumable = FileSystem.createDownloadResumable(selectedImage.previewLink.replace("lowRes", "highRes"), fileUri, {}, (downloadProgressEvent) => {
+      const highResLink = createPreviewLink(selectedImage).replace("min", "max");
+      const downloadResumable = FileSystem.createDownloadResumable(highResLink, fileUri, {}, (downloadProgressEvent) => {
         const progress = downloadProgressEvent.totalBytesWritten / downloadProgressEvent.totalBytesExpectedToWrite;
         setPercentage(progress * 100);
         const elapsedTime = (Date.now() - downloadStartTime.current) / 1000;
@@ -508,10 +508,8 @@ const ImagePage = () => {
       showAlert("Error", "An error occurred while downloading or saving the image." + error, "error");
     }
   };
-
-  const allImages: { img: ImageMetadata; idx: number }[] = (Sanitized.data as ImageMetadata[]).map((img, idx) => ({ img, idx }));
+  const allImages: { img: ImageMetadata; idx: number }[] = Sanitized.data.map((img: ImageMetadata, idx: number) => ({ img, idx }));
   const otherImages = allImages.filter(({ idx }) => idx !== currentIndex);
-
   return (
     <View className="flex-1" style={{ backgroundColor: Colorizer("#0C0C0C", 1.0) }}>
       <StatusBar translucent backgroundColor="transparent" barStyle="light-content" />
@@ -555,5 +553,4 @@ const ImagePage = () => {
     </View>
   );
 };
-
 export default ImagePage;
