@@ -1,0 +1,1187 @@
+export const database: unknown[] = [
+  {
+    Candlelit_Dance: {
+      environment_title: "Candlelit_Dance",
+      images: [
+        {
+          original_file_name: "Candlelit_Dance (1).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 24497,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#d0a26e",
+          secondary: "#110b07",
+          tertiary: "#704825",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Candlelit_Dance (2).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 21264,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#c79f6a",
+          secondary: "#583413",
+          tertiary: "#07060b",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Candlelit_Dance (3).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 26938,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#cd964e",
+          secondary: "#170c09",
+          tertiary: "#7a491e",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Candlelit_Dance (4).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 25072,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#cf9a5c",
+          secondary: "#1e0c07",
+          tertiary: "#814611",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Candlelit_Dance (1).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 5967981,
+          file_size_megabytes: 5.69,
+          width: 3072,
+          height: 5472,
+          primary: "#d0a16d",
+          secondary: "#110b07",
+          tertiary: "#704824",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Candlelit_Dance (2).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 5350573,
+          file_size_megabytes: 5.1,
+          width: 3072,
+          height: 5472,
+          primary: "#c79e68",
+          secondary: "#573312",
+          tertiary: "#07060b",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Candlelit_Dance (3).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 6486473,
+          file_size_megabytes: 6.19,
+          width: 3072,
+          height: 5472,
+          primary: "#ce954d",
+          secondary: "#170c09",
+          tertiary: "#7a491d",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Candlelit_Dance (4).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 6601698,
+          file_size_megabytes: 6.3,
+          width: 3072,
+          height: 5472,
+          primary: "#cf995a",
+          secondary: "#1e0c07",
+          tertiary: "#814610",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    Dynamic_Shadows: {
+      environment_title: "Dynamic_Shadows",
+      images: [
+        {
+          original_file_name: "Dynamic_Shadows (1).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 25535,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#dad0c0",
+          secondary: "#161911",
+          tertiary: "#7e7b6f",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Dynamic_Shadows (2).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 27071,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#e4decf",
+          secondary: "#231f13",
+          tertiary: "#8b99a7",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Dynamic_Shadows (3).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 27579,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#ebe3d8",
+          secondary: "#10130d",
+          tertiary: "#716c5c",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Dynamic_Shadows (4).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 34697,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#ddd8cf",
+          secondary: "#17160e",
+          tertiary: "#929b9c",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Dynamic_Shadows (1).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 5548206,
+          file_size_megabytes: 5.29,
+          width: 3072,
+          height: 5472,
+          primary: "#d9cfbf",
+          secondary: "#161911",
+          tertiary: "#7e7b6f",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Dynamic_Shadows (2).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 6247209,
+          file_size_megabytes: 5.96,
+          width: 3072,
+          height: 5472,
+          primary: "#e4decf",
+          secondary: "#231f13",
+          tertiary: "#8b98a7",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Dynamic_Shadows (3).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 5444793,
+          file_size_megabytes: 5.19,
+          width: 3072,
+          height: 5472,
+          primary: "#ece3d8",
+          secondary: "#10130d",
+          tertiary: "#716b5a",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Dynamic_Shadows (4).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 6244588,
+          file_size_megabytes: 5.96,
+          width: 3072,
+          height: 5472,
+          primary: "#ddd8cf",
+          secondary: "#17160e",
+          tertiary: "#929b9d",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    Golden_Hour_Breeze: {
+      environment_title: "Golden_Hour_Breeze",
+      images: [
+        {
+          original_file_name: "Golden_Hour_Breeze (1).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 38216,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#763a14",
+          secondary: "#f6d67f",
+          tertiary: "#270e06",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Golden_Hour_Breeze (2).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 33086,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#221206",
+          secondary: "#f8ecd3",
+          tertiary: "#733c1a",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Golden_Hour_Breeze (3).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 29679,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#edd8b3",
+          secondary: "#6b3111",
+          tertiary: "#d5863a",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Golden_Hour_Breeze (4).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 32537,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#ecd5a9",
+          secondary: "#cf7f2b",
+          tertiary: "#522810",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Golden_Hour_Breeze (1).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7707697,
+          file_size_megabytes: 7.35,
+          width: 3072,
+          height: 5472,
+          primary: "#773a14",
+          secondary: "#f8d77f",
+          tertiary: "#260e05",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Golden_Hour_Breeze (2).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7459552,
+          file_size_megabytes: 7.11,
+          width: 3072,
+          height: 5472,
+          primary: "#221206",
+          secondary: "#f8ecd3",
+          tertiary: "#733c19",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Golden_Hour_Breeze (3).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7034687,
+          file_size_megabytes: 6.71,
+          width: 3072,
+          height: 5472,
+          primary: "#edd8b3",
+          secondary: "#682e0e",
+          tertiary: "#d58538",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Golden_Hour_Breeze (4).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7270526,
+          file_size_megabytes: 6.93,
+          width: 3072,
+          height: 5472,
+          primary: "#ecd5a9",
+          secondary: "#cf7e2a",
+          tertiary: "#522810",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    Hooded_Mystery: {
+      environment_title: "Hooded_Mystery",
+      images: [
+        {
+          original_file_name: "Hooded_Mystery (1).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 45900,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#212720",
+          secondary: "#c2c4bc",
+          tertiary: "#9fa79f",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Hooded_Mystery (2).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 41728,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#bdc7c8",
+          secondary: "#1e2521",
+          tertiary: "#788785",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Hooded_Mystery (3).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 43903,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#212923",
+          secondary: "#c5c7bf",
+          tertiary: "#969f9b",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Hooded_Mystery (4).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 41999,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#222922",
+          secondary: "#b4bcbc",
+          tertiary: "#7c8684",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Hooded_Mystery (1).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 8404999,
+          file_size_megabytes: 8.02,
+          width: 3072,
+          height: 5472,
+          primary: "#212720",
+          secondary: "#c1c4bc",
+          tertiary: "#9fa79f",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Hooded_Mystery (2).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 8075131,
+          file_size_megabytes: 7.7,
+          width: 3072,
+          height: 5472,
+          primary: "#bdc8c8",
+          secondary: "#1e2521",
+          tertiary: "#788785",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Hooded_Mystery (3).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 8612969,
+          file_size_megabytes: 8.21,
+          width: 3072,
+          height: 5472,
+          primary: "#222922",
+          secondary: "#c5c6be",
+          tertiary: "#969f9b",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Hooded_Mystery (4).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 8427795,
+          file_size_megabytes: 8.04,
+          width: 3072,
+          height: 5472,
+          primary: "#222922",
+          secondary: "#b4bbbc",
+          tertiary: "#7c8784",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    Ocean_Breeze: {
+      environment_title: "Ocean_Breeze",
+      images: [
+        {
+          original_file_name: "Ocean_Breeze (1).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 31589,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#8fafb5",
+          secondary: "#5c3b26",
+          tertiary: "#e3e3cf",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Ocean_Breeze (2).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 34445,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#1f2829",
+          secondary: "#563e26",
+          tertiary: "#cfcfc0",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Ocean_Breeze (3).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 34577,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#7e989f",
+          secondary: "#181e20",
+          tertiary: "#e7dac7",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Ocean_Breeze (4).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 31019,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#a5b8b3",
+          secondary: "#171611",
+          tertiary: "#5d3b1f",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Ocean_Breeze (1).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7125477,
+          file_size_megabytes: 6.8,
+          width: 3072,
+          height: 5472,
+          primary: "#94b5bb",
+          secondary: "#e3e3cf",
+          tertiary: "#5d351e",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Ocean_Breeze (2).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7392053,
+          file_size_megabytes: 7.05,
+          width: 3072,
+          height: 5472,
+          primary: "#1f292a",
+          secondary: "#cccec0",
+          tertiary: "#563d26",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Ocean_Breeze (3).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7402348,
+          file_size_megabytes: 7.06,
+          width: 3072,
+          height: 5472,
+          primary: "#7e989f",
+          secondary: "#181e20",
+          tertiary: "#e7dac7",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Ocean_Breeze (4).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 6929220,
+          file_size_megabytes: 6.61,
+          width: 3072,
+          height: 5472,
+          primary: "#c8cdc0",
+          secondary: "#171611",
+          tertiary: "#5d3b1f",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    Rainy_Day_Stroll: {
+      environment_title: "Rainy_Day_Stroll",
+      images: [
+        {
+          original_file_name: "Rainy_Day_Stroll (1).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 46410,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#c0c4c0",
+          secondary: "#142220",
+          tertiary: "#5c8471",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Rainy_Day_Stroll (2).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 39908,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#cccccd",
+          secondary: "#152120",
+          tertiary: "#6e8c82",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Rainy_Day_Stroll (3).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 47669,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#c7cbcb",
+          secondary: "#1e2a25",
+          tertiary: "#6f8b7b",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Rainy_Day_Stroll (4).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 43956,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#bfbdba",
+          secondary: "#395247",
+          tertiary: "#838f84",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Rainy_Day_Stroll (1).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 8143916,
+          file_size_megabytes: 7.77,
+          width: 3072,
+          height: 5472,
+          primary: "#c0c4bf",
+          secondary: "#142220",
+          tertiary: "#5d8472",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Rainy_Day_Stroll (2).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7672083,
+          file_size_megabytes: 7.32,
+          width: 3072,
+          height: 5472,
+          primary: "#cccdcd",
+          secondary: "#152120",
+          tertiary: "#6e8c82",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Rainy_Day_Stroll (3).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 8111827,
+          file_size_megabytes: 7.74,
+          width: 3072,
+          height: 5472,
+          primary: "#c7cbcb",
+          secondary: "#1e2a25",
+          tertiary: "#6f8b7b",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Rainy_Day_Stroll (4).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 8000172,
+          file_size_megabytes: 7.63,
+          width: 3072,
+          height: 5472,
+          primary: "#bfbdba",
+          secondary: "#395247",
+          tertiary: "#838f83",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    Sunlit_Laughter: {
+      environment_title: "Sunlit_Laughter",
+      images: [
+        {
+          original_file_name: "Sunlit_Laughter (1).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 45820,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#dfa849",
+          secondary: "#292713",
+          tertiary: "#9b6b29",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Sunlit_Laughter (2).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 47949,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#e2b975",
+          secondary: "#5d451c",
+          tertiary: "#23200d",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Sunlit_Laughter (3).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 46755,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#6e5219",
+          secondary: "#f1e1b5",
+          tertiary: "#282913",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Sunlit_Laughter (4).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 48127,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#e5ac3f",
+          secondary: "#634d24",
+          tertiary: "#1a2011",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Sunlit_Laughter (1).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7960304,
+          file_size_megabytes: 7.59,
+          width: 3072,
+          height: 5472,
+          primary: "#e0a847",
+          secondary: "#292713",
+          tertiary: "#9b6a28",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Sunlit_Laughter (2).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 8015412,
+          file_size_megabytes: 7.64,
+          width: 3072,
+          height: 5472,
+          primary: "#e2b974",
+          secondary: "#5d451b",
+          tertiary: "#23200d",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Sunlit_Laughter (3).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 8028884,
+          file_size_megabytes: 7.66,
+          width: 3072,
+          height: 5472,
+          primary: "#6e5219",
+          secondary: "#f2e1b5",
+          tertiary: "#282913",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        },
+        {
+          original_file_name: "Sunlit_Laughter (4).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 8116132,
+          file_size_megabytes: 7.74,
+          width: 3072,
+          height: 5472,
+          primary: "#e6ac3f",
+          secondary: "#634d23",
+          tertiary: "#1a2011",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Urban_Sprint_A_runner_captured_midstride_thro_0.jpg": {
+      environment_title: "Urban_Sprint_A_runner_captured_midstride_thro_0.jpg",
+      images: [
+        {
+          original_file_name: "Urban_Sprint_A_runner_captured_midstride_thro_0.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 39616,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#8d877c",
+          secondary: "#e1d9ce",
+          tertiary: "#17221f",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Urban_Sprint_A_runner_captured_midstride_thro_0.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7593453,
+          file_size_megabytes: 7.24,
+          width: 3072,
+          height: 5472,
+          primary: "#8d877c",
+          secondary: "#e1dace",
+          tertiary: "#172220",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Urban_Sprint_A_runner_captured_midstride_thro_1.jpg": {
+      environment_title: "Urban_Sprint_A_runner_captured_midstride_thro_1.jpg",
+      images: [
+        {
+          original_file_name: "Urban_Sprint_A_runner_captured_midstride_thro_1.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 42821,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#8c867b",
+          secondary: "#dac9b3",
+          tertiary: "#111d1f",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Urban_Sprint_A_runner_captured_midstride_thro_1.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7782813,
+          file_size_megabytes: 7.42,
+          width: 3072,
+          height: 5472,
+          primary: "#8c867b",
+          secondary: "#dac8b2",
+          tertiary: "#111d20",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Urban_Sprint_A_runner_captured_midstride_thro_2.jpg": {
+      environment_title: "Urban_Sprint_A_runner_captured_midstride_thro_2.jpg",
+      images: [
+        {
+          original_file_name: "Urban_Sprint_A_runner_captured_midstride_thro_2.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 42176,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#1c1d18",
+          secondary: "#aea594",
+          tertiary: "#593924",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Urban_Sprint_A_runner_captured_midstride_thro_2.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7311577,
+          file_size_megabytes: 6.97,
+          width: 3072,
+          height: 5472,
+          primary: "#1c1d18",
+          secondary: "#aea594",
+          tertiary: "#593924",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Urban_Sprint_A_runner_captured_midstride_thro_3.jpg": {
+      environment_title: "Urban_Sprint_A_runner_captured_midstride_thro_3.jpg",
+      images: [
+        {
+          original_file_name: "Urban_Sprint_A_runner_captured_midstride_thro_3.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 40039,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#d5c6b6",
+          secondary: "#272b28",
+          tertiary: "#9c7f68",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "Urban_Sprint_A_runner_captured_midstride_thro_3.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7024821,
+          file_size_megabytes: 6.7,
+          width: 3072,
+          height: 5472,
+          primary: "#d5c6b6",
+          secondary: "#272b27",
+          tertiary: "#9c7f67",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "WindSwept_Elegance_A_models_dress_flowing_in_0.jpg": {
+      environment_title: "WindSwept_Elegance_A_models_dress_flowing_in_0.jpg",
+      images: [
+        {
+          original_file_name: "WindSwept_Elegance_A_models_dress_flowing_in_0.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 40822,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#e2ddd4",
+          secondary: "#23231c",
+          tertiary: "#908270",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "WindSwept_Elegance_A_models_dress_flowing_in_0.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7649704,
+          file_size_megabytes: 7.3,
+          width: 3072,
+          height: 5472,
+          primary: "#e2ddd4",
+          secondary: "#23231c",
+          tertiary: "#90816f",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "WindSwept_Elegance_A_models_dress_flowing_in_1.jpg": {
+      environment_title: "WindSwept_Elegance_A_models_dress_flowing_in_1.jpg",
+      images: [
+        {
+          original_file_name: "WindSwept_Elegance_A_models_dress_flowing_in_1.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 44845,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#cfd7d5",
+          secondary: "#1d1c12",
+          tertiary: "#523417",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "WindSwept_Elegance_A_models_dress_flowing_in_1.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 8154774,
+          file_size_megabytes: 7.78,
+          width: 3072,
+          height: 5472,
+          primary: "#d0d7d5",
+          secondary: "#1d1c12",
+          tertiary: "#523416",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "WindSwept_Elegance_A_models_dress_flowing_in_2.jpg": {
+      environment_title: "WindSwept_Elegance_A_models_dress_flowing_in_2.jpg",
+      images: [
+        {
+          original_file_name: "WindSwept_Elegance_A_models_dress_flowing_in_2.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 47063,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#533f26",
+          secondary: "#d6d8cf",
+          tertiary: "#201a15",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "WindSwept_Elegance_A_models_dress_flowing_in_2.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7863739,
+          file_size_megabytes: 7.5,
+          width: 3072,
+          height: 5472,
+          primary: "#533f25",
+          secondary: "#d6d8d0",
+          tertiary: "#201a15",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "WindSwept_Elegance_A_models_dress_flowing_in_3.jpg": {
+      environment_title: "WindSwept_Elegance_A_models_dress_flowing_in_3.jpg",
+      images: [
+        {
+          original_file_name: "WindSwept_Elegance_A_models_dress_flowing_in_3.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 41982,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#ded8c8",
+          secondary: "#acaaa6",
+          tertiary: "#1a1b13",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "min"
+        },
+        {
+          original_file_name: "WindSwept_Elegance_A_models_dress_flowing_in_3.jpg (0).jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 7712235,
+          file_size_megabytes: 7.35,
+          width: 3072,
+          height: 5472,
+          primary: "#ded7c8",
+          secondary: "#acaaa6",
+          tertiary: "#1a1b13",
+          Branch: "Portrait",
+          FolderName: "Film",
+          Type: "max"
+        }
+      ]
+    }
+  }
+];
