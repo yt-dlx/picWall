@@ -1,4 +1,5 @@
-const DSLR_Photograpgy: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const DSLR_Photograpgy: Record<string, EnvironmentEntry> = {
   Beach_Vacation: {
     environment_title: "Beach_Vacation",
     images: [
@@ -13,9 +14,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#22657c",
         secondary: "#bea07d",
         tertiary: "#c7d4d9",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Beach_Vacation (2).jpg",
@@ -28,9 +29,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#2b678e",
         secondary: "#d4bfa6",
         tertiary: "#9f876f",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Beach_Vacation (3).jpg",
@@ -43,9 +44,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#1f5e71",
         secondary: "#cbaf92",
         tertiary: "#dfe0e2",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Beach_Vacation (4).jpg",
@@ -58,9 +59,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#27586e",
         secondary: "#bf9870",
         tertiary: "#b6d0e0",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Beach_Vacation (1).jpg",
@@ -73,9 +74,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#22657c",
         secondary: "#bea07d",
         tertiary: "#c7d4da",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Beach_Vacation (2).jpg",
@@ -88,9 +89,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#2b688f",
         secondary: "#d2bda4",
         tertiary: "#719ebf",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Beach_Vacation (3).jpg",
@@ -103,9 +104,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#1e5e72",
         secondary: "#cbaf92",
         tertiary: "#dedfe2",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Beach_Vacation (4).jpg",
@@ -118,9 +119,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#27576f",
         secondary: "#bf9870",
         tertiary: "#b5cfe0",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#323938",
         secondary: "#b4bab9",
         tertiary: "#dee1e1",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Corporate_Meeting (2).jpg",
@@ -153,9 +154,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#2a3233",
         secondary: "#e2e6e5",
         tertiary: "#b4c3c4",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Corporate_Meeting (3).jpg",
@@ -168,9 +169,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#192a2a",
         secondary: "#d3d9d7",
         tertiary: "#4e5252",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Corporate_Meeting (4).jpg",
@@ -183,9 +184,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#2f3131",
         secondary: "#b3babb",
         tertiary: "#dededc",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Corporate_Meeting (1).jpg",
@@ -198,9 +199,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#323938",
         secondary: "#b4bab8",
         tertiary: "#dee1e1",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Corporate_Meeting (2).jpg",
@@ -213,9 +214,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#2b3233",
         secondary: "#e2e6e5",
         tertiary: "#b4c4c5",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Corporate_Meeting (3).jpg",
@@ -228,9 +229,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#1a2a2b",
         secondary: "#d6dbd9",
         tertiary: "#667a7a",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Corporate_Meeting (4).jpg",
@@ -243,9 +244,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#2f3130",
         secondary: "#b3bbbc",
         tertiary: "#dddddb",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#d9af88",
         secondary: "#1b110c",
         tertiary: "#8a5e41",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Creative_Workspace (2).jpg",
@@ -278,9 +279,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#dcbe9f",
         secondary: "#9fa79c",
         tertiary: "#23120e",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Creative_Workspace (3).jpg",
@@ -293,9 +294,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e4d1b8",
         secondary: "#25130e",
         tertiary: "#99a49c",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Creative_Workspace (4).jpg",
@@ -308,9 +309,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#dac5b0",
         secondary: "#231814",
         tertiary: "#88634e",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Creative_Workspace (1).jpg",
@@ -323,9 +324,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#d9af87",
         secondary: "#1b110c",
         tertiary: "#8a5e40",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Creative_Workspace (2).jpg",
@@ -338,9 +339,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#ddbd9e",
         secondary: "#9ea89c",
         tertiary: "#22120d",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Creative_Workspace (3).jpg",
@@ -353,9 +354,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e4d1b7",
         secondary: "#25130e",
         tertiary: "#99a49d",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Creative_Workspace (4).jpg",
@@ -368,9 +369,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#dbc4af",
         secondary: "#221813",
         tertiary: "#88624d",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e4dfd4",
         secondary: "#221e1d",
         tertiary: "#a7bbc8",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Fitness_Routine (2).jpg",
@@ -403,9 +404,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e7e0d0",
         secondary: "#181819",
         tertiary: "#87725f",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Fitness_Routine (3).jpg",
@@ -418,9 +419,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e1d5c5",
         secondary: "#4f3c36",
         tertiary: "#917464",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Fitness_Routine (4).jpg",
@@ -433,9 +434,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#dbcdc0",
         secondary: "#1a1316",
         tertiary: "#6c6a62",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Fitness_Routine (1).jpg",
@@ -448,9 +449,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e5dfd4",
         secondary: "#211d1d",
         tertiary: "#a7bbc9",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Fitness_Routine (2).jpg",
@@ -463,9 +464,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e7e0d0",
         secondary: "#181819",
         tertiary: "#88725f",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Fitness_Routine (3).jpg",
@@ -478,9 +479,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e0d4c3",
         secondary: "#4f3c36",
         tertiary: "#917464",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Fitness_Routine (4).jpg",
@@ -493,9 +494,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#dbcdbf",
         secondary: "#1a1416",
         tertiary: "#6c6a62",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e6d7a3",
         secondary: "#734f26",
         tertiary: "#211b0e",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Grocery_Shopping (2).jpg",
@@ -528,9 +529,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e3bd85",
         secondary: "#5d401f",
         tertiary: "#18170c",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Grocery_Shopping (3).jpg",
@@ -543,9 +544,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#20271f",
         secondary: "#eadab1",
         tertiary: "#6f4421",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Grocery_Shopping (4).jpg",
@@ -558,9 +559,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e1b67c",
         secondary: "#282816",
         tertiary: "#9a693e",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Grocery_Shopping (1).jpg",
@@ -573,9 +574,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e6d7a2",
         secondary: "#734d23",
         tertiary: "#211b0d",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Grocery_Shopping (2).jpg",
@@ -588,9 +589,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e4bc83",
         secondary: "#5d401f",
         tertiary: "#17180b",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Grocery_Shopping (3).jpg",
@@ -603,9 +604,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#1f271f",
         secondary: "#eadab0",
         tertiary: "#6f441f",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Grocery_Shopping (4).jpg",
@@ -618,9 +619,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e1b67a",
         secondary: "#282815",
         tertiary: "#9a693d",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#a27652",
         secondary: "#27140e",
         tertiary: "#e2d7bc",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Healthy_Breakfast (2).jpg",
@@ -653,9 +654,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#aa8c72",
         secondary: "#2d1b12",
         tertiary: "#dbd7d2",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Healthy_Breakfast (3).jpg",
@@ -668,9 +669,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#a1856d",
         secondary: "#282612",
         tertiary: "#dfddc8",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Healthy_Breakfast (4).jpg",
@@ -683,9 +684,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#231510",
         secondary: "#aa8564",
         tertiary: "#dadbd2",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Healthy_Breakfast (1).jpg",
@@ -698,9 +699,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#a27651",
         secondary: "#27140d",
         tertiary: "#e3d7bc",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Healthy_Breakfast (2).jpg",
@@ -713,9 +714,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#aa8c72",
         secondary: "#2d1b12",
         tertiary: "#dad7d3",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Healthy_Breakfast (3).jpg",
@@ -728,9 +729,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#a0856d",
         secondary: "#272612",
         tertiary: "#dfddc8",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Healthy_Breakfast (4).jpg",
@@ -743,9 +744,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#231510",
         secondary: "#ab8564",
         tertiary: "#dadbd2",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#d4d46e",
         secondary: "#313b0d",
         tertiary: "#938d32",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Pet_Love (2).jpg",
@@ -778,9 +779,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#3d5017",
         secondary: "#d5d169",
         tertiary: "#8e8830",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Pet_Love (3).jpg",
@@ -793,9 +794,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#333c0f",
         secondary: "#d3d580",
         tertiary: "#919b30",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Pet_Love (4).jpg",
@@ -808,9 +809,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#333c10",
         secondary: "#cecb77",
         tertiary: "#93952d",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Pet_Love (1).jpg",
@@ -823,9 +824,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#d4d46c",
         secondary: "#313b0d",
         tertiary: "#938d30",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Pet_Love (2).jpg",
@@ -838,9 +839,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#3d5016",
         secondary: "#d6d068",
         tertiary: "#8e872e",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Pet_Love (3).jpg",
@@ -853,9 +854,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#333c0f",
         secondary: "#d3d57e",
         tertiary: "#919a2e",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Pet_Love (4).jpg",
@@ -868,9 +869,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#333c0f",
         secondary: "#ceca75",
         tertiary: "#93952a",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e2d8c4",
         secondary: "#a8a894",
         tertiary: "#8c7b67",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Productivity_at_Work (2).jpg",
@@ -903,9 +904,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e3c8ae",
         secondary: "#acb1aa",
         tertiary: "#1d1b15",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Productivity_at_Work (3).jpg",
@@ -918,9 +919,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e9e5d8",
         secondary: "#251b14",
         tertiary: "#afb4a6",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Productivity_at_Work (4).jpg",
@@ -933,9 +934,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e7d2ba",
         secondary: "#a7aca6",
         tertiary: "#8c8070",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Productivity_at_Work (1).jpg",
@@ -948,9 +949,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e3d7c4",
         secondary: "#a9a895",
         tertiary: "#8c7a67",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Productivity_at_Work (2).jpg",
@@ -963,9 +964,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e2c8ad",
         secondary: "#adb1aa",
         tertiary: "#1d1b15",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Productivity_at_Work (3).jpg",
@@ -978,9 +979,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#eae5d8",
         secondary: "#241a13",
         tertiary: "#afb4a6",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Productivity_at_Work (4).jpg",
@@ -993,9 +994,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e7d2ba",
         secondary: "#a7aca6",
         tertiary: "#8d8070",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#dcd0c3",
         secondary: "#1e1611",
         tertiary: "#a6aca8",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Remote_Work_Bliss (2).jpg",
@@ -1028,9 +1029,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#dbc9b7",
         secondary: "#23190f",
         tertiary: "#a7a89c",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Remote_Work_Bliss (3).jpg",
@@ -1043,9 +1044,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#c9ab87",
         secondary: "#21130e",
         tertiary: "#643f1f",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Remote_Work_Bliss (4).jpg",
@@ -1058,9 +1059,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e1cdb8",
         secondary: "#1d1510",
         tertiary: "#8c6950",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Remote_Work_Bliss (1).jpg",
@@ -1073,9 +1074,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#dccfc2",
         secondary: "#1e1510",
         tertiary: "#966e51",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Remote_Work_Bliss (2).jpg",
@@ -1088,9 +1089,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#dbc9b7",
         secondary: "#23180f",
         tertiary: "#a6a89c",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Remote_Work_Bliss (3).jpg",
@@ -1103,9 +1104,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#20130e",
         secondary: "#c49664",
         tertiary: "#ccd6d4",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Remote_Work_Bliss (4).jpg",
@@ -1118,9 +1119,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e1ccb7",
         secondary: "#1d1510",
         tertiary: "#8c6950",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#dbbea1",
         secondary: "#1a1c13",
         tertiary: "#9ea897",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Young_Entrepreneur (2).jpg",
@@ -1153,9 +1154,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e2cfb8",
         secondary: "#b0b09e",
         tertiary: "#978067",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Young_Entrepreneur (3).jpg",
@@ -1168,9 +1169,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e4c3a5",
         secondary: "#acb1a5",
         tertiary: "#22180f",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Young_Entrepreneur (4).jpg",
@@ -1183,9 +1184,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#dec8b1",
         secondary: "#a6a997",
         tertiary: "#241c11",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "min"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "min"
       },
       {
         original_file_name: "Young_Entrepreneur (1).jpg",
@@ -1198,9 +1199,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#dbbea0",
         secondary: "#9ea897",
         tertiary: "#1a1c12",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Young_Entrepreneur (2).jpg",
@@ -1213,9 +1214,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e2cfb7",
         secondary: "#b0b09e",
         tertiary: "#978066",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Young_Entrepreneur (3).jpg",
@@ -1228,9 +1229,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#e4c3a4",
         secondary: "#acb1a5",
         tertiary: "#1f160d",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       },
       {
         original_file_name: "Young_Entrepreneur (4).jpg",
@@ -1243,9 +1244,9 @@ const DSLR_Photograpgy: Record<string, any> = {
         primary: "#dec7b1",
         secondary: "#a6a996",
         tertiary: "#20190f",
-        Branch: "DSLR",
-        FolderName: "Photography",
-        Type: "max"
+        branch: "DSLR",
+        folder: "Photography",
+        type: "max"
       }
     ]
   }

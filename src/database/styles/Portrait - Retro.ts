@@ -1,4 +1,5 @@
-const Portrait_Retro: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Portrait_Retro: Record<string, EnvironmentEntry> = {
   Classic_Fedora: {
     environment_title: "Classic_Fedora",
     images: [
@@ -13,9 +14,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d5bba3",
         secondary: "#2a2214",
         tertiary: "#917058",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Classic_Fedora (2).jpg",
@@ -28,9 +29,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d3c3ac",
         secondary: "#282116",
         tertiary: "#887357",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Classic_Fedora (3).jpg",
@@ -43,9 +44,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#cfc0b0",
         secondary: "#252219",
         tertiary: "#91aeb0",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Classic_Fedora (4).jpg",
@@ -58,9 +59,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#dbcab4",
         secondary: "#241511",
         tertiary: "#8e7b58",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Classic_Fedora (1).jpg",
@@ -73,9 +74,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d5bba3",
         secondary: "#2a2215",
         tertiary: "#917058",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Classic_Fedora (2).jpg",
@@ -88,9 +89,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d2c2ab",
         secondary: "#282116",
         tertiary: "#887356",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Classic_Fedora (3).jpg",
@@ -103,9 +104,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#cfc0af",
         secondary: "#252219",
         tertiary: "#91afb0",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Classic_Fedora (4).jpg",
@@ -118,9 +119,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#dbcab4",
         secondary: "#241611",
         tertiary: "#8e7b58",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#cba783",
         secondary: "#2f1e13",
         tertiary: "#906e4d",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Dapper_Gentleman (2).jpg",
@@ -153,9 +154,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d0a884",
         secondary: "#20120e",
         tertiary: "#805a41",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Dapper_Gentleman (3).jpg",
@@ -168,9 +169,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#cea480",
         secondary: "#22140c",
         tertiary: "#836349",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Dapper_Gentleman (4).jpg",
@@ -183,9 +184,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#e0c5a5",
         secondary: "#1e1714",
         tertiary: "#839e9c",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Dapper_Gentleman (1).jpg",
@@ -198,9 +199,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#cba783",
         secondary: "#2f1e12",
         tertiary: "#906e4d",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Dapper_Gentleman (2).jpg",
@@ -213,9 +214,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d0a782",
         secondary: "#20120e",
         tertiary: "#805940",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Dapper_Gentleman (3).jpg",
@@ -228,9 +229,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#cea47f",
         secondary: "#22140c",
         tertiary: "#836348",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Dapper_Gentleman (4).jpg",
@@ -243,9 +244,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#e0c5a4",
         secondary: "#1e1714",
         tertiary: "#839d9b",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d8a379",
         secondary: "#281009",
         tertiary: "#6e3519",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "OldHollywood_Starlet (2).jpg",
@@ -278,9 +279,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#caa36d",
         secondary: "#2a1308",
         tertiary: "#633215",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "OldHollywood_Starlet (3).jpg",
@@ -293,9 +294,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#1b110e",
         secondary: "#ddaf7b",
         tertiary: "#613318",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "OldHollywood_Starlet (4).jpg",
@@ -308,9 +309,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#bb8b68",
         secondary: "#f9d2a7",
         tertiary: "#25110a",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "OldHollywood_Starlet (1).jpg",
@@ -323,9 +324,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d8a378",
         secondary: "#271008",
         tertiary: "#6e3419",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "OldHollywood_Starlet (2).jpg",
@@ -338,9 +339,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#caa36d",
         secondary: "#291307",
         tertiary: "#633214",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "OldHollywood_Starlet (3).jpg",
@@ -353,9 +354,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#1b100d",
         secondary: "#ddae7a",
         tertiary: "#613317",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "OldHollywood_Starlet (4).jpg",
@@ -368,9 +369,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#bb8b67",
         secondary: "#f9d2a7",
         tertiary: "#25110a",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#bc9a65",
         secondary: "#17171b",
         tertiary: "#552f18",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Retro_School_Portrait (2).jpg",
@@ -403,9 +404,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#b0976a",
         secondary: "#20191a",
         tertiary: "#633417",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Retro_School_Portrait (3).jpg",
@@ -418,9 +419,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d2aa75",
         secondary: "#83623a",
         tertiary: "#1b150f",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Retro_School_Portrait (4).jpg",
@@ -433,9 +434,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#87653e",
         secondary: "#221917",
         tertiary: "#d5ae78",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Retro_School_Portrait (1).jpg",
@@ -448,9 +449,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#bc9a64",
         secondary: "#16171b",
         tertiary: "#552f18",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Retro_School_Portrait (2).jpg",
@@ -463,9 +464,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#b0986a",
         secondary: "#1f191a",
         tertiary: "#633316",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Retro_School_Portrait (3).jpg",
@@ -478,9 +479,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d2a975",
         secondary: "#836239",
         tertiary: "#1b150f",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Retro_School_Portrait (4).jpg",
@@ -493,9 +494,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#87643c",
         secondary: "#221917",
         tertiary: "#d5ae78",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d7b889",
         secondary: "#27251f",
         tertiary: "#8a6b43",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Rustic_Charm (2).jpg",
@@ -528,9 +529,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d4ae7e",
         secondary: "#2e2922",
         tertiary: "#92af98",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Rustic_Charm (3).jpg",
@@ -543,9 +544,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#dabc97",
         secondary: "#342d22",
         tertiary: "#8b704f",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Rustic_Charm (4).jpg",
@@ -558,9 +559,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d3a77a",
         secondary: "#27281d",
         tertiary: "#886c44",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Rustic_Charm (1).jpg",
@@ -573,9 +574,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d8b989",
         secondary: "#27251f",
         tertiary: "#8a6b43",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Rustic_Charm (2).jpg",
@@ -588,9 +589,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d4ae7d",
         secondary: "#2e2922",
         tertiary: "#92ae98",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Rustic_Charm (3).jpg",
@@ -603,9 +604,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#dbbd97",
         secondary: "#342d22",
         tertiary: "#8c704f",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Rustic_Charm (4).jpg",
@@ -618,9 +619,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d3a779",
         secondary: "#27281d",
         tertiary: "#886d44",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#604228",
         secondary: "#d8b58d",
         tertiary: "#1e0e06",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Sepia_Serenade (2).jpg",
@@ -653,9 +654,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#a98258",
         secondary: "#5e3016",
         tertiary: "#231009",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Sepia_Serenade (3).jpg",
@@ -668,9 +669,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#debb98",
         secondary: "#50331e",
         tertiary: "#946a49",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Sepia_Serenade (4).jpg",
@@ -683,9 +684,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#dfc09b",
         secondary: "#654a30",
         tertiary: "#180d07",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Sepia_Serenade (1).jpg",
@@ -698,9 +699,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#604228",
         secondary: "#d8b58d",
         tertiary: "#1e0e06",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Sepia_Serenade (2).jpg",
@@ -713,9 +714,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#a98257",
         secondary: "#5f3015",
         tertiary: "#231008",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Sepia_Serenade (3).jpg",
@@ -728,9 +729,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#debb97",
         secondary: "#50341e",
         tertiary: "#946a48",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Sepia_Serenade (4).jpg",
@@ -743,9 +744,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#dfc09b",
         secondary: "#684d33",
         tertiary: "#180d07",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#232321",
         secondary: "#c6c7c4",
         tertiary: "#787876",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Silent_Film_Actor (2).jpg",
@@ -778,9 +779,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#cececc",
         secondary: "#1b1b1a",
         tertiary: "#757572",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Silent_Film_Actor (3).jpg",
@@ -793,9 +794,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#1d1d1b",
         secondary: "#cec9c2",
         tertiary: "#777570",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Silent_Film_Actor (4).jpg",
@@ -808,9 +809,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#c7c7c5",
         secondary: "#0f0f0f",
         tertiary: "#676765",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Silent_Film_Actor (1).jpg",
@@ -823,9 +824,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#232321",
         secondary: "#cbcbc8",
         tertiary: "#7b7b79",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Silent_Film_Actor (2).jpg",
@@ -838,9 +839,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#cececc",
         secondary: "#1b1b1a",
         tertiary: "#757572",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Silent_Film_Actor (3).jpg",
@@ -853,9 +854,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#1d1d1b",
         secondary: "#cec9c2",
         tertiary: "#75736e",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Silent_Film_Actor (4).jpg",
@@ -868,9 +869,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#c4c4c2",
         secondary: "#0f0f0f",
         tertiary: "#6a6a69",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#1d1914",
         secondary: "#795c3e",
         tertiary: "#f0cd9f",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Timeless_Elegance (2).jpg",
@@ -903,9 +904,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#e2c4a6",
         secondary: "#59412c",
         tertiary: "#9b7758",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Timeless_Elegance (3).jpg",
@@ -918,9 +919,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#18100c",
         secondary: "#ae9a7b",
         tertiary: "#647a69",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Timeless_Elegance (4).jpg",
@@ -933,9 +934,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#e1c2a9",
         secondary: "#301d16",
         tertiary: "#a2846c",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Timeless_Elegance (1).jpg",
@@ -948,9 +949,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#1c1914",
         secondary: "#795c3e",
         tertiary: "#d9af81",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Timeless_Elegance (2).jpg",
@@ -963,9 +964,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#e2c3a6",
         secondary: "#59422c",
         tertiary: "#9c7758",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Timeless_Elegance (3).jpg",
@@ -978,9 +979,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#180f0b",
         secondary: "#a59477",
         tertiary: "#60331f",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Timeless_Elegance (4).jpg",
@@ -993,9 +994,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#e1c2a9",
         secondary: "#301d15",
         tertiary: "#a2846c",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#e0c5a7",
         secondary: "#27120c",
         tertiary: "#906d4d",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Victorian_Elegance (2).jpg",
@@ -1028,9 +1029,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d1ac87",
         secondary: "#2f1c11",
         tertiary: "#8f6748",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Victorian_Elegance (3).jpg",
@@ -1043,9 +1044,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d9b48a",
         secondary: "#2a180f",
         tertiary: "#926c48",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Victorian_Elegance (4).jpg",
@@ -1058,9 +1059,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#ddc19e",
         secondary: "#29130e",
         tertiary: "#8f5b3e",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Victorian_Elegance (1).jpg",
@@ -1073,9 +1074,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#e0c5a6",
         secondary: "#27120c",
         tertiary: "#906d4d",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Victorian_Elegance (2).jpg",
@@ -1088,9 +1089,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d6b08a",
         secondary: "#2f1c11",
         tertiary: "#926a4a",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Victorian_Elegance (3).jpg",
@@ -1103,9 +1104,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d9b48a",
         secondary: "#2a180e",
         tertiary: "#926b48",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Victorian_Elegance (4).jpg",
@@ -1118,9 +1119,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#dec19e",
         secondary: "#29130d",
         tertiary: "#8e5b3c",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#dbc0a2",
         secondary: "#342417",
         tertiary: "#9b7a5c",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Vintage_Bride (2).jpg",
@@ -1153,9 +1154,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d6bb9c",
         secondary: "#564323",
         tertiary: "#9e7955",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Vintage_Bride (3).jpg",
@@ -1168,9 +1169,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d8bea2",
         secondary: "#513a24",
         tertiary: "#95856a",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Vintage_Bride (4).jpg",
@@ -1183,9 +1184,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d6ba9b",
         secondary: "#382516",
         tertiary: "#947659",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "min"
       },
       {
         original_file_name: "Vintage_Bride (1).jpg",
@@ -1198,9 +1199,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#dbbfa0",
         secondary: "#342417",
         tertiary: "#9b7a5d",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Vintage_Bride (2).jpg",
@@ -1213,9 +1214,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d6bb9b",
         secondary: "#564323",
         tertiary: "#9f7955",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Vintage_Bride (3).jpg",
@@ -1228,9 +1229,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d8bda1",
         secondary: "#513a24",
         tertiary: "#95856a",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       },
       {
         original_file_name: "Vintage_Bride (4).jpg",
@@ -1243,9 +1244,9 @@ const Portrait_Retro: Record<string, any> = {
         primary: "#d6ba9b",
         secondary: "#372516",
         tertiary: "#947658",
-        Branch: "Portrait",
-        FolderName: "Retro",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Retro",
+        type: "max"
       }
     ]
   }

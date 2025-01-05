@@ -1,4 +1,5 @@
-const Graphic_3D_Design: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Graphic_3D_Design: Record<string, EnvironmentEntry> = {
   Abstract_Architecture: {
     environment_title: "Abstract_Architecture",
     images: [
@@ -13,9 +14,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#242f3e",
         secondary: "#9cacbb",
         tertiary: "#eaedf0",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Abstract_Architecture (2).jpg",
@@ -28,9 +29,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#293442",
         secondary: "#adbbca",
         tertiary: "#63707f",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Abstract_Architecture (3).jpg",
@@ -43,9 +44,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#233544",
         secondary: "#6b8799",
         tertiary: "#e4edf1",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Abstract_Architecture (4).jpg",
@@ -58,9 +59,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#253446",
         secondary: "#70879b",
         tertiary: "#e4ecf0",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Abstract_Architecture (1).jpg",
@@ -73,9 +74,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#24303e",
         secondary: "#9cacbb",
         tertiary: "#eaedf0",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Abstract_Architecture (2).jpg",
@@ -88,9 +89,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#293442",
         secondary: "#adbcca",
         tertiary: "#62707f",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Abstract_Architecture (3).jpg",
@@ -103,9 +104,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#233544",
         secondary: "#6b8799",
         tertiary: "#e3edf1",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Abstract_Architecture (4).jpg",
@@ -118,9 +119,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#263547",
         secondary: "#70879b",
         tertiary: "#e4ecf0",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#d0d7df",
         secondary: "#616b77",
         tertiary: "#b1bec7",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "City_in_a_Cube (2).jpg",
@@ -153,9 +154,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#232c39",
         secondary: "#c1c6ca",
         tertiary: "#777f89",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "City_in_a_Cube (3).jpg",
@@ -168,9 +169,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#242a34",
         secondary: "#cdd4da",
         tertiary: "#7b838c",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "City_in_a_Cube (4).jpg",
@@ -183,9 +184,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#25313f",
         secondary: "#cbd5db",
         tertiary: "#5c6e81",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "City_in_a_Cube (1).jpg",
@@ -198,9 +199,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#cfd7df",
         secondary: "#616b77",
         tertiary: "#b1bdc7",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "City_in_a_Cube (2).jpg",
@@ -213,9 +214,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#232c39",
         secondary: "#c1c6ca",
         tertiary: "#777f89",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "City_in_a_Cube (3).jpg",
@@ -228,9 +229,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#232934",
         secondary: "#cdd4da",
         tertiary: "#7a828c",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "City_in_a_Cube (4).jpg",
@@ -243,9 +244,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#25313f",
         secondary: "#cbd4db",
         tertiary: "#5c6e81",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#7a99b6",
         secondary: "#e2d1c8",
         tertiary: "#9a6547",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Crystal_Palace (2).jpg",
@@ -278,9 +279,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#65809f",
         secondary: "#2e4860",
         tertiary: "#dfcdd0",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Crystal_Palace (3).jpg",
@@ -293,9 +294,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#7c5548",
         secondary: "#374c68",
         tertiary: "#7da1c0",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Crystal_Palace (4).jpg",
@@ -308,9 +309,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#2a3437",
         secondary: "#97b0ca",
         tertiary: "#e7d6ca",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Crystal_Palace (1).jpg",
@@ -323,9 +324,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#7ea1bd",
         secondary: "#e1d1c8",
         tertiary: "#9b6546",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Crystal_Palace (2).jpg",
@@ -338,9 +339,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#65809f",
         secondary: "#2e4961",
         tertiary: "#dfcccf",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Crystal_Palace (3).jpg",
@@ -353,9 +354,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#d6d4d8",
         secondary: "#5c4543",
         tertiary: "#426287",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Crystal_Palace (4).jpg",
@@ -368,9 +369,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#2a3438",
         secondary: "#97b0ca",
         tertiary: "#e7d5ca",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#db753d",
         secondary: "#21475c",
         tertiary: "#b7d87f",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Cubist_Playground_Interlocking (2).jpg",
@@ -403,9 +404,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#135568",
         secondary: "#c14532",
         tertiary: "#d6d294",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Cubist_Playground_Interlocking (3).jpg",
@@ -418,9 +419,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#b0d789",
         secondary: "#1b526a",
         tertiary: "#c9412f",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Cubist_Playground_Interlocking (4).jpg",
@@ -433,9 +434,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#c2d56b",
         secondary: "#b64c2f",
         tertiary: "#193d4d",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Cubist_Playground_Interlocking (1).jpg",
@@ -448,9 +449,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#dc763d",
         secondary: "#21485d",
         tertiary: "#b6d880",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Cubist_Playground_Interlocking (2).jpg",
@@ -463,9 +464,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#135668",
         secondary: "#d7d294",
         tertiary: "#c54632",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Cubist_Playground_Interlocking (3).jpg",
@@ -478,9 +479,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#1a526a",
         secondary: "#b0d789",
         tertiary: "#c9412f",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Cubist_Playground_Interlocking (4).jpg",
@@ -493,9 +494,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#c3d569",
         secondary: "#193d4d",
         tertiary: "#ca6d28",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#d5d8df",
         secondary: "#828a96",
         tertiary: "#414750",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Floating_Geometries (2).jpg",
@@ -528,9 +529,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#b1b9c9",
         secondary: "#728aa1",
         tertiary: "#46718c",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Floating_Geometries (3).jpg",
@@ -543,9 +544,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#b5bbc3",
         secondary: "#7a838f",
         tertiary: "#f1efef",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Floating_Geometries (4).jpg",
@@ -558,9 +559,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#9da7b4",
         secondary: "#e1e3e6",
         tertiary: "#171b20",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Floating_Geometries (1).jpg",
@@ -573,9 +574,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#d4d8df",
         secondary: "#818a96",
         tertiary: "#41474f",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Floating_Geometries (2).jpg",
@@ -588,9 +589,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#b1b9c9",
         secondary: "#728ba1",
         tertiary: "#46738e",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Floating_Geometries (3).jpg",
@@ -603,9 +604,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#b5bbc3",
         secondary: "#7a848e",
         tertiary: "#f1efef",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Floating_Geometries (4).jpg",
@@ -618,9 +619,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#9fa8b5",
         secondary: "#e1e3e6",
         tertiary: "#171b20",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#36677e",
         secondary: "#c8ccc6",
         tertiary: "#1c212c",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Floating_Planets (2).jpg",
@@ -653,9 +654,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#ccad95",
         secondary: "#192530",
         tertiary: "#276d88",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Floating_Planets (3).jpg",
@@ -668,9 +669,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#bfc1bd",
         secondary: "#0f141b",
         tertiary: "#4a6474",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Floating_Planets (4).jpg",
@@ -683,9 +684,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#c9baa8",
         secondary: "#06090c",
         tertiary: "#579bb1",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Floating_Planets (1).jpg",
@@ -698,9 +699,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#36677e",
         secondary: "#c8ccc5",
         tertiary: "#1c212c",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Floating_Planets (2).jpg",
@@ -713,9 +714,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#ccad95",
         secondary: "#192530",
         tertiary: "#276d88",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Floating_Planets (3).jpg",
@@ -728,9 +729,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#bfc2bd",
         secondary: "#0f141b",
         tertiary: "#4a6474",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Floating_Planets (4).jpg",
@@ -743,9 +744,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#c9baa8",
         secondary: "#06090d",
         tertiary: "#579bb1",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#f0ae6f",
         secondary: "#76d4d7",
         tertiary: "#361a25",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Layered_Typography (2).jpg",
@@ -778,9 +779,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#d1af8f",
         secondary: "#212429",
         tertiary: "#7d4d3e",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Layered_Typography (3).jpg",
@@ -793,9 +794,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#d0aba9",
         secondary: "#6bb7c3",
         tertiary: "#131822",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Layered_Typography (4).jpg",
@@ -808,9 +809,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#dbbe99",
         secondary: "#191617",
         tertiary: "#87a5a7",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Layered_Typography (1).jpg",
@@ -823,9 +824,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#f0ad6e",
         secondary: "#76d5d7",
         tertiary: "#351a25",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Layered_Typography (2).jpg",
@@ -838,9 +839,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#d1af8e",
         secondary: "#212529",
         tertiary: "#7d4c3d",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Layered_Typography (3).jpg",
@@ -853,9 +854,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#d1aaa8",
         secondary: "#6bb8c4",
         tertiary: "#131823",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Layered_Typography (4).jpg",
@@ -868,9 +869,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#dbbe98",
         secondary: "#191617",
         tertiary: "#86a5a8",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#4b687f",
         secondary: "#cad9e6",
         tertiary: "#0a0e19",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Sculptural_Elegance (2).jpg",
@@ -903,9 +904,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#4a6980",
         secondary: "#cbd9e5",
         tertiary: "#0c111e",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Sculptural_Elegance (3).jpg",
@@ -918,9 +919,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#70879c",
         secondary: "#0d1421",
         tertiary: "#d2dbe5",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Sculptural_Elegance (4).jpg",
@@ -933,9 +934,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#374f61",
         secondary: "#b5bec8",
         tertiary: "#687c8c",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Sculptural_Elegance (1).jpg",
@@ -948,9 +949,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#4b6880",
         secondary: "#cad9e6",
         tertiary: "#0a0e18",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Sculptural_Elegance (2).jpg",
@@ -963,9 +964,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#172839",
         secondary: "#ccd9e5",
         tertiary: "#7592a6",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Sculptural_Elegance (3).jpg",
@@ -978,9 +979,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#6f879c",
         secondary: "#0d1421",
         tertiary: "#d1dbe5",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Sculptural_Elegance (4).jpg",
@@ -993,9 +994,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#375061",
         secondary: "#b5bec8",
         tertiary: "#697d8c",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#e2d5c9",
         secondary: "#3b2f29",
         tertiary: "#9b8474",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Surreal_Staircase (2).jpg",
@@ -1028,9 +1029,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#ebe4dd",
         secondary: "#675a58",
         tertiary: "#c0b1a7",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Surreal_Staircase (3).jpg",
@@ -1043,9 +1044,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#dcd5cf",
         secondary: "#4f3f39",
         tertiary: "#64544a",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Surreal_Staircase (4).jpg",
@@ -1058,9 +1059,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#2d1b14",
         secondary: "#e5d8ca",
         tertiary: "#5c3b2c",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Surreal_Staircase (1).jpg",
@@ -1073,9 +1074,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#e2d5c9",
         secondary: "#3b2f29",
         tertiary: "#9b8474",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Surreal_Staircase (2).jpg",
@@ -1088,9 +1089,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#6d615e",
         secondary: "#ebe4dd",
         tertiary: "#c8b9af",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Surreal_Staircase (3).jpg",
@@ -1103,9 +1104,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#dcd5cf",
         secondary: "#503f39",
         tertiary: "#64544b",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Surreal_Staircase (4).jpg",
@@ -1118,9 +1119,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#e1d2c3",
         secondary: "#5c3b2b",
         tertiary: "#72523e",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#1c1e34",
         secondary: "#bc9fd2",
         tertiary: "#4b5e8a",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Tech_Grid (2).jpg",
@@ -1153,9 +1154,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#1d2345",
         secondary: "#b0a4db",
         tertiary: "#5b588b",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Tech_Grid (3).jpg",
@@ -1168,9 +1169,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#0e2239",
         secondary: "#52c1e4",
         tertiary: "#3783af",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Tech_Grid (4).jpg",
@@ -1183,9 +1184,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#1b2347",
         secondary: "#98bae4",
         tertiary: "#425487",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "min"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "min"
       },
       {
         original_file_name: "Tech_Grid (1).jpg",
@@ -1198,9 +1199,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#1c1e34",
         secondary: "#bc9fd3",
         tertiary: "#4a5d8a",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Tech_Grid (2).jpg",
@@ -1213,9 +1214,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#1d2345",
         secondary: "#b0a4de",
         tertiary: "#59568b",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Tech_Grid (3).jpg",
@@ -1228,9 +1229,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#0e2339",
         secondary: "#51c2e5",
         tertiary: "#3583b0",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       },
       {
         original_file_name: "Tech_Grid (4).jpg",
@@ -1243,9 +1244,9 @@ const Graphic_3D_Design: Record<string, any> = {
         primary: "#1b2347",
         secondary: "#96bae6",
         tertiary: "#425387",
-        Branch: "Graphic",
-        FolderName: "3D Design",
-        Type: "max"
+        branch: "Graphic",
+        folder: "3D Design",
+        type: "max"
       }
     ]
   }

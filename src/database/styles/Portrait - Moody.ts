@@ -1,4 +1,5 @@
-const Portrait_Moody: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Portrait_Moody: Record<string, EnvironmentEntry> = {
   Eyes_of_Sorrow: {
     environment_title: "Eyes_of_Sorrow",
     images: [
@@ -13,9 +14,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#b19480",
         secondary: "#1f140f",
         tertiary: "#7f6151",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Eyes_of_Sorrow (2).jpg",
@@ -28,9 +29,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#bda18b",
         secondary: "#241812",
         tertiary: "#8d6956",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Eyes_of_Sorrow (3).jpg",
@@ -43,9 +44,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#513b31",
         secondary: "#bca58f",
         tertiary: "#937864",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Eyes_of_Sorrow (4).jpg",
@@ -58,9 +59,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#30221b",
         secondary: "#c4b5a2",
         tertiary: "#977f6d",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Eyes_of_Sorrow (1).jpg",
@@ -73,9 +74,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#b19481",
         secondary: "#20140f",
         tertiary: "#7f6050",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Eyes_of_Sorrow (2).jpg",
@@ -88,9 +89,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#bda18b",
         secondary: "#241812",
         tertiary: "#8d6956",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Eyes_of_Sorrow (3).jpg",
@@ -103,9 +104,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#513c31",
         secondary: "#bca58f",
         tertiary: "#937864",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Eyes_of_Sorrow (4).jpg",
@@ -118,9 +119,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#30221c",
         secondary: "#c4b5a2",
         tertiary: "#977f6d",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#bcb182",
         secondary: "#131612",
         tertiary: "#6d6a4a",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Forest_Shadows (2).jpg",
@@ -153,9 +154,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c0b79d",
         secondary: "#161613",
         tertiary: "#706956",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Forest_Shadows (3).jpg",
@@ -168,9 +169,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c1ba9b",
         secondary: "#0f110c",
         tertiary: "#6a664d",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Forest_Shadows (4).jpg",
@@ -183,9 +184,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c1b994",
         secondary: "#151711",
         tertiary: "#6f684a",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Forest_Shadows (1).jpg",
@@ -198,9 +199,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#bcb181",
         secondary: "#131612",
         tertiary: "#6d6a4a",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Forest_Shadows (2).jpg",
@@ -213,9 +214,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c0b69c",
         secondary: "#171613",
         tertiary: "#6f6956",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Forest_Shadows (3).jpg",
@@ -228,9 +229,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c2ba9b",
         secondary: "#0f110c",
         tertiary: "#69664d",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Forest_Shadows (4).jpg",
@@ -243,9 +244,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c1b993",
         secondary: "#151711",
         tertiary: "#706849",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#cb7a38",
         secondary: "#2b1c10",
         tertiary: "#874824",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Glow (2).jpg",
@@ -278,9 +279,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#ca7830",
         secondary: "#201919",
         tertiary: "#81451b",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Glow (3).jpg",
@@ -293,9 +294,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#dea460",
         secondary: "#22160f",
         tertiary: "#7e4522",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Glow (4).jpg",
@@ -308,9 +309,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#e99e47",
         secondary: "#311a10",
         tertiary: "#925026",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Glow (1).jpg",
@@ -323,9 +324,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#cc7a36",
         secondary: "#2b1c10",
         tertiary: "#874824",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Glow (2).jpg",
@@ -338,9 +339,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#ca782f",
         secondary: "#201919",
         tertiary: "#82441b",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Glow (3).jpg",
@@ -353,9 +354,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#dfa35f",
         secondary: "#22170f",
         tertiary: "#7e4521",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Glow (4).jpg",
@@ -368,9 +369,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#ea9e46",
         secondary: "#311a0f",
         tertiary: "#925026",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c5967f",
         secondary: "#130f0d",
         tertiary: "#7a5342",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Hands_on_Face (2).jpg",
@@ -403,9 +404,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#cda790",
         secondary: "#755142",
         tertiary: "#0e0a08",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Hands_on_Face (3).jpg",
@@ -418,9 +419,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#be8c74",
         secondary: "#6d4a3b",
         tertiary: "#0d0e10",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Hands_on_Face (4).jpg",
@@ -433,9 +434,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#d6a283",
         secondary: "#7e543e",
         tertiary: "#120b09",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Hands_on_Face (1).jpg",
@@ -448,9 +449,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c5967f",
         secondary: "#130f0d",
         tertiary: "#7a5342",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Hands_on_Face (2).jpg",
@@ -463,9 +464,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#cda690",
         secondary: "#745141",
         tertiary: "#0e0a08",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Hands_on_Face (3).jpg",
@@ -478,9 +479,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#be8c73",
         secondary: "#6d4a3b",
         tertiary: "#0d0e10",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Hands_on_Face (4).jpg",
@@ -493,9 +494,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#d6a283",
         secondary: "#7e543e",
         tertiary: "#120b09",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#bbab9e",
         secondary: "#161e1b",
         tertiary: "#6a6762",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "RainSoaked_Soul (2).jpg",
@@ -528,9 +529,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#1c1f1e",
         secondary: "#baa597",
         tertiary: "#656f6c",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "RainSoaked_Soul (3).jpg",
@@ -543,9 +544,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#b29884",
         secondary: "#11191a",
         tertiary: "#705d49",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "RainSoaked_Soul (4).jpg",
@@ -558,9 +559,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#baaca3",
         secondary: "#161a19",
         tertiary: "#6c6556",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "RainSoaked_Soul (1).jpg",
@@ -573,9 +574,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#bbab9e",
         secondary: "#161e1b",
         tertiary: "#6a6762",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "RainSoaked_Soul (2).jpg",
@@ -588,9 +589,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#1c1f1e",
         secondary: "#baa597",
         tertiary: "#656f6c",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "RainSoaked_Soul (3).jpg",
@@ -603,9 +604,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#b29984",
         secondary: "#11191a",
         tertiary: "#715d48",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "RainSoaked_Soul (4).jpg",
@@ -618,9 +619,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#b9aca2",
         secondary: "#161a1a",
         tertiary: "#6c6455",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#bba18e",
         secondary: "#181d1e",
         tertiary: "#6d6259",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Reflection (2).jpg",
@@ -653,9 +654,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#bcb5ae",
         secondary: "#151616",
         tertiary: "#6b645d",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Reflection (3).jpg",
@@ -668,9 +669,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#b3a18b",
         secondary: "#191a19",
         tertiary: "#766d60",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Reflection (4).jpg",
@@ -683,9 +684,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#1e201d",
         secondary: "#bbc2bc",
         tertiary: "#736b60",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Reflection (1).jpg",
@@ -698,9 +699,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#bba08c",
         secondary: "#181d1e",
         tertiary: "#6d6259",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Reflection (2).jpg",
@@ -713,9 +714,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#bbb4ad",
         secondary: "#151617",
         tertiary: "#6a635c",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Reflection (3).jpg",
@@ -728,9 +729,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#b4a18b",
         secondary: "#191a19",
         tertiary: "#766d60",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Reflection (4).jpg",
@@ -743,9 +744,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#1e201d",
         secondary: "#bbc2bc",
         tertiary: "#736b60",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c0b9a8",
         secondary: "#130d08",
         tertiary: "#6e6553",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Shadowed_Solitude (2).jpg",
@@ -778,9 +779,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c39971",
         secondary: "#6b513c",
         tertiary: "#0f0b08",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Shadowed_Solitude (3).jpg",
@@ -793,9 +794,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#b79f86",
         secondary: "#110d09",
         tertiary: "#6c523d",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Shadowed_Solitude (4).jpg",
@@ -808,9 +809,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c6a37f",
         secondary: "#18130e",
         tertiary: "#75624f",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Shadowed_Solitude (1).jpg",
@@ -823,9 +824,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c0b9a8",
         secondary: "#130e08",
         tertiary: "#6e6554",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Shadowed_Solitude (2).jpg",
@@ -838,9 +839,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c39871",
         secondary: "#6b513b",
         tertiary: "#0f0b08",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Shadowed_Solitude (3).jpg",
@@ -853,9 +854,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#b79f85",
         secondary: "#110d09",
         tertiary: "#6c523e",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Shadowed_Solitude (4).jpg",
@@ -868,9 +869,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c7a37f",
         secondary: "#18140f",
         tertiary: "#766250",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#101d22",
         secondary: "#a9ada4",
         tertiary: "#56686b",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Stormy_Resolve (2).jpg",
@@ -903,9 +904,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#10191c",
         secondary: "#a4b0b2",
         tertiary: "#4f676c",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Stormy_Resolve (3).jpg",
@@ -918,9 +919,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#101b21",
         secondary: "#cdc5b8",
         tertiary: "#61696a",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Stormy_Resolve (4).jpg",
@@ -933,9 +934,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#0e191e",
         secondary: "#98a29e",
         tertiary: "#788e8c",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Stormy_Resolve (1).jpg",
@@ -948,9 +949,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#101d22",
         secondary: "#a9aea4",
         tertiary: "#55686a",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Stormy_Resolve (2).jpg",
@@ -963,9 +964,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#11191c",
         secondary: "#a4b1b3",
         tertiary: "#536b6f",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Stormy_Resolve (3).jpg",
@@ -978,9 +979,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#101b21",
         secondary: "#cdc5b8",
         tertiary: "#616a6a",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Stormy_Resolve (4).jpg",
@@ -993,9 +994,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#0e191e",
         secondary: "#98a19e",
         tertiary: "#778e8c",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#baa393",
         secondary: "#1c1714",
         tertiary: "#826657",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "TearStreaked_Cheek (2).jpg",
@@ -1028,9 +1029,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#be9278",
         secondary: "#1c1513",
         tertiary: "#785240",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "TearStreaked_Cheek (3).jpg",
@@ -1043,9 +1044,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#baa190",
         secondary: "#1b1513",
         tertiary: "#795f53",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "TearStreaked_Cheek (4).jpg",
@@ -1058,9 +1059,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#be967c",
         secondary: "#1b120f",
         tertiary: "#795443",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "TearStreaked_Cheek (1).jpg",
@@ -1073,9 +1074,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#baa393",
         secondary: "#1d1714",
         tertiary: "#826657",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "TearStreaked_Cheek (2).jpg",
@@ -1088,9 +1089,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#be9177",
         secondary: "#1c1513",
         tertiary: "#785240",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "TearStreaked_Cheek (3).jpg",
@@ -1103,9 +1104,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#bba18f",
         secondary: "#1b1513",
         tertiary: "#795f53",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "TearStreaked_Cheek (4).jpg",
@@ -1118,9 +1119,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#be957b",
         secondary: "#1b120f",
         tertiary: "#795442",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#b5a094",
         secondary: "#1c1513",
         tertiary: "#77635a",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Veiled_Emotion (2).jpg",
@@ -1153,9 +1154,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c0b8b4",
         secondary: "#201816",
         tertiary: "#7c726f",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Veiled_Emotion (3).jpg",
@@ -1168,9 +1169,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#b99987",
         secondary: "#161212",
         tertiary: "#705e56",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Veiled_Emotion (4).jpg",
@@ -1183,9 +1184,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#261f1c",
         secondary: "#c5ac9b",
         tertiary: "#857268",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "min"
       },
       {
         original_file_name: "Veiled_Emotion (1).jpg",
@@ -1198,9 +1199,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#b5a094",
         secondary: "#1c1513",
         tertiary: "#77635a",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Veiled_Emotion (2).jpg",
@@ -1213,9 +1214,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#c0b9b4",
         secondary: "#201816",
         tertiary: "#7c726f",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Veiled_Emotion (3).jpg",
@@ -1228,9 +1229,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#b99987",
         secondary: "#161212",
         tertiary: "#705d56",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       },
       {
         original_file_name: "Veiled_Emotion (4).jpg",
@@ -1243,9 +1244,9 @@ const Portrait_Moody: Record<string, any> = {
         primary: "#271f1c",
         secondary: "#c5ac9b",
         tertiary: "#847267",
-        Branch: "Portrait",
-        FolderName: "Moody",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Moody",
+        type: "max"
       }
     ]
   }

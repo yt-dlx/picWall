@@ -1,4 +1,5 @@
-const Anime_Manga: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Anime_Manga: Record<string, EnvironmentEntry> = {
   Aerial_Battle: {
     environment_title: "Aerial_Battle",
     images: [
@@ -13,9 +14,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c4c4c4",
         secondary: "#616161",
         tertiary: "#888888",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Aerial_Battle (2).jpg",
@@ -28,9 +29,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d2c1b8",
         secondary: "#1e1e1e",
         tertiary: "#908884",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Aerial_Battle (3).jpg",
@@ -43,9 +44,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#181918",
         secondary: "#bebebe",
         tertiary: "#737372",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Aerial_Battle (4).jpg",
@@ -58,9 +59,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#b7b7b7",
         secondary: "#060606",
         tertiary: "#5e5e5e",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Aerial_Battle (1).jpg",
@@ -73,9 +74,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c4c4c4",
         secondary: "#616161",
         tertiary: "#878787",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Aerial_Battle (2).jpg",
@@ -88,9 +89,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d2c1b8",
         secondary: "#1e1e1e",
         tertiary: "#908884",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Aerial_Battle (3).jpg",
@@ -103,9 +104,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#181817",
         secondary: "#bebebe",
         tertiary: "#737371",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Aerial_Battle (4).jpg",
@@ -118,9 +119,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#b5b5b5",
         secondary: "#060606",
         tertiary: "#848483",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#1a1a1a",
         secondary: "#dadada",
         tertiary: "#787877",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Anguished_Shout (2).jpg",
@@ -153,9 +154,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#9b9b9a",
         secondary: "#171717",
         tertiary: "#eaeaea",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Anguished_Shout (3).jpg",
@@ -168,9 +169,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#979797",
         secondary: "#191919",
         tertiary: "#e6e6e6",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Anguished_Shout (4).jpg",
@@ -183,9 +184,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#a0a09f",
         secondary: "#1e1e1d",
         tertiary: "#e6e6e6",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Anguished_Shout (1).jpg",
@@ -198,9 +199,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#191919",
         secondary: "#dadada",
         tertiary: "#787877",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Anguished_Shout (2).jpg",
@@ -213,9 +214,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#a4a4a4",
         secondary: "#121212",
         tertiary: "#474746",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Anguished_Shout (3).jpg",
@@ -228,9 +229,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#191918",
         secondary: "#9b9b9b",
         tertiary: "#818181",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Anguished_Shout (4).jpg",
@@ -243,9 +244,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#9e9d9c",
         secondary: "#1d1d1c",
         tertiary: "#e6e6e6",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c9c9c9",
         secondary: "#696968",
         tertiary: "#1d1d1d",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Chase_Scene (2).jpg",
@@ -278,9 +279,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#2d2d2d",
         secondary: "#dddddd",
         tertiary: "#b0b0b0",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Chase_Scene (3).jpg",
@@ -293,9 +294,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#7d7d7d",
         secondary: "#e6e6e6",
         tertiary: "#1f1f1f",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Chase_Scene (4).jpg",
@@ -308,9 +309,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d7d7d7",
         secondary: "#151514",
         tertiary: "#4f4f4e",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Chase_Scene (1).jpg",
@@ -323,9 +324,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#818181",
         secondary: "#e8e8e7",
         tertiary: "#1c1c1c",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Chase_Scene (2).jpg",
@@ -338,9 +339,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#272727",
         secondary: "#e0e0e0",
         tertiary: "#b0b0af",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Chase_Scene (3).jpg",
@@ -353,9 +354,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#7d7d7d",
         secondary: "#e6e6e6",
         tertiary: "#1d1d1d",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Chase_Scene (4).jpg",
@@ -368,9 +369,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d7d7d6",
         secondary: "#141414",
         tertiary: "#4f4f4e",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c9beb1",
         secondary: "#69625e",
         tertiary: "#090707",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Confession_Scene (2).jpg",
@@ -403,9 +404,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#7c7c7c",
         secondary: "#bababa",
         tertiary: "#848484",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Confession_Scene (3).jpg",
@@ -418,9 +419,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c3c1c1",
         secondary: "#555452",
         tertiary: "#060606",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Confession_Scene (4).jpg",
@@ -433,9 +434,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#cbcbcb",
         secondary: "#050505",
         tertiary: "#555555",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Confession_Scene (1).jpg",
@@ -448,9 +449,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#ccc1b5",
         secondary: "#69615c",
         tertiary: "#090707",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Confession_Scene (2).jpg",
@@ -463,9 +464,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#7c7c7c",
         secondary: "#848484",
         tertiary: "#b9b9b9",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Confession_Scene (3).jpg",
@@ -478,9 +479,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c3c1c0",
         secondary: "#060606",
         tertiary: "#555351",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Confession_Scene (4).jpg",
@@ -493,9 +494,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c9c9c9",
         secondary: "#050505",
         tertiary: "#565656",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#161615",
         secondary: "#c0c0c0",
         tertiary: "#757573",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Kick (2).jpg",
@@ -528,9 +529,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#282828",
         secondary: "#989897",
         tertiary: "#d7d7d6",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Kick (3).jpg",
@@ -543,9 +544,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#dedede",
         secondary: "#4b4c49",
         tertiary: "#1c1c1a",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Kick (4).jpg",
@@ -558,9 +559,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#757575",
         secondary: "#eeeade",
         tertiary: "#1a1a1a",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Kick (1).jpg",
@@ -573,9 +574,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#161615",
         secondary: "#c0c0c0",
         tertiary: "#757573",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Dynamic_Kick (2).jpg",
@@ -588,9 +589,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#282827",
         secondary: "#9b9a9a",
         tertiary: "#d7d7d6",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Dynamic_Kick (3).jpg",
@@ -603,9 +604,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#dedede",
         secondary: "#1b1b1a",
         tertiary: "#484845",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Dynamic_Kick (4).jpg",
@@ -618,9 +619,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#747576",
         secondary: "#eeeadf",
         tertiary: "#191919",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c5c5c5",
         secondary: "#616161",
         tertiary: "#070707",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Energy_Blast (2).jpg",
@@ -653,9 +654,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c8c8c8",
         secondary: "#4e4e4e",
         tertiary: "#070707",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Energy_Blast (3).jpg",
@@ -668,9 +669,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d6d6d6",
         secondary: "#6f6f6f",
         tertiary: "#0d0d0d",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Energy_Blast (4).jpg",
@@ -683,9 +684,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#bcbdbc",
         secondary: "#6b6b6a",
         tertiary: "#949492",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Energy_Blast (1).jpg",
@@ -698,9 +699,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c5c5c5",
         secondary: "#616161",
         tertiary: "#070707",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Energy_Blast (2).jpg",
@@ -713,9 +714,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c9c9c9",
         secondary: "#4e4e4d",
         tertiary: "#060606",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Energy_Blast (3).jpg",
@@ -728,9 +729,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d5d5d5",
         secondary: "#6f6f6f",
         tertiary: "#0d0d0d",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Energy_Blast (4).jpg",
@@ -743,9 +744,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#bcbcbb",
         secondary: "#949492",
         tertiary: "#6b6b6a",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c6c6c7",
         secondary: "#1d1d1d",
         tertiary: "#f3f3f3",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Hero_Landing (2).jpg",
@@ -778,9 +779,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#2c2b2a",
         secondary: "#dfdfde",
         tertiary: "#b8b8b7",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Hero_Landing (3).jpg",
@@ -793,9 +794,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#191817",
         secondary: "#9b9796",
         tertiary: "#ebe2da",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Hero_Landing (4).jpg",
@@ -808,9 +809,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#dde3e5",
         secondary: "#5ca1b6",
         tertiary: "#151616",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Hero_Landing (1).jpg",
@@ -823,9 +824,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c6c6c7",
         secondary: "#1c1c1c",
         tertiary: "#f3f3f3",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Hero_Landing (2).jpg",
@@ -838,9 +839,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#2b2a29",
         secondary: "#dedede",
         tertiary: "#b8b8b7",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Hero_Landing (3).jpg",
@@ -853,9 +854,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#181615",
         secondary: "#9b9796",
         tertiary: "#ece2da",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Hero_Landing (4).jpg",
@@ -868,9 +869,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#dde3e6",
         secondary: "#151515",
         tertiary: "#5ba0b5",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#969696",
         secondary: "#0b0b0b",
         tertiary: "#e5e5e5",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Hopeful_Smile (2).jpg",
@@ -903,9 +904,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d5d3cc",
         secondary: "#666664",
         tertiary: "#90908d",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Hopeful_Smile (3).jpg",
@@ -918,9 +919,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c6c6c5",
         secondary: "#171717",
         tertiary: "#6c6d6b",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Hopeful_Smile (4).jpg",
@@ -933,9 +934,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c3c3c2",
         secondary: "#525251",
         tertiary: "#050505",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Hopeful_Smile (1).jpg",
@@ -948,9 +949,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#969696",
         secondary: "#0b0b0b",
         tertiary: "#e5e5e5",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Hopeful_Smile (2).jpg",
@@ -963,9 +964,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d1cfc8",
         secondary: "#5f5f5e",
         tertiary: "#878784",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Hopeful_Smile (3).jpg",
@@ -978,9 +979,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c6c5c4",
         secondary: "#161616",
         tertiary: "#6c6d6b",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Hopeful_Smile (4).jpg",
@@ -993,9 +994,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c3c3c2",
         secondary: "#525250",
         tertiary: "#050505",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#1f1f1f",
         secondary: "#e2e2e2",
         tertiary: "#b7b7b7",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Power_Up (2).jpg",
@@ -1028,9 +1029,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#cccccc",
         secondary: "#1b1b1b",
         tertiary: "#838282",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Power_Up (3).jpg",
@@ -1043,9 +1044,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d8d7d7",
         secondary: "#1d1d1d",
         tertiary: "#a09f9f",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Power_Up (4).jpg",
@@ -1058,9 +1059,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d1d1d1",
         secondary: "#131313",
         tertiary: "#474747",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Power_Up (1).jpg",
@@ -1073,9 +1074,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#1b1b1b",
         secondary: "#e2e2e1",
         tertiary: "#b8b7b7",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Power_Up (2).jpg",
@@ -1088,9 +1089,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d0d0d0",
         secondary: "#1b1b1b",
         tertiary: "#838381",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Power_Up (3).jpg",
@@ -1103,9 +1104,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d4d4d3",
         secondary: "#1d1d1d",
         tertiary: "#7e7e7e",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Power_Up (4).jpg",
@@ -1118,9 +1119,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d1d1d1",
         secondary: "#121212",
         tertiary: "#474747",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#181818",
         secondary: "#d8d8d8",
         tertiary: "#6a6a6a",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Reunion_Hug (2).jpg",
@@ -1153,9 +1154,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#dbdbdb",
         secondary: "#1a1a1a",
         tertiary: "#5f5f5f",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Reunion_Hug (3).jpg",
@@ -1168,9 +1169,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#e3d5c3",
         secondary: "#796b62",
         tertiary: "#0f0d0c",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Reunion_Hug (4).jpg",
@@ -1183,9 +1184,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#a9a9a9",
         secondary: "#b4b4b4",
         tertiary: "#242424",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Reunion_Hug (1).jpg",
@@ -1198,9 +1199,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#181817",
         secondary: "#d8d8d7",
         tertiary: "#6c6c6b",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Reunion_Hug (2).jpg",
@@ -1213,9 +1214,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#dbdbdb",
         secondary: "#1a1a1a",
         tertiary: "#60605f",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Reunion_Hug (3).jpg",
@@ -1228,9 +1229,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#e3d4c2",
         secondary: "#78695e",
         tertiary: "#0e0d0c",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Reunion_Hug (4).jpg",
@@ -1243,9 +1244,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#a9a9aa",
         secondary: "#b4b4b4",
         tertiary: "#1d1d1d",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   },
@@ -1263,9 +1264,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#bfbfbf",
         secondary: "#6e6e6e",
         tertiary: "#939493",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Silent_Pain (2).jpg",
@@ -1278,9 +1279,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c6c6c6",
         secondary: "#656464",
         tertiary: "#0a0a0a",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Silent_Pain (3).jpg",
@@ -1293,9 +1294,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d2d2d2",
         secondary: "#717171",
         tertiary: "#0b0b0b",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Silent_Pain (4).jpg",
@@ -1308,9 +1309,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#bcbcbc",
         secondary: "#555555",
         tertiary: "#070707",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Silent_Pain (1).jpg",
@@ -1323,9 +1324,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#b7b7b7",
         secondary: "#6e6e6d",
         tertiary: "#939493",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Silent_Pain (2).jpg",
@@ -1338,9 +1339,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#c1c1c1",
         secondary: "#676767",
         tertiary: "#0a0a0a",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Silent_Pain (3).jpg",
@@ -1353,9 +1354,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#6f6f6f",
         secondary: "#d2d2d2",
         tertiary: "#090909",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Silent_Pain (4).jpg",
@@ -1368,9 +1369,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#bbbbbb",
         secondary: "#595958",
         tertiary: "#070707",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   },
@@ -1388,9 +1389,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d1d1d0",
         secondary: "#191919",
         tertiary: "#545452",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Sudden_Dodge (2).jpg",
@@ -1403,9 +1404,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#aaaaaa",
         secondary: "#111111",
         tertiary: "#646463",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Sudden_Dodge (3).jpg",
@@ -1418,9 +1419,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#dcdcdb",
         secondary: "#161615",
         tertiary: "#6e6d6c",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Sudden_Dodge (4).jpg",
@@ -1433,9 +1434,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#1f1f1e",
         secondary: "#dededd",
         tertiary: "#797978",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Sudden_Dodge (1).jpg",
@@ -1448,9 +1449,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#d0d0cf",
         secondary: "#191918",
         tertiary: "#50504e",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Sudden_Dodge (2).jpg",
@@ -1463,9 +1464,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#aaaaaa",
         secondary: "#101010",
         tertiary: "#646363",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Sudden_Dodge (3).jpg",
@@ -1478,9 +1479,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#dcdcdb",
         secondary: "#181817",
         tertiary: "#6e6d6b",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Sudden_Dodge (4).jpg",
@@ -1493,9 +1494,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#1d1d1d",
         secondary: "#dddddc",
         tertiary: "#7a7a78",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   },
@@ -1513,9 +1514,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#ababa8",
         secondary: "#050505",
         tertiary: "#62625f",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Sudden_Realization (2).jpg",
@@ -1528,9 +1529,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#8f8f8f",
         secondary: "#0a0a0a",
         tertiary: "#e8e8e8",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Sudden_Realization (3).jpg",
@@ -1543,9 +1544,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#cfcfcf",
         secondary: "#6e6e6e",
         tertiary: "#090909",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Sudden_Realization (4).jpg",
@@ -1558,9 +1559,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#8f8e8d",
         secondary: "#e8e8e8",
         tertiary: "#111111",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Sudden_Realization (1).jpg",
@@ -1573,9 +1574,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#ababa8",
         secondary: "#63625f",
         tertiary: "#040404",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Sudden_Realization (2).jpg",
@@ -1588,9 +1589,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#8e8e8e",
         secondary: "#0a0a0a",
         tertiary: "#e8e8e8",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Sudden_Realization (3).jpg",
@@ -1603,9 +1604,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#cacaca",
         secondary: "#676766",
         tertiary: "#080808",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Sudden_Realization (4).jpg",
@@ -1618,9 +1619,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#8f8e8d",
         secondary: "#111110",
         tertiary: "#e8e8e8",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   },
@@ -1638,9 +1639,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#282828",
         secondary: "#d9d9d9",
         tertiary: "#a8a8a8",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Sword_Clash (2).jpg",
@@ -1653,9 +1654,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#303030",
         secondary: "#afafaf",
         tertiary: "#e1e1e1",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Sword_Clash (3).jpg",
@@ -1668,9 +1669,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#272727",
         secondary: "#e0e0e0",
         tertiary: "#b3b3b3",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Sword_Clash (4).jpg",
@@ -1683,9 +1684,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#dbdbdb",
         secondary: "#202020",
         tertiary: "#7c7c7c",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Sword_Clash (1).jpg",
@@ -1698,9 +1699,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#252525",
         secondary: "#d5d5d5",
         tertiary: "#a8a8a7",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Sword_Clash (2).jpg",
@@ -1713,9 +1714,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#2b2b2b",
         secondary: "#afafaf",
         tertiary: "#e1e1e1",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Sword_Clash (3).jpg",
@@ -1728,9 +1729,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#222222",
         secondary: "#dddddd",
         tertiary: "#b4b4b3",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Sword_Clash (4).jpg",
@@ -1743,9 +1744,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#dbdbdb",
         secondary: "#1f1f1f",
         tertiary: "#7c7c7c",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   },
@@ -1763,9 +1764,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#bebebe",
         secondary: "#0f0f0f",
         tertiary: "#727272",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Tearful_Goodbye (2).jpg",
@@ -1778,9 +1779,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#acacac",
         secondary: "#575755",
         tertiary: "#050505",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Tearful_Goodbye (3).jpg",
@@ -1793,9 +1794,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#2d2d2d",
         secondary: "#dbdbda",
         tertiary: "#909090",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Tearful_Goodbye (4).jpg",
@@ -1808,9 +1809,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#a7a7a7",
         secondary: "#1b1b1b",
         tertiary: "#cdcdcd",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "min"
+        branch: "Anime",
+        folder: "Manga",
+        type: "min"
       },
       {
         original_file_name: "Tearful_Goodbye (1).jpg",
@@ -1823,9 +1824,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#bebebe",
         secondary: "#0e0e0e",
         tertiary: "#727272",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Tearful_Goodbye (2).jpg",
@@ -1838,9 +1839,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#ababab",
         secondary: "#595958",
         tertiary: "#050505",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Tearful_Goodbye (3).jpg",
@@ -1853,9 +1854,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#2d2d2d",
         secondary: "#dadada",
         tertiary: "#909090",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       },
       {
         original_file_name: "Tearful_Goodbye (4).jpg",
@@ -1868,9 +1869,9 @@ const Anime_Manga: Record<string, any> = {
         primary: "#a7a7a7",
         secondary: "#1b1b1b",
         tertiary: "#cdcdcd",
-        Branch: "Anime",
-        FolderName: "Manga",
-        Type: "max"
+        branch: "Anime",
+        folder: "Manga",
+        type: "max"
       }
     ]
   }

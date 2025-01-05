@@ -1,4 +1,5 @@
-const Anime_Illustration: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Anime_Illustration: Record<string, EnvironmentEntry> = {
   Busy_Market: {
     environment_title: "Busy_Market",
     images: [
@@ -13,9 +14,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e3be79",
         secondary: "#2e2230",
         tertiary: "#915740",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Busy_Market (2).jpg",
@@ -28,9 +29,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#ebc997",
         secondary: "#322c32",
         tertiary: "#a05140",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Busy_Market (3).jpg",
@@ -43,9 +44,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#282e39",
         secondary: "#e0e293",
         tertiary: "#75453d",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Busy_Market (4).jpg",
@@ -58,9 +59,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#eacba1",
         secondary: "#552c31",
         tertiary: "#a6b49e",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Busy_Market (1).jpg",
@@ -73,9 +74,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e5bd77",
         secondary: "#2e2230",
         tertiary: "#91573e",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Busy_Market (2).jpg",
@@ -88,9 +89,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#edca95",
         secondary: "#312c31",
         tertiary: "#a0503f",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Busy_Market (3).jpg",
@@ -103,9 +104,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#272f3a",
         secondary: "#e1e392",
         tertiary: "#75443d",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Busy_Market (4).jpg",
@@ -118,9 +119,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#ebcba0",
         secondary: "#552c31",
         tertiary: "#a5b49c",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d96561",
         secondary: "#23254a",
         tertiary: "#874e69",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "City_Skyline (2).jpg",
@@ -153,9 +154,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#9f3d42",
         secondary: "#1f1d36",
         tertiary: "#f6c466",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "City_Skyline (3).jpg",
@@ -168,9 +169,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d06568",
         secondary: "#1d192d",
         tertiary: "#624b6d",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "City_Skyline (4).jpg",
@@ -183,9 +184,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e0665e",
         secondary: "#232249",
         tertiary: "#84455e",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "City_Skyline (1).jpg",
@@ -198,9 +199,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#db6560",
         secondary: "#23254a",
         tertiary: "#874d69",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "City_Skyline (2).jpg",
@@ -213,9 +214,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#9e3d42",
         secondary: "#1e1e37",
         tertiary: "#f7c565",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "City_Skyline (3).jpg",
@@ -228,9 +229,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d06568",
         secondary: "#1d192e",
         tertiary: "#624b6d",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "City_Skyline (4).jpg",
@@ -243,9 +244,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e2645d",
         secondary: "#232249",
         tertiary: "#84455d",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#5f3c48",
         secondary: "#db663e",
         tertiary: "#21233a",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Cozy_Bedroom (2).jpg",
@@ -278,9 +279,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#efbe9d",
         secondary: "#5a2f36",
         tertiary: "#9d4a44",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Cozy_Bedroom (3).jpg",
@@ -293,9 +294,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#f4edd2",
         secondary: "#6e3b40",
         tertiary: "#30273a",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Cozy_Bedroom (4).jpg",
@@ -308,9 +309,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#edbb8d",
         secondary: "#5d3738",
         tertiary: "#231318",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Cozy_Bedroom (1).jpg",
@@ -323,9 +324,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#5f3c48",
         secondary: "#dd653d",
         tertiary: "#22233a",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Cozy_Bedroom (2).jpg",
@@ -338,9 +339,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#f1be9d",
         secondary: "#5a2f36",
         tertiary: "#9d4943",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Cozy_Bedroom (3).jpg",
@@ -353,9 +354,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#f5edd3",
         secondary: "#703c41",
         tertiary: "#332a3c",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Cozy_Bedroom (4).jpg",
@@ -368,9 +369,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#f0be8f",
         secondary: "#5e3739",
         tertiary: "#231418",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#2f3337",
         secondary: "#e09942",
         tertiary: "#83370a",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Golden_Wheat_Field (2).jpg",
@@ -403,9 +404,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#39210d",
         secondary: "#753d10",
         tertiary: "#eab332",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Golden_Wheat_Field (3).jpg",
@@ -418,9 +419,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#38260d",
         secondary: "#d17b26",
         tertiary: "#f8e652",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Golden_Wheat_Field (4).jpg",
@@ -433,9 +434,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#342a0c",
         secondary: "#e0d8bc",
         tertiary: "#c2731a",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Golden_Wheat_Field (1).jpg",
@@ -448,9 +449,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#2f3337",
         secondary: "#e39940",
         tertiary: "#833808",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Golden_Wheat_Field (2).jpg",
@@ -463,9 +464,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#39210d",
         secondary: "#753e0e",
         tertiary: "#edb32f",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Golden_Wheat_Field (3).jpg",
@@ -478,9 +479,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#38270c",
         secondary: "#d67c20",
         tertiary: "#fae74f",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Golden_Wheat_Field (4).jpg",
@@ -493,9 +494,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#392d0c",
         secondary: "#e1d9bc",
         tertiary: "#723a08",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d5c9bb",
         secondary: "#2f2f3e",
         tertiary: "#7e6562",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Lonely_Train_Station (2).jpg",
@@ -528,9 +529,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d8d7d6",
         secondary: "#2b2c3c",
         tertiary: "#7b665d",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Lonely_Train_Station (3).jpg",
@@ -543,9 +544,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#c49d9d",
         secondary: "#1d2842",
         tertiary: "#7aadef",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Lonely_Train_Station (4).jpg",
@@ -558,9 +559,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d6b09f",
         secondary: "#262946",
         tertiary: "#78b1eb",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Lonely_Train_Station (1).jpg",
@@ -573,9 +574,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#2f2f3e",
         secondary: "#d6c9bb",
         tertiary: "#7e6561",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Lonely_Train_Station (2).jpg",
@@ -588,9 +589,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d9d7d5",
         secondary: "#2b2c3c",
         tertiary: "#7c655c",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Lonely_Train_Station (3).jpg",
@@ -603,9 +604,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#c49d9e",
         secondary: "#1d2842",
         tertiary: "#79acf1",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Lonely_Train_Station (4).jpg",
@@ -618,9 +619,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d7af9e",
         secondary: "#262a47",
         tertiary: "#78b1eb",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#ccefa5",
         secondary: "#6cce92",
         tertiary: "#174c2e",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Lush_Green_Forest (2).jpg",
@@ -653,9 +654,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#cdee9a",
         secondary: "#72d298",
         tertiary: "#1e502a",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Lush_Green_Forest (3).jpg",
@@ -668,9 +669,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#62d6a6",
         secondary: "#ccf0aa",
         tertiary: "#184c2d",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Lush_Green_Forest (4).jpg",
@@ -683,9 +684,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#c4f2c9",
         secondary: "#194e2c",
         tertiary: "#74cc82",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Lush_Green_Forest (1).jpg",
@@ -698,9 +699,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#cdf1a4",
         secondary: "#6bce90",
         tertiary: "#154c2e",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Lush_Green_Forest (2).jpg",
@@ -713,9 +714,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#ceef98",
         secondary: "#71d297",
         tertiary: "#1d502a",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Lush_Green_Forest (3).jpg",
@@ -728,9 +729,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#60d7a5",
         secondary: "#cef1aa",
         tertiary: "#174c2d",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Lush_Green_Forest (4).jpg",
@@ -743,9 +744,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#c5f3c9",
         secondary: "#184e2c",
         tertiary: "#73cc7f",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#88dc3a",
         secondary: "#e5eebf",
         tertiary: "#184e2d",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Minimalist_Garden (2).jpg",
@@ -778,9 +779,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#cdee7c",
         secondary: "#125a2d",
         tertiary: "#80d444",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Minimalist_Garden (3).jpg",
@@ -793,9 +794,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d1ec99",
         secondary: "#133622",
         tertiary: "#85c45c",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Minimalist_Garden (4).jpg",
@@ -808,9 +809,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d4e598",
         secondary: "#185030",
         tertiary: "#8bd464",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Minimalist_Garden (1).jpg",
@@ -823,9 +824,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#84db36",
         secondary: "#e0edb5",
         tertiary: "#164e2d",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Minimalist_Garden (2).jpg",
@@ -838,9 +839,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#ceef7b",
         secondary: "#115a2d",
         tertiary: "#80d541",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Minimalist_Garden (3).jpg",
@@ -853,9 +854,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d2ec98",
         secondary: "#123622",
         tertiary: "#84c559",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Minimalist_Garden (4).jpg",
@@ -868,9 +869,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d4e697",
         secondary: "#175030",
         tertiary: "#8ad462",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#c07a69",
         secondary: "#255978",
         tertiary: "#adb8d7",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Ocean_Waves (2).jpg",
@@ -903,9 +904,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#244e78",
         secondary: "#eedfab",
         tertiary: "#6f5a6c",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Ocean_Waves (3).jpg",
@@ -918,9 +919,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#1f6778",
         secondary: "#c57d64",
         tertiary: "#b3cae4",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Ocean_Waves (4).jpg",
@@ -933,9 +934,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#2f5c91",
         secondary: "#cc836a",
         tertiary: "#c1cedc",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Ocean_Waves (1).jpg",
@@ -948,9 +949,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#c07969",
         secondary: "#255978",
         tertiary: "#acb8d7",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Ocean_Waves (2).jpg",
@@ -963,9 +964,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#244f79",
         secondary: "#efdfab",
         tertiary: "#6f596c",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Ocean_Waves (3).jpg",
@@ -978,9 +979,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#1e6879",
         secondary: "#c67c64",
         tertiary: "#b3cae5",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Ocean_Waves (4).jpg",
@@ -993,9 +994,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#2f619f",
         secondary: "#cf856a",
         tertiary: "#c1cfdd",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d18e82",
         secondary: "#192341",
         tertiary: "#3663b6",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Alleyway (2).jpg",
@@ -1028,9 +1029,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#1a1c31",
         secondary: "#be625e",
         tertiary: "#3575cc",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Alleyway (3).jpg",
@@ -1043,9 +1044,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#c67562",
         secondary: "#1d243f",
         tertiary: "#364b7f",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Alleyway (4).jpg",
@@ -1058,9 +1059,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d38b6a",
         secondary: "#211f30",
         tertiary: "#7a4d4d",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Alleyway (1).jpg",
@@ -1073,9 +1074,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d18c81",
         secondary: "#192341",
         tertiary: "#3463b7",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Alleyway (2).jpg",
@@ -1088,9 +1089,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#191c31",
         secondary: "#bf625d",
         tertiary: "#3475cd",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Alleyway (3).jpg",
@@ -1103,9 +1104,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#c87461",
         secondary: "#1d253f",
         tertiary: "#374b7f",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Alleyway (4).jpg",
@@ -1118,9 +1119,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d48b6a",
         secondary: "#212030",
         tertiary: "#7a4945",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#edc181",
         secondary: "#3c2619",
         tertiary: "#9d5b34",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Caf_Scene (2).jpg",
@@ -1153,9 +1154,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e3b678",
         secondary: "#2e1d1c",
         tertiary: "#915033",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Caf_Scene (3).jpg",
@@ -1168,9 +1169,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e3c197",
         secondary: "#4e2d22",
         tertiary: "#955e40",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Caf_Scene (4).jpg",
@@ -1183,9 +1184,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e6cb95",
         secondary: "#4d2f24",
         tertiary: "#956143",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Caf_Scene (1).jpg",
@@ -1198,9 +1199,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#edbe7e",
         secondary: "#3c2619",
         tertiary: "#9d5a33",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Caf_Scene (2).jpg",
@@ -1213,9 +1214,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e4b274",
         secondary: "#2e1d1c",
         tertiary: "#914f32",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Caf_Scene (3).jpg",
@@ -1228,9 +1229,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e4c195",
         secondary: "#4e2d22",
         tertiary: "#955c3d",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Caf_Scene (4).jpg",
@@ -1243,9 +1244,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#eace96",
         secondary: "#4f3024",
         tertiary: "#9c6645",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   },
@@ -1263,9 +1264,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#1e2b3d",
         secondary: "#cf8b78",
         tertiary: "#d7e6e4",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Rainbow_Umbrella_Street (2).jpg",
@@ -1278,9 +1279,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e4c9a0",
         secondary: "#453f56",
         tertiary: "#81d6c0",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Rainbow_Umbrella_Street (3).jpg",
@@ -1293,9 +1294,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e9b58e",
         secondary: "#5fd2c4",
         tertiary: "#302f3d",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Rainbow_Umbrella_Street (4).jpg",
@@ -1308,9 +1309,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e4b08b",
         secondary: "#60dabc",
         tertiary: "#272238",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Rainbow_Umbrella_Street (1).jpg",
@@ -1323,9 +1324,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#edc590",
         secondary: "#63d5c3",
         tertiary: "#272938",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Rainbow_Umbrella_Street (2).jpg",
@@ -1338,9 +1339,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e5c99f",
         secondary: "#453e56",
         tertiary: "#81d6c1",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Rainbow_Umbrella_Street (3).jpg",
@@ -1353,9 +1354,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#eab58d",
         secondary: "#5dd3c6",
         tertiary: "#302f3d",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Rainbow_Umbrella_Street (4).jpg",
@@ -1368,9 +1369,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e6b08b",
         secondary: "#5edcbb",
         tertiary: "#262238",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   },
@@ -1388,9 +1389,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#cce8da",
         secondary: "#2b8fdd",
         tertiary: "#6cd1d9",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Serene_Lakeside (2).jpg",
@@ -1403,9 +1404,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d6e7e2",
         secondary: "#2c678b",
         tertiary: "#6cd2eb",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Serene_Lakeside (3).jpg",
@@ -1418,9 +1419,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d3e2d5",
         secondary: "#3992cc",
         tertiary: "#103043",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Serene_Lakeside (4).jpg",
@@ -1433,9 +1434,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#cde7cd",
         secondary: "#1c4962",
         tertiary: "#2997e5",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Serene_Lakeside (1).jpg",
@@ -1448,9 +1449,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#cce8db",
         secondary: "#2a8ede",
         tertiary: "#6bd1d9",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Serene_Lakeside (2).jpg",
@@ -1463,9 +1464,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d7e7e2",
         secondary: "#2b678b",
         tertiary: "#6ad2ec",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Serene_Lakeside (3).jpg",
@@ -1478,9 +1479,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d3e2d4",
         secondary: "#3891cd",
         tertiary: "#103043",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Serene_Lakeside (4).jpg",
@@ -1493,9 +1494,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#cde8cc",
         secondary: "#1b4962",
         tertiary: "#2897e7",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   },
@@ -1513,9 +1514,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#efaa64",
         secondary: "#1d1826",
         tertiary: "#9f412e",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Summer_Festival (2).jpg",
@@ -1528,9 +1529,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#f4d782",
         secondary: "#1f1921",
         tertiary: "#693127",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Summer_Festival (3).jpg",
@@ -1543,9 +1544,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#ea9c5e",
         secondary: "#271f29",
         tertiary: "#994737",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Summer_Festival (4).jpg",
@@ -1558,9 +1559,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#eba561",
         secondary: "#913b31",
         tertiary: "#141c3b",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Summer_Festival (1).jpg",
@@ -1573,9 +1574,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#f1aa63",
         secondary: "#1c1927",
         tertiary: "#9f402c",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Summer_Festival (2).jpg",
@@ -1588,9 +1589,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#f6d881",
         secondary: "#1f1922",
         tertiary: "#683126",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Summer_Festival (3).jpg",
@@ -1603,9 +1604,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#ec9c5c",
         secondary: "#261f29",
         tertiary: "#994637",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Summer_Festival (4).jpg",
@@ -1618,9 +1619,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#eda560",
         secondary: "#913a30",
         tertiary: "#141d3b",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   },
@@ -1638,9 +1639,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e9cd90",
         secondary: "#3b595f",
         tertiary: "#9bc03e",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Sunrise_Over_Hills (2).jpg",
@@ -1653,9 +1654,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e5b493",
         secondary: "#5984c6",
         tertiary: "#2a4834",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Sunrise_Over_Hills (3).jpg",
@@ -1668,9 +1669,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e9d2b3",
         secondary: "#2b4b3d",
         tertiary: "#e1df38",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Sunrise_Over_Hills (4).jpg",
@@ -1683,9 +1684,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e4b9a3",
         secondary: "#2e5538",
         tertiary: "#6f95da",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Sunrise_Over_Hills (1).jpg",
@@ -1698,9 +1699,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#eacd90",
         secondary: "#3b595f",
         tertiary: "#9ac03c",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Sunrise_Over_Hills (2).jpg",
@@ -1713,9 +1714,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e7b493",
         secondary: "#5984c6",
         tertiary: "#2a4834",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Sunrise_Over_Hills (3).jpg",
@@ -1728,9 +1729,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#ead3b1",
         secondary: "#2b4b3e",
         tertiary: "#7f845b",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Sunrise_Over_Hills (4).jpg",
@@ -1743,9 +1744,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#e6b9a8",
         secondary: "#2e5538",
         tertiary: "#759de1",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   },
@@ -1763,9 +1764,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d7a3a2",
         secondary: "#1b2036",
         tertiary: "#456ccc",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Urban_Crosswalk (2).jpg",
@@ -1778,9 +1779,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d4b293",
         secondary: "#1e2f3f",
         tertiary: "#61bb9c",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Urban_Crosswalk (3).jpg",
@@ -1793,9 +1794,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#ded3be",
         secondary: "#283650",
         tertiary: "#937d70",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Urban_Crosswalk (4).jpg",
@@ -1808,9 +1809,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#daba90",
         secondary: "#222a4c",
         tertiary: "#69b1aa",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "min"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "min"
       },
       {
         original_file_name: "Urban_Crosswalk (1).jpg",
@@ -1823,9 +1824,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d9a4a1",
         secondary: "#1b2036",
         tertiary: "#446bcd",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Urban_Crosswalk (2).jpg",
@@ -1838,9 +1839,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#d5b292",
         secondary: "#1e303f",
         tertiary: "#5fbf9c",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Urban_Crosswalk (3).jpg",
@@ -1853,9 +1854,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#ded2bd",
         secondary: "#283650",
         tertiary: "#947c70",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       },
       {
         original_file_name: "Urban_Crosswalk (4).jpg",
@@ -1868,9 +1869,9 @@ const Anime_Illustration: Record<string, any> = {
         primary: "#dcba8f",
         secondary: "#212a4c",
         tertiary: "#68b2ab",
-        Branch: "Anime",
-        FolderName: "Illustration",
-        Type: "max"
+        branch: "Anime",
+        folder: "Illustration",
+        type: "max"
       }
     ]
   }

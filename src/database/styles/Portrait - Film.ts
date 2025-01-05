@@ -1,4 +1,5 @@
-const Portrait_Film: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Portrait_Film: Record<string, EnvironmentEntry> = {
   Candlelit_Dance: {
     environment_title: "Candlelit_Dance",
     images: [
@@ -13,9 +14,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#d0a26e",
         secondary: "#110b07",
         tertiary: "#704825",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Candlelit_Dance (2).jpg",
@@ -28,9 +29,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#c79f6a",
         secondary: "#583413",
         tertiary: "#07060b",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Candlelit_Dance (3).jpg",
@@ -43,9 +44,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#cd964e",
         secondary: "#170c09",
         tertiary: "#7a491e",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Candlelit_Dance (4).jpg",
@@ -58,9 +59,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#cf9a5c",
         secondary: "#1e0c07",
         tertiary: "#814611",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Candlelit_Dance (1).jpg",
@@ -73,9 +74,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#d0a16d",
         secondary: "#110b07",
         tertiary: "#704824",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Candlelit_Dance (2).jpg",
@@ -88,9 +89,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#c79e68",
         secondary: "#573312",
         tertiary: "#07060b",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Candlelit_Dance (3).jpg",
@@ -103,9 +104,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#ce954d",
         secondary: "#170c09",
         tertiary: "#7a491d",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Candlelit_Dance (4).jpg",
@@ -118,9 +119,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#cf995a",
         secondary: "#1e0c07",
         tertiary: "#814610",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#dad0c0",
         secondary: "#161911",
         tertiary: "#7e7b6f",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Shadows (2).jpg",
@@ -153,9 +154,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#e4decf",
         secondary: "#231f13",
         tertiary: "#8b99a7",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Shadows (3).jpg",
@@ -168,9 +169,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#ebe3d8",
         secondary: "#10130d",
         tertiary: "#716c5c",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Shadows (4).jpg",
@@ -183,9 +184,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#ddd8cf",
         secondary: "#17160e",
         tertiary: "#929b9c",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Shadows (1).jpg",
@@ -198,9 +199,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#d9cfbf",
         secondary: "#161911",
         tertiary: "#7e7b6f",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Dynamic_Shadows (2).jpg",
@@ -213,9 +214,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#e4decf",
         secondary: "#231f13",
         tertiary: "#8b98a7",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Dynamic_Shadows (3).jpg",
@@ -228,9 +229,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#ece3d8",
         secondary: "#10130d",
         tertiary: "#716b5a",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Dynamic_Shadows (4).jpg",
@@ -243,9 +244,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#ddd8cf",
         secondary: "#17160e",
         tertiary: "#929b9d",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#763a14",
         secondary: "#f6d67f",
         tertiary: "#270e06",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Breeze (2).jpg",
@@ -278,9 +279,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#221206",
         secondary: "#f8ecd3",
         tertiary: "#733c1a",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Breeze (3).jpg",
@@ -293,9 +294,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#edd8b3",
         secondary: "#6b3111",
         tertiary: "#d5863a",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Breeze (4).jpg",
@@ -308,9 +309,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#ecd5a9",
         secondary: "#cf7f2b",
         tertiary: "#522810",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Breeze (1).jpg",
@@ -323,9 +324,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#773a14",
         secondary: "#f8d77f",
         tertiary: "#260e05",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Breeze (2).jpg",
@@ -338,9 +339,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#221206",
         secondary: "#f8ecd3",
         tertiary: "#733c19",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Breeze (3).jpg",
@@ -353,9 +354,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#edd8b3",
         secondary: "#682e0e",
         tertiary: "#d58538",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Breeze (4).jpg",
@@ -368,9 +369,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#ecd5a9",
         secondary: "#cf7e2a",
         tertiary: "#522810",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#212720",
         secondary: "#c2c4bc",
         tertiary: "#9fa79f",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Hooded_Mystery (2).jpg",
@@ -403,9 +404,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#bdc7c8",
         secondary: "#1e2521",
         tertiary: "#788785",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Hooded_Mystery (3).jpg",
@@ -418,9 +419,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#212923",
         secondary: "#c5c7bf",
         tertiary: "#969f9b",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Hooded_Mystery (4).jpg",
@@ -433,9 +434,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#222922",
         secondary: "#b4bcbc",
         tertiary: "#7c8684",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Hooded_Mystery (1).jpg",
@@ -448,9 +449,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#212720",
         secondary: "#c1c4bc",
         tertiary: "#9fa79f",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Hooded_Mystery (2).jpg",
@@ -463,9 +464,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#bdc8c8",
         secondary: "#1e2521",
         tertiary: "#788785",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Hooded_Mystery (3).jpg",
@@ -478,9 +479,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#222922",
         secondary: "#c5c6be",
         tertiary: "#969f9b",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Hooded_Mystery (4).jpg",
@@ -493,9 +494,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#222922",
         secondary: "#b4bbbc",
         tertiary: "#7c8784",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#8fafb5",
         secondary: "#5c3b26",
         tertiary: "#e3e3cf",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Ocean_Breeze (2).jpg",
@@ -528,9 +529,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#1f2829",
         secondary: "#563e26",
         tertiary: "#cfcfc0",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Ocean_Breeze (3).jpg",
@@ -543,9 +544,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#7e989f",
         secondary: "#181e20",
         tertiary: "#e7dac7",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Ocean_Breeze (4).jpg",
@@ -558,9 +559,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#a5b8b3",
         secondary: "#171611",
         tertiary: "#5d3b1f",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Ocean_Breeze (1).jpg",
@@ -573,9 +574,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#94b5bb",
         secondary: "#e3e3cf",
         tertiary: "#5d351e",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Ocean_Breeze (2).jpg",
@@ -588,9 +589,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#1f292a",
         secondary: "#cccec0",
         tertiary: "#563d26",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Ocean_Breeze (3).jpg",
@@ -603,9 +604,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#7e989f",
         secondary: "#181e20",
         tertiary: "#e7dac7",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Ocean_Breeze (4).jpg",
@@ -618,9 +619,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#c8cdc0",
         secondary: "#171611",
         tertiary: "#5d3b1f",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#c0c4c0",
         secondary: "#142220",
         tertiary: "#5c8471",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Day_Stroll (2).jpg",
@@ -653,9 +654,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#cccccd",
         secondary: "#152120",
         tertiary: "#6e8c82",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Day_Stroll (3).jpg",
@@ -668,9 +669,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#c7cbcb",
         secondary: "#1e2a25",
         tertiary: "#6f8b7b",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Day_Stroll (4).jpg",
@@ -683,9 +684,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#bfbdba",
         secondary: "#395247",
         tertiary: "#838f84",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Day_Stroll (1).jpg",
@@ -698,9 +699,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#c0c4bf",
         secondary: "#142220",
         tertiary: "#5d8472",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Day_Stroll (2).jpg",
@@ -713,9 +714,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#cccdcd",
         secondary: "#152120",
         tertiary: "#6e8c82",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Day_Stroll (3).jpg",
@@ -728,9 +729,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#c7cbcb",
         secondary: "#1e2a25",
         tertiary: "#6f8b7b",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Day_Stroll (4).jpg",
@@ -743,9 +744,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#bfbdba",
         secondary: "#395247",
         tertiary: "#838f83",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#dfa849",
         secondary: "#292713",
         tertiary: "#9b6b29",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Sunlit_Laughter (2).jpg",
@@ -778,9 +779,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#e2b975",
         secondary: "#5d451c",
         tertiary: "#23200d",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Sunlit_Laughter (3).jpg",
@@ -793,9 +794,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#6e5219",
         secondary: "#f1e1b5",
         tertiary: "#282913",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Sunlit_Laughter (4).jpg",
@@ -808,9 +809,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#e5ac3f",
         secondary: "#634d24",
         tertiary: "#1a2011",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Sunlit_Laughter (1).jpg",
@@ -823,9 +824,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#e0a847",
         secondary: "#292713",
         tertiary: "#9b6a28",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Sunlit_Laughter (2).jpg",
@@ -838,9 +839,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#e2b974",
         secondary: "#5d451b",
         tertiary: "#23200d",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Sunlit_Laughter (3).jpg",
@@ -853,9 +854,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#6e5219",
         secondary: "#f2e1b5",
         tertiary: "#282913",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       },
       {
         original_file_name: "Sunlit_Laughter (4).jpg",
@@ -868,9 +869,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#e6ac3f",
         secondary: "#634d23",
         tertiary: "#1a2011",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#8d877c",
         secondary: "#e1d9ce",
         tertiary: "#17221f",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Urban_Sprint_A_runner_captured_midstride_thro_0.jpg (0).jpg",
@@ -903,9 +904,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#8d877c",
         secondary: "#e1dace",
         tertiary: "#172220",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   },
@@ -923,9 +924,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#8c867b",
         secondary: "#dac9b3",
         tertiary: "#111d1f",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Urban_Sprint_A_runner_captured_midstride_thro_1.jpg (0).jpg",
@@ -938,9 +939,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#8c867b",
         secondary: "#dac8b2",
         tertiary: "#111d20",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   },
@@ -958,9 +959,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#1c1d18",
         secondary: "#aea594",
         tertiary: "#593924",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Urban_Sprint_A_runner_captured_midstride_thro_2.jpg (0).jpg",
@@ -973,9 +974,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#1c1d18",
         secondary: "#aea594",
         tertiary: "#593924",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   },
@@ -993,9 +994,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#d5c6b6",
         secondary: "#272b28",
         tertiary: "#9c7f68",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "Urban_Sprint_A_runner_captured_midstride_thro_3.jpg (0).jpg",
@@ -1008,9 +1009,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#d5c6b6",
         secondary: "#272b27",
         tertiary: "#9c7f67",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   },
@@ -1028,9 +1029,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#e2ddd4",
         secondary: "#23231c",
         tertiary: "#908270",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "WindSwept_Elegance_A_models_dress_flowing_in_0.jpg (0).jpg",
@@ -1043,9 +1044,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#e2ddd4",
         secondary: "#23231c",
         tertiary: "#90816f",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   },
@@ -1063,9 +1064,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#cfd7d5",
         secondary: "#1d1c12",
         tertiary: "#523417",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "WindSwept_Elegance_A_models_dress_flowing_in_1.jpg (0).jpg",
@@ -1078,9 +1079,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#d0d7d5",
         secondary: "#1d1c12",
         tertiary: "#523416",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   },
@@ -1098,9 +1099,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#533f26",
         secondary: "#d6d8cf",
         tertiary: "#201a15",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "WindSwept_Elegance_A_models_dress_flowing_in_2.jpg (0).jpg",
@@ -1113,9 +1114,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#533f25",
         secondary: "#d6d8d0",
         tertiary: "#201a15",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   },
@@ -1133,9 +1134,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#ded8c8",
         secondary: "#acaaa6",
         tertiary: "#1a1b13",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Film",
+        type: "min"
       },
       {
         original_file_name: "WindSwept_Elegance_A_models_dress_flowing_in_3.jpg (0).jpg",
@@ -1148,9 +1149,9 @@ const Portrait_Film: Record<string, any> = {
         primary: "#ded7c8",
         secondary: "#acaaa6",
         tertiary: "#1a1b13",
-        Branch: "Portrait",
-        FolderName: "Film",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Film",
+        type: "max"
       }
     ]
   }

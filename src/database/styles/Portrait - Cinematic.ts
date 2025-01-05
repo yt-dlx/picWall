@@ -1,4 +1,5 @@
-const Portrait_Cinematic: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Portrait_Cinematic: Record<string, EnvironmentEntry> = {
   Candlelit_Mystery: {
     environment_title: "Candlelit_Mystery",
     images: [
@@ -13,9 +14,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#bf6721",
         secondary: "#1d0d06",
         tertiary: "#743611",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Candlelit_Mystery (2).jpg",
@@ -28,9 +29,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#bd6c30",
         secondary: "#1f0c08",
         tertiary: "#7a3c1b",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Candlelit_Mystery (3).jpg",
@@ -43,9 +44,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#b36b40",
         secondary: "#1d0d07",
         tertiary: "#763a18",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Candlelit_Mystery (4).jpg",
@@ -58,9 +59,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#cd925b",
         secondary: "#21100c",
         tertiary: "#7c411f",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Candlelit_Mystery (1).jpg",
@@ -73,9 +74,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#bf6721",
         secondary: "#1d0d06",
         tertiary: "#743611",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Candlelit_Mystery (2).jpg",
@@ -88,9 +89,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#bc6b2f",
         secondary: "#1f0c08",
         tertiary: "#7a3c1a",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Candlelit_Mystery (3).jpg",
@@ -103,9 +104,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#b36b40",
         secondary: "#1d0d07",
         tertiary: "#763a18",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Candlelit_Mystery (4).jpg",
@@ -118,9 +119,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#cd925a",
         secondary: "#21100c",
         tertiary: "#7c411f",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#abb1af",
         secondary: "#302622",
         tertiary: "#58321d",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Desert_Wanderer (2).jpg",
@@ -153,9 +154,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d29f6d",
         secondary: "#241c1a",
         tertiary: "#708b99",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Desert_Wanderer (3).jpg",
@@ -168,9 +169,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#e3c4a3",
         secondary: "#a9b8bd",
         tertiary: "#4a2f20",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Desert_Wanderer (4).jpg",
@@ -183,9 +184,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c79f76",
         secondary: "#261811",
         tertiary: "#5b341a",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Desert_Wanderer (1).jpg",
@@ -198,9 +199,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#abb1af",
         secondary: "#302622",
         tertiary: "#58321d",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Desert_Wanderer (2).jpg",
@@ -213,9 +214,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d29f6d",
         secondary: "#241d1a",
         tertiary: "#708b99",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Desert_Wanderer (3).jpg",
@@ -228,9 +229,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#e3c4a3",
         secondary: "#a9b8bd",
         tertiary: "#4a2f20",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Desert_Wanderer (4).jpg",
@@ -243,9 +244,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c69e76",
         secondary: "#261811",
         tertiary: "#5b341a",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#ba9e7b",
         secondary: "#1c1b1c",
         tertiary: "#704828",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Edge_of_the_Cliff (2).jpg",
@@ -278,9 +279,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d2ba94",
         secondary: "#1c1817",
         tertiary: "#766454",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Edge_of_the_Cliff (3).jpg",
@@ -293,9 +294,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c9b99f",
         secondary: "#1f1d1b",
         tertiary: "#76614d",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Edge_of_the_Cliff (4).jpg",
@@ -308,9 +309,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#1e1e1c",
         secondary: "#ccb796",
         tertiary: "#76624a",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Edge_of_the_Cliff (1).jpg",
@@ -323,9 +324,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#bb9e7a",
         secondary: "#1c1b1c",
         tertiary: "#6f4827",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Edge_of_the_Cliff (2).jpg",
@@ -338,9 +339,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d2ba94",
         secondary: "#1c1817",
         tertiary: "#766455",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Edge_of_the_Cliff (3).jpg",
@@ -353,9 +354,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#cab99f",
         secondary: "#1f1d1b",
         tertiary: "#76614d",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Edge_of_the_Cliff (4).jpg",
@@ -368,9 +369,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#1e1e1c",
         secondary: "#ccb795",
         tertiary: "#766249",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c9bd93",
         secondary: "#17170f",
         tertiary: "#6f6845",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Forest_Shadows (2).jpg",
@@ -403,9 +404,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#cfba92",
         secondary: "#1c1e10",
         tertiary: "#766546",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Forest_Shadows (3).jpg",
@@ -418,9 +419,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d1cba6",
         secondary: "#1e1f16",
         tertiary: "#756744",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Forest_Shadows (4).jpg",
@@ -433,9 +434,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#ccb286",
         secondary: "#15130b",
         tertiary: "#715b36",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Forest_Shadows (1).jpg",
@@ -448,9 +449,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c9bd92",
         secondary: "#17170f",
         tertiary: "#706845",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Forest_Shadows (2).jpg",
@@ -463,9 +464,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#cfb891",
         secondary: "#1c1e10",
         tertiary: "#766545",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Forest_Shadows (3).jpg",
@@ -478,9 +479,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d2cba6",
         secondary: "#1e1f16",
         tertiary: "#766744",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Forest_Shadows (4).jpg",
@@ -493,9 +494,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#cdb285",
         secondary: "#15130b",
         tertiary: "#715b36",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#cf823c",
         secondary: "#472415",
         tertiary: "#965731",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Gaze (2).jpg",
@@ -528,9 +529,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#e29b53",
         secondary: "#462211",
         tertiary: "#934f27",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Gaze (3).jpg",
@@ -543,9 +544,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#eeb76a",
         secondary: "#4d2610",
         tertiary: "#944f1b",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Gaze (4).jpg",
@@ -558,9 +559,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#e69d50",
         secondary: "#25120a",
         tertiary: "#944c1a",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Gaze (1).jpg",
@@ -573,9 +574,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#cf823c",
         secondary: "#472516",
         tertiary: "#965630",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Gaze (2).jpg",
@@ -588,9 +589,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#e29b52",
         secondary: "#462211",
         tertiary: "#924e26",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Gaze (3).jpg",
@@ -603,9 +604,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#eeb76a",
         secondary: "#4d2610",
         tertiary: "#95501a",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Gaze (4).jpg",
@@ -618,9 +619,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#e79d50",
         secondary: "#25120a",
         tertiary: "#934b19",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d4a67d",
         secondary: "#825332",
         tertiary: "#170a05",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Golden_Spotlight (2).jpg",
@@ -653,9 +654,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d29e6a",
         secondary: "#1f0d07",
         tertiary: "#78411e",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Golden_Spotlight (3).jpg",
@@ -668,9 +669,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#cf9862",
         secondary: "#1a0a05",
         tertiary: "#7b4722",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Golden_Spotlight (4).jpg",
@@ -683,9 +684,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d4a376",
         secondary: "#18100f",
         tertiary: "#824721",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Golden_Spotlight (1).jpg",
@@ -698,9 +699,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d4a47b",
         secondary: "#825331",
         tertiary: "#170a05",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Golden_Spotlight (2).jpg",
@@ -713,9 +714,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d39e69",
         secondary: "#1f0d07",
         tertiary: "#78411d",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Golden_Spotlight (3).jpg",
@@ -728,9 +729,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d09760",
         secondary: "#1a0a05",
         tertiary: "#7b4721",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Golden_Spotlight (4).jpg",
@@ -743,9 +744,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d5a275",
         secondary: "#18100f",
         tertiary: "#814620",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d2cb98",
         secondary: "#15181c",
         tertiary: "#695543",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Reflection (2).jpg",
@@ -778,9 +779,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#15171b",
         secondary: "#6fa1ba",
         tertiary: "#c0b8a1",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Reflection (3).jpg",
@@ -793,9 +794,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c3ad94",
         secondary: "#161518",
         tertiary: "#6fa1b7",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Reflection (4).jpg",
@@ -808,9 +809,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#bb8e64",
         secondary: "#131417",
         tertiary: "#6d4f3e",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Reflection (1).jpg",
@@ -823,9 +824,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#d2cb98",
         secondary: "#15181c",
         tertiary: "#695543",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Reflection (2).jpg",
@@ -838,9 +839,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#bfb69f",
         secondary: "#15171b",
         tertiary: "#73a6bf",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Reflection (3).jpg",
@@ -853,9 +854,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c3ad93",
         secondary: "#161518",
         tertiary: "#6fa1b8",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Reflection (4).jpg",
@@ -868,9 +869,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#bb8e63",
         secondary: "#131417",
         tertiary: "#6c4e3d",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#b18262",
         secondary: "#070605",
         tertiary: "#593e2d",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Shadow_and_Spotlight (2).jpg",
@@ -903,9 +904,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#a97043",
         secondary: "#0b0808",
         tertiary: "#633f25",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Shadow_and_Spotlight (3).jpg",
@@ -918,9 +919,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#b68b70",
         secondary: "#070605",
         tertiary: "#5a4134",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Shadow_and_Spotlight (4).jpg",
@@ -933,9 +934,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c29d7b",
         secondary: "#0c0807",
         tertiary: "#614738",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Shadow_and_Spotlight (1).jpg",
@@ -948,9 +949,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#b08261",
         secondary: "#070605",
         tertiary: "#593d2c",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Shadow_and_Spotlight (2).jpg",
@@ -963,9 +964,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#a97043",
         secondary: "#0b0808",
         tertiary: "#624025",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Shadow_and_Spotlight (3).jpg",
@@ -978,9 +979,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#b58c6f",
         secondary: "#070605",
         tertiary: "#5b4134",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Shadow_and_Spotlight (4).jpg",
@@ -993,9 +994,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c19d7a",
         secondary: "#0c0807",
         tertiary: "#614737",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#bfb3a7",
         secondary: "#161314",
         tertiary: "#6b5a4f",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Smoke_and_Shadows (2).jpg",
@@ -1028,9 +1029,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c2bfaf",
         secondary: "#141114",
         tertiary: "#839497",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Smoke_and_Shadows (3).jpg",
@@ -1043,9 +1044,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c7baa9",
         secondary: "#6d6860",
         tertiary: "#0f1216",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Smoke_and_Shadows (4).jpg",
@@ -1058,9 +1059,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#beb3af",
         secondary: "#0d0f15",
         tertiary: "#8193a4",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Smoke_and_Shadows (1).jpg",
@@ -1073,9 +1074,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#bfb2a6",
         secondary: "#161314",
         tertiary: "#6b5a4f",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Smoke_and_Shadows (2).jpg",
@@ -1088,9 +1089,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c2beaf",
         secondary: "#141114",
         tertiary: "#839499",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Smoke_and_Shadows (3).jpg",
@@ -1103,9 +1104,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c7baa7",
         secondary: "#6d685f",
         tertiary: "#0f1216",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Smoke_and_Shadows (4).jpg",
@@ -1118,9 +1119,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#beb2af",
         secondary: "#0d0f14",
         tertiary: "#8193a4",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c3a684",
         secondary: "#111111",
         tertiary: "#68513a",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Urban_Noir (2).jpg",
@@ -1153,9 +1154,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#0e1012",
         secondary: "#b7ac99",
         tertiary: "#605b50",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Urban_Noir (3).jpg",
@@ -1168,9 +1169,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c8a56b",
         secondary: "#0f100e",
         tertiary: "#674f2b",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Urban_Noir (4).jpg",
@@ -1183,9 +1184,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c8ad86",
         secondary: "#0d100f",
         tertiary: "#614c2d",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "min"
       },
       {
         original_file_name: "Urban_Noir (1).jpg",
@@ -1198,9 +1199,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c3a682",
         secondary: "#111111",
         tertiary: "#685139",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Urban_Noir (2).jpg",
@@ -1213,9 +1214,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#0e1112",
         secondary: "#b7ab97",
         tertiary: "#605b50",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Urban_Noir (3).jpg",
@@ -1228,9 +1229,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c8a46a",
         secondary: "#0f100e",
         tertiary: "#684f2a",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       },
       {
         original_file_name: "Urban_Noir (4).jpg",
@@ -1243,9 +1244,9 @@ const Portrait_Cinematic: Record<string, any> = {
         primary: "#c8ac84",
         secondary: "#0d1010",
         tertiary: "#614b2c",
-        Branch: "Portrait",
-        FolderName: "Cinematic",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Cinematic",
+        type: "max"
       }
     ]
   }

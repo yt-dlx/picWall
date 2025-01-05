@@ -1,4 +1,5 @@
-const Portrait_Bokeh: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Portrait_Bokeh: Record<string, EnvironmentEntry> = {
   Evening_Elegance: {
     environment_title: "Evening_Elegance",
     images: [
@@ -13,9 +14,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#db9550",
         secondary: "#7b4925",
         tertiary: "#0e0c0e",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Evening_Elegance (2).jpg",
@@ -28,9 +29,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#da9d5b",
         secondary: "#180e0b",
         tertiary: "#7f4823",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Evening_Elegance (3).jpg",
@@ -43,9 +44,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#dca366",
         secondary: "#733f19",
         tertiary: "#140a07",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Evening_Elegance (4).jpg",
@@ -58,9 +59,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#dd9c5a",
         secondary: "#150c09",
         tertiary: "#753f19",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Evening_Elegance (1).jpg",
@@ -73,9 +74,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#db944f",
         secondary: "#7b4925",
         tertiary: "#0e0c0e",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Evening_Elegance (2).jpg",
@@ -88,9 +89,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#db9c59",
         secondary: "#180e0b",
         tertiary: "#7f4723",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Evening_Elegance (3).jpg",
@@ -103,9 +104,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#dca265",
         secondary: "#733e18",
         tertiary: "#140a07",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Evening_Elegance (4).jpg",
@@ -118,9 +119,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#de9c59",
         secondary: "#150c0a",
         tertiary: "#753e19",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#f3d396",
         secondary: "#633812",
         tertiary: "#d78a38",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Glow (2).jpg",
@@ -153,9 +154,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#f4d493",
         secondary: "#6c3a13",
         tertiary: "#e19544",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Glow (3).jpg",
@@ -168,9 +169,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#754019",
         secondary: "#f6d68e",
         tertiary: "#e49955",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Glow (4).jpg",
@@ -183,9 +184,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#5d3515",
         secondary: "#f3d598",
         tertiary: "#d48835",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Glow (1).jpg",
@@ -198,9 +199,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#f4d395",
         secondary: "#633712",
         tertiary: "#d68a37",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Glow (2).jpg",
@@ -213,9 +214,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#f4d493",
         secondary: "#6b3a12",
         tertiary: "#e29543",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Glow (3).jpg",
@@ -228,9 +229,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#754019",
         secondary: "#f7d68d",
         tertiary: "#e59853",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Glow (4).jpg",
@@ -243,9 +244,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#5e3515",
         secondary: "#f3d598",
         tertiary: "#d58834",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#d2c9be",
         secondary: "#272723",
         tertiary: "#85705e",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Day_Reflection (2).jpg",
@@ -278,9 +279,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#9fb8c6",
         secondary: "#31231c",
         tertiary: "#d7cdbe",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Day_Reflection (3).jpg",
@@ -293,9 +294,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#32241d",
         secondary: "#86a0b1",
         tertiary: "#d7cdbe",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Day_Reflection (4).jpg",
@@ -308,9 +309,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#c7bcb2",
         secondary: "#96a5a6",
         tertiary: "#1b1c1f",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Day_Reflection (1).jpg",
@@ -323,9 +324,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#d2c8be",
         secondary: "#272723",
         tertiary: "#85715f",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Day_Reflection (2).jpg",
@@ -338,9 +339,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#9fb8c6",
         secondary: "#31241c",
         tertiary: "#d7cdbd",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Day_Reflection (3).jpg",
@@ -353,9 +354,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#32241d",
         secondary: "#86a0b1",
         tertiary: "#d7cdbd",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Day_Reflection (4).jpg",
@@ -368,9 +369,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#c7bcb2",
         secondary: "#96a4a6",
         tertiary: "#1b1c1f",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#604833",
         secondary: "#d9b282",
         tertiary: "#201e17",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Rustic_Charm (2).jpg",
@@ -403,9 +404,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#dbb07f",
         secondary: "#322921",
         tertiary: "#966640",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Rustic_Charm (3).jpg",
@@ -418,9 +419,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#675f2e",
         secondary: "#dfb892",
         tertiary: "#8899b1",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Rustic_Charm (4).jpg",
@@ -433,9 +434,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#9d7446",
         secondary: "#e1ddd3",
         tertiary: "#643017",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Rustic_Charm (1).jpg",
@@ -448,9 +449,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#604833",
         secondary: "#d9b283",
         tertiary: "#201e17",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Rustic_Charm (2).jpg",
@@ -463,9 +464,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#dbaf7e",
         secondary: "#322921",
         tertiary: "#96653f",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Rustic_Charm (3).jpg",
@@ -478,9 +479,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#675f2e",
         secondary: "#dfb792",
         tertiary: "#8799b1",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Rustic_Charm (4).jpg",
@@ -493,9 +494,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#9d7445",
         secondary: "#e1ddd3",
         tertiary: "#2c2321",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#aa865f",
         secondary: "#15222d",
         tertiary: "#667773",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Starry_Night_Gaze (2).jpg",
@@ -528,9 +529,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#ca9263",
         secondary: "#151b25",
         tertiary: "#6c4a38",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Starry_Night_Gaze (3).jpg",
@@ -543,9 +544,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#111a27",
         secondary: "#c38757",
         tertiary: "#5d3929",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Starry_Night_Gaze (4).jpg",
@@ -558,9 +559,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#c68a64",
         secondary: "#131a22",
         tertiary: "#134a65",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Starry_Night_Gaze (1).jpg",
@@ -573,9 +574,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#aa855d",
         secondary: "#15222c",
         tertiary: "#667773",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Starry_Night_Gaze (2).jpg",
@@ -588,9 +589,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#ca9262",
         secondary: "#151b25",
         tertiary: "#6c4a38",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Starry_Night_Gaze (3).jpg",
@@ -603,9 +604,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#111a27",
         secondary: "#c48656",
         tertiary: "#5e3929",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Starry_Night_Gaze (4).jpg",
@@ -618,9 +619,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#c68a63",
         secondary: "#131a23",
         tertiary: "#124966",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#df9b58",
         secondary: "#1b181f",
         tertiary: "#885033",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Street_Performer (2).jpg",
@@ -653,9 +654,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#d8954e",
         secondary: "#18141d",
         tertiary: "#815334",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Street_Performer (3).jpg",
@@ -668,9 +669,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#daaa7c",
         secondary: "#1c151a",
         tertiary: "#804c31",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Street_Performer (4).jpg",
@@ -683,9 +684,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#deb089",
         secondary: "#221414",
         tertiary: "#915a40",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Street_Performer (1).jpg",
@@ -698,9 +699,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#df9b57",
         secondary: "#1b181f",
         tertiary: "#885032",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Street_Performer (2).jpg",
@@ -713,9 +714,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#d8944c",
         secondary: "#18141d",
         tertiary: "#815333",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Street_Performer (3).jpg",
@@ -728,9 +729,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#daa97b",
         secondary: "#1c151a",
         tertiary: "#804c31",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Street_Performer (4).jpg",
@@ -743,9 +744,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#deb087",
         secondary: "#211414",
         tertiary: "#915a40",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#5e4725",
         secondary: "#dec68c",
         tertiary: "#1e210a",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Sunlit_Smiles (2).jpg",
@@ -778,9 +779,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#d7be79",
         secondary: "#2a2a11",
         tertiary: "#897030",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Sunlit_Smiles (3).jpg",
@@ -793,9 +794,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#dab587",
         secondary: "#2c2810",
         tertiary: "#916a3a",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Sunlit_Smiles (4).jpg",
@@ -808,9 +809,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#d9b680",
         secondary: "#322e15",
         tertiary: "#967349",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Sunlit_Smiles (1).jpg",
@@ -823,9 +824,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#5e4725",
         secondary: "#dfc68c",
         tertiary: "#1e210a",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Sunlit_Smiles (2).jpg",
@@ -838,9 +839,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#d8bd79",
         secondary: "#2a2a11",
         tertiary: "#896f2f",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Sunlit_Smiles (3).jpg",
@@ -853,9 +854,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#dab486",
         secondary: "#2c2810",
         tertiary: "#916a38",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Sunlit_Smiles (4).jpg",
@@ -868,9 +869,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#d9b57f",
         secondary: "#322e15",
         tertiary: "#967349",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#d0ad89",
         secondary: "#191f2b",
         tertiary: "#737167",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Urban_Elegance (2).jpg",
@@ -903,9 +904,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#ca9a74",
         secondary: "#1c1c22",
         tertiary: "#546878",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Urban_Elegance (3).jpg",
@@ -918,9 +919,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#d5b797",
         secondary: "#131720",
         tertiary: "#63b6c1",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Urban_Elegance (4).jpg",
@@ -933,9 +934,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#daab81",
         secondary: "#11141e",
         tertiary: "#104f72",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Urban_Elegance (1).jpg",
@@ -948,9 +949,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#d0ac88",
         secondary: "#1a1f2b",
         tertiary: "#737067",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Urban_Elegance (2).jpg",
@@ -963,9 +964,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#cb9974",
         secondary: "#1c1c22",
         tertiary: "#556978",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Urban_Elegance (3).jpg",
@@ -978,9 +979,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#d5b797",
         secondary: "#131720",
         tertiary: "#62b7c2",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Urban_Elegance (4).jpg",
@@ -993,9 +994,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#daaa80",
         secondary: "#11141e",
         tertiary: "#104f72",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#e79c4b",
         secondary: "#56bdea",
         tertiary: "#406dba",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Vibrant_Festival (2).jpg",
@@ -1028,9 +1029,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#de6735",
         secondary: "#1c1821",
         tertiary: "#8a3e32",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Vibrant_Festival (3).jpg",
@@ -1043,9 +1044,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#dd6a3a",
         secondary: "#8f432c",
         tertiary: "#131322",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Vibrant_Festival (4).jpg",
@@ -1058,9 +1059,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#df5b24",
         secondary: "#211621",
         tertiary: "#933825",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Vibrant_Festival (1).jpg",
@@ -1073,9 +1074,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#e79c4a",
         secondary: "#55bceb",
         tertiary: "#406cba",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Vibrant_Festival (2).jpg",
@@ -1088,9 +1089,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#de6634",
         secondary: "#1b1821",
         tertiary: "#8a3d31",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Vibrant_Festival (3).jpg",
@@ -1103,9 +1104,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#dd6938",
         secondary: "#8f432c",
         tertiary: "#131322",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Vibrant_Festival (4).jpg",
@@ -1118,9 +1119,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#e05a23",
         secondary: "#201721",
         tertiary: "#933824",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#e1bb8f",
         secondary: "#5e5943",
         tertiary: "#1b262e",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Wanderers_Journey (2).jpg",
@@ -1153,9 +1154,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#d4b68c",
         secondary: "#263535",
         tertiary: "#907247",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Wanderers_Journey (3).jpg",
@@ -1168,9 +1169,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#414b42",
         secondary: "#cd9f70",
         tertiary: "#8e6837",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Wanderers_Journey (4).jpg",
@@ -1183,9 +1184,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#4b4b3e",
         secondary: "#d7b78c",
         tertiary: "#958058",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Wanderers_Journey (1).jpg",
@@ -1198,9 +1199,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#e1bb8f",
         secondary: "#5e5943",
         tertiary: "#1a272e",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Wanderers_Journey (2).jpg",
@@ -1213,9 +1214,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#d4b58b",
         secondary: "#263534",
         tertiary: "#917246",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Wanderers_Journey (3).jpg",
@@ -1228,9 +1229,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#414b42",
         secondary: "#cd9f6f",
         tertiary: "#8e6837",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Wanderers_Journey (4).jpg",
@@ -1243,9 +1244,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#4b4b3e",
         secondary: "#d8b78c",
         tertiary: "#957f58",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       }
     ]
   },
@@ -1263,9 +1264,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#a9a7a6",
         secondary: "#1c1213",
         tertiary: "#513832",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Winter_Warmth (2).jpg",
@@ -1278,9 +1279,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#b2b3b6",
         secondary: "#32261e",
         tertiary: "#623c28",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Winter_Warmth (3).jpg",
@@ -1293,9 +1294,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#dcccc3",
         secondary: "#868280",
         tertiary: "#1d2122",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Winter_Warmth (4).jpg",
@@ -1308,9 +1309,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#b7b5b6",
         secondary: "#202227",
         tertiary: "#5f4940",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "min"
       },
       {
         original_file_name: "Winter_Warmth (1).jpg",
@@ -1323,9 +1324,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#a9a7a6",
         secondary: "#1c1213",
         tertiary: "#513832",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Winter_Warmth (2).jpg",
@@ -1338,9 +1339,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#b2b4b7",
         secondary: "#33261e",
         tertiary: "#623c28",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Winter_Warmth (3).jpg",
@@ -1353,9 +1354,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#282d2e",
         secondary: "#717171",
         tertiary: "#e0d1c9",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       },
       {
         original_file_name: "Winter_Warmth (4).jpg",
@@ -1368,9 +1369,9 @@ const Portrait_Bokeh: Record<string, any> = {
         primary: "#b7b5b6",
         secondary: "#202227",
         tertiary: "#5f493f",
-        Branch: "Portrait",
-        FolderName: "Bokeh",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Bokeh",
+        type: "max"
       }
     ]
   }

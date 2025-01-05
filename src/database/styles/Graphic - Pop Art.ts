@@ -1,4 +1,5 @@
-const Graphic_PopArt: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Graphic_PopArt: Record<string, EnvironmentEntry> = {
   Colorful_Lips: {
     environment_title: "Colorful_Lips",
     images: [
@@ -13,9 +14,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#2a2848",
         secondary: "#ca1e36",
         tertiary: "#f8bf9e",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Colorful_Lips (2).jpg",
@@ -28,9 +29,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#322536",
         secondary: "#d11b57",
         tertiary: "#fac6a5",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Colorful_Lips (3).jpg",
@@ -43,9 +44,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#245581",
         secondary: "#14bbeb",
         tertiary: "#ed446d",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Colorful_Lips (4).jpg",
@@ -58,9 +59,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#351522",
         secondary: "#cf244c",
         tertiary: "#f8bf9b",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Colorful_Lips (1).jpg",
@@ -73,9 +74,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#2a2848",
         secondary: "#cb1e36",
         tertiary: "#f8bf9e",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Colorful_Lips (2).jpg",
@@ -88,9 +89,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#312536",
         secondary: "#d21a57",
         tertiary: "#fac6a5",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Colorful_Lips (3).jpg",
@@ -103,9 +104,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#205682",
         secondary: "#13bcec",
         tertiary: "#ef436e",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Colorful_Lips (4).jpg",
@@ -118,9 +119,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#351622",
         secondary: "#d0234b",
         tertiary: "#f8bf9b",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#293939",
         secondary: "#da2152",
         tertiary: "#e0e5e4",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Comic_Explosion (2).jpg",
@@ -153,9 +154,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#303536",
         secondary: "#e9d459",
         tertiary: "#f0682a",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Comic_Explosion (3).jpg",
@@ -168,9 +169,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#463f78",
         secondary: "#2ec1e7",
         tertiary: "#f1e125",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Comic_Explosion (4).jpg",
@@ -183,9 +184,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#f2e44d",
         secondary: "#221e25",
         tertiary: "#dd2383",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Comic_Explosion (1).jpg",
@@ -198,9 +199,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#273738",
         secondary: "#dd2051",
         tertiary: "#e1e7e7",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Comic_Explosion (2).jpg",
@@ -213,9 +214,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#313534",
         secondary: "#ead85a",
         tertiary: "#f36829",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Comic_Explosion (3).jpg",
@@ -228,9 +229,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#453f7a",
         secondary: "#2dc1e7",
         tertiary: "#f2e120",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Comic_Explosion (4).jpg",
@@ -243,9 +244,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#f3e449",
         secondary: "#201d24",
         tertiary: "#de2283",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#f2d96e",
         secondary: "#1bcbec",
         tertiary: "#2b1930",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Typography (2).jpg",
@@ -278,9 +279,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#edb629",
         secondary: "#2cc4ea",
         tertiary: "#161b3a",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Typography (3).jpg",
@@ -293,9 +294,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#da2573",
         secondary: "#12161a",
         tertiary: "#1ec6e2",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Typography (4).jpg",
@@ -308,9 +309,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#1ec9ec",
         secondary: "#ee2a83",
         tertiary: "#f0de59",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Typography (1).jpg",
@@ -323,9 +324,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#f3d96a",
         secondary: "#19ccec",
         tertiary: "#2b1a30",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Dynamic_Typography (2).jpg",
@@ -338,9 +339,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#eeb527",
         secondary: "#2ac5eb",
         tertiary: "#151b3b",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Dynamic_Typography (3).jpg",
@@ -353,9 +354,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#db2473",
         secondary: "#111619",
         tertiary: "#1dc7e3",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Dynamic_Typography (4).jpg",
@@ -368,9 +369,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#1ccaed",
         secondary: "#ef2984",
         tertiary: "#f1de56",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#df6754",
         secondary: "#4cb8b8",
         tertiary: "#27243a",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Halftone_Cityscape (2).jpg",
@@ -403,9 +404,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#e6a257",
         secondary: "#292b4e",
         tertiary: "#238a91",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Halftone_Cityscape (3).jpg",
@@ -418,9 +419,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#e7a55c",
         secondary: "#272c49",
         tertiary: "#4da390",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Halftone_Cityscape (4).jpg",
@@ -433,9 +434,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#deaa73",
         secondary: "#74c3a1",
         tertiary: "#25a8b6",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Halftone_Cityscape (1).jpg",
@@ -448,9 +449,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#e06553",
         secondary: "#4cb8b8",
         tertiary: "#2d253b",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Halftone_Cityscape (2).jpg",
@@ -463,9 +464,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#e8a256",
         secondary: "#282b4f",
         tertiary: "#238b91",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Halftone_Cityscape (3).jpg",
@@ -478,9 +479,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#e7a55b",
         secondary: "#272c49",
         tertiary: "#4ca290",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Halftone_Cityscape (4).jpg",
@@ -493,9 +494,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#dfa972",
         secondary: "#74c3a2",
         tertiary: "#25a8b6",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#df456d",
         secondary: "#35cee5",
         tertiary: "#601564",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Neon_Ice_Cream (2).jpg",
@@ -528,9 +529,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#d54e66",
         secondary: "#181340",
         tertiary: "#37c4e4",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Neon_Ice_Cream (3).jpg",
@@ -543,9 +544,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#eca26b",
         secondary: "#47d0e2",
         tertiary: "#301b53",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Neon_Ice_Cream (4).jpg",
@@ -558,9 +559,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#e44b86",
         secondary: "#530d43",
         tertiary: "#3ac5dd",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Neon_Ice_Cream (1).jpg",
@@ -573,9 +574,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#e0446d",
         secondary: "#33cfe7",
         tertiary: "#601564",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Neon_Ice_Cream (2).jpg",
@@ -588,9 +589,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#d74d65",
         secondary: "#191440",
         tertiary: "#34c5e5",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Neon_Ice_Cream (3).jpg",
@@ -603,9 +604,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#eda16b",
         secondary: "#46d1e5",
         tertiary: "#301b53",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Neon_Ice_Cream (4).jpg",
@@ -618,9 +619,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#e64b85",
         secondary: "#540d43",
         tertiary: "#38c5de",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#260f0e",
         secondary: "#d33047",
         tertiary: "#eb7c2d",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Pop_Portrait (2).jpg",
@@ -653,9 +654,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#261a22",
         secondary: "#d72458",
         tertiary: "#ea7938",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Pop_Portrait (3).jpg",
@@ -668,9 +669,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#22222c",
         secondary: "#c73224",
         tertiary: "#f9e0b7",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Pop_Portrait (4).jpg",
@@ -683,9 +684,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#2e110e",
         secondary: "#a72f19",
         tertiary: "#f7c39a",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Pop_Portrait (1).jpg",
@@ -698,9 +699,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#250d0d",
         secondary: "#d43046",
         tertiary: "#ed7c2d",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Pop_Portrait (2).jpg",
@@ -713,9 +714,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#251922",
         secondary: "#d72457",
         tertiary: "#ea7937",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Pop_Portrait (3).jpg",
@@ -728,9 +729,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#20222b",
         secondary: "#c83224",
         tertiary: "#f9deb5",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Pop_Portrait (4).jpg",
@@ -743,9 +744,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#2e100d",
         secondary: "#a82f18",
         tertiary: "#f7c39a",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#ac2848",
         secondary: "#f8b831",
         tertiary: "#9fb9cf",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Retro_Superhero (2).jpg",
@@ -778,9 +779,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#402118",
         secondary: "#eb322b",
         tertiary: "#1196d0",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Retro_Superhero (3).jpg",
@@ -793,9 +794,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#138eb5",
         secondary: "#c4181e",
         tertiary: "#c4d35f",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Retro_Superhero (4).jpg",
@@ -808,9 +809,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#202428",
         secondary: "#db2322",
         tertiary: "#f6841a",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Retro_Superhero (1).jpg",
@@ -823,9 +824,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#ae2747",
         secondary: "#f9b831",
         tertiary: "#a1b8cf",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Retro_Superhero (2).jpg",
@@ -838,9 +839,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#3e2016",
         secondary: "#eb322a",
         tertiary: "#1096d1",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Retro_Superhero (3).jpg",
@@ -853,9 +854,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#118eb6",
         secondary: "#c7151c",
         tertiary: "#c4d35f",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Retro_Superhero (4).jpg",
@@ -868,9 +869,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#202123",
         secondary: "#df2221",
         tertiary: "#f88419",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#193f4e",
         secondary: "#f24244",
         tertiary: "#ded889",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Retro_Telephone (2).jpg",
@@ -903,9 +904,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#1f1815",
         secondary: "#e63f43",
         tertiary: "#5eb2b5",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Retro_Telephone (3).jpg",
@@ -918,9 +919,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#2d2f33",
         secondary: "#d92f4e",
         tertiary: "#f8eccf",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Retro_Telephone (4).jpg",
@@ -933,9 +934,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#289dad",
         secondary: "#f53260",
         tertiary: "#f7aa32",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Retro_Telephone (1).jpg",
@@ -948,9 +949,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#173e4d",
         secondary: "#f34243",
         tertiary: "#dfd988",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Retro_Telephone (2).jpg",
@@ -963,9 +964,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#1d1714",
         secondary: "#e83e42",
         tertiary: "#5db2b6",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Retro_Telephone (3).jpg",
@@ -978,9 +979,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#2a2c31",
         secondary: "#db2d4e",
         tertiary: "#f8eccf",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Retro_Telephone (4).jpg",
@@ -993,9 +994,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#279eae",
         secondary: "#f63260",
         tertiary: "#f7aa32",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#c33e7a",
         secondary: "#206aab",
         tertiary: "#c5dbe1",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Splashing_Soda (2).jpg",
@@ -1028,9 +1029,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#299bc3",
         secondary: "#eb2b23",
         tertiary: "#f29f33",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Splashing_Soda (3).jpg",
@@ -1043,9 +1044,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#dbc068",
         secondary: "#4bb1dc",
         tertiary: "#242b60",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Splashing_Soda (4).jpg",
@@ -1058,9 +1059,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#128abb",
         secondary: "#dad4a6",
         tertiary: "#80377f",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Splashing_Soda (1).jpg",
@@ -1073,9 +1074,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#c43e79",
         secondary: "#206aac",
         tertiary: "#c4dbe2",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Splashing_Soda (2).jpg",
@@ -1088,9 +1089,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#289cc5",
         secondary: "#ed2a23",
         tertiary: "#f39f32",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Splashing_Soda (3).jpg",
@@ -1103,9 +1104,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#dbc067",
         secondary: "#4ab2de",
         tertiary: "#242a61",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Splashing_Soda (4).jpg",
@@ -1118,9 +1119,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#dcd4a4",
         secondary: "#843980",
         tertiary: "#118dbf",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#41adb4",
         secondary: "#e03563",
         tertiary: "#241821",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Vintage_Car (2).jpg",
@@ -1153,9 +1154,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#56b3b7",
         secondary: "#f1aa50",
         tertiary: "#312934",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Vintage_Car (3).jpg",
@@ -1168,9 +1169,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#1a4c58",
         secondary: "#e22d4c",
         tertiary: "#afcfd0",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Vintage_Car (4).jpg",
@@ -1183,9 +1184,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#df7a5d",
         secondary: "#1e3a47",
         tertiary: "#c13755",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "min"
       },
       {
         original_file_name: "Vintage_Car (1).jpg",
@@ -1198,9 +1199,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#44acb2",
         secondary: "#ea3665",
         tertiary: "#271923",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Vintage_Car (2).jpg",
@@ -1213,9 +1214,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#56b3b7",
         secondary: "#f2aa4f",
         tertiary: "#312935",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Vintage_Car (3).jpg",
@@ -1228,9 +1229,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#1a4b58",
         secondary: "#e42c4c",
         tertiary: "#afcfd0",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       },
       {
         original_file_name: "Vintage_Car (4).jpg",
@@ -1243,9 +1244,9 @@ const Graphic_PopArt: Record<string, any> = {
         primary: "#e17a5c",
         secondary: "#1d414e",
         tertiary: "#c33755",
-        Branch: "Graphic",
-        FolderName: "Pop Art",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Pop Art",
+        type: "max"
       }
     ]
   }

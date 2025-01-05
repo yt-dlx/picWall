@@ -1,4 +1,5 @@
-const Portrait_Fashion: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Portrait_Fashion: Record<string, EnvironmentEntry> = {
   AvantGarde_Artistry: {
     environment_title: "AvantGarde_Artistry",
     images: [
@@ -13,9 +14,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#989894",
         secondary: "#1b1816",
         tertiary: "#e2e2de",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "AvantGarde_Artistry (2).jpg",
@@ -28,9 +29,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#bbbab8",
         secondary: "#221a16",
         tertiary: "#eeece8",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "AvantGarde_Artistry (3).jpg",
@@ -43,9 +44,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#c2c1c0",
         secondary: "#322018",
         tertiary: "#6d4838",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "AvantGarde_Artistry (4).jpg",
@@ -58,9 +59,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#a7a7a3",
         secondary: "#25211f",
         tertiary: "#ece9e4",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "AvantGarde_Artistry (1).jpg",
@@ -73,9 +74,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#989894",
         secondary: "#1b1815",
         tertiary: "#e2e1de",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "AvantGarde_Artistry (2).jpg",
@@ -88,9 +89,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#bbbbb8",
         secondary: "#211a16",
         tertiary: "#efece9",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "AvantGarde_Artistry (3).jpg",
@@ -103,9 +104,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#c2c1c0",
         secondary: "#6d4838",
         tertiary: "#321f18",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "AvantGarde_Artistry (4).jpg",
@@ -118,9 +119,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#a7a7a3",
         secondary: "#25211f",
         tertiary: "#ede9e4",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#654924",
         secondary: "#dab999",
         tertiary: "#92a9a7",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Bohemian_Vibes (2).jpg",
@@ -153,9 +154,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#5b4020",
         secondary: "#9bbabf",
         tertiary: "#dbb997",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Bohemian_Vibes (3).jpg",
@@ -168,9 +169,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#e7ceb0",
         secondary: "#7d5e33",
         tertiary: "#1f190d",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Bohemian_Vibes (4).jpg",
@@ -183,9 +184,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#d2a66f",
         secondary: "#917047",
         tertiary: "#1d1b10",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Bohemian_Vibes (1).jpg",
@@ -198,9 +199,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#654823",
         secondary: "#aab9b3",
         tertiary: "#dab997",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Bohemian_Vibes (2).jpg",
@@ -213,9 +214,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#5b401f",
         secondary: "#dbb896",
         tertiary: "#9bbac0",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Bohemian_Vibes (3).jpg",
@@ -228,9 +229,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#e7cdaf",
         secondary: "#7d5e33",
         tertiary: "#1f190d",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Bohemian_Vibes (4).jpg",
@@ -243,9 +244,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#d2a56e",
         secondary: "#917047",
         tertiary: "#1d1b10",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#bf7772",
         secondary: "#3a3f41",
         tertiary: "#842f2f",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Bold_Statement (2).jpg",
@@ -278,9 +279,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#41403d",
         secondary: "#cd665c",
         tertiary: "#844647",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Bold_Statement (3).jpg",
@@ -293,9 +294,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#323031",
         secondary: "#cfa38a",
         tertiary: "#81201e",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Bold_Statement (4).jpg",
@@ -308,9 +309,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#353b3d",
         secondary: "#d35750",
         tertiary: "#845555",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Bold_Statement (1).jpg",
@@ -323,9 +324,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#bf7771",
         secondary: "#3a3f41",
         tertiary: "#842d2d",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Bold_Statement (2).jpg",
@@ -338,9 +339,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#41403d",
         secondary: "#ce645b",
         tertiary: "#844647",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Bold_Statement (3).jpg",
@@ -353,9 +354,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#323031",
         secondary: "#cfa38a",
         tertiary: "#81201f",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Bold_Statement (4).jpg",
@@ -368,9 +369,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#353c3d",
         secondary: "#d3574f",
         tertiary: "#824949",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#d0b5a3",
         secondary: "#17120f",
         tertiary: "#725646",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Classic_Elegance (2).jpg",
@@ -403,9 +404,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#cbb2a0",
         secondary: "#2a211a",
         tertiary: "#846b5b",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Classic_Elegance (3).jpg",
@@ -418,9 +419,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#e4d3c2",
         secondary: "#8c8577",
         tertiary: "#1e130d",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Classic_Elegance (4).jpg",
@@ -433,9 +434,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#cfc5bc",
         secondary: "#33312c",
         tertiary: "#a3a49f",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Classic_Elegance (1).jpg",
@@ -448,9 +449,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#d0b6a3",
         secondary: "#17120f",
         tertiary: "#725646",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Classic_Elegance (2).jpg",
@@ -463,9 +464,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#cbb2a0",
         secondary: "#2a211b",
         tertiary: "#836b5b",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Classic_Elegance (3).jpg",
@@ -478,9 +479,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#e3d3c2",
         secondary: "#8c8577",
         tertiary: "#1f130d",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Classic_Elegance (4).jpg",
@@ -493,9 +494,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#cfc5bc",
         secondary: "#33312c",
         tertiary: "#a3a49f",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#deac6e",
         secondary: "#391909",
         tertiary: "#9d5f30",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Glow (2).jpg",
@@ -528,9 +529,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#e7b86e",
         secondary: "#652d0f",
         tertiary: "#1c0a05",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Glow (3).jpg",
@@ -543,9 +544,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#f0be70",
         secondary: "#50270f",
         tertiary: "#d09b60",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Glow (4).jpg",
@@ -558,9 +559,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#e6cc8d",
         secondary: "#5f2b0d",
         tertiary: "#cd7f36",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Golden_Hour_Glow (1).jpg",
@@ -573,9 +574,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#dfac6d",
         secondary: "#391908",
         tertiary: "#9d5f2f",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Glow (2).jpg",
@@ -588,9 +589,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#f2d48b",
         secondary: "#703310",
         tertiary: "#270e05",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Glow (3).jpg",
@@ -603,9 +604,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#633110",
         secondary: "#d6ac72",
         tertiary: "#341609",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Golden_Hour_Glow (4).jpg",
@@ -618,9 +619,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#eccd82",
         secondary: "#6e3410",
         tertiary: "#2c1005",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#c3ad95",
         secondary: "#7d6958",
         tertiary: "#1b130f",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Haute_Couture_Drama (2).jpg",
@@ -653,9 +654,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#c6a78c",
         secondary: "#171515",
         tertiary: "#81664d",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Haute_Couture_Drama (3).jpg",
@@ -668,9 +669,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#d1a37e",
         secondary: "#1f1612",
         tertiary: "#88674a",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Haute_Couture_Drama (4).jpg",
@@ -683,9 +684,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#c9ab8e",
         secondary: "#1d110c",
         tertiary: "#846851",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Haute_Couture_Drama (1).jpg",
@@ -698,9 +699,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#c3ac94",
         secondary: "#7d6958",
         tertiary: "#1b130f",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Haute_Couture_Drama (2).jpg",
@@ -713,9 +714,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#c6a78b",
         secondary: "#161515",
         tertiary: "#81664c",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Haute_Couture_Drama (3).jpg",
@@ -728,9 +729,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#d1a37e",
         secondary: "#1f1611",
         tertiary: "#886648",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Haute_Couture_Drama (4).jpg",
@@ -743,9 +744,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#c9aa8e",
         secondary: "#1d110c",
         tertiary: "#846850",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#a59f97",
         secondary: "#1d1618",
         tertiary: "#7d5034",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Layered_Sophistication (2).jpg",
@@ -778,9 +779,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#a8a7a3",
         secondary: "#d1b1a0",
         tertiary: "#8c7c6e",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Layered_Sophistication (3).jpg",
@@ -793,9 +794,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#caac92",
         secondary: "#2c231e",
         tertiary: "#96755b",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Layered_Sophistication (4).jpg",
@@ -808,9 +809,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#bd845c",
         secondary: "#2d231e",
         tertiary: "#8f664a",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Layered_Sophistication (1).jpg",
@@ -823,9 +824,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#a69f95",
         secondary: "#1d1719",
         tertiary: "#7d4f34",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Layered_Sophistication (2).jpg",
@@ -838,9 +839,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#d1b1a0",
         secondary: "#a8a7a3",
         tertiary: "#8c7c6d",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Layered_Sophistication (3).jpg",
@@ -853,9 +854,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#caac92",
         secondary: "#2c231e",
         tertiary: "#96755a",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Layered_Sophistication (4).jpg",
@@ -868,9 +869,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#be855d",
         secondary: "#2d231e",
         tertiary: "#8f6548",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#cec4bc",
         secondary: "#2e2c28",
         tertiary: "#867065",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Monochrome_Magic (2).jpg",
@@ -903,9 +904,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#d29a79",
         secondary: "#130f0e",
         tertiary: "#7c7168",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Monochrome_Magic (3).jpg",
@@ -918,9 +919,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#1d1d1e",
         secondary: "#dab196",
         tertiary: "#6c6c6c",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Monochrome_Magic (4).jpg",
@@ -933,9 +934,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#242321",
         secondary: "#beafa5",
         tertiary: "#6d6a65",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Monochrome_Magic (1).jpg",
@@ -948,9 +949,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#cfc4bc",
         secondary: "#2e2c28",
         tertiary: "#867065",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Monochrome_Magic (2).jpg",
@@ -963,9 +964,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#d29979",
         secondary: "#130f0e",
         tertiary: "#7c7067",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Monochrome_Magic (3).jpg",
@@ -978,9 +979,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#1d1d1e",
         secondary: "#dab194",
         tertiary: "#6c6c6c",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Monochrome_Magic (4).jpg",
@@ -993,9 +994,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#242321",
         secondary: "#beaea4",
         tertiary: "#6d6a65",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#ca2a65",
         secondary: "#2dbbc9",
         tertiary: "#1b1230",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Neon_Pop (2).jpg",
@@ -1028,9 +1029,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#d3396d",
         secondary: "#28c8ea",
         tertiary: "#1d162b",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Neon_Pop (3).jpg",
@@ -1043,9 +1044,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#d12b6e",
         secondary: "#42cce2",
         tertiary: "#19162b",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Neon_Pop (4).jpg",
@@ -1058,9 +1059,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#ca3d72",
         secondary: "#2ac2cb",
         tertiary: "#210e1f",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Neon_Pop (1).jpg",
@@ -1073,9 +1074,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#ca2a65",
         secondary: "#2ebdcb",
         tertiary: "#1a1230",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Neon_Pop (2).jpg",
@@ -1088,9 +1089,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#d4366d",
         secondary: "#29c6e9",
         tertiary: "#1d162c",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Neon_Pop (3).jpg",
@@ -1103,9 +1104,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#d12a6e",
         secondary: "#40cce3",
         tertiary: "#19162b",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Neon_Pop (4).jpg",
@@ -1118,9 +1119,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#cc3c71",
         secondary: "#27c2cd",
         tertiary: "#210e1f",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#bea388",
         secondary: "#1f160f",
         tertiary: "#5c361e",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Street_Style (2).jpg",
@@ -1153,9 +1154,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#e5caae",
         secondary: "#94baba",
         tertiary: "#201612",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Street_Style (3).jpg",
@@ -1168,9 +1169,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#1f1714",
         secondary: "#cdab8e",
         tertiary: "#623d27",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Street_Style (4).jpg",
@@ -1183,9 +1184,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#a88c6f",
         secondary: "#1c1713",
         tertiary: "#52331d",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "min"
       },
       {
         original_file_name: "Street_Style (1).jpg",
@@ -1198,9 +1199,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#bea388",
         secondary: "#1f160f",
         tertiary: "#5d361e",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Street_Style (2).jpg",
@@ -1213,9 +1214,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#e5c9ae",
         secondary: "#93babb",
         tertiary: "#201511",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Street_Style (3).jpg",
@@ -1228,9 +1229,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#1f1714",
         secondary: "#cdab8e",
         tertiary: "#623d26",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       },
       {
         original_file_name: "Street_Style (4).jpg",
@@ -1243,9 +1244,9 @@ const Portrait_Fashion: Record<string, any> = {
         primary: "#a88c6f",
         secondary: "#1b1713",
         tertiary: "#52331d",
-        Branch: "Portrait",
-        FolderName: "Fashion",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Fashion",
+        type: "max"
       }
     ]
   }

@@ -1,4 +1,5 @@
-const Graphic_Vector: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Graphic_Vector: Record<string, EnvironmentEntry> = {
   Celestial_Precision: {
     environment_title: "Celestial_Precision",
     images: [
@@ -13,9 +14,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#efb67f",
         secondary: "#12111c",
         tertiary: "#67b6b9",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Celestial_Precision (2).jpg",
@@ -28,9 +29,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#e7b376",
         secondary: "#121a29",
         tertiary: "#59b6bd",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Celestial_Precision (3).jpg",
@@ -43,9 +44,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#e9ac72",
         secondary: "#61b1c1",
         tertiary: "#131723",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Celestial_Precision (4).jpg",
@@ -58,9 +59,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#e4ad7c",
         secondary: "#111528",
         tertiary: "#61b1be",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Celestial_Precision (1).jpg",
@@ -73,9 +74,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#f0b67f",
         secondary: "#12121c",
         tertiary: "#67b8ba",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Celestial_Precision (2).jpg",
@@ -88,9 +89,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#e8b375",
         secondary: "#121a29",
         tertiary: "#57b6bd",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Celestial_Precision (3).jpg",
@@ -103,9 +104,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#eaab71",
         secondary: "#61b1c1",
         tertiary: "#121723",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Celestial_Precision (4).jpg",
@@ -118,9 +119,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#e5ad7b",
         secondary: "#111629",
         tertiary: "#62b1bf",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#0c2931",
         secondary: "#aee26a",
         tertiary: "#56b371",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Digital_Flora (2).jpg",
@@ -153,9 +154,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#51c18d",
         secondary: "#08222b",
         tertiary: "#b3df57",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Digital_Flora (3).jpg",
@@ -168,9 +169,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#70cc7c",
         secondary: "#0a2b2f",
         tertiary: "#398660",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Digital_Flora (4).jpg",
@@ -183,9 +184,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#52b86c",
         secondary: "#b2e778",
         tertiary: "#061b22",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Digital_Flora (1).jpg",
@@ -198,9 +199,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#0c2a32",
         secondary: "#afe36a",
         tertiary: "#55b370",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Digital_Flora (2).jpg",
@@ -213,9 +214,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#4fc18d",
         secondary: "#08222b",
         tertiary: "#b3e053",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Digital_Flora (3).jpg",
@@ -228,9 +229,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#6fcc7c",
         secondary: "#0a2b30",
         tertiary: "#398760",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Digital_Flora (4).jpg",
@@ -243,9 +244,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#50b86c",
         secondary: "#b2e876",
         tertiary: "#061b22",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#ebe7d8",
         secondary: "#1c4a63",
         tertiary: "#ee734a",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Waves (2).jpg",
@@ -278,9 +279,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#d7493b",
         secondary: "#223046",
         tertiary: "#f8b354",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Waves (3).jpg",
@@ -293,9 +294,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#ddf0f3",
         secondary: "#0e3456",
         tertiary: "#75bcc9",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Waves (4).jpg",
@@ -308,9 +309,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#e1ba98",
         secondary: "#58b2c0",
         tertiary: "#101d2f",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Dynamic_Waves (1).jpg",
@@ -323,9 +324,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#ede8d8",
         secondary: "#1c4b63",
         tertiary: "#f0734a",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Dynamic_Waves (2).jpg",
@@ -338,9 +339,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#d8493b",
         secondary: "#223046",
         tertiary: "#f9b354",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Dynamic_Waves (3).jpg",
@@ -353,9 +354,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#d9eef2",
         secondary: "#0d3456",
         tertiary: "#70b9c7",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Dynamic_Waves (4).jpg",
@@ -368,9 +369,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#e3bb97",
         secondary: "#58b2c1",
         tertiary: "#101d2f",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#34a0aa",
         secondary: "#212e40",
         tertiary: "#f47640",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Geometric_Harmony (2).jpg",
@@ -403,9 +404,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#1c3040",
         secondary: "#f3783f",
         tertiary: "#78bdac",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Geometric_Harmony (3).jpg",
@@ -418,9 +419,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#f07648",
         secondary: "#143952",
         tertiary: "#e4eed9",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Geometric_Harmony (4).jpg",
@@ -433,9 +434,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#f06c41",
         secondary: "#1d3d50",
         tertiary: "#e4e8ca",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Geometric_Harmony (1).jpg",
@@ -448,9 +449,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#35a0aa",
         secondary: "#202f40",
         tertiary: "#f57740",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Geometric_Harmony (2).jpg",
@@ -463,9 +464,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#1c3040",
         secondary: "#f4783e",
         tertiary: "#76bead",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Geometric_Harmony (3).jpg",
@@ -478,9 +479,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#f17647",
         secondary: "#143a53",
         tertiary: "#e7efd9",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Geometric_Harmony (4).jpg",
@@ -493,9 +494,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#f16c40",
         secondary: "#1d3d51",
         tertiary: "#e3e8c9",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#274e4e",
         secondary: "#e3b662",
         tertiary: "#c7e5d1",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Layered_Landscapes (2).jpg",
@@ -528,9 +529,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#28656b",
         secondary: "#d2c081",
         tertiary: "#5b9e8e",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Layered_Landscapes (3).jpg",
@@ -543,9 +544,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#3d5f62",
         secondary: "#eba26b",
         tertiary: "#80a08c",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Layered_Landscapes (4).jpg",
@@ -558,9 +559,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#59958e",
         secondary: "#edcea0",
         tertiary: "#22363f",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Layered_Landscapes (1).jpg",
@@ -573,9 +574,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#274f4f",
         secondary: "#c6e5d1",
         tertiary: "#e3b662",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Layered_Landscapes (2).jpg",
@@ -588,9 +589,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#28656b",
         secondary: "#d6c081",
         tertiary: "#5b9e8e",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Layered_Landscapes (3).jpg",
@@ -603,9 +604,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#3d6063",
         secondary: "#eba26b",
         tertiary: "#80a08c",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Layered_Landscapes (4).jpg",
@@ -618,9 +619,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#5e9a93",
         secondary: "#edcd9f",
         tertiary: "#233640",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#1a1b2b",
         secondary: "#ccb6c0",
         tertiary: "#f59579",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Minimalist_Portrait (2).jpg",
@@ -653,9 +654,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#2d242e",
         secondary: "#e3997a",
         tertiary: "#803f37",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Minimalist_Portrait (3).jpg",
@@ -668,9 +669,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#373d55",
         secondary: "#995c5f",
         tertiary: "#f7f5ed",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Minimalist_Portrait (4).jpg",
@@ -683,9 +684,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#8c2454",
         secondary: "#cf87c0",
         tertiary: "#efdec8",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Minimalist_Portrait (1).jpg",
@@ -698,9 +699,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#1a1c2b",
         secondary: "#ccb6c0",
         tertiary: "#f69579",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Minimalist_Portrait (2).jpg",
@@ -713,9 +714,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#2d252e",
         secondary: "#e39879",
         tertiary: "#803f38",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Minimalist_Portrait (3).jpg",
@@ -728,9 +729,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#363d55",
         secondary: "#995c5f",
         tertiary: "#f7f6ed",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Minimalist_Portrait (4).jpg",
@@ -743,9 +744,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#cf87c0",
         secondary: "#882454",
         tertiary: "#efdec8",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#ec9f49",
         secondary: "#1b232e",
         tertiary: "#5abaca",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Playful_Typography (2).jpg",
@@ -778,9 +779,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#efa04d",
         secondary: "#1b272e",
         tertiary: "#4cb8b9",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Playful_Typography (3).jpg",
@@ -793,9 +794,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#ea7d51",
         secondary: "#3fbcc2",
         tertiary: "#1d212b",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Playful_Typography (4).jpg",
@@ -808,9 +809,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#ec964c",
         secondary: "#44b1b6",
         tertiary: "#1a1c25",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Playful_Typography (1).jpg",
@@ -823,9 +824,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#ee9f48",
         secondary: "#1b242e",
         tertiary: "#59bacb",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Playful_Typography (2).jpg",
@@ -838,9 +839,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#f0a04b",
         secondary: "#1b272f",
         tertiary: "#4bb8b9",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Playful_Typography (3).jpg",
@@ -853,9 +854,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#eb7652",
         secondary: "#3ebdc2",
         tertiary: "#1c222c",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Playful_Typography (4).jpg",
@@ -868,9 +869,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#ee974b",
         secondary: "#43b2b6",
         tertiary: "#1a1c26",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#d29f77",
         secondary: "#212c33",
         tertiary: "#806a59",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Symmetrical_Mandala (2).jpg",
@@ -903,9 +904,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#ce8a5b",
         secondary: "#223038",
         tertiary: "#7f5e49",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Symmetrical_Mandala (3).jpg",
@@ -918,9 +919,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#d4925f",
         secondary: "#20323c",
         tertiary: "#8c6555",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Symmetrical_Mandala (4).jpg",
@@ -933,9 +934,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#ca9e7d",
         secondary: "#886653",
         tertiary: "#171821",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Symmetrical_Mandala (1).jpg",
@@ -948,9 +949,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#d39e74",
         secondary: "#202c34",
         tertiary: "#816a5a",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Symmetrical_Mandala (2).jpg",
@@ -963,9 +964,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#cf8a59",
         secondary: "#213039",
         tertiary: "#7f5d49",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Symmetrical_Mandala (3).jpg",
@@ -978,9 +979,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#d5915d",
         secondary: "#20323d",
         tertiary: "#8c6555",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Symmetrical_Mandala (4).jpg",
@@ -993,9 +994,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#cb9d7b",
         secondary: "#896653",
         tertiary: "#171922",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#e2bd7d",
         secondary: "#265a53",
         tertiary: "#85bc9d",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Tropical_Patterns (2).jpg",
@@ -1028,9 +1029,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#efb071",
         secondary: "#2c5747",
         tertiary: "#799267",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Tropical_Patterns (3).jpg",
@@ -1043,9 +1044,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#ecb678",
         secondary: "#295046",
         tertiary: "#5f9073",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Tropical_Patterns (4).jpg",
@@ -1058,9 +1059,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#ecc288",
         secondary: "#2d5d5c",
         tertiary: "#0f1b21",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Tropical_Patterns (1).jpg",
@@ -1073,9 +1074,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#e4bd7c",
         secondary: "#255a53",
         tertiary: "#85bc9d",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Tropical_Patterns (2).jpg",
@@ -1088,9 +1089,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#f0b071",
         secondary: "#2b5748",
         tertiary: "#799266",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Tropical_Patterns (3).jpg",
@@ -1103,9 +1104,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#eeb677",
         secondary: "#295146",
         tertiary: "#5e8f73",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Tropical_Patterns (4).jpg",
@@ -1118,9 +1119,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#eec287",
         secondary: "#2d5d5d",
         tertiary: "#0f1b21",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#d2d7dd",
         secondary: "#20435f",
         tertiary: "#7a8895",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Urban_Blueprint (2).jpg",
@@ -1153,9 +1154,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#acbaca",
         secondary: "#1f3d58",
         tertiary: "#647789",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Urban_Blueprint (3).jpg",
@@ -1168,9 +1169,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#abbed4",
         secondary: "#1d4364",
         tertiary: "#657c93",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Urban_Blueprint (4).jpg",
@@ -1183,9 +1184,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#1b4764",
         secondary: "#8ea6bb",
         tertiary: "#e2eff6",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "min"
       },
       {
         original_file_name: "Urban_Blueprint (1).jpg",
@@ -1198,9 +1199,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#d2d7de",
         secondary: "#204460",
         tertiary: "#7a8996",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Urban_Blueprint (2).jpg",
@@ -1213,9 +1214,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#abbacb",
         secondary: "#1f3d59",
         tertiary: "#65788b",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Urban_Blueprint (3).jpg",
@@ -1228,9 +1229,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#aabed4",
         secondary: "#1d4465",
         tertiary: "#657c93",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       },
       {
         original_file_name: "Urban_Blueprint (4).jpg",
@@ -1243,9 +1244,9 @@ const Graphic_Vector: Record<string, any> = {
         primary: "#1b4765",
         secondary: "#8ea6bc",
         tertiary: "#e2f0f7",
-        Branch: "Graphic",
-        FolderName: "Vector",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Vector",
+        type: "max"
       }
     ]
   }

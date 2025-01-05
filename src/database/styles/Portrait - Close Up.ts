@@ -1,4 +1,5 @@
-const Portrait_CloseUp: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Portrait_CloseUp: Record<string, EnvironmentEntry> = {
   Focused_Athlete: {
     environment_title: "Focused_Athlete",
     images: [
@@ -13,9 +14,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#d8af96",
         secondary: "#371f14",
         tertiary: "#9f6d54",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Focused_Athlete (2).jpg",
@@ -28,9 +29,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#7b503b",
         secondary: "#261916",
         tertiary: "#e3d0c1",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Focused_Athlete (3).jpg",
@@ -43,9 +44,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#db9f7d",
         secondary: "#503224",
         tertiary: "#9f6d54",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Focused_Athlete (4).jpg",
@@ -58,9 +59,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#d5ac91",
         secondary: "#2c221b",
         tertiary: "#9e684b",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Focused_Athlete (1).jpg",
@@ -73,9 +74,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#d9af97",
         secondary: "#371f14",
         tertiary: "#a06d54",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Focused_Athlete (2).jpg",
@@ -88,9 +89,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#7b503b",
         secondary: "#261916",
         tertiary: "#e4d0c1",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Focused_Athlete (3).jpg",
@@ -103,9 +104,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#db9f7d",
         secondary: "#513224",
         tertiary: "#9f6d54",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Focused_Athlete (4).jpg",
@@ -118,9 +119,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#d5ab91",
         secondary: "#2c231b",
         tertiary: "#9e694b",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#613e26",
         secondary: "#dbac85",
         tertiary: "#a9815f",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Freckled_Wonder (2).jpg",
@@ -153,9 +154,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#d4a887",
         secondary: "#613822",
         tertiary: "#aa7f60",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Freckled_Wonder (3).jpg",
@@ -168,9 +169,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#d9b08c",
         secondary: "#6f4c35",
         tertiary: "#251109",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Freckled_Wonder (4).jpg",
@@ -183,9 +184,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#1d0e08",
         secondary: "#71482f",
         tertiary: "#e5c3a4",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Freckled_Wonder (1).jpg",
@@ -198,9 +199,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#613f26",
         secondary: "#dbac85",
         tertiary: "#a9815f",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Freckled_Wonder (2).jpg",
@@ -213,9 +214,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#d4a887",
         secondary: "#623922",
         tertiary: "#a97f60",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Freckled_Wonder (3).jpg",
@@ -228,9 +229,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#d9b08c",
         secondary: "#6f4c35",
         tertiary: "#251109",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Freckled_Wonder (4).jpg",
@@ -243,9 +244,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#1d0e08",
         secondary: "#71482f",
         tertiary: "#e6c3a5",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#603724",
         secondary: "#dbac8a",
         tertiary: "#1f0e09",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Intense_Gaze (2).jpg",
@@ -278,9 +279,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#774832",
         secondary: "#291c14",
         tertiary: "#dccec6",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Intense_Gaze (3).jpg",
@@ -293,9 +294,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#d2a07f",
         secondary: "#27140c",
         tertiary: "#8b5a40",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Intense_Gaze (4).jpg",
@@ -308,9 +309,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#623a27",
         secondary: "#d7a382",
         tertiary: "#190e0c",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Intense_Gaze (1).jpg",
@@ -323,9 +324,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#603724",
         secondary: "#dbab89",
         tertiary: "#1f0d09",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Intense_Gaze (2).jpg",
@@ -338,9 +339,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#774832",
         secondary: "#281b13",
         tertiary: "#dccec5",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Intense_Gaze (3).jpg",
@@ -353,9 +354,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#d2a07f",
         secondary: "#27140c",
         tertiary: "#8b5a40",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Intense_Gaze (4).jpg",
@@ -368,9 +369,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#623a27",
         secondary: "#d7a382",
         tertiary: "#190f0c",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#b27959",
         secondary: "#5d2917",
         tertiary: "#2b140d",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Laugh_Lines (2).jpg",
@@ -403,9 +404,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#c68b69",
         secondary: "#29120c",
         tertiary: "#f1d0b7",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Laugh_Lines (3).jpg",
@@ -418,9 +419,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#ddb79f",
         secondary: "#583625",
         tertiary: "#9e6f55",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Laugh_Lines (4).jpg",
@@ -433,9 +434,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#6d422c",
         secondary: "#efc8a8",
         tertiary: "#daa27e",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Laugh_Lines (1).jpg",
@@ -448,9 +449,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#b27959",
         secondary: "#5d2917",
         tertiary: "#2a150d",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Laugh_Lines (2).jpg",
@@ -463,9 +464,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#c78b69",
         secondary: "#2a120c",
         tertiary: "#f1d0b7",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Laugh_Lines (3).jpg",
@@ -478,9 +479,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#ddb79e",
         secondary: "#583725",
         tertiary: "#9e6f54",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Laugh_Lines (4).jpg",
@@ -493,9 +494,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#6d422c",
         secondary: "#f0c8a8",
         tertiary: "#daa27e",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#272529",
         secondary: "#c7a896",
         tertiary: "#613d2f",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Piercing_Blue_Eyes (2).jpg",
@@ -528,9 +529,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#242629",
         secondary: "#725549",
         tertiary: "#d3af9d",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Piercing_Blue_Eyes (3).jpg",
@@ -543,9 +544,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#18181d",
         secondary: "#7a5746",
         tertiary: "#dcc8bb",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Piercing_Blue_Eyes (4).jpg",
@@ -558,9 +559,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#34241f",
         secondary: "#d0ac98",
         tertiary: "#674131",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Piercing_Blue_Eyes (1).jpg",
@@ -573,9 +574,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#262529",
         secondary: "#c7a896",
         tertiary: "#613d2f",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Piercing_Blue_Eyes (2).jpg",
@@ -588,9 +589,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#242629",
         secondary: "#715549",
         tertiary: "#d3b09d",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Piercing_Blue_Eyes (3).jpg",
@@ -603,9 +604,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#18181d",
         secondary: "#7a5745",
         tertiary: "#dcc8bb",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Piercing_Blue_Eyes (4).jpg",
@@ -618,9 +619,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#34241f",
         secondary: "#d0ac98",
         tertiary: "#674131",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#341e15",
         secondary: "#c39b7d",
         tertiary: "#966c52",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Scarred_History (2).jpg",
@@ -653,9 +654,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#372217",
         secondary: "#ca9475",
         tertiary: "#a16d50",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Scarred_History (3).jpg",
@@ -668,9 +669,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#774d37",
         secondary: "#c8a087",
         tertiary: "#1d0f0a",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Scarred_History (4).jpg",
@@ -683,9 +684,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#c39476",
         secondary: "#301f16",
         tertiary: "#8e6148",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Scarred_History (1).jpg",
@@ -698,9 +699,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#341f15",
         secondary: "#c29b7d",
         tertiary: "#966c52",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Scarred_History (2).jpg",
@@ -713,9 +714,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#372217",
         secondary: "#ca9475",
         tertiary: "#a06d50",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Scarred_History (3).jpg",
@@ -728,9 +729,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#774d37",
         secondary: "#c7a087",
         tertiary: "#1d100b",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Scarred_History (4).jpg",
@@ -743,9 +744,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#c39375",
         secondary: "#301f16",
         tertiary: "#8e6147",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#e2a782",
         secondary: "#712f1b",
         tertiary: "#381108",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Soft_Smile (2).jpg",
@@ -778,9 +779,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#3e1609",
         secondary: "#dca988",
         tertiary: "#7c341e",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Soft_Smile (3).jpg",
@@ -793,9 +794,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#3b1409",
         secondary: "#d59e7c",
         tertiary: "#6d2f1b",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Soft_Smile (4).jpg",
@@ -808,9 +809,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#431b0e",
         secondary: "#d69d7b",
         tertiary: "#6b3121",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Soft_Smile (1).jpg",
@@ -823,9 +824,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#e2a782",
         secondary: "#712f1b",
         tertiary: "#381108",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Soft_Smile (2).jpg",
@@ -838,9 +839,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#3e1609",
         secondary: "#dda988",
         tertiary: "#7c341e",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Soft_Smile (3).jpg",
@@ -853,9 +854,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#3b1409",
         secondary: "#d59e7c",
         tertiary: "#6d2f1b",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Soft_Smile (4).jpg",
@@ -868,9 +869,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#431b0e",
         secondary: "#d69e7b",
         tertiary: "#6b3221",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#dbb193",
         secondary: "#311a10",
         tertiary: "#9c6e53",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Tearful_Moment (2).jpg",
@@ -903,9 +904,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#29130b",
         secondary: "#916448",
         tertiary: "#e1c2a4",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Tearful_Moment (3).jpg",
@@ -918,9 +919,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#d3ac8e",
         secondary: "#502d1d",
         tertiary: "#986a50",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Tearful_Moment (4).jpg",
@@ -933,9 +934,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#5b3623",
         secondary: "#d7b498",
         tertiary: "#ac8367",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Tearful_Moment (1).jpg",
@@ -948,9 +949,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#dbb192",
         secondary: "#311a10",
         tertiary: "#9c6e53",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Tearful_Moment (2).jpg",
@@ -963,9 +964,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#29130b",
         secondary: "#916448",
         tertiary: "#e1c2a4",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Tearful_Moment (3).jpg",
@@ -978,9 +979,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#d3ad8e",
         secondary: "#502d1d",
         tertiary: "#986b50",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Tearful_Moment (4).jpg",
@@ -993,9 +994,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#5b3623",
         secondary: "#d7b498",
         tertiary: "#ac8367",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#925d39",
         secondary: "#d4cdc5",
         tertiary: "#2a1309",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "WindSwept_Hair (2).jpg",
@@ -1028,9 +1029,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#e4c6aa",
         secondary: "#663820",
         tertiary: "#1c0b07",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "WindSwept_Hair (3).jpg",
@@ -1043,9 +1044,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#dba479",
         secondary: "#5b341e",
         tertiary: "#7494ad",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "WindSwept_Hair (4).jpg",
@@ -1058,9 +1059,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#704026",
         secondary: "#e7c9a7",
         tertiary: "#251109",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "WindSwept_Hair (1).jpg",
@@ -1073,9 +1074,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#925d39",
         secondary: "#d4cec5",
         tertiary: "#2a1309",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "WindSwept_Hair (2).jpg",
@@ -1088,9 +1089,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#e4c6a9",
         secondary: "#663820",
         tertiary: "#1c0a06",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "WindSwept_Hair (3).jpg",
@@ -1103,9 +1104,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#dba478",
         secondary: "#5b341e",
         tertiary: "#7494ad",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "WindSwept_Hair (4).jpg",
@@ -1118,9 +1119,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#744327",
         secondary: "#e7c9a7",
         tertiary: "#251109",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#c1aea8",
         secondary: "#232329",
         tertiary: "#6b3926",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Winter_Chill (2).jpg",
@@ -1153,9 +1154,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#a99490",
         secondary: "#282326",
         tertiary: "#626973",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Winter_Chill (3).jpg",
@@ -1168,9 +1169,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#ac9f9c",
         secondary: "#28262a",
         tertiary: "#5f3524",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Winter_Chill (4).jpg",
@@ -1183,9 +1184,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#c8afa7",
         secondary: "#2b3844",
         tertiary: "#703a2a",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "min"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "min"
       },
       {
         original_file_name: "Winter_Chill (1).jpg",
@@ -1198,9 +1199,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#c1aea8",
         secondary: "#232429",
         tertiary: "#6b3825",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Winter_Chill (2).jpg",
@@ -1213,9 +1214,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#a8918a",
         secondary: "#282325",
         tertiary: "#626973",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Winter_Chill (3).jpg",
@@ -1228,9 +1229,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#ac9f9c",
         secondary: "#28262a",
         tertiary: "#5f3524",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       },
       {
         original_file_name: "Winter_Chill (4).jpg",
@@ -1243,9 +1244,9 @@ const Portrait_CloseUp: Record<string, any> = {
         primary: "#c8b0a7",
         secondary: "#2b3944",
         tertiary: "#713a2a",
-        Branch: "Portrait",
-        FolderName: "Close Up",
-        Type: "max"
+        branch: "Portrait",
+        folder: "Close Up",
+        type: "max"
       }
     ]
   }

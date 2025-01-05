@@ -1,17 +1,18 @@
 type ImageMetadata = {
-  original_file_name: string;
-  format: string;
+  type: string;
   mode: string;
-  file_size_bytes: number;
-  file_size_megabytes: number;
+  folder: string;
+  format: string;
+  branch: string;
   width: number;
+  tertiary: string;
   height: number;
   primary: string;
   secondary: string;
-  tertiary: string;
+  file_size_bytes: number;
+  original_file_name: string;
+  file_size_megabytes: number;
   [key: string]: string | number;
-  downloadLink: string;
-  previewLink: string;
 };
 type EnvironmentEntry = {
   environment_title: string;

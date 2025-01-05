@@ -1,4 +1,5 @@
-const Anime_Background: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Anime_Background: Record<string, EnvironmentEntry> = {
   Bustling_City_Street: {
     environment_title: "Bustling_City_Street",
     images: [
@@ -13,9 +14,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e3d0b9",
         secondary: "#2b3f4f",
         tertiary: "#8ecfd6",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Bustling_City_Street (2).jpg",
@@ -28,9 +29,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#ded1b0",
         secondary: "#22354e",
         tertiary: "#58c7dc",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Bustling_City_Street (3).jpg",
@@ -43,9 +44,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#eadcb6",
         secondary: "#293647",
         tertiary: "#7ec7c5",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Bustling_City_Street (4).jpg",
@@ -58,9 +59,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e4dcc7",
         secondary: "#283f50",
         tertiary: "#7fd1cf",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Bustling_City_Street (1).jpg",
@@ -73,9 +74,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e4d0b8",
         secondary: "#2a3f4f",
         tertiary: "#8ed0d7",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Bustling_City_Street (2).jpg",
@@ -88,9 +89,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e0d1af",
         secondary: "#22354f",
         tertiary: "#55c8de",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Bustling_City_Street (3).jpg",
@@ -103,9 +104,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#ecdcb5",
         secondary: "#323d51",
         tertiary: "#7dc7c6",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Bustling_City_Street (4).jpg",
@@ -118,9 +119,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e5dcc6",
         secondary: "#273f50",
         tertiary: "#7dd2d0",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c4ebbd",
         secondary: "#0c3d50",
         tertiary: "#64d3b2",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Dramatic_Cliffside (2).jpg",
@@ -153,9 +154,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c4e6c8",
         secondary: "#69ccac",
         tertiary: "#114054",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Dramatic_Cliffside (3).jpg",
@@ -168,9 +169,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#cee6d7",
         secondary: "#72cbbc",
         tertiary: "#0d5a7d",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Dramatic_Cliffside (4).jpg",
@@ -183,9 +184,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c7e4d6",
         secondary: "#10606c",
         tertiary: "#2985da",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Dramatic_Cliffside (1).jpg",
@@ -198,9 +199,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c0eab8",
         secondary: "#0b3d50",
         tertiary: "#5bd1bb",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Dramatic_Cliffside (2).jpg",
@@ -213,9 +214,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c5e6c9",
         secondary: "#69ccac",
         tertiary: "#104054",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Dramatic_Cliffside (3).jpg",
@@ -228,9 +229,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#cfe6d8",
         secondary: "#71cbbd",
         tertiary: "#0c597b",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Dramatic_Cliffside (4).jpg",
@@ -243,9 +244,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c7e5d6",
         secondary: "#0e5a67",
         tertiary: "#2885db",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e7c996",
         secondary: "#48353e",
         tertiary: "#88c8c5",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Festive_Market_Street (2).jpg",
@@ -278,9 +279,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e3ac6e",
         secondary: "#201d33",
         tertiary: "#824b39",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Festive_Market_Street (3).jpg",
@@ -293,9 +294,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e2b275",
         secondary: "#322e48",
         tertiary: "#895347",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Festive_Market_Street (4).jpg",
@@ -308,9 +309,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e2be8b",
         secondary: "#282635",
         tertiary: "#884f3f",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Festive_Market_Street (1).jpg",
@@ -323,9 +324,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e9c995",
         secondary: "#372f40",
         tertiary: "#87cac8",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Festive_Market_Street (2).jpg",
@@ -338,9 +339,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e6ac6d",
         secondary: "#201e33",
         tertiary: "#814937",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Festive_Market_Street (3).jpg",
@@ -353,9 +354,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e4b174",
         secondary: "#322e48",
         tertiary: "#895246",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Festive_Market_Street (4).jpg",
@@ -368,9 +369,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e4be8b",
         secondary: "#282636",
         tertiary: "#884d3e",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#bce4a5",
         secondary: "#15322b",
         tertiary: "#73c18c",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Forest_Clearing (2).jpg",
@@ -403,9 +404,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c6eabc",
         secondary: "#65c6af",
         tertiary: "#11332f",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Forest_Clearing (3).jpg",
@@ -418,9 +419,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c5e6aa",
         secondary: "#67cea2",
         tertiary: "#112d27",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Forest_Clearing (4).jpg",
@@ -433,9 +434,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#bfe6b2",
         secondary: "#184c39",
         tertiary: "#72caa1",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Forest_Clearing (1).jpg",
@@ -448,9 +449,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#bde5a4",
         secondary: "#15322b",
         tertiary: "#72c28b",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Forest_Clearing (2).jpg",
@@ -463,9 +464,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c8ebbc",
         secondary: "#65c7ae",
         tertiary: "#11322f",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Forest_Clearing (3).jpg",
@@ -478,9 +479,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c6e7a9",
         secondary: "#66cfa2",
         tertiary: "#102e27",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Forest_Clearing (4).jpg",
@@ -493,9 +494,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c0e8b2",
         secondary: "#184c39",
         tertiary: "#71cba0",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#4cbeec",
         secondary: "#227cdd",
         tertiary: "#061d2f",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Hidden_Waterfall (2).jpg",
@@ -528,9 +529,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c6b690",
         secondary: "#43b5d8",
         tertiary: "#0c1f29",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Hidden_Waterfall (3).jpg",
@@ -543,9 +544,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#092c40",
         secondary: "#3dc9e1",
         tertiary: "#2185c6",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Hidden_Waterfall (4).jpg",
@@ -558,9 +559,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#071b2d",
         secondary: "#34c4e9",
         tertiary: "#207dc1",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Hidden_Waterfall (1).jpg",
@@ -573,9 +574,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#49bdee",
         secondary: "#217bdf",
         tertiary: "#061c2f",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Hidden_Waterfall (2).jpg",
@@ -588,9 +589,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c7b58f",
         secondary: "#41b6d9",
         tertiary: "#0c1f29",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Hidden_Waterfall (3).jpg",
@@ -603,9 +604,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#082c40",
         secondary: "#3bc9e3",
         tertiary: "#1e83c5",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Hidden_Waterfall (4).jpg",
@@ -618,9 +619,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#061b2d",
         secondary: "#33c5ea",
         tertiary: "#1e7dc2",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#3697d1",
         secondary: "#d5ebdb",
         tertiary: "#7ae03c",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Lush_Rice_Fields (2).jpg",
@@ -653,9 +654,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#50b1dd",
         secondary: "#173022",
         tertiary: "#c9e8b8",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Lush_Rice_Fields (3).jpg",
@@ -668,9 +669,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d5dfbf",
         secondary: "#59ab2f",
         tertiary: "#16371d",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Lush_Rice_Fields (4).jpg",
@@ -683,9 +684,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#0e2d1e",
         secondary: "#cbde8e",
         tertiary: "#327328",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Lush_Rice_Fields (1).jpg",
@@ -698,9 +699,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#3596d3",
         secondary: "#d6ecdb",
         tertiary: "#28692d",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Lush_Rice_Fields (2).jpg",
@@ -713,9 +714,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#4fb1de",
         secondary: "#173022",
         tertiary: "#c9e9b8",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Lush_Rice_Fields (3).jpg",
@@ -728,9 +729,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d5dfbf",
         secondary: "#5baf2f",
         tertiary: "#16371c",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Lush_Rice_Fields (4).jpg",
@@ -743,9 +744,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#0c2e1e",
         secondary: "#ccde8f",
         tertiary: "#307226",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#0e2934",
         secondary: "#50cbd0",
         tertiary: "#beb39e",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Peaceful_Shrine (2).jpg",
@@ -778,9 +779,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#16313f",
         secondary: "#bb9169",
         tertiary: "#1c6b82",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Peaceful_Shrine (3).jpg",
@@ -793,9 +794,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#152d33",
         secondary: "#d0c9ac",
         tertiary: "#62bfa1",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Peaceful_Shrine (4).jpg",
@@ -808,9 +809,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c8d69e",
         secondary: "#7bc8a8",
         tertiary: "#1d302a",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Peaceful_Shrine (1).jpg",
@@ -823,9 +824,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#0d2934",
         secondary: "#4ecbd1",
         tertiary: "#c1b19b",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Peaceful_Shrine (2).jpg",
@@ -838,9 +839,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#15313f",
         secondary: "#bd9067",
         tertiary: "#1a6a82",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Peaceful_Shrine (3).jpg",
@@ -853,9 +854,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#152d33",
         secondary: "#d3c9aa",
         tertiary: "#60c1a1",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Peaceful_Shrine (4).jpg",
@@ -868,9 +869,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#c9d69c",
         secondary: "#7ac9a8",
         tertiary: "#1d302a",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#6c5a4a",
         secondary: "#e1e7c7",
         tertiary: "#30393c",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Classroom (2).jpg",
@@ -903,9 +904,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e0e1bf",
         secondary: "#323d46",
         tertiary: "#8dcfd1",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Classroom (3).jpg",
@@ -918,9 +919,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#4d4541",
         secondary: "#e4e3cd",
         tertiary: "#a1cdd4",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Classroom (4).jpg",
@@ -933,9 +934,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e4ddb1",
         secondary: "#383f45",
         tertiary: "#957a63",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Classroom (1).jpg",
@@ -948,9 +949,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#6c5a4a",
         secondary: "#e1e7c6",
         tertiary: "#30393c",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Classroom (2).jpg",
@@ -963,9 +964,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e1e1be",
         secondary: "#323d47",
         tertiary: "#8dcfd3",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Classroom (3).jpg",
@@ -978,9 +979,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e5e2cc",
         secondary: "#4d4541",
         tertiary: "#a1cdd5",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Classroom (4).jpg",
@@ -993,9 +994,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e5ddaf",
         secondary: "#383f45",
         tertiary: "#957a62",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e1b471",
         secondary: "#46291c",
         tertiary: "#8e5a32",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Library (2).jpg",
@@ -1028,9 +1029,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d7a86f",
         secondary: "#2d1d1d",
         tertiary: "#6fc0ee",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Library (3).jpg",
@@ -1043,9 +1044,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e0b896",
         secondary: "#312123",
         tertiary: "#805840",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Library (4).jpg",
@@ -1058,9 +1059,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#dbac7a",
         secondary: "#3e241c",
         tertiary: "#844d32",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Library (1).jpg",
@@ -1073,9 +1074,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e2b46f",
         secondary: "#46291c",
         tertiary: "#8d5831",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Library (2).jpg",
@@ -1088,9 +1089,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d9a76c",
         secondary: "#2d1d1d",
         tertiary: "#6ec0f0",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Library (3).jpg",
@@ -1103,9 +1104,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e1b895",
         secondary: "#312223",
         tertiary: "#7f563e",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Library (4).jpg",
@@ -1118,9 +1119,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#dbaa77",
         secondary: "#3e241c",
         tertiary: "#844d32",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#caafab",
         secondary: "#111a2e",
         tertiary: "#54c5e4",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Alleyway (2).jpg",
@@ -1153,9 +1154,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#ce9278",
         secondary: "#151a31",
         tertiary: "#44b8e7",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Alleyway (3).jpg",
@@ -1168,9 +1169,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d59e78",
         secondary: "#17192a",
         tertiary: "#56b3e5",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Alleyway (4).jpg",
@@ -1183,9 +1184,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d09c94",
         secondary: "#0f152a",
         tertiary: "#3ac5e7",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Alleyway (1).jpg",
@@ -1198,9 +1199,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#cdb3af",
         secondary: "#111a2e",
         tertiary: "#51c6e7",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Alleyway (2).jpg",
@@ -1213,9 +1214,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d09176",
         secondary: "#151a31",
         tertiary: "#43baeb",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Alleyway (3).jpg",
@@ -1228,9 +1229,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d69a73",
         secondary: "#17192a",
         tertiary: "#55b5e9",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Alleyway (4).jpg",
@@ -1243,9 +1244,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d29c93",
         secondary: "#0f152a",
         tertiary: "#35c7ea",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   },
@@ -1263,9 +1264,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d7d2c0",
         secondary: "#142932",
         tertiary: "#5fc3d7",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Rooftop_Hangout (2).jpg",
@@ -1278,9 +1279,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e2d4a7",
         secondary: "#204a3c",
         tertiary: "#5085c7",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Rooftop_Hangout (3).jpg",
@@ -1293,9 +1294,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d5b492",
         secondary: "#20394e",
         tertiary: "#6bacaf",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Rooftop_Hangout (4).jpg",
@@ -1308,9 +1309,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d2c9ac",
         secondary: "#3c8bc6",
         tertiary: "#172733",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Rooftop_Hangout (1).jpg",
@@ -1323,9 +1324,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d8d2be",
         secondary: "#132932",
         tertiary: "#5ec3d9",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Rooftop_Hangout (2).jpg",
@@ -1338,9 +1339,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e4d5a6",
         secondary: "#1d442b",
         tertiary: "#446a9e",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Rooftop_Hangout (3).jpg",
@@ -1353,9 +1354,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d6b491",
         secondary: "#1f394e",
         tertiary: "#6bacaf",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Rooftop_Hangout (4).jpg",
@@ -1368,9 +1369,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d3c9ab",
         secondary: "#3a8bc6",
         tertiary: "#172733",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   },
@@ -1388,9 +1389,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#0e2f60",
         secondary: "#d2c0b3",
         tertiary: "#1477d5",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Starry_Night_Field (2).jpg",
@@ -1403,9 +1404,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d3b99b",
         secondary: "#0d2d39",
         tertiary: "#1270d4",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Starry_Night_Field (3).jpg",
@@ -1418,9 +1419,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#0c315d",
         secondary: "#d0c6bf",
         tertiary: "#1276d7",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Starry_Night_Field (4).jpg",
@@ -1433,9 +1434,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d0b5be",
         secondary: "#0b3266",
         tertiary: "#082322",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Starry_Night_Field (1).jpg",
@@ -1448,9 +1449,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#0d2f60",
         secondary: "#d3c0b2",
         tertiary: "#1377d6",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Starry_Night_Field (2).jpg",
@@ -1463,9 +1464,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d5b89b",
         secondary: "#0c2d39",
         tertiary: "#1170d5",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Starry_Night_Field (3).jpg",
@@ -1478,9 +1479,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#0a315d",
         secondary: "#ccc3bf",
         tertiary: "#1076d8",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Starry_Night_Field (4).jpg",
@@ -1493,9 +1494,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#0b3467",
         secondary: "#cdb3bd",
         tertiary: "#072322",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   },
@@ -1513,9 +1514,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#1f3826",
         secondary: "#6eb4e4",
         tertiary: "#ddccc8",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Sunlit_Hilltop (2).jpg",
@@ -1528,9 +1529,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d5d5d9",
         secondary: "#6eb9df",
         tertiary: "#17301e",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Sunlit_Hilltop (3).jpg",
@@ -1543,9 +1544,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#ded6ce",
         secondary: "#28282e",
         tertiary: "#3e8235",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Sunlit_Hilltop (4).jpg",
@@ -1558,9 +1559,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#dbc8c6",
         secondary: "#1f3c27",
         tertiary: "#74c1e8",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Sunlit_Hilltop (1).jpg",
@@ -1573,9 +1574,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#1f3826",
         secondary: "#6db4e6",
         tertiary: "#deccc8",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Sunlit_Hilltop (2).jpg",
@@ -1588,9 +1589,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d6d5da",
         secondary: "#6dbae1",
         tertiary: "#17301f",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Sunlit_Hilltop (3).jpg",
@@ -1603,9 +1604,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e0d6ce",
         secondary: "#29272e",
         tertiary: "#3e8334",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Sunlit_Hilltop (4).jpg",
@@ -1618,9 +1619,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#ddc7c7",
         secondary: "#1f3c27",
         tertiary: "#73c1e9",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   },
@@ -1638,9 +1639,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#eb9a60",
         secondary: "#32282e",
         tertiary: "#a45f56",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Sunset_Pier (2).jpg",
@@ -1653,9 +1654,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e9935f",
         secondary: "#512c2a",
         tertiary: "#a65b4e",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Sunset_Pier (3).jpg",
@@ -1668,9 +1669,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e79658",
         secondary: "#382022",
         tertiary: "#995749",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Sunset_Pier (4).jpg",
@@ -1683,9 +1684,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#f6d485",
         secondary: "#2f1c1d",
         tertiary: "#723e31",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Sunset_Pier (1).jpg",
@@ -1698,9 +1699,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#ed9a5f",
         secondary: "#32282e",
         tertiary: "#a45f56",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Sunset_Pier (2).jpg",
@@ -1713,9 +1714,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#ea935e",
         secondary: "#512c2a",
         tertiary: "#a65a4c",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Sunset_Pier (3).jpg",
@@ -1728,9 +1729,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e89557",
         secondary: "#382023",
         tertiary: "#9a574a",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Sunset_Pier (4).jpg",
@@ -1743,9 +1744,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#f7d584",
         secondary: "#2f1c1e",
         tertiary: "#723d30",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   },
@@ -1763,9 +1764,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#dfe197",
         secondary: "#45371f",
         tertiary: "#8eb764",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Traditional_Tea_House (2).jpg",
@@ -1778,9 +1779,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e6cf85",
         secondary: "#454027",
         tertiary: "#93bf5e",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Traditional_Tea_House (3).jpg",
@@ -1793,9 +1794,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#dcdd9d",
         secondary: "#392f18",
         tertiary: "#93b25e",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Traditional_Tea_House (4).jpg",
@@ -1808,9 +1809,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d8d38e",
         secondary: "#333721",
         tertiary: "#888053",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "min"
+        branch: "Anime",
+        folder: "Background",
+        type: "min"
       },
       {
         original_file_name: "Traditional_Tea_House (1).jpg",
@@ -1823,9 +1824,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#dfe096",
         secondary: "#45371f",
         tertiary: "#8eb763",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Traditional_Tea_House (2).jpg",
@@ -1838,9 +1839,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#e7ce83",
         secondary: "#454027",
         tertiary: "#93bf5b",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Traditional_Tea_House (3).jpg",
@@ -1853,9 +1854,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#dddd9c",
         secondary: "#392f18",
         tertiary: "#94b35f",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       },
       {
         original_file_name: "Traditional_Tea_House (4).jpg",
@@ -1868,9 +1869,9 @@ const Anime_Background: Record<string, any> = {
         primary: "#d9d38d",
         secondary: "#333721",
         tertiary: "#888053",
-        Branch: "Anime",
-        FolderName: "Background",
-        Type: "max"
+        branch: "Anime",
+        folder: "Background",
+        type: "max"
       }
     ]
   }

@@ -1,4 +1,5 @@
-const Graphic_ArtDeco: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Graphic_ArtDeco: Record<string, EnvironmentEntry> = {
   Chrysler_Elegance: {
     environment_title: "Chrysler_Elegance",
     images: [
@@ -13,9 +14,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#251911",
         secondary: "#e0c9a2",
         tertiary: "#694a2f",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Chrysler_Elegance (2).jpg",
@@ -28,9 +29,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#211d17",
         secondary: "#e2c698",
         tertiary: "#f9f6d9",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Chrysler_Elegance (3).jpg",
@@ -43,9 +44,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#cbae78",
         secondary: "#121c1c",
         tertiary: "#7c6f4f",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Chrysler_Elegance (4).jpg",
@@ -58,9 +59,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#847052",
         secondary: "#e9c281",
         tertiary: "#f8e8b7",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Chrysler_Elegance (1).jpg",
@@ -73,9 +74,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#251811",
         secondary: "#e1caa2",
         tertiary: "#694a2f",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Chrysler_Elegance (2).jpg",
@@ -88,9 +89,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#211c16",
         secondary: "#e5c799",
         tertiary: "#f9f6d9",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Chrysler_Elegance (3).jpg",
@@ -103,9 +104,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#cbae77",
         secondary: "#111c1c",
         tertiary: "#7c704f",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Chrysler_Elegance (4).jpg",
@@ -118,9 +119,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#847051",
         secondary: "#e9c382",
         tertiary: "#f8e9b7",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#1c1512",
         secondary: "#b6884b",
         tertiary: "#f8f2c9",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Deco_Sunburst (2).jpg",
@@ -153,9 +154,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#120d0b",
         secondary: "#cb9c51",
         tertiary: "#f7f3cb",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Deco_Sunburst (3).jpg",
@@ -168,9 +169,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#caa062",
         secondary: "#160e0a",
         tertiary: "#f5dc9d",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Deco_Sunburst (4).jpg",
@@ -183,9 +184,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#c6a164",
         secondary: "#18100f",
         tertiary: "#593a1b",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Deco_Sunburst (1).jpg",
@@ -198,9 +199,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#1c1412",
         secondary: "#c9964f",
         tertiary: "#f8f3c9",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Deco_Sunburst (2).jpg",
@@ -213,9 +214,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#110d0a",
         secondary: "#cb9c51",
         tertiary: "#f8f4ca",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Deco_Sunburst (3).jpg",
@@ -228,9 +229,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#cba060",
         secondary: "#150e09",
         tertiary: "#f7ecba",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Deco_Sunburst (4).jpg",
@@ -243,9 +244,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#c8a164",
         secondary: "#18100e",
         tertiary: "#5a3a1a",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#c9b190",
         secondary: "#1d1614",
         tertiary: "#796753",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Elegant_Monogram (2).jpg",
@@ -278,9 +279,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#bba98f",
         secondary: "#0d0a0a",
         tertiary: "#6f5f4f",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Elegant_Monogram (3).jpg",
@@ -293,9 +294,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#31251c",
         secondary: "#f8dfc5",
         tertiary: "#af9677",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Elegant_Monogram (4).jpg",
@@ -308,9 +309,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#c19e78",
         secondary: "#150e09",
         tertiary: "#533c25",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Elegant_Monogram (1).jpg",
@@ -323,9 +324,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#c7ae8c",
         secondary: "#1d1615",
         tertiary: "#78654f",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Elegant_Monogram (2).jpg",
@@ -338,9 +339,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#b7a387",
         secondary: "#665644",
         tertiary: "#0c0909",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Elegant_Monogram (3).jpg",
@@ -353,9 +354,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#2e2117",
         secondary: "#f9dfc5",
         tertiary: "#b09676",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Elegant_Monogram (4).jpg",
@@ -368,9 +369,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#c19e76",
         secondary: "#140d09",
         tertiary: "#543c23",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#dfc085",
         secondary: "#8f7650",
         tertiary: "#ad9a74",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Gilded_Roaring_Twenties (2).jpg",
@@ -403,9 +404,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#111513",
         secondary: "#ad864c",
         tertiary: "#f8e7bc",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Gilded_Roaring_Twenties (3).jpg",
@@ -418,9 +419,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#ba9159",
         secondary: "#100c09",
         tertiary: "#f7ecc7",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Gilded_Roaring_Twenties (4).jpg",
@@ -433,9 +434,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#e3c68f",
         secondary: "#b39665",
         tertiary: "#956f3c",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Gilded_Roaring_Twenties (1).jpg",
@@ -448,9 +449,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#e0c084",
         secondary: "#90754d",
         tertiary: "#ad9a72",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Gilded_Roaring_Twenties (2).jpg",
@@ -463,9 +464,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#101513",
         secondary: "#ae864b",
         tertiary: "#f9e8bb",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Gilded_Roaring_Twenties (3).jpg",
@@ -478,9 +479,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#bb9159",
         secondary: "#100b08",
         tertiary: "#f8eec7",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Gilded_Roaring_Twenties (4).jpg",
@@ -493,9 +494,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#e3c58d",
         secondary: "#b39562",
         tertiary: "#956f3b",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#cbac7d",
         secondary: "#191312",
         tertiary: "#836a4e",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Golden_Geometries (2).jpg",
@@ -528,9 +529,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#c8ae7f",
         secondary: "#141b1e",
         tertiary: "#786c53",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Golden_Geometries (3).jpg",
@@ -543,9 +544,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#c8a779",
         secondary: "#191312",
         tertiary: "#7b6348",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Golden_Geometries (4).jpg",
@@ -558,9 +559,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#cfb27e",
         secondary: "#151317",
         tertiary: "#75624c",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Golden_Geometries (1).jpg",
@@ -573,9 +574,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#cbab7a",
         secondary: "#181312",
         tertiary: "#83694b",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Golden_Geometries (2).jpg",
@@ -588,9 +589,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#c8ad7b",
         secondary: "#141b1e",
         tertiary: "#786b52",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Golden_Geometries (3).jpg",
@@ -603,9 +604,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#c7a675",
         secondary: "#191311",
         tertiary: "#7c6346",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Golden_Geometries (4).jpg",
@@ -618,9 +619,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#d0b17a",
         secondary: "#151317",
         tertiary: "#76624a",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#e4af46",
         secondary: "#8e5c24",
         tertiary: "#170f08",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Golden_Skyline (2).jpg",
@@ -653,9 +654,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#e2b75c",
         secondary: "#865e2f",
         tertiary: "#0f0a06",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Golden_Skyline (3).jpg",
@@ -668,9 +669,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#e1b45b",
         secondary: "#21150e",
         tertiary: "#916734",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Golden_Skyline (4).jpg",
@@ -683,9 +684,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#e6b65a",
         secondary: "#17100b",
         tertiary: "#8e6a3a",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Golden_Skyline (1).jpg",
@@ -698,9 +699,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#e5af45",
         secondary: "#8e5b21",
         tertiary: "#170f08",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Golden_Skyline (2).jpg",
@@ -713,9 +714,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#e3b65b",
         secondary: "#855d2b",
         tertiary: "#0f0906",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Golden_Skyline (3).jpg",
@@ -728,9 +729,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#e3b45a",
         secondary: "#21150d",
         tertiary: "#916631",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Golden_Skyline (4).jpg",
@@ -743,9 +744,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#e6b558",
         secondary: "#17100b",
         tertiary: "#8d6837",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#e0b76a",
         secondary: "#937448",
         tertiary: "#13101c",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Jazz_Night_Poster (2).jpg",
@@ -778,9 +779,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#d0b480",
         secondary: "#100b13",
         tertiary: "#625240",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Jazz_Night_Poster (3).jpg",
@@ -793,9 +794,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#dabd8a",
         secondary: "#766046",
         tertiary: "#0d0907",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Jazz_Night_Poster (4).jpg",
@@ -808,9 +809,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#130e0c",
         secondary: "#dfa954",
         tertiary: "#776549",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Jazz_Night_Poster (1).jpg",
@@ -823,9 +824,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#e0b769",
         secondary: "#947546",
         tertiary: "#130f1c",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Jazz_Night_Poster (2).jpg",
@@ -838,9 +839,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#d1b47d",
         secondary: "#100b14",
         tertiary: "#5f4d36",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Jazz_Night_Poster (3).jpg",
@@ -853,9 +854,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#dbbe88",
         secondary: "#766041",
         tertiary: "#0d0907",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Jazz_Night_Poster (4).jpg",
@@ -868,9 +869,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#130e0b",
         secondary: "#e0a953",
         tertiary: "#5e4527",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#cfb482",
         secondary: "#7e6c51",
         tertiary: "#140f0b",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Luxury_Invitation (2).jpg",
@@ -903,9 +904,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#c9ab78",
         secondary: "#74644d",
         tertiary: "#120e0b",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Luxury_Invitation (3).jpg",
@@ -918,9 +919,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#ceb483",
         secondary: "#110d0e",
         tertiary: "#6e5d43",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Luxury_Invitation (4).jpg",
@@ -933,9 +934,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#c0a678",
         secondary: "#6e5e45",
         tertiary: "#0e0b0a",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Luxury_Invitation (1).jpg",
@@ -948,9 +949,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#d0b380",
         secondary: "#7e6b4e",
         tertiary: "#130f0b",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Luxury_Invitation (2).jpg",
@@ -963,9 +964,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#c9ab77",
         secondary: "#746349",
         tertiary: "#110e0b",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Luxury_Invitation (3).jpg",
@@ -978,9 +979,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#cfb380",
         secondary: "#110d0e",
         tertiary: "#6f5c40",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Luxury_Invitation (4).jpg",
@@ -993,9 +994,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#c0a474",
         secondary: "#6e5c3f",
         tertiary: "#0e0c0a",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#d7ac6d",
         secondary: "#150e09",
         tertiary: "#f6f2d3",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Opulent_Fan (2).jpg",
@@ -1028,9 +1029,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#ca9f5c",
         secondary: "#1b130d",
         tertiary: "#f9e096",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Opulent_Fan (3).jpg",
@@ -1043,9 +1044,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#d2a863",
         secondary: "#150e0c",
         tertiary: "#5a4022",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Opulent_Fan (4).jpg",
@@ -1058,9 +1059,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#9c7544",
         secondary: "#f8f1d0",
         tertiary: "#160e0a",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Opulent_Fan (1).jpg",
@@ -1073,9 +1074,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#140d08",
         secondary: "#d8ac6c",
         tertiary: "#f8f3d3",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Opulent_Fan (2).jpg",
@@ -1088,9 +1089,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#cb9f5b",
         secondary: "#1b120c",
         tertiary: "#f9e097",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Opulent_Fan (3).jpg",
@@ -1103,9 +1104,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#d3a862",
         secondary: "#140e0b",
         tertiary: "#5a401e",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Opulent_Fan (4).jpg",
@@ -1118,9 +1119,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#9c7543",
         secondary: "#f9f2d0",
         tertiary: "#160d0a",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#dabe8e",
         secondary: "#69a696",
         tertiary: "#806144",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Theater_Marquee (2).jpg",
@@ -1153,9 +1154,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#d2ab73",
         secondary: "#1c1611",
         tertiary: "#815a3b",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Theater_Marquee (3).jpg",
@@ -1168,9 +1169,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#d6ae7b",
         secondary: "#1b1617",
         tertiary: "#82593a",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Theater_Marquee (4).jpg",
@@ -1183,9 +1184,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#d5a677",
         secondary: "#432b20",
         tertiary: "#52baaf",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "min"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "min"
       },
       {
         original_file_name: "Theater_Marquee (1).jpg",
@@ -1198,9 +1199,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#dbbe8d",
         secondary: "#66a797",
         tertiary: "#806142",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Theater_Marquee (2).jpg",
@@ -1213,9 +1214,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#d2aa71",
         secondary: "#1c1611",
         tertiary: "#805938",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Theater_Marquee (3).jpg",
@@ -1228,9 +1229,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#d7ae7a",
         secondary: "#191415",
         tertiary: "#825939",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       },
       {
         original_file_name: "Theater_Marquee (4).jpg",
@@ -1243,9 +1244,9 @@ const Graphic_ArtDeco: Record<string, any> = {
         primary: "#d6a676",
         secondary: "#312019",
         tertiary: "#53baaf",
-        Branch: "Graphic",
-        FolderName: "Art Deco",
-        Type: "max"
+        branch: "Graphic",
+        folder: "Art Deco",
+        type: "max"
       }
     ]
   }

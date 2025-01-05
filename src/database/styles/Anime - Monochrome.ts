@@ -1,4 +1,5 @@
-const Anime_Monochrome: Record<string, any> = {
+import { EnvironmentEntry } from "@/types/database";
+const Anime_Monochrome: Record<string, EnvironmentEntry> = {
   Abandoned_Shrine: {
     environment_title: "Abandoned_Shrine",
     images: [
@@ -13,9 +14,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d8d8d8",
         secondary: "#171717",
         tertiary: "#787878",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Abandoned_Shrine (2).jpg",
@@ -28,9 +29,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d4d4d4",
         secondary: "#181818",
         tertiary: "#7a7a7a",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Abandoned_Shrine (3).jpg",
@@ -43,9 +44,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d4d4d4",
         secondary: "#131313",
         tertiary: "#717170",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Abandoned_Shrine (4).jpg",
@@ -58,9 +59,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d6d6d6",
         secondary: "#171717",
         tertiary: "#717171",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Abandoned_Shrine (1).jpg",
@@ -73,9 +74,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d8d8d8",
         secondary: "#171717",
         tertiary: "#787878",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Abandoned_Shrine (2).jpg",
@@ -88,9 +89,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d4d4d4",
         secondary: "#171717",
         tertiary: "#7a7a7a",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Abandoned_Shrine (3).jpg",
@@ -103,9 +104,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d1d1d1",
         secondary: "#121212",
         tertiary: "#717171",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Abandoned_Shrine (4).jpg",
@@ -118,9 +119,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d6d6d6",
         secondary: "#141414",
         tertiary: "#717171",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   },
@@ -138,9 +139,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#5384b2",
         secondary: "#e0ecf2",
         tertiary: "#20456a",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Calm_Ocean_Horizon (2).jpg",
@@ -153,9 +154,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#94c7f3",
         secondary: "#366893",
         tertiary: "#e6f0f3",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Calm_Ocean_Horizon (3).jpg",
@@ -168,9 +169,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#9ec1e7",
         secondary: "#e4edf4",
         tertiary: "#386288",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Calm_Ocean_Horizon (4).jpg",
@@ -183,9 +184,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#254d6f",
         secondary: "#d1e5ef",
         tertiary: "#5b8cb2",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Calm_Ocean_Horizon (1).jpg",
@@ -198,9 +199,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#5384b2",
         secondary: "#e1edf3",
         tertiary: "#20456a",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Calm_Ocean_Horizon (2).jpg",
@@ -213,9 +214,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#92c4ef",
         secondary: "#e7f1f4",
         tertiary: "#31628e",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Calm_Ocean_Horizon (3).jpg",
@@ -228,9 +229,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#9ec0e7",
         secondary: "#e5eef5",
         tertiary: "#386289",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Calm_Ocean_Horizon (4).jpg",
@@ -243,9 +244,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#264e6f",
         secondary: "#d1e5f0",
         tertiary: "#5b8cb2",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   },
@@ -263,9 +264,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#e1e1e1",
         secondary: "#151515",
         tertiary: "#7e7e7e",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Cherry_Blossom_Silhouette (2).jpg",
@@ -278,9 +279,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d0d0d0",
         secondary: "#a4a4a4",
         tertiary: "#141414",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Cherry_Blossom_Silhouette (3).jpg",
@@ -293,9 +294,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#e1e1e1",
         secondary: "#acacac",
         tertiary: "#131313",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Cherry_Blossom_Silhouette (4).jpg",
@@ -308,9 +309,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#dddada",
         secondary: "#1a1a1a",
         tertiary: "#a4a4a4",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Cherry_Blossom_Silhouette (1).jpg",
@@ -323,9 +324,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#e1e1e1",
         secondary: "#151515",
         tertiary: "#7e7e7e",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Cherry_Blossom_Silhouette (2).jpg",
@@ -338,9 +339,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d0d0d0",
         secondary: "#a4a4a4",
         tertiary: "#141414",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Cherry_Blossom_Silhouette (3).jpg",
@@ -353,9 +354,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#e1e1e1",
         secondary: "#acacac",
         tertiary: "#131313",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Cherry_Blossom_Silhouette (4).jpg",
@@ -368,9 +369,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#dedada",
         secondary: "#1a1a1a",
         tertiary: "#a5a4a4",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   },
@@ -388,9 +389,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#151515",
         secondary: "#c2c2c1",
         tertiary: "#6a6a69",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Deserted_Street (2).jpg",
@@ -403,9 +404,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#c1c1c1",
         secondary: "#1a1a1a",
         tertiary: "#727272",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Deserted_Street (3).jpg",
@@ -418,9 +419,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#1a1a1a",
         secondary: "#cbcbca",
         tertiary: "#727272",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Deserted_Street (4).jpg",
@@ -433,9 +434,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#cbcbcb",
         secondary: "#121212",
         tertiary: "#767676",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Deserted_Street (1).jpg",
@@ -448,9 +449,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#151515",
         secondary: "#c2c2c1",
         tertiary: "#6e6f6e",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Deserted_Street (2).jpg",
@@ -463,9 +464,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#c2c2c2",
         secondary: "#1a1a1a",
         tertiary: "#727272",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Deserted_Street (3).jpg",
@@ -478,9 +479,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#1a1a1a",
         secondary: "#cacaca",
         tertiary: "#757575",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Deserted_Street (4).jpg",
@@ -493,9 +494,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#cbcbcb",
         secondary: "#121212",
         tertiary: "#767676",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   },
@@ -513,9 +514,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#b4b1af",
         secondary: "#3a3837",
         tertiary: "#6f6a67",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Empty_Classroom (2).jpg",
@@ -528,9 +529,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#e5e5e4",
         secondary: "#70706f",
         tertiary: "#292928",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Empty_Classroom (3).jpg",
@@ -543,9 +544,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#2e2e2e",
         secondary: "#6e6e6e",
         tertiary: "#e6e6e6",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Empty_Classroom (4).jpg",
@@ -558,9 +559,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#848484",
         secondary: "#e4e4e4",
         tertiary: "#4c4b4b",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Empty_Classroom (1).jpg",
@@ -573,9 +574,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#b4b1af",
         secondary: "#3a3837",
         tertiary: "#6f6a67",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Empty_Classroom (2).jpg",
@@ -588,9 +589,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#e5e5e4",
         secondary: "#71716f",
         tertiary: "#282827",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Empty_Classroom (3).jpg",
@@ -603,9 +604,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#e1e1e1",
         secondary: "#666666",
         tertiary: "#242424",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Empty_Classroom (4).jpg",
@@ -618,9 +619,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#848484",
         secondary: "#e4e4e4",
         tertiary: "#4c4b4b",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   },
@@ -638,9 +639,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#1f1f1f",
         secondary: "#787878",
         tertiary: "#d1d1d1",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Foggy_Village (2).jpg",
@@ -653,9 +654,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#b8b8bb",
         secondary: "#1b1b1b",
         tertiary: "#737373",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Foggy_Village (3).jpg",
@@ -668,9 +669,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#242424",
         secondary: "#d4d3d6",
         tertiary: "#888888",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Foggy_Village (4).jpg",
@@ -683,9 +684,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#86868b",
         secondary: "#1f1f1f",
         tertiary: "#c8c8c8",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Foggy_Village (1).jpg",
@@ -698,9 +699,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#1f1f1f",
         secondary: "#7a7a7a",
         tertiary: "#d1d1d1",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Foggy_Village (2).jpg",
@@ -713,9 +714,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#b8b8bb",
         secondary: "#1b1b1b",
         tertiary: "#747474",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Foggy_Village (3).jpg",
@@ -728,9 +729,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#232323",
         secondary: "#d1d0d3",
         tertiary: "#878788",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Foggy_Village (4).jpg",
@@ -743,9 +744,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#86868b",
         secondary: "#1e1e1e",
         tertiary: "#c8c8c8",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   },
@@ -763,9 +764,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#191919",
         secondary: "#d7d7d7",
         tertiary: "#797979",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Forest_Path (2).jpg",
@@ -778,9 +779,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#181818",
         secondary: "#d7d7d7",
         tertiary: "#7a7a7a",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Forest_Path (3).jpg",
@@ -793,9 +794,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#dadada",
         secondary: "#727272",
         tertiary: "#121212",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Forest_Path (4).jpg",
@@ -808,9 +809,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d8d8d8",
         secondary: "#181818",
         tertiary: "#979797",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Forest_Path (1).jpg",
@@ -823,9 +824,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#1c1c1c",
         secondary: "#d7d7d7",
         tertiary: "#7e7e7e",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Forest_Path (2).jpg",
@@ -838,9 +839,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#1c1c1c",
         secondary: "#d6d6d6",
         tertiary: "#7d7d7d",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Forest_Path (3).jpg",
@@ -853,9 +854,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#dadada",
         secondary: "#70706f",
         tertiary: "#121212",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Forest_Path (4).jpg",
@@ -868,9 +869,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d4d4d4",
         secondary: "#181818",
         tertiary: "#737373",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   },
@@ -888,9 +889,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#6f6f6f",
         secondary: "#0f0f0f",
         tertiary: "#e4e4e4",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Lonely_Hilltop (2).jpg",
@@ -903,9 +904,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#dedede",
         secondary: "#a2a2a2",
         tertiary: "#0f0f0f",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Lonely_Hilltop (3).jpg",
@@ -918,9 +919,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#262626",
         secondary: "#e1e1e1",
         tertiary: "#b0b0b0",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Lonely_Hilltop (4).jpg",
@@ -933,9 +934,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#1a1a1a",
         secondary: "#dfdfdf",
         tertiary: "#acacac",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Lonely_Hilltop (1).jpg",
@@ -948,9 +949,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#6d6d6d",
         secondary: "#0e0e0e",
         tertiary: "#e3e3e3",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Lonely_Hilltop (2).jpg",
@@ -963,9 +964,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#dddddd",
         secondary: "#a2a2a2",
         tertiary: "#0f0f0f",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Lonely_Hilltop (3).jpg",
@@ -978,9 +979,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#252525",
         secondary: "#e0e0e0",
         tertiary: "#b0b0b0",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Lonely_Hilltop (4).jpg",
@@ -993,9 +994,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#191919",
         secondary: "#dedede",
         tertiary: "#ababab",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   },
@@ -1013,9 +1014,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#232323",
         secondary: "#cfcfcf",
         tertiary: "#7f7f7f",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Lonely_Train_Tracks (2).jpg",
@@ -1028,9 +1029,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d8d8d8",
         secondary: "#1e1e1e",
         tertiary: "#7e7e7e",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Lonely_Train_Tracks (3).jpg",
@@ -1043,9 +1044,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#363636",
         secondary: "#e1e1e1",
         tertiary: "#989898",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Lonely_Train_Tracks (4).jpg",
@@ -1058,9 +1059,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#222222",
         secondary: "#cfcfcf",
         tertiary: "#7e7e7e",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Lonely_Train_Tracks (1).jpg",
@@ -1073,9 +1074,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#232323",
         secondary: "#cfcfcf",
         tertiary: "#7f7f7f",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Lonely_Train_Tracks (2).jpg",
@@ -1088,9 +1089,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d8d8d8",
         secondary: "#1d1d1d",
         tertiary: "#7e7e7e",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Lonely_Train_Tracks (3).jpg",
@@ -1103,9 +1104,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#303030",
         secondary: "#e1e1e1",
         tertiary: "#989898",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Lonely_Train_Tracks (4).jpg",
@@ -1118,9 +1119,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#222222",
         secondary: "#cfcfcf",
         tertiary: "#7e7e7e",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   },
@@ -1138,9 +1139,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#242424",
         secondary: "#cbcbcb",
         tertiary: "#838383",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Misty_Forest (2).jpg",
@@ -1153,9 +1154,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#262626",
         secondary: "#d0d0d0",
         tertiary: "#7f7f7f",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Misty_Forest (3).jpg",
@@ -1168,9 +1169,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d2d2d2",
         secondary: "#a8a8a8",
         tertiary: "#1c1c1c",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Misty_Forest (4).jpg",
@@ -1183,9 +1184,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d5d5d5",
         secondary: "#202020",
         tertiary: "#7a7a7a",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Misty_Forest (1).jpg",
@@ -1198,9 +1199,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#242424",
         secondary: "#cbcbcb",
         tertiary: "#838383",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Misty_Forest (2).jpg",
@@ -1213,9 +1214,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#262626",
         secondary: "#d0d0d0",
         tertiary: "#7f7f7f",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Misty_Forest (3).jpg",
@@ -1228,9 +1229,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d2d2d2",
         secondary: "#a8a8a8",
         tertiary: "#1c1c1c",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Misty_Forest (4).jpg",
@@ -1243,9 +1244,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d5d5d5",
         secondary: "#202020",
         tertiary: "#7a7a7a",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   },
@@ -1263,9 +1264,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#191919",
         secondary: "#c1c1c1",
         tertiary: "#6a6a6a",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Moonlit_Alley (2).jpg",
@@ -1278,9 +1279,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#191919",
         secondary: "#c0c0c0",
         tertiary: "#696969",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Moonlit_Alley (3).jpg",
@@ -1293,9 +1294,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#171717",
         secondary: "#bfbfbf",
         tertiary: "#696969",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Moonlit_Alley (4).jpg",
@@ -1308,9 +1309,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#16171c",
         secondary: "#c1b3ab",
         tertiary: "#6d6463",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Moonlit_Alley (1).jpg",
@@ -1323,9 +1324,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#191919",
         secondary: "#c1c1c1",
         tertiary: "#6a6a6a",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Moonlit_Alley (2).jpg",
@@ -1338,9 +1339,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#191919",
         secondary: "#c1c1c1",
         tertiary: "#686868",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Moonlit_Alley (3).jpg",
@@ -1353,9 +1354,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#171717",
         secondary: "#c0c0c0",
         tertiary: "#696969",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Moonlit_Alley (4).jpg",
@@ -1368,9 +1369,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#16171c",
         secondary: "#c2b3aa",
         tertiary: "#6d6463",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   },
@@ -1388,9 +1389,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d0d0d0",
         secondary: "#212121",
         tertiary: "#505050",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Rooftop (2).jpg",
@@ -1403,9 +1404,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#cdcdcd",
         secondary: "#292929",
         tertiary: "#767676",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Rooftop (3).jpg",
@@ -1418,9 +1419,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#cfcfcf",
         secondary: "#353536",
         tertiary: "#767676",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Rooftop (4).jpg",
@@ -1433,9 +1434,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#222222",
         secondary: "#d2d2d2",
         tertiary: "#656565",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Quiet_Rooftop (1).jpg",
@@ -1448,9 +1449,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d1d1d1",
         secondary: "#212121",
         tertiary: "#505050",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Rooftop (2).jpg",
@@ -1463,9 +1464,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#cecece",
         secondary: "#292929",
         tertiary: "#767676",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Rooftop (3).jpg",
@@ -1478,9 +1479,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#cfcfcf",
         secondary: "#353536",
         tertiary: "#767676",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Quiet_Rooftop (4).jpg",
@@ -1493,9 +1494,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#222222",
         secondary: "#d2d2d2",
         tertiary: "#686868",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   },
@@ -1513,9 +1514,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#cccccc",
         secondary: "#282828",
         tertiary: "#777777",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Train_Platform (2).jpg",
@@ -1528,9 +1529,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#242424",
         secondary: "#c4c4c4",
         tertiary: "#7a7a7a",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Train_Platform (3).jpg",
@@ -1543,9 +1544,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#1e1e1e",
         secondary: "#c8c8c8",
         tertiary: "#727272",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Train_Platform (4).jpg",
@@ -1558,9 +1559,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#212121",
         secondary: "#c1c1c1",
         tertiary: "#707070",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Train_Platform (1).jpg",
@@ -1573,9 +1574,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#cbcbcb",
         secondary: "#282828",
         tertiary: "#777777",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Train_Platform (2).jpg",
@@ -1588,9 +1589,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#c4c4c4",
         secondary: "#202020",
         tertiary: "#7c7c7d",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Train_Platform (3).jpg",
@@ -1603,9 +1604,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#1e1e1e",
         secondary: "#c8c8c8",
         tertiary: "#727271",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Train_Platform (4).jpg",
@@ -1618,9 +1619,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#212121",
         secondary: "#c0c0c0",
         tertiary: "#737373",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   },
@@ -1638,9 +1639,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#181818",
         secondary: "#858585",
         tertiary: "#d1d1d1",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Window (2).jpg",
@@ -1653,9 +1654,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#252525",
         secondary: "#d1d1d1",
         tertiary: "#858585",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Window (3).jpg",
@@ -1668,9 +1669,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#222222",
         secondary: "#cdcdcd",
         tertiary: "#7f7f7f",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Window (4).jpg",
@@ -1683,9 +1684,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#bdbab6",
         secondary: "#131313",
         tertiary: "#737271",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Rainy_Window (1).jpg",
@@ -1698,9 +1699,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#181818",
         secondary: "#858585",
         tertiary: "#d1d1d1",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Window (2).jpg",
@@ -1713,9 +1714,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#252525",
         secondary: "#d1d1d1",
         tertiary: "#858585",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Window (3).jpg",
@@ -1728,9 +1729,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#222222",
         secondary: "#cdcdcd",
         tertiary: "#7f7f7f",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Rainy_Window (4).jpg",
@@ -1743,9 +1744,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#bebab6",
         secondary: "#131313",
         tertiary: "#737170",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   },
@@ -1763,9 +1764,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d2d2d2",
         secondary: "#1c1c1c",
         tertiary: "#797979",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Silent_River (2).jpg",
@@ -1778,9 +1779,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d8d8d8",
         secondary: "#1f1f1f",
         tertiary: "#7e7e7e",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Silent_River (3).jpg",
@@ -1793,9 +1794,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d6d6d6",
         secondary: "#1d1d1d",
         tertiary: "#9c9c9c",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Silent_River (4).jpg",
@@ -1808,9 +1809,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d8d8d8",
         secondary: "#1a1a1a",
         tertiary: "#787878",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "min"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "min"
       },
       {
         original_file_name: "Silent_River (1).jpg",
@@ -1823,9 +1824,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d1d1d1",
         secondary: "#1b1b1c",
         tertiary: "#797979",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Silent_River (2).jpg",
@@ -1838,9 +1839,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d8d8d8",
         secondary: "#1f1f1f",
         tertiary: "#7e7e7e",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Silent_River (3).jpg",
@@ -1853,9 +1854,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d5d5d5",
         secondary: "#1d1d1d",
         tertiary: "#808080",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       },
       {
         original_file_name: "Silent_River (4).jpg",
@@ -1868,9 +1869,9 @@ const Anime_Monochrome: Record<string, any> = {
         primary: "#d8d8d8",
         secondary: "#1a1a1a",
         tertiary: "#777777",
-        Branch: "Anime",
-        FolderName: "Monochrome",
-        Type: "max"
+        branch: "Anime",
+        folder: "Monochrome",
+        type: "max"
       }
     ]
   }
