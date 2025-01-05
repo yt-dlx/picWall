@@ -1,6 +1,6 @@
 {
   "expo": {
-    "version": "1.0.16",
+    "version": "1.0.17",
     "owner": "shovit",
     "slug": "picWall",
     "name": "picWall",
@@ -41,14 +41,22 @@
         "backgroundColor": "#0C0C0C",
         "foregroundImage": "./src/assets/picWall.png"
       },
-      "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE", "SET_WALLPAPER "]
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "SET_WALLPAPER "
+      ]
     },
     "plugins": [
       "expo-router",
       [
         "expo-font",
         {
-          "fonts": ["./src/assets/fonts/Kurale_Regular.ttf", "./src/assets/fonts/Lobster_Regular.ttf", "./src/assets/fonts/Dm_Serif_Display_Regular.ttf"]
+          "fonts": [
+            "./src/assets/fonts/Kurale_Regular.ttf",
+            "./src/assets/fonts/Lobster_Regular.ttf",
+            "./src/assets/fonts/Dm_Serif_Display_Regular.ttf"
+          ]
         }
       ],
       [
