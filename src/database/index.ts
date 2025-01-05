@@ -1,8 +1,9 @@
+// src/database/index.ts
 import Anime_Monochrome from "./styles/Anime - Monochrome";
 import Anime_Background from "./styles/Anime - Background";
 import Anime_Illustration from "./styles/Anime - Illustration";
 import Anime_Manga from "./styles/Anime - Manga";
-import DSLR_Photograpgy from "./styles/DSLR - Photography";
+import DSLR_Photography from "./styles/DSLR - Photography";
 import Graphic_2D_Design from "./styles/Graphic - 2D Design";
 import Graphic_3D_Design from "./styles/Graphic - 3D Design";
 import Graphic_ArtDeco from "./styles/Graphic - Art Deco";
@@ -15,7 +16,36 @@ import Portrait_Fashion from "./styles/Portrait - Fashion";
 import Portrait_Film from "./styles/Portrait - Film";
 import Portrait_Moody from "./styles/Portrait - Moody";
 import Portrait_Retro from "./styles/Portrait - Retro";
-const metaBase = {
+
+type StyleComponent = typeof Anime_Monochrome;
+interface MetaBase {
+  Anime: {
+    Monochrome: StyleComponent;
+    Background: StyleComponent;
+    Illustration: StyleComponent;
+    Manga: StyleComponent;
+  };
+  DSLR: {
+    Photography: StyleComponent;
+  };
+  Graphic: {
+    TwoDDesign: StyleComponent;
+    ThreeDDesign: StyleComponent;
+    ArtDeco: StyleComponent;
+    PopArt: StyleComponent;
+    Vector: StyleComponent;
+  };
+  Portrait: {
+    Bokeh: StyleComponent;
+    Cinematic: StyleComponent;
+    CloseUp: StyleComponent;
+    Fashion: StyleComponent;
+    Film: StyleComponent;
+    Moody: StyleComponent;
+    Retro: StyleComponent;
+  };
+}
+const metaBase: MetaBase = {
   Anime: {
     Monochrome: Anime_Monochrome,
     Background: Anime_Background,
@@ -23,7 +53,7 @@ const metaBase = {
     Manga: Anime_Manga
   },
   DSLR: {
-    Photography: DSLR_Photograpgy
+    Photography: DSLR_Photography
   },
   Graphic: {
     TwoDDesign: Graphic_2D_Design,
@@ -42,4 +72,5 @@ const metaBase = {
     Retro: Portrait_Retro
   }
 };
+
 export default metaBase;

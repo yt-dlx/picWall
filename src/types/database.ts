@@ -1,3 +1,4 @@
+// src/types/database.ts
 type ImageMetadata = {
   type: string;
   mode: string;

@@ -1,18 +1,7 @@
 // app/Home/index.tsx
-import MountainsAndBeaches from "@/database/Mountains And Beaches";
-import CosmicAndLightning from "@/database/Cosmic And Lightning";
-import AntiqueLookObject from "@/database/Antique Look Object";
-import MinimalistAbstract from "@/database/Minimalist Abstract";
-import NaturalLandscapes from "@/database/Natural Landscapes";
-import AnimeLandscapes from "@/database/Anime Landscapes";
-import NatureWonders from "@/database/Nature Wonders";
-import HyperCloseups from "@/database/Hyper Closeups";
-import PortraitPerfect from "@/database/Portrait Perfect";
-import AerialView from "@/database/Aerial View";
-// ============================================================================================
-// ============================================================================================
 import { Link } from "expo-router";
 import { Image } from "expo-image";
+import metaBase from "@/database";
 import Colorizer from "@/utils/Colorizer";
 import Footer from "@/components/Footer";
 import { LinearGradient } from "expo-linear-gradient";
@@ -36,18 +25,17 @@ interface CategoryButtonExtendedProps extends CategoryButtonProps {
 }
 // ============================================================================================
 // ============================================================================================
-const databases = {
-  AerialView,
-  PortraitPerfect,
-  HyperCloseups,
-  NatureWonders,
-  AnimeLandscapes,
-  NaturalLandscapes,
-  MinimalistAbstract,
-  AntiqueLookObject,
-  CosmicAndLightning,
-  MountainsAndBeaches
-};
+type MetaBaseKey = keyof typeof metaBase;
+const databases: Record<string, unknown> = {};
+Object.keys(metaBase).forEach((category) => {
+  const subCategories = metaBase[category as MetaBaseKey];
+  Object.keys(subCategories).forEach((subCategory) => {
+    const key = `${category}_${subCategory}`;
+    databases[key] = subCategories[subCategory as keyof typeof subCategories];
+  });
+});
+// ============================================================================================
+// ============================================================================================
 function generateCategories(db: Record<string, any>): Category[] {
   const allDatabases = Object.values(db).reduce((acc, curr) => ({ ...acc, ...curr }), {});
   return [

@@ -1,5 +1,5 @@
 import { EnvironmentEntry } from "@/types/database";
-const DSLR_Photograpgy: Record<string, EnvironmentEntry> = {
+const DSLR_Photography: Record<string, EnvironmentEntry> = {
   Beach_Vacation: {
     environment_title: "Beach_Vacation",
     images: [
@@ -1251,4 +1251,4 @@ const DSLR_Photograpgy: Record<string, EnvironmentEntry> = {
     ]
   }
 };
-export default DSLR_Photograpgy;
+export default DSLR_Photography;
