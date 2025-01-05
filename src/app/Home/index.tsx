@@ -424,7 +424,7 @@ const CategoryButton: FC<CategoryButtonExtendedProps> = memo(({ category, select
     updateShuffleImage();
   }, [updateShuffleImage]);
   return (
-    <TouchableOpacity onPress={() => onPress()} style={{ flex: 1, height: 60, width: "100%", borderWidth: 1, borderRadius: 10, margin: 2, overflow: "hidden" }}>
+    <TouchableOpacity onPress={() => onPress()} style={{ flex: 1, height: 50, width: "100%", borderWidth: 1, borderColor: Colorizer("#FFFFFF", 0.1), borderRadius: 10, margin: 1, overflow: "hidden" }}>
       <View style={{ borderRadius: 4, overflow: "hidden", width: "100%", height: "100%" }}>
         <Image source={category === "Shuffle Wallpapers" ? require("@/assets/shuffle.gif") : { uri: currentImage }} style={{ width: "100%", height: "100%", borderRadius: 10 }} contentFit="cover" />
         <LinearGradient colors={["transparent", Colorizer("#0C0C0C", 0.5), Colorizer("#0C0C0C", 1.0)]} style={{ position: "absolute", width: "100%", height: "100%", borderRadius: 10 }} />
@@ -458,10 +458,10 @@ const HeaderComponent: FC<{
   }, [fadeInValue, leftIconTranslate, rightIconTranslate]);
   return (
     <Animated.View style={fadeInStyle}>
-      <View className="-m-4">
+      <View className="-m-2">
         <HeaderAnimate />
       </View>
-      <View style={{ marginTop: 10, paddingTop: 20, paddingRight: 4, paddingLeft: 4, paddingBottom: 10 }}>
+      <View style={{ marginTop: 30, paddingRight: 6, paddingLeft: 6, paddingBottom: 10 }}>
         <View style={{ flexDirection: "row", alignItems: "center", justifyContent: "center" }}>
           <Animated.View style={leftIconStyle}>
             <FontAwesome5 name="caret-left" size={24} color="#FFFFFF" />
