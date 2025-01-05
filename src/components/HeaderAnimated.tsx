@@ -49,7 +49,7 @@ const AnimatedTitle: React.FC = () => {
 const HeaderAnimated: React.FC = () => {
   return (
     <View className="flex-1 items-center justify-center">
-      <View className="flex-row overflow-hidden rounded-xl relative" style={{ height: 250 }}>
+      <View className="flex-row overflow-hidden rounded-xl relative" style={{ height: 300 }}>
         {imageSets.map((images, slotIndex) => (
           <ScrollingSlot key={slotIndex} images={images} reverse={slotIndex % 2 === 0} delay={slotIndex * 200} />
         ))}

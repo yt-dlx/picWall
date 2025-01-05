@@ -246,38 +246,50 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({ onDownload, colors }) =
 interface OtherImagesProps {
   primaryColor: string;
   tertiaryColor: string;
+  currentIndex: number;
   setCurrentIndex: (index: number) => void;
   otherImages: { img: ImageMetadata; idx: number }[];
 }
-const OtherImages: React.FC<OtherImagesProps> = ({ otherImages, setCurrentIndex, primaryColor, tertiaryColor }) => (
-  <View className="p-1 my-2 rounded-2xl" style={{ backgroundColor: Colorizer(primaryColor, 0.2) }}>
-    <View className="p-1 rounded-2xl" style={{ backgroundColor: Colorizer(tertiaryColor, 0.2) }}>
-      <Text className="ml-2 text-xl" style={{ fontFamily: "Lobster_Regular", color: Colorizer("#FFFFFF", 1.0) }}>
-        Other Wallpapers:
-      </Text>
-      <View className="flex-row flex-wrap my-1">
-        {otherImages.map(({ img, idx }) => {
-          const lowResLink = createPreviewLink(img);
-          return (
-            <TouchableOpacity
-              key={idx}
-              className="relative rounded-2xl overflow-hidden mx-0.5 flex-1"
-              style={{ aspectRatio: 9 / 16, borderRadius: 10, borderWidth: 1, borderColor: Colorizer(primaryColor, 1.0) }}
-              onPress={() => setCurrentIndex(idx)}
-            >
-              <Image source={{ uri: lowResLink }} style={{ width: "100%", height: "100%" }} contentFit="cover" />
-              <View className="absolute top-1 left-1 bg-black/50 px-1 py-1 rounded-lg">
-                <Text className="text-white text-xs" style={{ fontFamily: "Kurale_Regular" }}>
-                  {img.original_file_name.replace(".jpg", "")}
-                </Text>
-              </View>
-            </TouchableOpacity>
-          );
-        })}
+const OtherImages: React.FC<OtherImagesProps> = ({ otherImages, setCurrentIndex, primaryColor, tertiaryColor, currentIndex }) => {
+  const uniqueFileNames = new Set<string>();
+  const uniqueImages = otherImages.filter((item) => {
+    if (!item || !item.img) return false;
+    const { img } = item;
+    if (uniqueFileNames.has(img.original_file_name) || img.original_file_name === otherImages[currentIndex]?.img?.original_file_name) return false;
+    uniqueFileNames.add(img.original_file_name);
+    return true;
+  });
+  return (
+    <View className="p-1 my-2 rounded-2xl" style={{ backgroundColor: Colorizer(primaryColor, 0.2) }}>
+      <View className="p-1 rounded-2xl" style={{ backgroundColor: Colorizer(tertiaryColor, 0.2) }}>
+        <Text className="ml-2 text-xl" style={{ fontFamily: "Lobster_Regular", color: Colorizer("#FFFFFF", 1.0) }}>
+          Other Wallpapers:
+        </Text>
+        <View className="flex-row flex-wrap my-1">
+          {uniqueImages.map(({ img, idx }) => {
+            if (!img) return null;
+            const lowResLink = createPreviewLink(img);
+            return (
+              <TouchableOpacity
+                key={idx}
+                className="relative rounded-2xl overflow-hidden mx-0.5 flex-1"
+                style={{ aspectRatio: 9 / 16, borderRadius: 10, borderWidth: 1, borderColor: Colorizer(primaryColor, 1.0) }}
+                onPress={() => setCurrentIndex(idx)}
+              >
+                <Image source={{ uri: lowResLink }} style={{ width: "100%", height: "100%" }} contentFit="cover" />
+                <View className="absolute top-1 left-1 bg-black/50 px-1 py-1 rounded-lg">
+                  <Text className="text-white text-xs" style={{ fontFamily: "Kurale_Regular" }}>
+                    {img.original_file_name.replace(".jpg", "")}
+                  </Text>
+                </View>
+              </TouchableOpacity>
+            );
+          })}
+        </View>
       </View>
     </View>
-  </View>
-);
+  );
+};
 /* ============================================================================================ */
 /* ============================================================================================ */
 interface WallModalProps {
@@ -440,7 +452,7 @@ const FullScreenView: React.FC<FullScreenViewProps> = ({ isFullScreen, setIsFull
 };
 /* ============================================================================================ */
 /* ============================================================================================ */
-const ImagePage = () => {
+const ImagePage: React.FC = () => {
   const params = useLocalSearchParams();
   const [eta, setEta] = useState<number>(0);
   const rawDataString = params.data as string;
@@ -457,8 +469,8 @@ const ImagePage = () => {
     const parsedIndex = parseInt(Sanitized.selectedIndex);
     return !isNaN(parsedIndex) ? parsedIndex : 0;
   });
-  const selectedImage = Sanitized.data[currentIndex];
-  const environmentTitle = Sanitized.environment_title;
+  const selectedImage = Sanitized.data[currentIndex] as ImageMetadata;
+  const environmentTitle = Sanitized.environment_title as string;
   const showAlert = (title: string, message: string, iconName: "error" | "checkmark-done-circle") => {
     setAlertMessage(message);
     setAlertIcon(iconName);
@@ -508,8 +520,9 @@ const ImagePage = () => {
       showAlert("Error", "An error occurred while downloading or saving the image." + error, "error");
     }
   };
-  const allImages: { img: ImageMetadata; idx: number }[] = Sanitized.data.map((img: ImageMetadata, idx: number) => ({ img, idx }));
-  const otherImages = allImages.filter(({ idx }) => idx !== currentIndex);
+  const allImages = Sanitized.data as ImageMetadata[];
+  const allImagesWithIndex = allImages.map((img, idx) => ({ img, idx }));
+  const otherImages = allImagesWithIndex.filter((item) => item.idx !== currentIndex);
   return (
     <View className="flex-1" style={{ backgroundColor: Colorizer("#0C0C0C", 1.0) }}>
       <StatusBar translucent backgroundColor="transparent" barStyle="light-content" />
@@ -535,18 +548,11 @@ const ImagePage = () => {
             </View>
           ))}
           <DownloadButton onDownload={downloadAndSaveImage} colors={{ primary: selectedImage.primary, secondary: selectedImage.primary, tertiary: selectedImage.primary }} />
-          <OtherImages otherImages={otherImages} setCurrentIndex={setCurrentIndex} primaryColor={selectedImage.primary} tertiaryColor={selectedImage.tertiary} />
+          <OtherImages otherImages={otherImages} currentIndex={currentIndex} setCurrentIndex={setCurrentIndex} primaryColor={selectedImage.primary} tertiaryColor={selectedImage.tertiary} />
         </View>
         <Footer />
       </ScrollView>
-      <FullScreenView
-        isFullScreen={isFullScreen}
-        setIsFullScreen={setIsFullScreen}
-        selectedImage={selectedImage}
-        selectedIndex={currentIndex}
-        data={Sanitized.data}
-        environment_title={environmentTitle}
-      />
+      <FullScreenView isFullScreen={isFullScreen} setIsFullScreen={setIsFullScreen} selectedImage={selectedImage} selectedIndex={currentIndex} data={allImages} environment_title={environmentTitle} />
       <DownloadingModal visible={isDownloading} percentage={percentage} downloadRate={downloadRate} eta={eta} primaryColor={selectedImage.primary} />
       <SuccessModal visible={alertVisible && alertIcon === "checkmark-done-circle"} message={alertMessage} onClose={hideAlert} />
       <ErrorModal visible={alertVisible && alertIcon === "error"} message={alertMessage} onClose={hideAlert} />

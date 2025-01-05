@@ -38,13 +38,7 @@ function createDownloadLink(img: ImageMetadata) {
 /* ============================================================================================ */
 function generateCategories(base: typeof metaBase) {
   let shuffleDB: Record<string, EnvironmentEntry> = {};
-  const categoriesArray: Category[] = [
-    {
-      name: "Shuffle Wallpapers",
-      subcategories: [],
-      database: {}
-    }
-  ];
+  const categoriesArray: Category[] = [{ name: "Shuffle Wallpapers", subcategories: [], database: {} }];
   Object.keys(base).forEach((parent) => {
     const typedParent = parent as ParentKey;
     const subObj = base[typedParent];
@@ -55,11 +49,7 @@ function generateCategories(base: typeof metaBase) {
       shuffleDB = { ...shuffleDB, ...environmentEntries };
       db[subKey] = environmentEntries;
     });
-    categoriesArray.push({
-      name: typedParent,
-      subcategories: [...subCategories, "Randomized"],
-      database: db
-    });
+    categoriesArray.push({ name: typedParent, subcategories: [...subCategories, "Randomized"], database: db });
   });
   return { categoriesArray, shuffleDB };
 }
@@ -100,7 +90,20 @@ const SubImages: FC<SubImagesProps> = memo(({ images, onImagePress }) => (
     {images.data.map((image, index) => {
       const fullDataIndex = images.allData.findIndex((img) => img.original_file_name === image.original_file_name);
       return (
-        <Link key={index} href={{ pathname: "./Image", params: { data: JSON.stringify({ environment_title: images.environment_title, data: images.allData, selectedIndex: fullDataIndex }) } }} asChild>
+        <Link
+          key={index}
+          href={{
+            pathname: "./Image",
+            params: {
+              data: JSON.stringify({
+                environment_title: images.environment_title,
+                data: images.allData,
+                selectedIndex: fullDataIndex
+              })
+            }
+          }}
+          asChild
+        >
           <TouchableOpacity onPress={() => onImagePress(image.previewLink as string, fullDataIndex)} className="p-[0.2px] flex-1">
             <View className="relative">
               <Image
@@ -176,7 +179,19 @@ const Card: FC<CardProps> = memo(({ data }) => {
   }, [data, updateImageState]);
   return (
     <View className="rounded-xl overflow-hidden border mb-1" style={{ backgroundColor: Colorizer("#0C0C0C", 1.0), borderColor: Colorizer(data.images[currentIndex].primary, 0.2) }}>
-      <Link href={{ pathname: "./Image", params: { data: JSON.stringify({ environment_title: data.environment_title, data: data.images, selectedIndex: currentIndex }) } }} asChild>
+      <Link
+        href={{
+          pathname: "./Image",
+          params: {
+            data: JSON.stringify({
+              environment_title: data.environment_title,
+              data: data.images,
+              selectedIndex: currentIndex
+            })
+          }
+        }}
+        asChild
+      >
         <TouchableOpacity>
           <View className="relative aspect-[9/16] w-full overflow-hidden">
             <Animated.Image
@@ -212,13 +227,23 @@ const Card: FC<CardProps> = memo(({ data }) => {
         <View className="w-1/2">
           <SubImages
             onImagePress={(previewLink, index) => startTransition(index)}
-            images={{ allData: data.images, data: data.images.slice(0, 2), selectedIndex: currentIndex, environment_title: data.environment_title }}
+            images={{
+              allData: data.images,
+              data: data.images.slice(0, 2),
+              selectedIndex: currentIndex,
+              environment_title: data.environment_title
+            }}
           />
         </View>
         <View className="w-1/2">
           <SubImages
             onImagePress={(previewLink, index) => startTransition(index)}
-            images={{ allData: data.images, data: data.images.slice(2, 4), selectedIndex: currentIndex, environment_title: data.environment_title }}
+            images={{
+              allData: data.images,
+              data: data.images.slice(2, 4),
+              selectedIndex: currentIndex,
+              environment_title: data.environment_title
+            }}
           />
         </View>
       </View>
@@ -394,10 +419,7 @@ const CategoryButton: FC<CategoryButtonExtendedProps> = memo(({ category, select
       Object.values(shuffleDB).forEach((env) => {
         env.images.forEach((img) => allImages.push(createPreviewLink(img)));
       });
-      if (allImages.length) {
-        const randomIndex = Math.floor(Math.random() * allImages.length);
-        setCurrentImage(allImages[randomIndex]);
-      }
+      if (allImages.length) setCurrentImage(allImages[Math.floor(Math.random() * allImages.length)]);
     } else if (category === "All Categories") {
       const allImages: string[] = [];
       rawCategoriesArray.forEach((cat) => {
@@ -409,26 +431,14 @@ const CategoryButton: FC<CategoryButtonExtendedProps> = memo(({ category, select
             if (subObj) Object.values(subObj).forEach((env) => env.images.forEach((img) => allImages.push(createPreviewLink(img))));
           });
       });
-      if (allImages.length) {
-        const randomIndex = Math.floor(Math.random() * allImages.length);
-        setCurrentImage(allImages[randomIndex]);
-      }
+      if (allImages.length) setCurrentImage(allImages[Math.floor(Math.random() * allImages.length)]);
     }
   }, [category]);
   useEffect(() => {
     updateShuffleImage();
   }, [updateShuffleImage]);
   return (
-    <TouchableOpacity
-      onPress={() => {
-        if (category === "Shuffle Wallpapers") {
-          onPress();
-        } else {
-          onPress();
-        }
-      }}
-      style={{ flex: 1, height: 60, width: "100%", borderWidth: 1, borderRadius: 10, margin: 2, overflow: "hidden" }}
-    >
+    <TouchableOpacity onPress={() => onPress()} style={{ flex: 1, height: 60, width: "100%", borderWidth: 1, borderRadius: 10, margin: 2, overflow: "hidden" }}>
       <View style={{ borderRadius: 4, overflow: "hidden", width: "100%", height: "100%" }}>
         <Image source={{ uri: currentImage }} style={{ width: "100%", height: "100%", borderRadius: 10 }} contentFit="cover" />
         <LinearGradient colors={["transparent", Colorizer("#0C0C0C", 0.5), Colorizer("#0C0C0C", 1.0)]} style={{ position: "absolute", width: "100%", height: "100%", borderRadius: 10 }} />
