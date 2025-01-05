@@ -15,7 +15,7 @@ import Portrait_Fashion from "./Portrait - Fashion";
 import Portrait_Film from "./Portrait - Film";
 import Portrait_Moody from "./Portrait - Moody";
 import Portrait_Retro from "./Portrait - Retro";
-const picWall = {
+const metaBase = {
   Anime: {
     Monochrome: Anime_Monochrome,
     Background: Anime_Background,
@@ -42,4 +42,4 @@ const picWall = {
     Retro: Portrait_Retro
   }
 };
-export default picWall;
+export default metaBase;
