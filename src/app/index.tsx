@@ -1,40 +1,46 @@
 import React, { useEffect, useState } from "react";
-import { Button, Platform, StatusBar } from "react-native";
-import { InterstitialAd, AdEventType, TestIds } from "react-native-google-mobile-ads";
+import { Button } from "react-native";
+import { RewardedInterstitialAd, RewardedAdEventType, TestIds } from "react-native-google-mobile-ads";
 
-const adUnitId = __DEV__ ? TestIds.INTERSTITIAL : "ca-app-pub-9464475307933754/3867856186";
-const interstitial = InterstitialAd.createForAdRequest(adUnitId, {
+const adUnitId = __DEV__ ? TestIds.REWARDED_INTERSTITIAL : "ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyyyy";
+
+const rewardedInterstitial = RewardedInterstitialAd.createForAdRequest(adUnitId, {
   keywords: ["fashion", "clothing"]
 });
 
-const AppPage: React.FC = () => {
+function App() {
   const [loaded, setLoaded] = useState(false);
+
   useEffect(() => {
-    const unsubscribeLoaded = interstitial.addAdEventListener(AdEventType.LOADED, () => {
+    const unsubscribeLoaded = rewardedInterstitial.addAdEventListener(RewardedAdEventType.LOADED, () => {
       setLoaded(true);
     });
-    const unsubscribeOpened = interstitial.addAdEventListener(AdEventType.OPENED, () => {
-      if (Platform.OS === "ios") StatusBar.setHidden(true);
+    const unsubscribeEarned = rewardedInterstitial.addAdEventListener(RewardedAdEventType.EARNED_REWARD, (reward) => {
+      console.log("User earned reward of ", reward);
     });
-    const unsubscribeClosed = interstitial.addAdEventListener(AdEventType.CLOSED, () => {
-      if (Platform.OS === "ios") StatusBar.setHidden(false);
-    });
-    interstitial.load();
+
+    // Start loading the rewarded interstitial ad straight away
+    rewardedInterstitial.load();
+
+    // Unsubscribe from events on unmount
     return () => {
       unsubscribeLoaded();
-      unsubscribeOpened();
-      unsubscribeClosed();
+      unsubscribeEarned();
     };
   }, []);
-  if (!loaded) return null;
+
+  // No advert ready to show yet
+  if (!loaded) {
+    return null;
+  }
+
   return (
     <Button
-      title="Show Interstitial"
+      title="Show Rewarded Interstitial Ad"
       onPress={() => {
-        interstitial.show();
+        rewardedInterstitial.show();
       }}
     />
   );
-};
-
-export default AppPage;
+}
+export default App;
