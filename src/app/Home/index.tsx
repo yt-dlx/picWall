@@ -4,6 +4,7 @@
 import { Link } from "expo-router";
 import { Image } from "expo-image";
 import metaBase from "@/database";
+import { BlurView } from "expo-blur";
 import Colorizer from "@/utils/Colorizer";
 import Footer from "@/components/Footer";
 import { LinearGradient } from "expo-linear-gradient";
@@ -15,7 +16,6 @@ import React, { useEffect, useRef, useCallback, useState, memo, FC } from "react
 import { SubImagesProps, CardProps, CategoryButtonProps } from "@/types/components";
 import { Easing, useSharedValue, useAnimatedStyle, withTiming, withRepeat } from "react-native-reanimated";
 import { Animated, View, Text, TouchableOpacity, FlatList, StatusBar, ScrollView, TextInput, Modal, ActivityIndicator, StyleSheet, Dimensions } from "react-native";
-import { BlurView } from "expo-blur";
 /* ============================================================================================ */
 /* ============================================================================================ */
 type ParentKey = keyof typeof metaBase;

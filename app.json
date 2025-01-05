@@ -41,22 +41,14 @@
         "backgroundColor": "#0C0C0C",
         "foregroundImage": "./src/assets/picWall.png"
       },
-      "permissions": [
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE",
-        "SET_WALLPAPER "
-      ]
+      "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE", "SET_WALLPAPER "]
     },
     "plugins": [
       "expo-router",
       [
         "expo-font",
         {
-          "fonts": [
-            "./src/assets/fonts/Kurale_Regular.ttf",
-            "./src/assets/fonts/Lobster_Regular.ttf",
-            "./src/assets/fonts/Dm_Serif_Display_Regular.ttf"
-          ]
+          "fonts": ["./src/assets/fonts/Kurale_Regular.ttf", "./src/assets/fonts/Lobster_Regular.ttf", "./src/assets/fonts/Dm_Serif_Display_Regular.ttf"]
         }
       ],
       [
@@ -66,6 +58,14 @@
           "resizeMode": "contain",
           "backgroundColor": "#0C0C0C",
           "image": "./src/assets/picWall.png"
+        }
+      ],
+      [
+        "react-native-google-mobile-ads",
+        {
+          "iosAppId": "ca-app-pub-9464475307933754/3867856186",
+          "androidAppId": "ca-app-pub-9464475307933754/3867856186",
+          "userTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you."
         }
       ]
     ]
