@@ -23,12 +23,13 @@ interface ParsedData {
 /* ============================================================================================ */
 export default function AdmobPage(): JSX.Element {
   const router = useRouter();
-  let parsedData: ParsedData | null = null;
   const params = useLocalSearchParams();
   const [adError, setAdError] = useState(false);
   const [adEarned, setAdEarned] = useState(false);
   const [imageLoaded, setImageLoaded] = useState(false);
+  const [countdown, setCountdown] = useState(10);
   const opacity = useRef(new Animated.Value(0)).current;
+  let parsedData: ParsedData | null = null;
   if (params.data) {
     const dataParam = Array.isArray(params.data) ? params.data[0] : params.data;
     parsedData = JSON.parse(dataParam) as ParsedData;
@@ -40,6 +41,18 @@ export default function AdmobPage(): JSX.Element {
       if (!adEarned) setAdError(true);
     }
   });
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCountdown((prev) => {
+        if (prev === 1) {
+          clearInterval(timer);
+          if (!adLoaded && !adEarned) router.replace({ pathname: "/Image", params });
+        }
+        return prev - 1;
+      });
+    }, 1000);
+    return () => clearInterval(timer);
+  }, [adLoaded, adEarned, router, params]);
   useEffect(() => {
     if (adLoaded) showAd();
   }, [adLoaded, showAd]);
@@ -92,7 +105,10 @@ export default function AdmobPage(): JSX.Element {
                 Preparing Your Experience
               </Text>
               <Text className="text-white/60 text-sm text-center" style={{ fontFamily: "Lobster_Regular" }}>
-                After watching the ad, you'll be redirected to your selected content
+                After watching the ad, you'll be redirected to your selected content.
+              </Text>
+              <Text className="text-white text-lg text-center mt-4" style={{ fontFamily: "Lobster_Regular" }}>
+                Redirecting in {countdown} seconds...
               </Text>
             </View>
           )}
