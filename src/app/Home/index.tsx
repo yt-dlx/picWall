@@ -84,20 +84,7 @@ const SubImages: FC<SubImagesProps> = memo(({ images, onImagePress }) => (
     {images.data.map((image, index) => {
       const fullDataIndex = images.allData.findIndex((img) => img.original_file_name === image.original_file_name);
       return (
-        <Link
-          key={index}
-          href={{
-            pathname: "./Image",
-            params: {
-              data: JSON.stringify({
-                environment_title: images.environment_title,
-                data: images.allData,
-                selectedIndex: fullDataIndex
-              })
-            }
-          }}
-          asChild
-        >
+        <Link key={index} href={{ pathname: "/Admob", params: { data: JSON.stringify({ environment_title: images.environment_title, selectedIndex: fullDataIndex, data: images.allData }) } }} asChild>
           <TouchableOpacity onPress={() => onImagePress(image.previewLink as string, fullDataIndex)} className="p-[0.2px] flex-1">
             <View className="relative">
               <Image
