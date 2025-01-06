@@ -84,7 +84,7 @@ const SubImages: FC<SubImagesProps> = memo(({ images, onImagePress }) => (
     {images.data.map((image, index) => {
       const fullDataIndex = images.allData.findIndex((img) => img.original_file_name === image.original_file_name);
       return (
-        <Link key={index} href={{ pathname: "/Admob", params: { data: JSON.stringify({ environment_title: images.environment_title, selectedIndex: fullDataIndex, data: images.allData }) } }} asChild>
+        <Link key={index} href={{ pathname: "/Shared", params: { data: JSON.stringify({ environment_title: images.environment_title, selectedIndex: fullDataIndex, data: images.allData }) } }} asChild>
           <TouchableOpacity onPress={() => onImagePress(image.previewLink as string, fullDataIndex)} className="p-[0.2px] flex-1">
             <View className="relative">
               <Image
@@ -160,7 +160,7 @@ const Card: FC<CardProps> = memo(({ data }) => {
   }, [data, updateImageState]);
   return (
     <View className="rounded-xl overflow-hidden border mb-1" style={{ backgroundColor: Colorizer("#0C0C0C", 1.0), borderColor: Colorizer(data.images[currentIndex].primary, 0.2) }}>
-      <Link href={{ pathname: "/Admob", params: { data: JSON.stringify({ environment_title: data.environment_title, selectedIndex: currentIndex, data: data.images }) } }} asChild>
+      <Link href={{ pathname: "/Shared", params: { data: JSON.stringify({ environment_title: data.environment_title, selectedIndex: currentIndex, data: data.images }) } }} asChild>
         <TouchableOpacity>
           <View className="relative aspect-[9/16] w-full overflow-hidden">
             <Animated.Image

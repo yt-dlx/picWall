@@ -1,4 +1,4 @@
-// src/app/Admob/index.tsx
+// src/app/Shared/index.tsx
 import { Image } from "expo-image";
 import Colorizer from "@/utils/Colorizer";
 import React, { useEffect, useState, useRef } from "react";
