@@ -1,6 +1,6 @@
 {
   "expo": {
-    "version": "5.0.0",
+    "version": "6.0.0",
     "owner": "shovit",
     "slug": "picWall",
     "name": "picWall",
@@ -35,7 +35,7 @@
       }
     },
     "android": {
-      "versionCode": 5,
+      "versionCode": 6,
       "requiresFullScreen": true,
       "package": "com.shovit.picWall",
       "adaptiveIcon": {
