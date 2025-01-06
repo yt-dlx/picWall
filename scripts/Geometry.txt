@@ -1,5 +1,5 @@
 ========================================
--- Abstract
+==| Abstract
 - Hexagonal Flow: Gradient With Tessellated Hexagonal Overlays  
 - Fractal Fade: Gradient Fading Through Intricate Fractal Layers  
 - Angular Drift: Geometric Gradient With Sharp Triangular Transitions  
@@ -11,7 +11,7 @@
 - Linear Transition: Gradient Blending Clean, Linear Geometric Shapes  
 - Crystal Fade: Gradient Mimicking Translucent Crystal Formations  
 ========================================
--- Macro
+==| Macro
 - Polygonal Leaves: Macro Shot Of Leaves Designed With Geometric Veins  
 - Hexagonal Water: Water Ripples Forming Tessellated Geometric Patterns  
 - Fractal Bark: Closeup Of Bark Rendered With Repeating Fractal Designs  
@@ -23,7 +23,7 @@
 - Pebble Grid: Smooth Pebbles Arranged In A Tessellated Pattern  
 - Water Droplets: Geometric Droplets Glowing With Perfect Symmetry  
 ========================================
--- Symmetry
+==| Symmetry
 - Hexagonal Lake: A Reflective Lake Designed With Tessellated Symmetry  
 - Fractal Water: Water Reflections Forming Intricate Fractal Patterns  
 - Geometric Echo: Angular Reflections On A Polished Geometric Surface  
@@ -35,7 +35,7 @@
 - Canyon Fractals: A Canyon Reflection Rendered With Fractal Precision  
 - Urban Mirage: Symmetrical Reflections Of Polygonal Urban Lights  
 ========================================
--- Celestial
+==| Celestial
 - Hexagonal Nebula: A Nebula With Tessellated Geometric Overlays  
 - Fractal Galaxy: A Galaxy Rendered With Intricate Fractal Patterns  
 - Polygonal Planet: A Planet Surface Covered In Repeating Geometric Forms  
@@ -47,7 +47,7 @@
 - Polygonal Comet: A Comet Streaking Through Space With Geometric Trails  
 - Galactic Layers: A Layered Galaxy Designed With Polygonal Structures  
 ========================================
--- Energy
+==| Energy
 - Energy Columns: Vertical Beams Of Geometric Energy Glowing Softly  
 - Plasma Spikes: Vertical Plasma Streaks Rendered In Polygonal Precision  
 - Angular Flow: Vertical Energy Currents Designed With Sharp Geometric Edges  
@@ -59,7 +59,7 @@
 - Polygonal Cascades: Cascading Vertical Beams Of Angular Energy  
 - Luminous Layers: Vertical Energy Streaks Forming Geometric Layers  
 ========================================
--- Textures
+==| Textures
 - Polygon Marble: Gradient Marble Textures With Angular Polygon Overlays  
 - Hexagonal Frost: Frosted Textures Transitioning Through Hexagonal Patterns  
 - Metallic Grid: Gradient Metallic Textures Arranged In Geometric Grids  
@@ -71,7 +71,7 @@
 - Concentric Circles: Gradient Textures Glowing Through Circular Symmetry  
 - Polygon Fade: Geometric Gradient Transitions With Polygonal Precision  
 ========================================
--- Silhouettes
+==| Silhouettes
 - Angular Forest: Geometric Tree Silhouettes Glowing Against Gradients  
 - Fractal Peaks: Mountain Silhouettes Rendered With Repeating Fractal Patterns  
 - Polygon Dunes: Geometric Desert Dunes Silhouetted Under A Radiant Sky  
@@ -83,7 +83,7 @@
 - Hexagonal Cliffs: Coastal Cliffs Glowing With Tessellated Patterns  
 - Starry Geometrics: Geometric Starry Skies Illuminating Tree Silhouettes  
 ========================================
--- Bioluminescent
+==| Bioluminescent
 - Fractal Fungi: Glowing Mushrooms Rendered With Fractal Geometric Patterns  
 - Hexagonal Moss: Bioluminescent Moss Designed With Tessellated Symmetry  
 - Polygon Coral: Geometric Coral Reefs Glowing Under Radiant Waters  
@@ -95,7 +95,7 @@
 - Gradient Glow: Bioluminescent Elements Transitioning In Gradient Tessellations  
 - Radiant Reefs: Geometric Reefs Glowing In Bioluminescent Patterns  
 ========================================
--- Geometries
+==| Geometries
 - Hexagonal Stripes: Vertical Glowing Stripes In Tessellated Patterns  
 - Fractal Columns: Repeating Fractal Columns Glowing Vertically  
 - Concentric Waves: Circular Geometric Waves Flowing In Vertical Streaks  
@@ -107,7 +107,7 @@
 - Crystal Fractals: Geometric Crystal Formations Glowing In Vertical Alignment  
 - Gradient Path: Vertical Pathways Rendered In Geometric Gradient Hues  
 ========================================
--- Cosmic
+==| Cosmic
 - Hexagonal Trails: Vertical Star Trails Glowing In Tessellated Patterns  
 - Fractal Galaxy: A Galaxy Rendered With Vertical Fractal Layers  
 - Polygon Nebula: Vertical Nebula Streaks Rendered With Angular Precision  
@@ -119,7 +119,7 @@
 - Radiant Rings: Vertical Glowing Rings Flowing In Geometric Precision  
 - Starry Columns: Vertical Star Columns Rendered In Tessellated Symmetry  
 ========================================
--- Glow
+==| Glow
 - Polygon Mandala: A Glowing Geometric Mandala With Tessellated Layers  
 - Hexagonal Ripples: Concentric Glowing Hexagonal Ripples  
 - Fractal Grids: Geometric Fractal Patterns Glowing In Radiant Symmetry  
@@ -131,7 +131,7 @@
 - Ripple Mandala: A Glowing Mandala Combining Ripples And Geometry  
 - Hexagonal Flow: A Glowing Flow Of Interlocked Hexagonal Patterns  
 ========================================
--- Texture
+==| Texture
 - Geometric Frost: Frosted Textures Glowing With Angular Symmetry  
 - Hexagonal Bark: Geometric Bark Textures Glowing With Radiant Edges  
 - Rippled Glass: Tessellated Glass Textures Glowing Softly  
@@ -143,7 +143,7 @@
 - Gradient Stone: Geometric Stone Surfaces Glowing In Soft Gradients  
 - Fractal Frost: Frosted Patterns Arranged In Glowing Fractal Designs  
 ========================================
--- Landscapes
+==| Landscapes
 - Polygon Peaks: Geometric Mountain Peaks Glowing With Angular Designs  
 - Hexagonal Cliffs: Geometric Cliffs Glowing In Tessellated Layers  
 - Aurora Trees: Tall Geometric Trees Glowing Under Aurora-Inspired Skies  
@@ -155,7 +155,7 @@
 - Starry Heights: Geometric Vertical Peaks Glowing Under Starry Skies  
 - Angular Horizons: Geometric Landscapes Glowing In Layered Verticality  
 ========================================
--- Aurora
+==| Aurora
 - Hexagonal Lights: Geometric Auroras Glowing In Tessellated Streaks  
 - Angular Trails: Vertical Aurora Streaks Rendered In Sharp Polygons  
 - Fractal Curtains: Vertical Auroras Arranged In Glowing Fractal Layers  
@@ -167,7 +167,7 @@
 - Crystal Auroras: Geometric Auroras Glowing In Crystalline Patterns  
 - Galactic Waves: Aurora Streaks Rendered With Glowing Fractal Symmetry  
 ========================================
--- Metallic
+==| Metallic
 - Fractal Chrome: Geometric Chrome Patterns Glowing With Radiant Gradients  
 - Polished Steel: Smooth Geometric Metallic Textures Glowing Under Light  
 - Ripple Metal: Vertical Metallic Ripples Rendered With Glowing Geometry  
@@ -179,7 +179,7 @@
 - Starry Chrome: Metallic Textures Glowing Under Geometric Starry Skies  
 - Reflective Grids: Geometric Metallic Grids Glowing With Radiant Light  
 ========================================
--- Amoled
+==| Amoled
 - Hexagonal Abyss: Glowing Tessellated Patterns Fading Into Amoled Black  
 - Angular Glow: Geometric Shapes Glowing Brightly Against Deep Black  
 - Crystal Grids: Tessellated Crystal Patterns Glowing In Infinite Black Space  
@@ -191,7 +191,7 @@
 - Metallic Mandala: A Glowing Geometric Mandala Over A Black Void  
 - Fractal Abyss: Infinite Glowing Fractal Patterns Extending Into Black  
 ========================================
--- Depth
+==| Depth
 - Hexagonal Layers: Infinite Glowing Tessellated Layers Fading Into Depth  
 - Ripple Grids: Vertical Geometric Ripples Glowing Through Layered Infinity  
 - Fractal Abyss: A Geometric Abyss Glowing Infinitely Into Black Space  
@@ -203,7 +203,7 @@
 - Starry Columns: Radiant Star Grids Fading Infinitely In Layered Symmetry  
 - Gradient Waves: Vertical Geometric Waves Glowing Softly Into Depth  
 ========================================
--- Scenery
+==| Scenery
 - Polygonal Peaks: Geometric Mountain Ranges Glowing Under Tessellated Skies  
 - Hexagonal Cliffs: Geometric Cliffs Glowing With Tessellated Textures  
 - Aurora Trees: Geometric Tree Lines Glowing Under Radiant Auroras  
@@ -214,16 +214,4 @@
 - Lava Tessellations: Molten Glowing Geometric Layers Stretching Into Infinity  
 - Galactic Spires: Vertical Glowing Spires Rendered Geometrically  
 - Starry Gridlines: Geometric Star Grids Glowing Softly Over Polygonal Landscapes  
-========================================
--- Nature
-- Hexagonal Forest: Geometric Trees Glowing Under Tessellated Auroras  
-- Fractal Grass: Geometric Grass Blades Glowing With Radiant Light Patterns  
-- Aurora Blossoms: Geometric Flowers Glowing Under Radiant Auroras  
-- Crystal Leaves: Geometric Foliage Glowing With Crystalline Textures  
-- Gradient Moss: Bioluminescent Moss Arranged In Tessellated Patterns  
-- Ripple Trees: Geometric Tree Ripples Glowing In Tessellated Layers  
-- Desert Grids: Polygonal Desert Dunes Glowing With Radiant Light Effects  
-- Frosted Vines: Geometric Vines Glowing Softly In Radiant Symmetry  
-- Lava Trails: Glowing Molten Paths Rendered With Geometric Accuracy  
-- Ocean Polygons: Geometric Waves Glowing In Tessellated Coastal Formations  
 ========================================

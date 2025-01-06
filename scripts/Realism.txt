@@ -1,5 +1,5 @@
 ========================================
--- Abstract
+==| Abstract
 - Nature Glow: Gradient Inspired By Glowing Natural Landscapes  
 - Ocean Horizon: Gradient Transitioning From Sky Blue To Deep Navy  
 - Desert Warmth: A Soft Gradient Inspired By Warm Desert Tones  
@@ -11,7 +11,7 @@
 - Oceanic Glow: Subtle Gradient Blending Light Teal And Soft Blues  
 - Mountain Fade: A Gradient Transitioning Through Grey, White, And Blue  
 ========================================
--- Macro
+==| Macro
 - Dewdrop Focus: A Closeup Of A Water Droplet Reflecting Vibrant Foliage  
 - Crystal Detail: A Macro View Of Natural Crystals Glowing In Sunlight  
 - Frosted Veins: Intricate Leaf Veins Covered In Frost  
@@ -23,7 +23,7 @@
 - Ice Cracks: Detailed Cracks In A Frozen Surface Glowing Softly  
 - Mossy Growth: Macro Details Of Moss Growing On A Rocky Surface  
 ========================================
--- Symmetry
+==| Symmetry
 - Lake Mirror: A Calm Lake Perfectly Reflecting A Golden Sunrise  
 - Glacier Reflection: Icy Landscapes Mirrored In Crystal-Clear Waters  
 - Urban Puddle: Rain-Soaked Pavement Reflecting Vibrant City Lights  
@@ -35,7 +35,7 @@
 - Canyon Water: Deep Canyon Walls Mirrored In Still Waters Below  
 - Starfield Water: A Starry Sky Perfectly Reflected In A Remote Mountain Lake  
 ========================================
--- Celestial
+==| Celestial
 - Starry Night: A Dense Starfield Glowing Softly Over A Mountain Ridge  
 - Moonlit Plains: Rolling Plains Illuminated By A Full Moon  
 - Galactic Edge: A Vast Galaxy Glowing With Intricate Details  
@@ -47,7 +47,7 @@
 - Nebula Fade: A Glowing Nebula With Subtle Light Transitions  
 - Celestial Alignment: Planets Aligned Under A Glowing Aurora  
 ========================================
--- Energy
+==| Energy
 - Lightning Column: A Vertical Bolt Of Lightning Glowing Against A Stormy Sky  
 - Aurora Spire: A Vertical Aurora Glowing Over Icy Tundras  
 - Plasma Currents: Radiant Energy Flowing Upward In Realistic Waves  
@@ -59,7 +59,7 @@
 - Solar Streaks: Natural Sunlight Streaming Vertically Through Thick Forests  
 - Fiery Trails: Vertical Trails Of Glowing, Fiery Energy  
 ========================================
--- Textures
+==| Textures
 - Marble Blend: Realistic Marble Textures Transitioning Through Subtle Gradients  
 - Frosted Glass: Textured Frosted Glass Glowing With Icy Gradient Hues  
 - Metallic Shine: Brushed Metallic Textures Blending Soft Gradient Tones  
@@ -71,7 +71,7 @@
 - Crystal Transition: Realistic Crystalline Textures Glowing Through Soft Gradients  
 - Fabric Weave: Woven Textures Glowing In Gentle Gradient Tones  
 ========================================
--- Silhouettes
+==| Silhouettes
 - Tree Shadows: Silhouettes Of Dense Trees Glowing Against A Realistic Sunset  
 - Mountain Layers: Mountain Silhouettes Stacked Under Soft Gradient Skies  
 - Lake Horizon: A Calm Lake Silhouetted Against A Golden Horizon  
@@ -83,7 +83,7 @@
 - Frozen Ridge: Icy Mountain Silhouettes Glowing Under Moonlit Skies  
 - Starry Forest: Forest Silhouettes Under A Glowing Star-Filled Sky  
 ========================================
--- Bioluminescent
+==| Bioluminescent
 - Glow Mushrooms: Bioluminescent Fungi Glowing Softly In A Dense Forest  
 - Radiant Moss: Moss Glowing Naturally Under Dim, Realistic Light  
 - Coral Light: Subtle Bioluminescent Coral Glowing Under Clear Waters  
@@ -95,7 +95,7 @@
 - Neon Algae: Natural Glowing Algae Floating In Still Waters  
 - Aurora Flora: Bioluminescent Plants Glowing Under Aurora Skies  
 ========================================
--- Geometries
+==| Geometries
 - Stone Pillars: Vertical Stone Columns Glowing With Realistic Light  
 - Rippled Layers: Vertical Water Ripples Illuminated Naturally  
 - Fractal Grains: Sand Grains Arranged In Natural Fractal Patterns  
@@ -107,7 +107,7 @@
 - Desert Cracks: Natural Desert Cracks Forming Vertical Patterns  
 - Crystal Spikes: Vertical Crystals Glowing With Radiant Highlights  
 ========================================
--- Cosmic
+==| Cosmic
 - Star Trails: Long Vertical Star Trails Glowing Under A Clear Night Sky  
 - Moonlit Beams: Vertical Moonlight Streaks Glowing On Frosted Landscapes  
 - Aurora Rise: Northern Lights Forming Vertical Patterns In The Sky  
@@ -119,7 +119,7 @@
 - Celestial Columns: Vertical Glowing Columns Of Cosmic Light  
 - Night Sky Streams: Vertical Light Streams Glowing Under A Starry Sky  
 ========================================
--- Glow
+==| Glow
 - Frosted Mandala: A Realistic Glowing Mandala With Frosted Highlights  
 - Sand Ripples: Concentric Sand Ripples Glowing Under Warm Sunlight  
 - Crystal Web: Intricate Glowing Patterns Resembling Crystalline Formations  
@@ -131,7 +131,7 @@
 - Aurora Grids: Natural Glowing Grids Blending With Aurora Hues  
 - Bark Details: Intricate Bark Textures Glowing Softly In Subtle Light  
 ========================================
--- Texture
+==| Texture
 - Icy Patterns: Frosted Textures Glowing Softly Under Natural Light  
 - Tree Rings: Closeup Of Glowing Tree Rings Illuminated By Sunlight  
 - Rippled Sand: Fine Sand Textures Glowing With Subtle Reflections  
@@ -143,7 +143,7 @@
 - Pebble Clarity: Polished Pebbles Glowing Under Water Reflections  
 - Bark Highlights: Glowing Bark Textures With Intricate Details  
 ========================================
--- Landscapes
+==| Landscapes
 - Towering Pines: Tall Pine Trees Glowing Under A Frosted Morning Sky  
 - Waterfall Heights: A Cascading Realistic Waterfall Illuminated By Sunlight  
 - Cliff Shadows: Dramatic Cliffs Glowing Softly Under Twilight Hues  
@@ -155,7 +155,7 @@
 - Starry Mountains: Towering Peaks Glowing Under A Starry Night Sky  
 - Forest Layers: Tall Glowing Forest Trees Stretching Vertically  
 ========================================
--- Aurora
+==| Aurora
 - Twilight Curtains: Vertical Auroras Glowing In Twilight Colors  
 - Starry Heights: Aurora Streaks Glowing Softly Over Tall Ridges  
 - Frosted Lights: Subtle Auroras Glowing Under Icy Skies  
@@ -167,7 +167,7 @@
 - Star Streams: Aurora Streaks Glowing In Harmony With Star Trails  
 - Aurora Peaks: Tall Auroras Glowing Over Mountain Silhouettes  
 ========================================
--- Metallic
+==| Metallic
 - Frosted Chrome: Polished Chrome Textures Glowing Under Frosted Light  
 - Metallic Ripples: Subtle Ripples On Metallic Surfaces Glowing Naturally  
 - Crystal Shine: Metallic Crystalline Textures Glowing In Natural Hues  
@@ -179,7 +179,7 @@
 - Gradient Shine: Metallic Gradients Glowing In Soft Natural Tones  
 - Reflective Rings: Circular Metallic Patterns Glowing With Natural Reflections  
 ========================================
--- Amoled
+==| Amoled
 - Star Abyss: Bright Stars Glowing Vividly Against Pure Amoled Black Skies  
 - Frosted Void: Subtle Frosted Textures Glowing Softly In A Dark Abyss  
 - Crystal Night: Radiant Crystal Formations Glowing In Infinite Black Space  
@@ -191,7 +191,7 @@
 - Sand Ripples: Textured Sand Glowing Softly In Amoled Contrast  
 - Metallic Trails: Realistic Metallic Surfaces Glowing In Deep Black Voids  
 ========================================
--- Depth
+==| Depth
 - Crystal Caverns: Luminous Crystals Glowing Softly In Layered Depths  
 - Infinite Ocean: Subtle Ocean Waves Fading Into Infinite Glowing Depths  
 - Starry Layers: A Dense Starfield Glowing In Infinite Layered Depth  
@@ -203,7 +203,7 @@
 - Frosted Depths: Icy Landscapes Glowing Softly In Infinite Realistic Layers  
 - Galactic Veins: Cosmic Veins Glowing Infinitely Through Starry Depths  
 ========================================
--- Scenery
+==| Scenery
 - Sunset Horizon: Realistic Ocean Glowing Under A Radiant Twilight Sky  
 - Starry Canyon: A Glowing Canyon Illuminated Under A Star-Filled Sky  
 - Frosted Forest: A Glowing Forest With Icy Highlights Under Aurora Skies  
@@ -214,16 +214,4 @@
 - Ocean Glow: Realistic Waves Glowing Under Soft Twilight Hues  
 - Misty Canyon: A Glowing Canyon Fading Into Dense Morning Mist  
 - Starry Ridge: A Glowing Ridge Illuminated Under A Dense Starry Night  
-========================================
--- Nature
-- Bioluminescent Forest: Naturally Glowing Plants In A Dense Forest  
-- Frosted River: A Glowing Icy River Illuminated By Soft Moonlight  
-- Twilight Trees: Tree Silhouettes Glowing Softly Under Aurora Hues  
-- Starry Shores: Radiant Beaches Glowing With Natural Bioluminescent Light  
-- Crystal Blooms: Luminous Flowers Glowing In A Frosted Meadow  
-- Lava Fields: Molten Glowing Landscapes Stretching Under Starry Skies  
-- Desert Glow: Subtle Glowing Dunes Under Radiant Twilight Horizons  
-- Aurora Meadows: Glowing Grasslands Illuminated By Cascading Auroras  
-- Ocean Veins: Subtle Glowing Currents Flowing Naturally In A Calm Ocean  
-- Frosted Trails: Glowing Paths Cutting Through Icy Forests  
 ========================================
