@@ -13,7 +13,7 @@ type RewardAdConfig = {
 export default function useRewardAd({ adUnitId, keywords = [], onRewardEarned, onAdClosed }: RewardAdConfig) {
   const [adLoaded, setAdLoaded] = useState(false);
   const adClientRef = useRef<RewardedInterstitialAd | null>(null);
-  const defaultAdUnitId = __DEV__ ? TestIds.REWARDED_INTERSTITIAL : Platform.select({ ios: "ca-app-pub-9464475307933754/8362173967", android: "ca-app-pub-9464475307933754/8430751878" });
+  const defaultAdUnitId = __DEV__ ? TestIds.REWARDED_INTERSTITIAL : Platform.select({ ios: "ca-app-pub-8756720176445763/2109425101", android: "ca-app-pub-8756720176445763/4851138511" });
   const finalAdUnitId = adUnitId || defaultAdUnitId;
   const createAndLoadAd = () => {
     const adClient = RewardedInterstitialAd.createForAdRequest(finalAdUnitId!, { keywords });
