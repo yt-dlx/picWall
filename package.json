@@ -1,9 +1,9 @@
 {
-  "version": "1.0.19",
+  "version": "3.0.0",
   "name": "picwall",
   "main": "expo-router/entry",
   "scripts": {
-    "version": "node -e \"const fs = require('fs'); const updateVersion = (file, path) => { let json = JSON.parse(fs.readFileSync(file, 'utf-8')); let versionPath = path.split('.'); let version = versionPath.reduce((o, k) => o[k], json); let [major, minor, patch] = version.split('.').map(Number); version = [major, minor, patch + 1].join('.'); versionPath.reduce((o, k, i, a) => i === a.length - 1 ? o[k] = version : o[k], json); fs.writeFileSync(file, JSON.stringify(json, null, 2)); console.log(file, 'Updated version:', version); }; updateVersion('./package.json', 'version'); updateVersion('./app.json', 'expo.version');\"",
+    "version": "node -e \"const fs = require('fs'); const updateVersion = (file, versionPath, codePath) => { let json = JSON.parse(fs.readFileSync(file, 'utf-8')); let versionParts = versionPath.split('.'); let codeParts = codePath.split('.'); let version = versionParts.reduce((o, k) => o[k], json); let [major, minor, patch] = version.split('.').map(Number); version = [(major + 1), 0, 0].join('.'); versionParts.reduce((o, k, i, a) => i === a.length - 1 ? o[k] = version : o[k], json); let versionCode = codeParts.reduce((o, k) => o[k], json); versionCode = (parseInt(versionCode, 10) || 0) + 1; codeParts.reduce((o, k, i, a) => i === a.length - 1 ? o[k] = versionCode : o[k], json); fs.writeFileSync(file, JSON.stringify(json, null, 2)); console.log(file, 'Updated version:', version, 'Updated versionCode:', versionCode); }; updateVersion('./package.json', 'version', 'versionCode'); updateVersion('./app.json', 'expo.version', 'expo.android.versionCode');\"",
     "build:cloud:development:android": "npm run version && eas build --profile development --platform android",
     "build:cloud:development:ios": "npm run version && eas build --profile development --platform ios",
     "build:cloud:development": "npm run version && eas build --profile development --platform all",
@@ -75,5 +75,6 @@
     "react-test-renderer": "18.3.1",
     "typescript": "^5.3.3"
   },
-  "private": true
+  "private": true,
+  "versionCode": 2
 }
