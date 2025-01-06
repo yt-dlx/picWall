@@ -1,6 +1,6 @@
 {
   "expo": {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "owner": "shovit",
     "slug": "picWall",
     "name": "picWall",
@@ -35,14 +35,18 @@
       }
     },
     "android": {
-      "versionCode": 1,
+      "versionCode": 2,
       "requiresFullScreen": true,
       "package": "com.shovit.picWall",
       "adaptiveIcon": {
         "backgroundColor": "#0C0C0C",
         "foregroundImage": "./src/assets/images/logo.jpg"
       },
-      "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE", "SET_WALLPAPER "]
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "SET_WALLPAPER "
+      ]
     },
     "plugins": [
       "expo-router",
@@ -58,7 +62,11 @@
       [
         "expo-font",
         {
-          "fonts": ["./src/assets/fonts/Kurale_Regular.ttf", "./src/assets/fonts/Lobster_Regular.ttf", "./src/assets/fonts/Dm_Serif_Display_Regular.ttf"]
+          "fonts": [
+            "./src/assets/fonts/Kurale_Regular.ttf",
+            "./src/assets/fonts/Lobster_Regular.ttf",
+            "./src/assets/fonts/Dm_Serif_Display_Regular.ttf"
+          ]
         }
       ],
       [
