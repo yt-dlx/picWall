@@ -1,5 +1,5 @@
 {
-  "version": "7.0.0",
+  "version": "8.0.0",
   "name": "picwall",
   "main": "expo-router/entry",
   "scripts": {
@@ -76,5 +76,5 @@
     "typescript": "^5.3.3"
   },
   "private": true,
-  "versionCode": 6
+  "versionCode": 7
 }
