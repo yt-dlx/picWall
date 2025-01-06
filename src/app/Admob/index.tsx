@@ -6,29 +6,29 @@ import useRewardAd from "@/components/useRewardAd";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { View, Text, ActivityIndicator, Dimensions, Button, StatusBar, Animated } from "react-native";
-
+/* ============================================================================================ */
+/* ============================================================================================ */
 const { width, height } = Dimensions.get("screen");
-
 interface ImageData {
   previewLink: string;
   original_file_name: string;
   primary: string;
 }
-
 interface ParsedData {
   environment_title: string;
   selectedIndex: number;
   data: ImageData[];
 }
-
+/* ============================================================================================ */
+/* ============================================================================================ */
 export default function AdmobPage(): JSX.Element {
   const router = useRouter();
+  let parsedData: ParsedData | null = null;
   const params = useLocalSearchParams();
   const [adError, setAdError] = useState(false);
   const [adEarned, setAdEarned] = useState(false);
   const [imageLoaded, setImageLoaded] = useState(false);
   const opacity = useRef(new Animated.Value(0)).current;
-  let parsedData: ParsedData | null = null;
   if (params.data) {
     const dataParam = Array.isArray(params.data) ? params.data[0] : params.data;
     parsedData = JSON.parse(dataParam) as ParsedData;
@@ -46,7 +46,6 @@ export default function AdmobPage(): JSX.Element {
   useEffect(() => {
     if (adEarned && imageLoaded) router.replace({ pathname: "/Image", params });
   }, [adEarned, imageLoaded, router, params]);
-
   useEffect(() => {
     Animated.loop(
       Animated.sequence([Animated.timing(opacity, { toValue: 1, duration: 1000, useNativeDriver: true }), Animated.timing(opacity, { toValue: 0, duration: 1000, useNativeDriver: true })])
@@ -58,7 +57,8 @@ export default function AdmobPage(): JSX.Element {
   };
   return (
     <View className="flex-1">
-      <StatusBar hidden /> <Image source={require("@/assets/bg-admob.png")} style={{ position: "absolute", width, height, top: 0, left: 0 }} contentFit="cover" />
+      <StatusBar hidden />
+      <Image source={require("@/assets/bg-admob.png")} style={{ position: "absolute", width, height, top: 0, left: 0 }} contentFit="cover" />
       <View className="flex-1 items-center justify-center p-6">
         <View
           className="items-center"
