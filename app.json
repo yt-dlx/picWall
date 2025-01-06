@@ -1,6 +1,6 @@
 {
   "expo": {
-    "version": "3.0.0",
+    "version": "5.0.0",
     "owner": "shovit",
     "slug": "picWall",
     "name": "picWall",
@@ -35,27 +35,36 @@
       }
     },
     "android": {
-      "versionCode": 3,
+      "versionCode": 5,
       "requiresFullScreen": true,
       "package": "com.shovit.picWall",
       "adaptiveIcon": {
         "backgroundColor": "#0C0C0C",
         "foregroundImage": "./src/assets/picWall.png"
       },
-      "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE", "SET_WALLPAPER "]
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "SET_WALLPAPER "
+      ]
     },
     "plugins": [
       [
         "react-native-google-mobile-ads",
         {
-          "androidAppId": "ca-app-pub-9464475307933754~8430751878"
+          "androidAppId": "ca-app-pub-9464475307933754~8430751878",
+          "iosAppId": "ca-app-pub-9464475307933754~8362173967"
         }
       ],
       "expo-router",
       [
         "expo-font",
         {
-          "fonts": ["./src/assets/fonts/Kurale_Regular.ttf", "./src/assets/fonts/Lobster_Regular.ttf", "./src/assets/fonts/Dm_Serif_Display_Regular.ttf"]
+          "fonts": [
+            "./src/assets/fonts/Kurale_Regular.ttf",
+            "./src/assets/fonts/Lobster_Regular.ttf",
+            "./src/assets/fonts/Dm_Serif_Display_Regular.ttf"
+          ]
         }
       ],
       [
