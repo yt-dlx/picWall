@@ -11,7 +11,7 @@
     "experiments": {
       "typedRoutes": true
     },
-    "icon": "./src/assets/picWall.png",
+    "icon": "./src/assets/images/picWall.png",
     "ios": {
       "supportsTablet": true,
       "requiresFullScreen": true,
@@ -24,7 +24,7 @@
     "web": {
       "output": "static",
       "bundler": "metro",
-      "favicon": "./src/assets/picWall.png"
+      "favicon": "./src/assets/images/picWall.png"
     },
     "extra": {
       "router": {
@@ -40,13 +40,9 @@
       "package": "com.shovit.picWall",
       "adaptiveIcon": {
         "backgroundColor": "#0C0C0C",
-        "foregroundImage": "./src/assets/picWall.png"
+        "foregroundImage": "./src/assets/images/picWall.png"
       },
-      "permissions": [
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE",
-        "SET_WALLPAPER "
-      ]
+      "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE", "SET_WALLPAPER "]
     },
     "plugins": [
       [
@@ -60,11 +56,7 @@
       [
         "expo-font",
         {
-          "fonts": [
-            "./src/assets/fonts/Kurale_Regular.ttf",
-            "./src/assets/fonts/Lobster_Regular.ttf",
-            "./src/assets/fonts/Dm_Serif_Display_Regular.ttf"
-          ]
+          "fonts": ["./src/assets/fonts/Kurale_Regular.ttf", "./src/assets/fonts/Lobster_Regular.ttf", "./src/assets/fonts/Dm_Serif_Display_Regular.ttf"]
         }
       ],
       [
@@ -73,7 +65,7 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#0C0C0C",
-          "image": "./src/assets/picWall.png"
+          "image": "./src/assets/images/picWall.png"
         }
       ]
     ]

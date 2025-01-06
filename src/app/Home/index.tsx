@@ -377,7 +377,7 @@ const CategoryModal: FC<CategoryModalProps> = ({ isVisible, onClose, onSelectCat
                         >
                           <View className={`rounded-2xl overflow-hidden border aspect-video ${selectedSubcategory === child ? "border-2 border-[#FFFFFF]" : "border-white/20"}`}>
                             {child === "Mixed-All" ? (
-                              <Image source={require("@/assets/shuffle.gif")} style={{ width: "100%", height: "100%" }} contentFit="cover" />
+                              <Image source={require("@/assets/images/shuffle.gif")} style={{ width: "100%", height: "100%" }} contentFit="cover" />
                             ) : (
                               <Animated.View style={{ transform: [{ scale }] }}>
                                 <Image source={{ uri: previewLinks[`${activeParent}-${child}`] }} style={{ width: "100%", height: "100%" }} contentFit="cover" />
@@ -428,7 +428,11 @@ const CategoryButton: FC<CategoryButtonExtendedProps> = memo(({ category, select
   return (
     <TouchableOpacity onPress={() => onPress()} style={{ flex: 1, height: 80, width: "100%", borderWidth: 1, borderColor: Colorizer("#FFFFFF", 0.1), borderRadius: 10, margin: 1, overflow: "hidden" }}>
       <View style={{ borderRadius: 4, overflow: "hidden", width: "100%", height: "100%" }}>
-        <Image source={category === "Shuffle Wallpapers" ? require("@/assets/shuffle.gif") : { uri: currentImage }} style={{ width: "100%", height: "100%", borderRadius: 10 }} contentFit="cover" />
+        <Image
+          source={category === "Shuffle Wallpapers" ? require("@/assets/images/shuffle.gif") : { uri: currentImage }}
+          style={{ width: "100%", height: "100%", borderRadius: 10 }}
+          contentFit="cover"
+        />
         <LinearGradient colors={["transparent", Colorizer("#0C0C0C", 0.5), Colorizer("#0C0C0C", 1.0)]} style={{ position: "absolute", width: "100%", height: "100%", borderRadius: 10 }} />
         <View style={{ position: "absolute", width: "100%", height: "100%", justifyContent: "center", alignItems: "center", flexDirection: "row", borderRadius: 10 }}>
           <FontAwesome6 name={category === "All Categories" ? "list" : "image"} size={16} color="#FFFFFF" style={{ marginRight: 8 }} />
