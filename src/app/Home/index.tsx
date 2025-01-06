@@ -175,7 +175,7 @@ const Card: FC<CardProps> = memo(({ data }) => {
     <View className="rounded-xl overflow-hidden border mb-1" style={{ backgroundColor: Colorizer("#0C0C0C", 1.0), borderColor: Colorizer(data.images[currentIndex].primary, 0.2) }}>
       <Link
         href={{
-          pathname: "./Image",
+          pathname: "/Admob",
           params: {
             data: JSON.stringify({
               environment_title: data.environment_title,
