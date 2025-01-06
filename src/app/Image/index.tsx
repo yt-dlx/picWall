@@ -448,7 +448,7 @@ const FullScreenView: React.FC<FullScreenViewProps> = ({ isFullScreen, setIsFull
 };
 /* ============================================================================================ */
 /* ============================================================================================ */
-const ImagePage: React.FC = () => {
+export default function ImagePage(): JSX.Element {
   const params = useLocalSearchParams();
   const [eta, setEta] = useState<number>(0);
   const rawDataString = params.data as string;
@@ -554,5 +554,4 @@ const ImagePage: React.FC = () => {
       <ErrorModal visible={alertVisible && alertIcon === "error"} message={alertMessage} onClose={hideAlert} />
     </View>
   );
-};
-export default ImagePage;
+}

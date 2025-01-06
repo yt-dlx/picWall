@@ -78,7 +78,7 @@ const AnimatedTitle: React.FC = () => {
 };
 // ============================================================================================
 // ============================================================================================
-const BasePage: React.FC = () => {
+export default function BasePage(): JSX.Element {
   const buttonScale = useSharedValue(1);
   const buttonGlow = useSharedValue(0);
   const buttonRotate = useSharedValue(0);
@@ -162,6 +162,4 @@ const BasePage: React.FC = () => {
       <Footer />
     </View>
   );
-};
-
-export default BasePage;
+}

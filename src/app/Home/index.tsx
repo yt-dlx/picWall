@@ -173,19 +173,7 @@ const Card: FC<CardProps> = memo(({ data }) => {
   }, [data, updateImageState]);
   return (
     <View className="rounded-xl overflow-hidden border mb-1" style={{ backgroundColor: Colorizer("#0C0C0C", 1.0), borderColor: Colorizer(data.images[currentIndex].primary, 0.2) }}>
-      <Link
-        href={{
-          pathname: "/Admob",
-          params: {
-            data: JSON.stringify({
-              environment_title: data.environment_title,
-              data: data.images,
-              selectedIndex: currentIndex
-            })
-          }
-        }}
-        asChild
-      >
+      <Link href={{ pathname: "/Admob", params: { data: JSON.stringify({ environment_title: data.environment_title, selectedIndex: currentIndex, data: data.images }) } }} asChild>
         <TouchableOpacity>
           <View className="relative aspect-[9/16] w-full overflow-hidden">
             <Animated.Image

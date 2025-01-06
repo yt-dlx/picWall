@@ -4,7 +4,7 @@ import { View, Text, ActivityIndicator } from "react-native";
 import useRewardAd from "@/components/useRewardAd";
 import { useLocalSearchParams, useRouter } from "expo-router";
 
-export default function ImagePreviewPage() {
+export default function AdmobPage(): JSX.Element {
   const params = useLocalSearchParams();
   const router = useRouter();
   const { showAd, adLoaded } = useRewardAd({
