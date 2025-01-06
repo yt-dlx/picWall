@@ -58,7 +58,7 @@ export default function AdmobPage(): JSX.Element {
   return (
     <View className="flex-1">
       <StatusBar hidden />
-      <Image source={require("@/assets/images/admob.png")} style={{ position: "absolute", width, height, top: 0, left: 0 }} contentFit="cover" />
+      <Image source={require("@/assets/images/admob.jpg")} style={{ position: "absolute", width, height, top: 0, left: 0 }} contentFit="cover" />
       <View className="flex-1 items-center justify-center p-6">
         <View
           className="items-center"

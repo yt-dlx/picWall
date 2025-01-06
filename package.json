@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "4.0.0",
   "name": "picwall",
   "main": "expo-router/entry",
   "scripts": {
@@ -16,7 +16,7 @@
     "build:cloud:production": "npm run version && eas build --profile production --platform all",
     "build:cloud:production:ios": "npm run version && eas build --profile production --platform ios",
     "build:cloud:production:android": "npm run version && eas build --profile production --platform android",
-    "build": "npm run version && expo prebuild && cd android && ./gradlew assembleRelease  --stacktrace && ./gradlew assembleDebug --stacktrace",
+    "build:android:windows": "npm run version && expo prebuild && cd android && ./gradlew assembleRelease && ./gradlew assembleDebug",
     "android": "expo prebuild && expo run:android",
     "ios": "expo prebuild &&expo run:ios",
     "web": "expo start --web",
@@ -76,5 +76,5 @@
     "typescript": "^5.3.3"
   },
   "private": true,
-  "versionCode": 7
+  "versionCode": 10
 }
