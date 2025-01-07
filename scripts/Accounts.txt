@@ -1,4 +1,5 @@
-Play Account: picwalldev@gmail.com
+Play Account: 
+    0 - picwalldev@gmail.com
 Testers Accounts: 
     1 - picwall.org.tester.1@gmail.com
     2 - picwall.org.tester.2@gmail.com
