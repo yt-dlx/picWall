@@ -1,9 +1,9 @@
 {
-  "version": "2.0.0",
+  "version": "1.0.0",
   "name": "picwall",
   "main": "expo-router/entry",
   "scripts": {
-    "version": "node -e \"const fs = require('fs'); const updateVersion = (file, versionPath, codePath) => { let json = JSON.parse(fs.readFileSync(file, 'utf-8')); let versionParts = versionPath.split('.'); let codeParts = codePath.split('.'); let version = versionParts.reduce((o, k) => o[k], json); let [major, minor, patch] = version.split('.').map(Number); version = [(major + 1), 0, 0].join('.'); versionParts.reduce((o, k, i, a) => i === a.length - 1 ? o[k] = version : o[k], json); let versionCode = codeParts.reduce((o, k) => o[k], json); versionCode = (parseInt(versionCode, 10) || 0) + 1; codeParts.reduce((o, k, i, a) => i === a.length - 1 ? o[k] = versionCode : o[k], json); fs.writeFileSync(file, JSON.stringify(json, null, 2)); }; updateVersion('./package.json', 'version', 'versionCode'); updateVersion('./app.json', 'expo.version', 'expo.android.versionCode');\"",
+    "version": "node -e \"const fs = require('fs'); const updateVersion = (file, versionPath) => { let json = JSON.parse(fs.readFileSync(file, 'utf-8')); let versionParts = versionPath.split('.'); let version = versionParts.reduce((o, k) => o[k], json); let [major, minor, patch] = version.split('.').map(Number); version = [(major + 1), 0, 0].join('.'); versionParts.reduce((o, k, i, a) => i === a.length - 1 ? o[k] = version : o[k], json); fs.writeFileSync(file, JSON.stringify(json, null, 2)); }; updateVersion('./package.json', 'version'); updateVersion('./app.json', 'expo.version');\"",
     "build:cloud:development:android": "npm run version && eas build --profile development --platform android",
     "build:cloud:development:ios": "npm run version && eas build --profile development --platform ios",
     "build:cloud:development": "npm run version && eas build --profile development --platform all",
@@ -76,5 +76,5 @@
     "typescript": "^5.3.3"
   },
   "private": true,
-  "versionCode": 14
+  "versionCode": 15
 }
