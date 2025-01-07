@@ -1,21 +1,23 @@
 Play Account: picwalldev@gmail.com
 Testers Accounts: 
-    - picwall.org.tester.1@gmail.com
-    - picwall.org.tester.2@gmail.com
-    - picwall.org.tester.3@gmail.com
-    - picwall.org.tester.4@gmail.com
-    - picwall.org.tester.5@gmail.com
-    - picwall.org.tester.6@gmail.com
-Temp Accounts:
-    - picwall.one@gmail.com
-    - picwalltwo@gmail.com
-    - picwallthree@gmail.com
-    - picwallfour@gmail.com
-    - picwallsix@gmail.com
-    - picwallseven@gmail.com
+    1 - picwall.org.tester.1@gmail.com
+    2 - picwall.org.tester.2@gmail.com
+    3 - picwall.org.tester.3@gmail.com
+    4 - picwall.org.tester.4@gmail.com
+    5 - picwall.org.tester.5@gmail.com
+    6 - picwall.org.tester.6@gmail.com
+    7 - picwall.one@gmail.com
+    8 - picwall.two@gmail.com
+    9 - picwallone@gmail.com
+    10 - picwalltwo@gmail.com
+    11 - picwallthree@gmail.com
+    12 - picwallfour@gmail.com
+    13 - picwallfive@gmail.com
+    14 - picwallsix@gmail.com
+    15 - picwallseven@gmail.com
 Production Accounts: 
-    - shovitdutta1@gmail.com
-    - nicorp719@gmail.com
-    - krakinzkon@gmail.com
-    - magneumpro@gmail.com
-    - larissaparishmita77@gmail.com
+    16 - shovitdutta1@gmail.com
+    17 - nicorp719@gmail.com
+    18 - krakinzkon@gmail.com
+    19 - magneumpro@gmail.com
+    20 - larissaparishmita77@gmail.com
