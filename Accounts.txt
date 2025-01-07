@@ -1,0 +1,21 @@
+Play Account: picwalldev@gmail.com
+Testers Accounts: 
+    - picwall.org.tester.1@gmail.com
+    - picwall.org.tester.2@gmail.com
+    - picwall.org.tester.3@gmail.com
+    - picwall.org.tester.4@gmail.com
+    - picwall.org.tester.5@gmail.com
+    - picwall.org.tester.6@gmail.com
+Temp Accounts:
+    - picwall.one@gmail.com
+    - picwalltwo@gmail.com
+    - picwallthree@gmail.com
+    - picwallfour@gmail.com
+    - picwallsix@gmail.com
+    - picwallseven@gmail.com
+Production Accounts: 
+    - shovitdutta1@gmail.com
+    - nicorp719@gmail.com
+    - krakinzkon@gmail.com
+    - magneumpro@gmail.com
+    - larissaparishmita77@gmail.com
