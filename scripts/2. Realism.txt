@@ -11,6 +11,30 @@
     Oceanic Glow: Subtle Gradient Blending Light Teal And Soft Blues  
     Mountain Fade: A Gradient Transitioning Through Grey, White, And Blue  
 ========================================XX========================================
+==| Amoled
+    Star Abyss: Bright Stars Glowing Vividly Against Pure Amoled Black Skies  
+    Frosted Void: Subtle Frosted Textures Glowing Softly In A Dark Abyss  
+    Crystal Night: Radiant Crystal Formations Glowing In Infinite Black Space  
+    Aurora Flow: Vertical Auroras Glowing With Natural Hues Against Black  
+    Lava Depth: Molten Lava Glowing Intensely Over Deep Black Shadows  
+    Twilight Forest: A Dense Forest Silhouetted And Glowing In Soft Hues  
+    Ocean Edge: Subtle Ocean Waves Glowing Against A Pure Black Horizon  
+    Starlit Peaks: Mountain Silhouettes Glowing Under Black Starry Skies  
+    Sand Ripples: Textured Sand Glowing Softly In Amoled Contrast  
+    Metallic Trails: Realistic Metallic Surfaces Glowing In Deep Black Voids  
+========================================XX========================================
+==| Aurora
+    Twilight Curtains: Vertical Auroras Glowing In Twilight Colors  
+    Starry Heights: Aurora Streaks Glowing Softly Over Tall Ridges  
+    Frosted Lights: Subtle Auroras Glowing Under Icy Skies  
+    Aurora Trails: Vertical Glowing Auroras Stretching Across The Horizon  
+    Galactic Waves: Soft Auroras Blending Into Starry Backdrops  
+    Ocean Reflections: Vertical Auroras Reflected On A Calm Ocean Surface  
+    Misty Glow: Vertical Auroras Blending Into Misty Landscapes  
+    Radiant Curtains: Multicolored Auroras Glowing With Natural Depth  
+    Star Streams: Aurora Streaks Glowing In Harmony With Star Trails  
+    Aurora Peaks: Tall Auroras Glowing Over Mountain Silhouettes  
+========================================XX========================================
 ==| Macro
 Dewdrop Focus: A Closeup Of A Water Droplet Reflecting Vibrant Foliage  
 Crystal Detail: A Macro View Of Natural Crystals Glowing In Sunlight  
@@ -155,18 +179,6 @@ Lava Heights: A Tall Molten Ridge Glowing With Fiery Natural Light
 Starry Mountains: Towering Peaks Glowing Under A Starry Night Sky  
 Forest Layers: Tall Glowing Forest Trees Stretching Vertically  
 ========================================XX========================================
-==| Aurora
-Twilight Curtains: Vertical Auroras Glowing In Twilight Colors  
-Starry Heights: Aurora Streaks Glowing Softly Over Tall Ridges  
-Frosted Lights: Subtle Auroras Glowing Under Icy Skies  
-Aurora Trails: Vertical Glowing Auroras Stretching Across The Horizon  
-Galactic Waves: Soft Auroras Blending Into Starry Backdrops  
-Ocean Reflections: Vertical Auroras Reflected On A Calm Ocean Surface  
-Misty Glow: Vertical Auroras Blending Into Misty Landscapes  
-Radiant Curtains: Multicolored Auroras Glowing With Natural Depth  
-Star Streams: Aurora Streaks Glowing In Harmony With Star Trails  
-Aurora Peaks: Tall Auroras Glowing Over Mountain Silhouettes  
-========================================XX========================================
 ==| Metallic
 Frosted Chrome: Polished Chrome Textures Glowing Under Frosted Light  
 Metallic Ripples: Subtle Ripples On Metallic Surfaces Glowing Naturally  
@@ -178,18 +190,6 @@ Starry Sheen: Metallic Surfaces Glowing Under A Starry Night Sky
 Aurora Metal: Metallic Textures Glowing With Aurora-Inspired Gradients  
 Gradient Shine: Metallic Gradients Glowing In Soft Natural Tones  
 Reflective Rings: Circular Metallic Patterns Glowing With Natural Reflections  
-========================================XX========================================
-==| Amoled
-Star Abyss: Bright Stars Glowing Vividly Against Pure Amoled Black Skies  
-Frosted Void: Subtle Frosted Textures Glowing Softly In A Dark Abyss  
-Crystal Night: Radiant Crystal Formations Glowing In Infinite Black Space  
-Aurora Flow: Vertical Auroras Glowing With Natural Hues Against Black  
-Lava Depth: Molten Lava Glowing Intensely Over Deep Black Shadows  
-Twilight Forest: A Dense Forest Silhouetted And Glowing In Soft Hues  
-Ocean Edge: Subtle Ocean Waves Glowing Against A Pure Black Horizon  
-Starlit Peaks: Mountain Silhouettes Glowing Under Black Starry Skies  
-Sand Ripples: Textured Sand Glowing Softly In Amoled Contrast  
-Metallic Trails: Realistic Metallic Surfaces Glowing In Deep Black Voids  
 ========================================XX========================================
 ==| Depth
 Crystal Caverns: Luminous Crystals Glowing Softly In Layered Depths  

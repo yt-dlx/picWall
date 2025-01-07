@@ -12,16 +12,16 @@
     Nightfall Fade: A Gradient Transitioning Through Deep Cinematic Purples  
 ========================================XX========================================
 ==| Macro
-Frosted Crystal: Intricate Macro Details Of A Frosted Crystal Glowing Softly  
-Rippled Waters: Closeup Of Cinematic Water Ripples Glowing In Soft Light  
-Leaf Layers: Macro Textures Of A Leaf Illuminated In Cinematic Tones  
-Dew Trails: Realistic Dew Trails Glowing On Soft Flower Petals  
-Ice Grains: Macro Ice Grains Glowing Under Soft Cinematic Light  
-Moss Detail: Textured Moss Glowing In Detailed Closeup  
-Rain Reflections: Raindrops Glowing On A Smooth Cinematic Surface  
-Sand Grains: Detailed Cinematic Textures Of Glowing Sand Grains  
-Petal Texture: Realistic Flower Petal Illuminated By Soft Light  
-Stone Veins: Intricate Stone Patterns Glowing With Cinematic Highlights  
+    Frosted Crystal: Intricate Macro Details Of A Frosted Crystal Glowing Softly
+    Rippled Waters: Closeup Of Cinematic Water Ripples Glowing In Soft Light  
+    Leaf Layers: Macro Textures Of A Leaf Illuminated In Cinematic Tones  
+    Dew Trails: Realistic Dew Trails Glowing On Soft Flower Petals  
+    Ice Grains: Macro Ice Grains Glowing Under Soft Cinematic Light  
+    Moss Detail: Textured Moss Glowing In Detailed Closeup  
+    Rain Reflections: Raindrops Glowing On A Smooth Cinematic Surface  
+    Sand Grains: Detailed Cinematic Textures Of Glowing Sand Grains  
+    Petal Texture: Realistic Flower Petal Illuminated By Soft Light  
+    Stone Veins: Intricate Stone Patterns Glowing With Cinematic Highlights  
 ========================================XX========================================
 ==| Symmetry
 Calm Waters: A Cinematic Reflection Of Glowing Water In A Quiet Lake  
