@@ -7,6 +7,8 @@ Testers Accounts:
     4 - picwall.org.tester.4@gmail.com
     5 - picwall.org.tester.5@gmail.com
     6 - picwall.org.tester.6@gmail.com
+    6 - picwall.org.tester.7@gmail.com
+    6 - picwall.org.tester.8@gmail.com
     7 - picwall.one@gmail.com
     8 - picwall.two@gmail.com
     9 - picwallone@gmail.com

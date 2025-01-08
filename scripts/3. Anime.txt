@@ -1,217 +1,205 @@
 ========================================XX========================================
 ==| Abstract
-Neon Blends: Smooth Gradient Transitions Glowing With Vibrant Neon Hues  
-Celestial Flow: A Vertical Gradient Blending Cosmic Purples And Blues  
-Energy Glow: Radiant Gradient Bursts Glowing With Anime-Style Highlights  
-Aurora Layers: Vertical Aurora-Inspired Gradient With Glowing Edges  
-Heatwave: A Glowing Gradient Transitioning From Fiery Red To Soft Yellow  
-Frosted Radiance: Cool-Toned Gradient Glowing With Icy Highlights   
-Sunset Streams: Vertical Streaks Of Glowing Gradient Layers  
-Galaxy Ripple: A Flowing Anime Gradient With Soft Cosmic Highlights  
-Ocean Drift: A Glowing Gradient Mimicking Bioluminescent Ocean Waves  
-Vibrant Glow: Bold Anime-Style Gradient Transitioning Through Neon Tones  
-========================================XX========================================
-==| Macro
-Dewdrop Shine: A Glowing Raindrop Resting On A Radiant Green Leaf  
-Crystal Shards: Macro View Of Glowing Crystal Fragments In Vivid Tones  
-Frozen Petals: Closeup Of A Frosted Flower With Glowing Edges  
-Bark Glow: Textured Tree Bark Illuminated With Radiant Highlights  
-Ripple Effect: Macro Shot Of Glowing Ripples On Calm Water  
-Leaf Veins: Glowing Veins Of A Vibrant Anime-Style Leaf  
-Pebble Radiance: Smooth, Glowing Pebbles Scattered On A Sandy Surface  
-Ice Glow: A Glowing Ice Shard With Intricate Anime-Style Textures  
-Petal Dew: Radiant Water Droplet Glowing On A Vibrant Flower Petal  
-Sparkling Sand: Macro View Of Glowing Grains Of Sand  
-========================================XX========================================
-==| Symmetry
-Lake Twilight: A Glowing Lake Reflecting A Neon Sunset  
-Cosmic Mirror: A Radiant Cosmic Reflection With Glowing Stars  
-Water Glow: A Glowing Anime-Style River Reflecting Vivid Colors  
-Neon Pools: Radiant Pools Glowing In A Perfectly Symmetrical Scene  
-Cliff Reflection: A Glowing Cliff Mirrored In Still Waters  
-Aurora Mirror: A Glowing Aurora Perfectly Reflected On Icy Terrain  
-Forest Glow: A Glowing Forest Reflected In Calm, Anime-Style Water  
-Urban Mirage: Glowing City Lights Mirrored On A Wet Street  
-Galaxy Glow: A Glowing Starfield Reflected On A Cosmic Surface  
-Lava Mirror: Glowing Lava Reflected In A Perfectly Smooth Pool  
-========================================XX========================================
-==| Celestial
-Galactic Flow: A Glowing Galaxy With Radiant Streaks Of Light  
-Nebula Layers: A Vertical Glowing Nebula With Bold Anime Colors  
-Stellar Rings: A Glowing Planet With Radiant Rings In Vivid Tones  
-Cosmic Drift: Glowing Asteroid Trails In A Neon-Lit Galaxy  
-Aurora Sky: A Glowing Anime Aurora Stretching Across The Vertical Frame  
-Radiant Comet: A Glowing Comet Streaking Through The Anime Sky  
-Moonlit Clouds: Glowing Clouds Illuminated By A Radiant Moon  
-Starry Horizon: A Glowing Star-Filled Anime Horizon With Vibrant Layers  
-Planetary Glow: A Radiant Glowing Planet Against A Cosmic Backdrop  
-Celestial Edge: A Glowing Planet Edge Under A Vibrant Starfield  
-========================================XX========================================
-==| Energy
-Energy Streaks: Glowing Vertical Streaks Of Radiant Energy  
-Plasma Beams: Vertical Beams Of Glowing Anime-Style Plasma  
-Aurora Falls: Glowing Aurora Energy Cascading Like A Waterfall  
-Neon Waves: Flowing Vertical Waves Of Glowing Anime Energy  
-Radiant Paths: Glowing Vertical Trails Of Vibrant Energy  
-Cosmic Rays: Radiant Vertical Streaks Of Light Against A Cosmic Sky  
-Electric Flow: Glowing Energy Currents Moving Vertically  
-Plasma Cascades: Vertical Plasma Bursts Glowing With Radiant Tones  
-Vibrant Streams: Radiant Energy Flowing Vertically In Glowing Colors  
-Aurora Rise: Vertical Aurora Waves Glowing With Anime Highlights  
-========================================XX========================================
-==| Textures
-Neon Marble: A Glowing Marble Texture Transitioning Through Vibrant Gradients  
-Galaxy Wood: Wooden Textures Glowing With Anime-Style Cosmic Gradients  
-Frosted Steel: A Frosted Metallic Texture Blending Radiant Gradient Tones  
-Cosmic Sand: Soft Sand Textures Glowing With Bioluminescent Gradients  
-Aurora Stone: Smooth Stone Surfaces Glowing With Aurora-Inspired Gradients  
-Sunset Fabric: Fabric-Like Textures Transitioning Through Soft Glowing Gradients  
-Radiant Waves: Metallic Waves Glowing In Anime-Style Gradient Hues  
-Lava Texture: A Molten Rock Texture Blending Fiery Gradient Tones  
-Crystal Frost: Crystalline Textures Glowing With Radiant Gradient Effects  
-Ocean Drift: Rippled Textures Glowing In Aqua And Teal Gradients  
-========================================XX========================================
-==| Silhouettes
-Forest Glow: Tree Silhouettes Glowing Against A Radiant Gradient Sky  
-Sunset Peaks: Mountain Silhouettes Blending Into A Glowing Gradient Backdrop  
-Ocean Night: A Glowing Ocean Silhouette Under A Vibrant Anime Sky  
-Aurora Pines: Pine Trees Glowing Against An Aurora-Lit Gradient  
-Lunar Ridge: Mountain Silhouettes Glowing Under A Radiant Moon  
-Twilight Trees: Glowing Tree Silhouettes Under A Gradient Sunset  
-Starry Lake: A Glowing Lake Silhouette Beneath A Vibrant Starry Sky  
-Bioluminescent Jungle: Jungle Silhouettes Glowing With Anime-Style Light  
-Neon Horizon: City Silhouettes Glowing Against A Radiant Neon Sky  
-Glowing Coral: Coral Reef Silhouettes Glowing Under Bioluminescent Waters  
-========================================XX========================================
-==| Bioluminescent
-Glowing Fungi: Anime-Style Glowing Mushrooms Illuminating A Forest Floor  
-Radiant Coral: Bioluminescent Coral Reefs Glowing In Vivid Anime Tones  
-Neon Algae: Glowing Algae Spreading Across Calm Anime Waters  
-Bioluminescent Branches: Tree Branches Glowing With Radiant Anime Highlights  
-Cosmic Jellyfish: Glowing Jellyfish Drifting In Radiant Waters  
-Starry Moss: Glowing Moss Patches Illuminating A Forest Floor  
-Radiant Vines: Glowing Vines Wrapping Around Dark Tree Trunks  
-Neon Reefs: Vibrant Coral Reefs Glowing With Anime-Style Bioluminescence  
-Aurora Grass: Grass Blades Glowing Softly Under Anime Auroras  
-Twilight Bloom: Glowing Flowers Illuminating A Dark Forest  
-========================================XX========================================
-==| Geometries
-Neon Stripes: Glowing Vertical Stripes In Bold Anime Hues  
-Polygon Ribbons: Abstract Vertical Ribbons Composed Of Polygonal Patterns  
-Gradient Grids: A Glowing Grid Transitioning Through Radiant Gradients  
-Angular Layers: Vertical Layers Of Glowing Geometric Shapes  
-Radiant Waves: Abstract Wave Patterns Glowing In Vibrant Anime Colors  
-Fractal Columns: Vertical Fractal Patterns Glowing With Anime Radiance  
-Aurora Stripes: Vertical Stripes Glowing With Aurora-Inspired Gradients  
-Glowing Hexagons: Stacked Hexagonal Patterns Glowing Vertically  
-Crystal Pillars: Abstract Crystalline Forms Glowing In Vertical Alignment  
-Neon Pathways: Vertical Geometric Paths Glowing With Vibrant Colors  
-========================================XX========================================
-==| Cosmic
-Stellar Trails: Vertical Star Trails Glowing In Radiant Anime Hues  
-Galactic Columns: Vertical Beams Of Cosmic Light Glowing In A Starry Sky  
-Radiant Nebula: A Vertical Glowing Nebula Stretching Across The Anime Space  
-Lunar Beams: Vertical Moonlight Streaks Glowing In Radiant Tones  
-Cosmic Waterfall: A Vertical Stream Of Glowing Cosmic Energy  
-Aurora Spires: Vertical Aurora Columns Glowing Against A Dark Sky  
-Nebula Waves: Vertical Flowing Waves Of Glowing Anime Nebula  
-Galaxy Path: A Vertical Glowing Path Through A Starry Galaxy  
-Comet Streak: Vertical Comet Trails Glowing With Radiant Colors  
-Starfall: Vertical Glowing Stars Cascading In Radiant Anime Streaks 
-========================================XX========================================
-==| Glow
-Neon Mandala: A Glowing Mandala With Vibrant Anime Hues  
-Aurora Grid: A Radiant Grid Glowing In Aurora-Like Colors  
-Spiral Burst: A Glowing Spiral Pattern Expanding In Vivid Neon Tones  
-Radiant Tessellations: Intricate Tessellated Patterns Glowing With Anime Light  
-Starry Mosaic: A Glowing Mosaic Of Interlocked Star-Like Shapes  
-Ripple Glow: Concentric Glowing Ripples In Bold Anime Colors  
-Hexagonal Flow: Glowing Hexagonal Patterns Transitioning In Radiant Hues  
-Celestial Web: A Glowing Web Of Interconnected Neon Lines  
-Energy Fractals: Radiant Fractal Patterns Glowing With Vibrant Streaks  
-Neon Bloom: A Flower-Shaped Glowing Pattern With Anime-Style Highlights  
-========================================XX========================================
-==| Texture
-Bark Radiance: Closeup Of Glowing Tree Bark With Anime-Style Lighting  
-Frosted Glow: Icy Textures Glowing Softly In Radiant Colors  
-Crystal Patterns: Intricate Glowing Crystals With Vibrant Textures  
-Fabric Light: Textured Fabric Glowing With Anime-Inspired Radiance  
-Stone Glow: Rough Stone Textures Illuminated With Radiant Streaks  
-Rippled Metal: Metallic Textures Glowing In Anime-Style Gradients  
-Leaf Veins: Glowing Leaf Veins Rendered With Radiant Detail  
-Pebble Shine: Smooth Pebbles Glowing With Vibrant Reflections  
-Frost Lines: Frosted Textures Glowing Softly Under Radiant Hues  
-Sand Waves: Fine Sand Textures Glowing In Bold Anime Tones  
-========================================XX========================================
-==| Landscapes
-Towering Forest: A Tall, Glowing Anime-Style Forest Stretching Vertically  
-Radiant Cliff: A Glowing Cliff Face Illuminated With Anime Light Effects  
-Starry Waterfall: A Cascading Glowing Waterfall Under A Radiant Starry Sky  
-Neon Skyline: A Glowing City Skyline Stretching Vertically Under Vibrant Hues  
-Ocean Pillars: Tall Ocean Rock Pillars Glowing Under Anime Lighting  
-Lava Fall: A Glowing Lava Waterfall Cascading In Radiant Streaks  
-Misty Peaks: Glowing Mountain Peaks Illuminated Under Vibrant Skies  
-Crystal Canyon: A Tall Glowing Canyon Lined With Radiant Crystals  
-Bioluminescent Trees: Tall Trees Glowing With Anime-Style Bioluminescence  
-Aurora Ridge: Vertical Glowing Ridges Illuminated By Aurora Streaks  
-========================================XX========================================
-==| Aurora
-Neon Spires: Vertical Auroras Glowing In Bold Anime-Style Gradients  
-Galactic Flow: Radiant Auroras Streaking Vertically Under A Starry Sky  
-Cosmic Beams: Vertical Glowing Beams Of Aurora Light Stretching Skyward  
-Aurora Cascades: Vibrant Aurora Streaks Glowing In Cascading Patterns  
-Aurora Layers: Multicolored Auroras Glowing In Radiant Anime Tones  
-Starry Glow: Vertical Auroras Blending With Glowing Starry Skies  
-Twilight Streaks: Vertical Auroras Glowing Under A Radiant Twilight Sky  
-Ocean Auroras: Aurora Streaks Reflected On Glowing Anime Oceans  
-Radiant Horizon: Vertical Glowing Auroras Stretching Toward The Horizon  
-Aurora Veins: Delicate Vertical Auroras Glowing With Intricate Patterns  
-========================================XX========================================
-==| Metallic
-Neon Chrome: Glowing Metallic Textures With Vibrant Anime Gradients  
-Polished Steel: Smooth Metallic Surfaces Glowing In Radiant Colors  
-Radiant Gears: Intricate Glowing Metallic Gears With Anime Light Effects  
-Frosted Metal: Metallic Textures Glowing With Icy Anime-Style Lighting  
-Gradient Glow: Metallic Surfaces Transitioning Through Radiant Gradients  
-Rippled Chrome: Metallic Ripples Glowing Under Vibrant Anime Light  
-Lava Metal: Molten Metallic Textures Glowing In Fiery Anime Tones  
-Crystal Shine: Metallic Crystal Formations Glowing In Radiant Hues  
-Starry Steel: Metallic Surfaces Glowing Under A Radiant Starry Backdrop  
-Galactic Metal: Cosmic Metallic Textures Glowing With Anime-Style Brilliance  
+Aurora Layers: Vertical Aurora-Inspired Gradient With Glowing Edges
+Celestial Flow: A Vertical Gradient Blending Cosmic Purples And Blues
+Energy Glow: Radiant Gradient Bursts Glowing With Anime-Style Highlights
+Frosted Radiance: Cool-Toned Gradient Glowing With Icy Highlights
+Galaxy Ripple: A Flowing Anime Gradient With Soft Cosmic Highlights
+Heatwave: A Glowing Gradient Transitioning From Fiery Red To Soft Yellow
+Neon Blends: Smooth Gradient Transitions Glowing With Vibrant Neon Hues
+Ocean Drift: A Glowing Gradient Mimicking Bioluminescent Ocean Waves
+Sunset Streams: Vertical Streaks Of Glowing Gradient Layers
+Vibrant Glow: Bold Anime-Style Gradient Transitioning Through Neon Tones
 ========================================XX========================================
 ==| Amoled
-Neon Abyss: A Glowing Gradient With Deep Black Contrast And Vibrant Neon Hues  
-Cosmic Contrast: Radiant Celestial Objects Glowing Vividly Against Pure Black  
-Electric Pulse: Vibrant Streaks Of Glowing Neon Energy Over A Dark Background  
-Aurora Void: Bold Vertical Auroras Glowing Against Deep Black Skies  
-Radiant Hexagons: Glowing Geometric Patterns With Sharp Amoled Contrasts  
-Celestial Edge: A Glowing Planet Edge Illuminated Over Pitch Black  
-Bioluminescent Jungle: Neon-Lit Jungle Silhouettes Against Deep Shadows  
-Galactic Neon: Radiant Galaxy Formations Glowing Brightly Over Amoled Black  
-Lunar Peaks: Glowing Mountain Silhouettes Under A Pure Black Sky  
-Starfall Abyss: Neon Shooting Stars Cascading Through Deep Black Space  
+Aurora Void: Bold Vertical Auroras Glowing Against Deep Black Skies
+Bioluminescent Jungle: Neon-Lit Jungle Silhouettes Against Deep Shadows
+Celestial Edge: A Glowing Planet Edge Illuminated Over Pitch Black
+Cosmic Contrast: Radiant Celestial Objects Glowing Vividly Against Pure Black
+Electric Pulse: Vibrant Streaks Of Glowing Neon Energy Over A Dark Background
+Galactic Neon: Radiant Galaxy Formations Glowing Brightly Over Amoled Black
+Lunar Peaks: Glowing Mountain Silhouettes Under A Pure Black Sky
+Neon Abyss: A Glowing Gradient With Deep Black Contrast And Vibrant Neon Hues
+Radiant Hexagons: Glowing Geometric Patterns With Sharp Amoled Contrasts
+Starfall Abyss: Neon Shooting Stars Cascading Through Deep Black Space
+========================================XX========================================
+==| Aurora
+Aurora Cascades: Vibrant Aurora Streaks Glowing In Cascading Patterns
+Aurora Layers: Multicolored Auroras Glowing In Radiant Anime Tones
+Aurora Veins: Delicate Vertical Auroras Glowing With Intricate Patterns
+Cosmic Beams: Vertical Glowing Beams Of Aurora Light Stretching Skyward
+Galactic Flow: Radiant Auroras Streaking Vertically Under A Starry Sky
+Neon Spires: Vertical Auroras Glowing In Bold Anime-Style Gradients
+Ocean Auroras: Aurora Streaks Reflected On Glowing Anime Oceans
+Radiant Horizon: Vertical Glowing Auroras Stretching Toward The Horizon
+Starry Glow: Vertical Auroras Blending With Glowing Starry Skies
+Twilight Streaks: Vertical Auroras Glowing Under A Radiant Twilight Sky
+========================================XX========================================
+==| Bioluminescent
+Aurora Grass: Grass Blades Glowing Softly Under Anime Auroras
+Bioluminescent Branches: Tree Branches Glowing With Radiant Anime Highlights
+Cosmic Jellyfish: Glowing Jellyfish Drifting In Radiant Waters
+Glowing Fungi: Anime-Style Glowing Mushrooms Illuminating A Forest Floor
+Neon Algae: Glowing Algae Spreading Across Calm Anime Waters
+Neon Reefs: Vibrant Coral Reefs Glowing With Anime-Style Bioluminescence
+Radiant Coral: Bioluminescent Coral Reefs Glowing In Vivid Anime Tones
+Radiant Vines: Glowing Vines Wrapping Around Dark Tree Trunks
+Starry Moss: Glowing Moss Patches Illuminating A Forest Floor
+Twilight Bloom: Glowing Flowers Illuminating A Dark Forest
+========================================XX========================================
+==| Celestial
+Aurora Sky: A Glowing Anime Aurora Stretching Across The Vertical Frame
+Celestial Edge: A Glowing Planet Edge Under A Vibrant Starfield
+Cosmic Drift: Glowing Asteroid Trails In A Neon-Lit Galaxy
+Galactic Flow: A Glowing Galaxy With Radiant Streaks Of Light
+Moonlit Clouds: Glowing Clouds Illuminated By A Radiant Moon
+Nebula Layers: A Vertical Glowing Nebula With Bold Anime Colors
+Planetary Glow: A Radiant Glowing Planet Against A Cosmic Backdrop
+Radiant Comet: A Glowing Comet Streaking Through The Anime Sky
+Starry Horizon: A Glowing Star-Filled Anime Horizon With Vibrant Layers
+Stellar Rings: A Glowing Planet With Radiant Rings In Vivid Tones
+========================================XX========================================
+==| Cosmic
+Aurora Spires: Vertical Aurora Columns Glowing Against A Dark Sky
+Comet Streak: Vertical Comet Trails Glowing With Radiant Colors
+Cosmic Waterfall: A Vertical Stream Of Glowing Cosmic Energy
+Galactic Columns: Vertical Beams Of Cosmic Light Glowing In A Starry Sky
+Galaxy Path: A Vertical Glowing Path Through A Starry Galaxy
+Lunar Beams: Vertical Moonlight Streaks Glowing In Radiant Tones
+Nebula Waves: Vertical Flowing Waves Of Glowing Anime Nebula
+Radiant Nebula: A Vertical Glowing Nebula Stretching Across The Anime Space
+Starfall: Vertical Glowing Stars Cascading In Radiant Anime Streaks
+Stellar Trails: Vertical Star Trails Glowing In Radiant Anime Hues
 ========================================XX========================================
 ==| Depth
-Radiant Abyss: A Glowing Cave System Extending Into Infinite Anime Depth  
-Galactic Tunnels: A Cosmic Tunnel Glowing With Radiant Streaks  
-Crystal Caverns: Bioluminescent Crystals Glowing In Layers Of Depth  
-Infinite Forest: Glowing Anime-Style Trees Fading Into Dense Fog  
-Celestial Columns: Infinite Glowing Columns Stretching Into A Starry Abyss  
-Waterfall Glow: Cascading Anime Waterfalls Glowing With Vertical Depth  
-Neon Layers: Radiant Layers Of Glowing Cliffs Stacked Infinitely  
-Starry Depths: A Glowing Starfield Stretching Into Layered Infinity  
-Lava Abyss: Glowing Molten Rivers Cascading Into An Endless Cavern  
-Aurora Layers: Multicolored Auroras Glowing In Overlapping Vertical Depths  
+Aurora Layers: Multicolored Auroras Glowing In Overlapping Vertical Depths
+Celestial Columns: Infinite Glowing Columns Stretching Into A Starry Abyss
+Crystal Caverns: Bioluminescent Crystals Glowing In Layers Of Depth
+Galactic Tunnels: A Cosmic Tunnel Glowing With Radiant Streaks
+Infinite Forest: Glowing Anime-Style Trees Fading Into Dense Fog
+Lava Abyss: Glowing Molten Rivers Cascading Into An Endless Cavern
+Neon Layers: Radiant Layers Of Glowing Cliffs Stacked Infinitely
+Radiant Abyss: A Glowing Cave System Extending Into Infinite Anime Depth
+Starry Depths: A Glowing Starfield Stretching Into Layered Infinity
+Waterfall Glow: Cascading Anime Waterfalls Glowing With Vertical Depth
+========================================XX========================================
+==| Energy
+Aurora Falls: Glowing Aurora Energy Cascading Like A Waterfall
+Aurora Rise: Vertical Aurora Waves Glowing With Anime Highlights
+Cosmic Rays: Radiant Vertical Streaks Of Light Against A Cosmic Sky
+Electric Flow: Glowing Energy Currents Moving Vertically
+Energy Streaks: Glowing Vertical Streaks Of Radiant Energy
+Neon Waves: Flowing Vertical Waves Of Glowing Anime Energy
+Plasma Beams: Vertical Beams Of Glowing Anime-Style Plasma
+Plasma Cascades: Vertical Plasma Bursts Glowing With Radiant Tones
+Radiant Paths: Glowing Vertical Trails Of Vibrant Energy
+Vibrant Streams: Radiant Energy Flowing Vertically In Glowing Colors
+========================================XX========================================
+==| Geometries
+Angular Layers: Vertical Layers Of Glowing Geometric Shapes
+Aurora Stripes: Vertical Stripes Glowing With Aurora-Inspired Gradients
+Crystal Pillars: Abstract Crystalline Forms Glowing In Vertical Alignment
+Fractal Columns: Vertical Fractal Patterns Glowing With Anime Radiance
+Glowing Hexagons: Stacked Hexagonal Patterns Glowing Vertically
+Gradient Grids: A Glowing Grid Transitioning Through Radiant Gradients
+Neon Pathways: Vertical Geometric Paths Glowing With Vibrant Colors
+Neon Stripes: Glowing Vertical Stripes In Bold Anime Hues
+Polygon Ribbons: Abstract Vertical Ribbons Composed Of Polygonal Patterns
+Radiant Waves: Abstract Wave Patterns Glowing In Vibrant Anime Colors
+========================================XX========================================
+==| Glow
+Aurora Grid: A Radiant Grid Glowing In Aurora-Like Colors
+Celestial Web: A Glowing Web Of Interconnected Neon Lines
+Energy Fractals: Radiant Fractal Patterns Glowing With Vibrant Streaks
+Hexagonal Flow: Glowing Hexagonal Patterns Transitioning In Radiant Hues
+Neon Bloom: A Flower-Shaped Glowing Pattern With Anime-Style Highlights
+Neon Mandala: A Glowing Mandala With Vibrant Anime Hues
+Radiant Tessellations: Intricate Tessellated Patterns Glowing With Anime Light
+Ripple Glow: Concentric Glowing Ripples In Bold Anime Colors
+Spiral Burst: A Glowing Spiral Pattern Expanding In Vivid Neon Tones
+Starry Mosaic: A Glowing Mosaic Of Interlocked Star-Like Shapes
+========================================XX========================================
+==| Landscapes
+Aurora Ridge: Vertical Glowing Ridges Illuminated By Aurora Streaks
+Bioluminescent Trees: Tall Trees Glowing With Anime-Style Bioluminescence
+Crystal Canyon: A Tall Glowing Canyon Lined With Radiant Crystals
+Lava Fall: A Glowing Lava Waterfall Cascading In Radiant Streaks
+Misty Peaks: Glowing Mountain Peaks Illuminated Under Vibrant Skies
+Neon Skyline: A Glowing City Skyline Stretching Vertically Under Vibrant Hues
+Ocean Pillars: Tall Ocean Rock Pillars Glowing Under Anime Lighting
+Radiant Cliff: A Glowing Cliff Face Illuminated With Anime Light Effects
+Starry Waterfall: A Cascading Glowing Waterfall Under A Radiant Starry Sky
+Towering Forest: A Tall, Glowing Anime-Style Forest Stretching Vertically
+========================================XX========================================
+==| Macro
+Bark Glow: Textured Tree Bark Illuminated With Radiant Highlights
+Crystal Shards: Macro View Of Glowing Crystal Fragments In Vivid Tones
+Dewdrop Shine: A Glowing Raindrop Resting On A Radiant Green Leaf
+Frozen Petals: Closeup Of A Frosted Flower With Glowing Edges
+Ice Glow: A Glowing Ice Shard With Intricate Anime-Style Textures
+Leaf Veins: Glowing Veins Of A Vibrant Anime-Style Leaf
+Pebble Radiance: Smooth, Glowing Pebbles Scattered On A Sandy Surface
+Petal Dew: Radiant Water Droplet Glowing On A Vibrant Flower Petal
+Ripple Effect: Macro Shot Of Glowing Ripples On Calm Water
+Sparkling Sand: Macro View Of Glowing Grains Of Sand
+========================================XX========================================
+==| Metallic
+Crystal Shine: Metallic Crystal Formations Glowing In Radiant Hues
+Frosted Metal: Metallic Textures Glowing With Icy Anime-Style Lighting
+Galactic Metal: Cosmic Metallic Textures Glowing With Anime-Style Brilliance
+Gradient Glow: Metallic Surfaces Transitioning Through Radiant Gradients
+Lava Metal: Molten Metallic Textures Glowing In Fiery Anime Tones
+Neon Chrome: Glowing Metallic Textures With Vibrant Anime Gradients
+Polished Steel: Smooth Metallic Surfaces Glowing In Radiant Colors
+Radiant Gears: Intricate Glowing Metallic Gears With Anime Light Effects
+Rippled Chrome: Metallic Ripples Glowing Under Vibrant Anime Light
+Starry Steel: Metallic Surfaces Glowing Under A Radiant Starry Backdrop
 ========================================XX========================================
 ==| Scenery
-Radiant Cliffs: Towering Anime-Style Cliffs Glowing Under A Neon-Lit Sky  
-Ocean Horizon: A Glowing Anime Ocean Blending Into A Vibrant Twilight  
-Starry Skies: Glowing Star-Filled Skies Stretching Over A Calm Anime Meadow  
-Bioluminescent Reefs: Vibrant Coral Reefs Glowing Under Radiant Waters  
-Aurora Forest: A Glowing Forest Illuminated By Cascading Auroras  
-Sunset Peaks: Vibrant Mountain Peaks Glowing Under Radiant Twilight Skies  
-Crystal Shores: A Glowing Beach Lined With Radiant Crystalline Formations  
-Radiant Canyon: A Deep Canyon Glowing With Anime-Inspired Light Effects  
-Twilight Bloom: Glowing Flowers Scattered Across A Vibrant Landscape  
-Lunar Glow: A Glowing Moon Casting Radiant Light Over A Serene Valley  
+Aurora Forest: A Glowing Forest Illuminated By Cascading Auroras
+Bioluminescent Reefs: Vibrant Coral Reefs Glowing Under Radiant Waters
+Crystal Shores: A Glowing Beach Lined With Radiant Crystalline Formations
+Lunar Glow: A Glowing Moon Casting Radiant Light Over A Serene Valley
+Ocean Horizon: A Glowing Anime Ocean Blending Into A Vibrant Twilight
+Radiant Cliffs: Towering Anime-Style Cliffs Glowing Under A Neon-Lit Sky
+Radiant Canyon: A Deep Canyon Glowing With Anime-Inspired Light Effects
+Starry Skies: Glowing Star-Filled Skies Stretching Over A Calm Anime Meadow
+Sunset Peaks: Vibrant Mountain Peaks Glowing Under Radiant Twilight Skies
+Twilight Bloom: Glowing Flowers Scattered Across A Vibrant Landscape
+========================================XX========================================
+==| Silhouettes
+Aurora Pines: Pine Trees Glowing Against An Aurora-Lit Gradient
+Bioluminescent Jungle: Jungle Silhouettes Glowing With Anime-Style Light
+Forest Glow: Tree Silhouettes Glowing Against A Radiant Gradient Sky
+Glowing Coral: Coral Reef Silhouettes Glowing Under Bioluminescent Waters
+Lunar Ridge: Mountain Silhouettes Glowing Under A Radiant Moon
+Neon Horizon: City Silhouettes Glowing Against A Radiant Neon Sky
+Ocean Night: A Glowing Ocean Silhouette Under A Vibrant Anime Sky
+Starry Lake: A Glowing Lake Silhouette Beneath A Vibrant Starry Sky
+Sunset Peaks: Mountain Silhouettes Blending Into A Glowing Gradient Backdrop
+Twilight Trees: Glowing Tree Silhouettes Under A Gradient Sunset
+========================================XX========================================
+==| Symmetry
+Aurora Mirror: A Glowing Aurora Perfectly Reflected On Icy Terrain
+Cliff Reflection: A Glowing Cliff Mirrored In Still Waters
+Cosmic Mirror: A Radiant Cosmic Reflection With Glowing Stars
+Forest Glow: A Glowing Forest Reflected In Calm, Anime-Style Water
+Galaxy Glow: A Glowing Starfield Reflected On A Cosmic Surface
+Lake Twilight: A Glowing Lake Reflecting A Neon Sunset
+Lava Mirror: Glowing Lava Reflected In A Perfectly Smooth Pool
+Neon Pools: Radiant Pools Glowing In A Perfectly Symmetrical Scene
+Urban Mirage: Glowing City Lights Mirrored On A Wet Street
+Water Glow: A Glowing Anime-Style River Reflecting Vivid Colors
+========================================XX========================================
+==| Textures
+Aurora Stone: Smooth Stone Surfaces Glowing With Aurora-Inspired Gradients
+Cosmic Sand: Soft Sand Textures Glowing With Bioluminescent Gradients
+Crystal Frost: Crystalline Textures Glowing With Radiant Gradient Effects
+Frosted Steel: A Frosted Metallic Texture Blending Radiant Gradient Tones
+Galaxy Wood: Wooden Textures Glowing With Anime-Style Cosmic Gradients
+Lava Texture: A Molten Rock Texture Blending Fiery Gradient Tones
+Neon Marble: A Glowing Marble Texture Transitioning Through Vibrant Gradients
+Ocean Drift: Rippled Textures Glowing In Aqua And Teal Gradients
+Radiant Waves: Metallic Waves Glowing In Anime-Style Gradient Hues
+Sunset Fabric: Fabric-Like Textures Transitioning Through Soft Glowing Gradients
 ========================================XX========================================
