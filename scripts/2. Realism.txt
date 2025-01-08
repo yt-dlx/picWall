@@ -1,15 +1,15 @@
 ========================================XX========================================
 ==| Abstract
-Dawn Horizon: Gradient Mimicking A Soft Sunrise
-Desert Warmth: A Soft Gradient Inspired By Warm Desert Tones
-Earth Hues: Gradient Inspired By Earthy Tones Of Clay And Stone
-Forest Edge: A Gradient Blending Green And Golden Hues
-Frosted Light: Gradient Transitioning From White To Frosty Blues
-Icy Layers: Cool-Toned Gradient Transitioning Through Icy Blues
-Mountain Fade: A Gradient Transitioning Through Grey, White, And Blue
-Nature Glow: Gradient Inspired By Glowing Natural Landscapes
-Ocean Horizon: Gradient Transitioning From Sky Blue To Deep Navy
-Oceanic Glow: Subtle Gradient Blending Light Teal And Soft Blues
+    Dawn Horizon: Gradient Mimicking A Soft Sunrise
+    Desert Warmth: A Soft Gradient Inspired By Warm Desert Tones
+    Earth Hues: Gradient Inspired By Earthy Tones Of Clay And Stone
+    Forest Edge: A Gradient Blending Green And Golden Hues
+    Frosted Light: Gradient Transitioning From White To Frosty Blues
+    Icy Layers: Cool-Toned Gradient Transitioning Through Icy Blues
+    Mountain Fade: A Gradient Transitioning Through Grey, White, And Blue
+    Nature Glow: Gradient Inspired By Glowing Natural Landscapes
+    Ocean Horizon: Gradient Transitioning From Sky Blue To Deep Navy
+    Oceanic Glow: Subtle Gradient Blending Light Teal And Soft Blues
 ========================================XX========================================
 ==| Amoled
 Aurora Flow: Vertical Auroras Glowing With Natural Hues Against Black
@@ -132,16 +132,16 @@ Towering Pines: Tall Pine Trees Glowing Under A Frosted Morning Sky
 Waterfall Heights: A Cascading Realistic Waterfall Illuminated By Sunlight
 ========================================XX========================================
 ==| Macro
-Bark Closeup: Rough Tree Bark Illuminated By Soft Lighting
-Crystal Detail: A Macro View Of Natural Crystals Glowing In Sunlight
-Dewdrop Focus: A Closeup Of A Water Droplet Reflecting Vibrant Foliage
-Frosted Veins: Intricate Leaf Veins Covered In Frost
-Ice Cracks: Detailed Cracks In A Frozen Surface Glowing Softly
-Mossy Growth: Macro Details Of Moss Growing On A Rocky Surface
-Petal Glow: Flower Petals With Delicate Dewdrops Reflecting Sunlight
-Ripple Texture: Subtle Water Ripples Glowing In Natural Light
-Sand Patterns: Macro Details Of Sand Grains Forming Natural Textures
-Stone Erosion: Closeup Of Weathered Stone Surfaces With Intricate Textures
+    Bark Closeup: Rough Tree Bark Illuminated By Soft Lighting
+    Crystal Detail: A Macro View Of Natural Crystals Glowing In Sunlight
+    Dewdrop Focus: A Closeup Of A Water Droplet Reflecting Vibrant Foliage
+    Frosted Veins: Intricate Leaf Veins Covered In Frost
+    Ice Cracks: Detailed Cracks In A Frozen Surface Glowing Softly
+    Mossy Growth: Macro Details Of Moss Growing On A Rocky Surface
+    Petal Glow: Flower Petals With Delicate Dewdrops Reflecting Sunlight
+    Ripple Texture: Subtle Water Ripples Glowing In Natural Light
+    Sand Patterns: Macro Details Of Sand Grains Forming Natural Textures
+    Stone Erosion: Closeup Of Weathered Stone Surfaces With Intricate Textures
 ========================================XX========================================
 ==| Metallic
 Aurora Metal: Metallic Textures Glowing With Aurora-Inspired Gradients

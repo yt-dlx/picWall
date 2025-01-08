@@ -1,15 +1,15 @@
 ========================================XX========================================
 ==| Abstract
-Angular Drift: Geometric Gradient With Sharp Triangular Transitions
-Bold Blocks: Vertical Gradient With Interlocking Geometric Blocks
-Concentric Glow: Gradient Forming Concentric Circular Layers
-Crystal Fade: Gradient Mimicking Translucent Crystal Formations
-Fractal Fade: Gradient Fading Through Intricate Fractal Layers
-Hexagonal Flow: Gradient With Tessellated Hexagonal Overlays
-Linear Transition: Gradient Blending Clean, Linear Geometric Shapes
-Polygon Ripple: Gradient Fading Through Polygonal Ripple Effects
-Spiral Glow: A Gradient Spiraling Upward In Geometric Precision
-Wave Layers: Gradient Blending Through Flowing Wave-Like Patterns
+    Angular Drift: Geometric Gradient With Sharp Triangular Transitions
+    Bold Blocks: Vertical Gradient With Interlocking Geometric Blocks
+    Concentric Glow: Gradient Forming Concentric Circular Layers
+    Crystal Fade: Gradient Mimicking Translucent Crystal Formations
+    Fractal Fade: Gradient Fading Through Intricate Fractal Layers
+    Hexagonal Flow: Gradient With Tessellated Hexagonal Overlays
+    Linear Transition: Gradient Blending Clean, Linear Geometric Shapes
+    Polygon Ripple: Gradient Fading Through Polygonal Ripple Effects
+    Spiral Glow: A Gradient Spiraling Upward In Geometric Precision
+    Wave Layers: Gradient Blending Through Flowing Wave-Like Patterns
 ========================================XX========================================
 ==| Amoled
 Angular Glow: Geometric Shapes Glowing Brightly Against Deep Black
@@ -132,16 +132,16 @@ Ripple Forest: A Glowing Geometric Forest Rendered In Vertical Waves
 Starry Heights: Geometric Vertical Peaks Glowing Under Starry Skies
 ========================================XX========================================
 ==| Macro
-Angular Ice: Macro View Of Ice With Sharp Polygonal Patterns
-Crystal Grids: Detailed Crystals Arranged In Tessellated Formations
-Fractal Bark: Closeup Of Bark Rendered With Repeating Fractal Designs
-Frosted Shapes: Icy Surfaces Forming Hexagonal Patterns
-Hexagonal Water: Water Ripples Forming Tessellated Geometric Patterns
-Pebble Grid: Smooth Pebbles Arranged In A Tessellated Pattern
-Polygonal Leaves: Macro Shot Of Leaves Designed With Geometric Veins
-Sand Waves: Wind-Sculpted Sand Forming Repeating Geometric Ripples
-Concentric Petals: Flower Petals Layered In Geometric Symmetry
-Water Droplets: Geometric Droplets Glowing With Perfect Symmetry
+    Angular Ice: Macro View Of Ice With Sharp Polygonal Patterns
+    Crystal Grids: Detailed Crystals Arranged In Tessellated Formations
+    Fractal Bark: Closeup Of Bark Rendered With Repeating Fractal Designs
+    Frosted Shapes: Icy Surfaces Forming Hexagonal Patterns
+    Hexagonal Water: Water Ripples Forming Tessellated Geometric Patterns
+    Pebble Grid: Smooth Pebbles Arranged In A Tessellated Pattern
+    Polygonal Leaves: Macro Shot Of Leaves Designed With Geometric Veins
+    Sand Waves: Wind-Sculpted Sand Forming Repeating Geometric Ripples
+    Concentric Petals: Flower Petals Layered In Geometric Symmetry
+    Water Droplets: Geometric Droplets Glowing With Perfect Symmetry
 ========================================XX========================================
 ==| Metallic
 Angular Glow: Geometric Gradient Transitions Through Angular Forms

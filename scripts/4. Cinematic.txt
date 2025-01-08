@@ -1,15 +1,15 @@
 ========================================XX========================================
 ==| Abstract
-Aurora Beam: A Cinematic Vertical Gradient Inspired By Northern Lights
-Desert Radiance: A Warm Gradient Transitioning Through Golden Tones
-Frosted Glow: A Cool-Toned Cinematic Gradient Transitioning Through Blues
-Galactic Drift: A Cinematic Cosmic Gradient Glowing Softly
-Nightfall Fade: A Gradient Transitioning Through Deep Cinematic Purples
-Ocean Depth: A Gradient Flowing From Bright Teal To Deep Navy
-Storm Layers: A Gradient Mimicking Dramatic Stormy Skies
-Sunset Edge: A Cinematic Gradient Glowing With Warm Sunset Hues
-Twilight Glow: A Smooth Cinematic Gradient Blending Purples And Blues
-Warm Horizon: A Cinematic Gradient Flowing From Orange To Red
+    Aurora Beam: A Cinematic Vertical Gradient Inspired By Northern Lights
+    Desert Radiance: A Warm Gradient Transitioning Through Golden Tones
+    Frosted Glow: A Cool-Toned Cinematic Gradient Transitioning Through Blues
+    Galactic Drift: A Cinematic Cosmic Gradient Glowing Softly
+    Nightfall Fade: A Gradient Transitioning Through Deep Cinematic Purples
+    Ocean Depth: A Gradient Flowing From Bright Teal To Deep Navy
+    Storm Layers: A Gradient Mimicking Dramatic Stormy Skies
+    Sunset Edge: A Cinematic Gradient Glowing With Warm Sunset Hues
+    Twilight Glow: A Smooth Cinematic Gradient Blending Purples And Blues
+    Warm Horizon: A Cinematic Gradient Flowing From Orange To Red
 ========================================XX========================================
 ==| Amoled
 Aurora Trails: Cinematic Aurora Streaks Glowing In Infinite Black Space
@@ -132,16 +132,16 @@ Towering Peaks: Tall Mountain Peaks Glowing Under Cinematic Skies
 Urban Heights: A Glowing City Skyline Illuminated In Cinematic Gradients
 ========================================XX========================================
 ==| Macro
-Bark Details: Detailed Tree Bark Glowing With Cinematic Light Effects
-Crystal Glow: Crystalline Textures Glowing With Cinematic Depth
-Dew Trails: Realistic Dew Trails Glowing On Soft Flower Petals
-Frost Glow: Icy Textures Glowing Softly With Cinematic Highlights
-Ice Grains: Macro Ice Grains Glowing Under Soft Cinematic Light
-Leaf Layers: Macro Textures Of A Leaf Illuminated In Cinematic Tones
-Moss Detail: Textured Moss Glowing In Detailed Closeup
-Petal Texture: Realistic Flower Petal Illuminated By Soft Light
-Rain Reflections: Raindrops Glowing On A Smooth Cinematic Surface
-Rippled Waters: Closeup Of Cinematic Water Ripples Glowing In Soft Light
+    Bark Details: Detailed Tree Bark Glowing With Cinematic Light Effects
+    Crystal Glow: Crystalline Textures Glowing With Cinematic Depth
+    Dew Trails: Realistic Dew Trails Glowing On Soft Flower Petals
+    Frost Glow: Icy Textures Glowing Softly With Cinematic Highlights
+    Ice Grains: Macro Ice Grains Glowing Under Soft Cinematic Light
+    Leaf Layers: Macro Textures Of A Leaf Illuminated In Cinematic Tones
+    Moss Detail: Textured Moss Glowing In Detailed Closeup
+    Petal Texture: Realistic Flower Petal Illuminated By Soft Light
+    Rain Reflections: Raindrops Glowing On A Smooth Cinematic Surface
+    Rippled Waters: Closeup Of Cinematic Water Ripples Glowing In Soft Light
 ========================================XX========================================
 ==| Metallic
 Chrome Waves: Glowing Metallic Waves With Cinematic Depth

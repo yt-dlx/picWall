@@ -1,15 +1,15 @@
 ========================================XX========================================
 ==| Abstract
-Aurora Layers: Vertical Aurora-Inspired Gradient With Glowing Edges
-Celestial Flow: A Vertical Gradient Blending Cosmic Purples And Blues
-Energy Glow: Radiant Gradient Bursts Glowing With Anime-Style Highlights
-Frosted Radiance: Cool-Toned Gradient Glowing With Icy Highlights
-Galaxy Ripple: A Flowing Anime Gradient With Soft Cosmic Highlights
-Heatwave: A Glowing Gradient Transitioning From Fiery Red To Soft Yellow
-Neon Blends: Smooth Gradient Transitions Glowing With Vibrant Neon Hues
-Ocean Drift: A Glowing Gradient Mimicking Bioluminescent Ocean Waves
-Sunset Streams: Vertical Streaks Of Glowing Gradient Layers
-Vibrant Glow: Bold Anime-Style Gradient Transitioning Through Neon Tones
+    Aurora Layers: Vertical Aurora-Inspired Gradient With Glowing Edges
+    Celestial Flow: A Vertical Gradient Blending Cosmic Purples And Blues
+    Energy Glow: Radiant Gradient Bursts Glowing With Anime-Style Highlights
+    Frosted Radiance: Cool-Toned Gradient Glowing With Icy Highlights
+    Galaxy Ripple: A Flowing Anime Gradient With Soft Cosmic Highlights
+    Heatwave: A Glowing Gradient Transitioning From Fiery Red To Soft Yellow
+    Neon Blends: Smooth Gradient Transitions Glowing With Vibrant Neon Hues
+    Ocean Drift: A Glowing Gradient Mimicking Bioluminescent Ocean Waves
+    Sunset Streams: Vertical Streaks Of Glowing Gradient Layers
+    Vibrant Glow: Bold Anime-Style Gradient Transitioning Through Neon Tones
 ========================================XX========================================
 ==| Amoled
 Aurora Void: Bold Vertical Auroras Glowing Against Deep Black Skies
@@ -132,16 +132,16 @@ Starry Waterfall: A Cascading Glowing Waterfall Under A Radiant Starry Sky
 Towering Forest: A Tall, Glowing Anime-Style Forest Stretching Vertically
 ========================================XX========================================
 ==| Macro
-Bark Glow: Textured Tree Bark Illuminated With Radiant Highlights
-Crystal Shards: Macro View Of Glowing Crystal Fragments In Vivid Tones
-Dewdrop Shine: A Glowing Raindrop Resting On A Radiant Green Leaf
-Frozen Petals: Closeup Of A Frosted Flower With Glowing Edges
-Ice Glow: A Glowing Ice Shard With Intricate Anime-Style Textures
-Leaf Veins: Glowing Veins Of A Vibrant Anime-Style Leaf
-Pebble Radiance: Smooth, Glowing Pebbles Scattered On A Sandy Surface
-Petal Dew: Radiant Water Droplet Glowing On A Vibrant Flower Petal
-Ripple Effect: Macro Shot Of Glowing Ripples On Calm Water
-Sparkling Sand: Macro View Of Glowing Grains Of Sand
+    Bark Glow: Textured Tree Bark Illuminated With Radiant Highlights
+    Crystal Shards: Macro View Of Glowing Crystal Fragments In Vivid Tones
+    Dewdrop Shine: A Glowing Raindrop Resting On A Radiant Green Leaf
+    Frozen Petals: Closeup Of A Frosted Flower With Glowing Edges
+    Ice Glow: A Glowing Ice Shard With Intricate Anime-Style Textures
+    Leaf Veins: Glowing Veins Of A Vibrant Anime-Style Leaf
+    Pebble Radiance: Smooth, Glowing Pebbles Scattered On A Sandy Surface
+    Petal Dew: Radiant Water Droplet Glowing On A Vibrant Flower Petal
+    Ripple Effect: Macro Shot Of Glowing Ripples On Calm Water
+    Sparkling Sand: Macro View Of Glowing Grains Of Sand
 ========================================XX========================================
 ==| Metallic
 Crystal Shine: Metallic Crystal Formations Glowing In Radiant Hues
