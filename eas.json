@@ -1,0 +1,10 @@
+{
+  "cli": { "version": ">= 14.2.0", "appVersionSource": "remote" },
+  "submit": { "production": {} },
+  "build": {
+    "preview": { "distribution": "internal" },
+    "production": { "autoIncrement": true },
+    "development": { "developmentClient": true, "distribution": "internal" },
+    "local": { "android": { "developmentClient": false, "buildType": "apk" } }
+  }
+}
