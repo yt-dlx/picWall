@@ -18,7 +18,9 @@
     "build:eas:production:android": "npm run version && eas build --profile production --platform android",
     "android:prodev": "expo prebuild && cd android && ./gradlew assembleRelease && ./gradlew assembleDebug",
     "android": "expo prebuild && expo run:android",
+    "clean": "rimraf .expo android node_modules",
     "ios": "expo prebuild &&expo run:ios",
+    "new": "yarn clean && yarn --silent",
     "web": "expo start --web",
     "start": "expo start",
     "lint": "expo lint"
