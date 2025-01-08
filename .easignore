@@ -1,4 +1,7 @@
+/ios
 .env
-scripts
-backend
-node_modules
+.expo
+/scripts
+/android
+/backend
+/node_modules
