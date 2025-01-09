@@ -9,8 +9,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import { ScrollingSlotProps } from "@/types/components";
 import { Text, View, TouchableOpacity } from "react-native";
 import { AntDesign, FontAwesome5 } from "@expo/vector-icons";
-import AsyncStorage from "@react-native-async-storage/async-storage";
-import Animated, { useSharedValue, useAnimatedStyle, withTiming, withRepeat, withSequence, withDelay, withSpring, Easing, FadeIn, FadeInDown } from "react-native-reanimated";
+import Animated, { useSharedValue, useAnimatedStyle, withTiming, withRepeat, withSequence, withSpring, Easing, FadeIn, FadeInDown, withDelay } from "react-native-reanimated";
 // ============================================================================================
 // ============================================================================================
 const ScrollingSlot: React.FC<ScrollingSlotProps> = ({ images, reverse, delay }) => {
@@ -93,7 +92,7 @@ const AnimatedTitle: React.FC = () => {
 // ============================================================================================
 // ============================================================================================
 const DevMsgModal: React.FC<{ visible: boolean; onClose: () => void }> = ({ visible, onClose }) => {
-  const [countdown, setCountdown] = useState(20);
+  const [countdown, setCountdown] = useState(__DEV__ ? 5 : 20);
   const opacity = useSharedValue(0);
   const scale = useSharedValue(0.8);
   useEffect(() => {
@@ -142,18 +141,11 @@ const DevMsgModal: React.FC<{ visible: boolean; onClose: () => void }> = ({ visi
 // ============================================================================================
 // ============================================================================================
 export default function BasePage(): JSX.Element {
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(true);
   const buttonScale = useSharedValue(1);
   const buttonGlow = useSharedValue(0);
   const buttonRotate = useSharedValue(0);
   useEffect(() => {
-    if (__DEV__) setShowModal(true);
-    AsyncStorage.getItem("hasSeenModal").then((value) => {
-      if (!value) {
-        setShowModal(true);
-        AsyncStorage.setItem("hasSeenModal", "true");
-      }
-    });
     buttonGlow.value = withRepeat(
       withSequence(withTiming(1, { duration: 2000, easing: Easing.bezier(0.4, 0, 0.2, 1) }), withTiming(0, { duration: 2000, easing: Easing.bezier(0.4, 0, 0.2, 1) })),
       -1,

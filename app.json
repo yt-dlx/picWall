@@ -9,7 +9,9 @@
     "newArchEnabled": true,
     "userInterfaceStyle": "automatic",
     "icon": "./src/assets/images/logo.jpg",
-    "experiments": { "typedRoutes": true },
+    "experiments": {
+      "typedRoutes": true
+    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.shovit.picWall",
@@ -18,18 +20,51 @@
         "NSPhotoLibraryUsageDescription": "picWall: requires access to your photo library to save images."
       }
     },
-    "web": { "output": "static", "bundler": "metro", "favicon": "./src/assets/images/logo.jpg" },
-    "extra": { "router": { "origin": false }, "eas": { "projectId": "a7f4e6b6-5422-454e-bec3-2c35bd858c85" } },
+    "web": {
+      "output": "static",
+      "bundler": "metro",
+      "favicon": "./src/assets/images/logo.jpg"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a7f4e6b6-5422-454e-bec3-2c35bd858c85"
+      }
+    },
     "android": {
       "package": "com.shovit.picWall",
-      "adaptiveIcon": { "backgroundColor": "#0C0C0C", "foregroundImage": "./src/assets/images/logo.jpg" },
+      "adaptiveIcon": {
+        "backgroundColor": "#0C0C0C",
+        "foregroundImage": "./src/assets/images/logo.jpg"
+      },
       "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE", "SET_WALLPAPER "]
     },
     "plugins": [
       "expo-router",
-      ["expo-splash-screen", { "imageWidth": 200, "resizeMode": "contain", "backgroundColor": "#0C0C0C", "image": "./src/assets/images/logo.jpg" }],
-      ["expo-font", { "fonts": ["./src/assets/fonts/Kurale_Regular.ttf", "./src/assets/fonts/Lobster_Regular.ttf", "./src/assets/fonts/Dm_Serif_Display_Regular.ttf"] }],
-      ["react-native-google-mobile-ads", { "androidAppId": "ca-app-pub-8756720176445763~5769468515", "iosAppId": "ca-app-pub-8756720176445763~7056593476" }]
+      [
+        "expo-splash-screen",
+        {
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#0C0C0C",
+          "image": "./src/assets/images/logo.jpg"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": ["./src/assets/fonts/Kurale_Regular.ttf", "./src/assets/fonts/Lobster_Regular.ttf", "./src/assets/fonts/Dm_Serif_Display_Regular.ttf"]
+        }
+      ],
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-8756720176445763~5769468515",
+          "iosAppId": "ca-app-pub-8756720176445763~7056593476"
+        }
+      ]
     ]
   }
 }
