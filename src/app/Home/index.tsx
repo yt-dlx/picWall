@@ -166,7 +166,7 @@ const Card: FC<CardProps> = memo(({ data }) => {
             />
             {loading && (
               <View style={{ position: "absolute", top: "50%", left: "50%", transform: [{ translateX: -10 }, { translateY: -10 }] }}>
-                <ActivityIndicator size="small" color="#FFFFFF" />
+                <ActivityIndicator size="small" color={Colorizer("#FFFFFF", 1.0)} />
               </View>
             )}
             <View className="absolute bottom-0 left-0 right-0 items-center justify-start">
@@ -177,7 +177,7 @@ const Card: FC<CardProps> = memo(({ data }) => {
                   fontFamily: "Lobster_Regular",
                   transform: [{ scale: textScale }],
                   color: Colorizer("#0C0C0C", 1.0),
-                  backgroundColor: Colorizer(data.images[currentIndex].primary, 10.0)
+                  backgroundColor: Colorizer(data.images[currentIndex].primary, 1.0)
                 }}
                 className="text-sm m-1 px-1 rounded-xl"
               >
@@ -366,7 +366,7 @@ const CategoryModal: FC<CategoryModalProps> = ({ isVisible, onClose, onSelectCat
 const CategoryButton: FC<CategoryButtonExtendedProps> = memo(({ category, selected, onPress }) => {
   const [currentImage, setCurrentImage] = useState<string>("");
   const updateShuffleImage = useCallback(() => {
-    if (category === "Categories and Styles") {
+    if (category === "Shuffle Wallpapers") {
       const allImages: string[] = [];
       rawCategoriesArray.forEach((cat) => {
         if (cat.name === "Shuffle Wallpapers") return;
@@ -393,7 +393,7 @@ const CategoryButton: FC<CategoryButtonExtendedProps> = memo(({ category, select
         />
         <LinearGradient colors={["transparent", Colorizer("#0C0C0C", 0.8), Colorizer("#0C0C0C", 1.0)]} style={{ position: "absolute", width: "100%", height: "100%", borderRadius: 10 }} />
         <View style={{ position: "absolute", width: "100%", height: "100%", justifyContent: "center", alignItems: "center", flexDirection: "row", borderRadius: 10 }}>
-          <MaterialCommunityIcons name={category === "Categories and Styles" ? "image-filter-vintage" : "dice-multiple"} size={30} color="#FFFFFF" style={{ marginRight: 8 }} />
+          <MaterialCommunityIcons name={category === "Shuffle Wallpapers" ? "image-filter-vintage" : "dice-multiple"} size={30} color="#FFFFFF" style={{ marginRight: 8 }} />
           <Text style={{ fontFamily: "Lobster_Regular", color: Colorizer("#FFFFFF", 1.0), fontSize: 16, textAlign: "center" }}> {category} </Text>
         </View>
       </View>
@@ -428,11 +428,11 @@ const HeaderComponent: FC<{
       <View style={{ marginTop: 30, paddingRight: 6, paddingLeft: 6, paddingBottom: 10 }}>
         <View style={{ flexDirection: "row", alignItems: "center", justifyContent: "center" }}>
           <Animated.View style={leftIconStyle}>
-            <FontAwesome5 name="caret-left" size={24} color="#FFFFFF" />
+            <FontAwesome5 name="caret-left" size={24} color={Colorizer("#FFFFFF", 1.0)} />
           </Animated.View>
-          <Text style={{ fontFamily: "Lobster_Regular", fontSize: 20, color: "#FFFFFF", textAlign: "center", marginHorizontal: 10 }}>Explore Our AI Generated Wallpapers</Text>
+          <Text style={{ fontFamily: "Lobster_Regular", fontSize: 20, color: Colorizer("#FFFFFF", 1.0), textAlign: "center", marginHorizontal: 10 }}>Explore Our AI Generated Wallpapers</Text>
           <Animated.View style={rightIconStyle}>
-            <FontAwesome5 name="caret-right" size={24} color="#FFFFFF" />
+            <FontAwesome5 name="caret-right" size={24} color={Colorizer("#FFFFFF", 1.0)} />
           </Animated.View>
         </View>
         <SearchBar onSearch={onSearch} />
