@@ -19,7 +19,7 @@
     "android:prodev": "expo prebuild && cd android && ./gradlew assembleRelease && ./gradlew assembleDebug",
     "prepare": "yarn clean && yarn --silent && expo prebuild",
     "android": "expo prebuild && expo run:android",
-    "clean": "rimraf .expo android node_modules",
+    "clean": "npx rimraf .expo android node_modules",
     "ios": "expo prebuild &&expo run:ios",
     "web": "expo start --web",
     "start": "expo start",
