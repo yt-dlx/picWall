@@ -85,12 +85,12 @@ export default function AdmobPage(): JSX.Element {
               <Image source={{ uri: selectedImage }} style={{ width: "100%", height: "100%" }} contentFit="cover" onLoadEnd={() => setImageLoaded(true)} />
               {!imageLoaded && (
                 <Animated.View style={{ position: "absolute", top: "50%", left: "50%", transform: [{ translateX: -12 }, { translateY: -12 }], opacity: opacity }}>
-                  <FontAwesome6 name="download" size={24} color="#FFFFFF" />
+                  <FontAwesome6 name="download" size={24} color={Colorizer("#FFFFFF", 1.0)} />
                 </Animated.View>
               )}
             </View>
           )}
-          {!imageLoaded && <ActivityIndicator size="large" color="#FFFFFF" />}
+          {!imageLoaded && <ActivityIndicator size="large" color={Colorizer("#FFFFFF", 1.0)} />}
           {adError && (
             <View className="mt-4 items-center">
               <Text className="text-red-500 text-center mb-2" style={{ fontFamily: "Lobster_Regular" }}>
