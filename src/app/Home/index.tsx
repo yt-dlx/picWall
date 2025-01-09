@@ -7,8 +7,8 @@ import metaBase from "@/database";
 import { BlurView } from "expo-blur";
 import Colorizer from "@/utils/Colorizer";
 import Footer from "@/components/Footer";
+import HAnimated from "@/components/HAnimated";
 import { LinearGradient } from "expo-linear-gradient";
-import HeaderAnimate from "@/components/HeaderAnimated";
 import { FontAwesome5, FontAwesome6 } from "@expo/vector-icons";
 import { EnvironmentEntry, ImageMetadata } from "@/types/database";
 import { createPreviewLink, createDownloadLink } from "@/utils/linker";
@@ -465,7 +465,7 @@ const HeaderComponent: FC<{
   return (
     <Animated.View style={fadeInStyle}>
       <View className="-m-2">
-        <HeaderAnimate />
+        <HAnimated />
       </View>
       <View style={{ marginTop: 30, paddingRight: 6, paddingLeft: 6, paddingBottom: 10 }}>
         <View style={{ flexDirection: "row", alignItems: "center", justifyContent: "center" }}>

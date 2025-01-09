@@ -1,8 +1,8 @@
 // src/app/Shared/index.tsx
 import { Image } from "expo-image";
+import useAd from "@/Hooks/useAd";
 import Colorizer from "@/utils/Colorizer";
 import React, { useEffect, useState, useRef } from "react";
-import useRewardAd from "@/components/useRewardAd";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import { View, Text, ActivityIndicator, Dimensions, Button, StatusBar, Animated } from "react-native";
@@ -35,7 +35,7 @@ export default function AdmobPage(): JSX.Element {
     parsedData = JSON.parse(dataParam) as ParsedData;
   }
   const selectedImage = parsedData?.data[parsedData.selectedIndex]?.previewLink.replace("min", "max") || null;
-  const { showAd, adLoaded } = useRewardAd({
+  const { showAd, adLoaded } = useAd({
     onRewardEarned: () => setAdEarned(true),
     onAdClosed: () => {
       if (!adEarned) setAdError(true);
