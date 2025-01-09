@@ -1,8 +1,8 @@
 import os
 from shutil import copy2
 from collections import defaultdict
-output_directory = os.path.join("backend", "sources", "input")
-input_directory = os.path.join("backend", "scripts", "Generated", "Images")
+output_directory = os.path.join("sources", "input")
+input_directory = os.path.join("scripts", "Generated", "Images")
 prefixes_to_remove = [
     "Leonardo Lightning XL", 
     "Leonardo Anime XL", 
