@@ -46,7 +46,7 @@ const AnimatedTitle: React.FC = () => {
 };
 // ============================================================================================
 // ============================================================================================
-const HAnimated: React.FC = () => {
+export default function HAnimated(): JSX.Element {
   return (
     <View className="flex-1 items-center justify-center">
       <View className="flex-row overflow-hidden rounded-xl relative" style={{ height: 300 }}>
@@ -77,5 +77,4 @@ const HAnimated: React.FC = () => {
       </View>
     </View>
   );
-};
-export default HAnimated;
+}
