@@ -9,9 +9,9 @@ import Colorizer from "@/utils/Colorizer";
 import Footer from "@/components/Footer";
 import HAnimated from "@/components/HAnimated";
 import { LinearGradient } from "expo-linear-gradient";
-import { FontAwesome5, FontAwesome6 } from "@expo/vector-icons";
 import { EnvironmentEntry, ImageMetadata } from "@/types/database";
 import { createPreviewLink, createDownloadLink } from "@/utils/linker";
+import { FontAwesome5, MaterialCommunityIcons } from "@expo/vector-icons";
 import React, { useEffect, useRef, useCallback, useState, memo, FC } from "react";
 import { SubImagesProps, CardProps, CategoryButtonProps } from "@/types/components";
 import { Easing, useSharedValue, useAnimatedStyle, withTiming, withRepeat } from "react-native-reanimated";
@@ -65,7 +65,7 @@ const SearchBar: FC<{ onSearch: (text: string) => void }> = memo(({ onSearch }) 
           onChangeText={handleSearch}
           placeholder="Search by image name..."
           placeholderTextColor={Colorizer("#FFFFFF", 0.6)}
-          style={{ flex: 1, marginLeft: 8, fontFamily: "Lobster_Regular", color: Colorizer("#FFFFFF", 1.0) }}
+          style={{ flex: 1, marginLeft: 8, fontFamily: "Kurale_Regular", color: Colorizer("#FFFFFF", 1.0) }}
         />
         {searchText.length > 0 && (
           <TouchableOpacity onPress={() => handleSearch("")}>
@@ -85,14 +85,9 @@ const SubImages: FC<SubImagesProps> = memo(({ images, onImagePress }) => (
       const fullDataIndex = images.allData.findIndex((img) => img.original_file_name === image.original_file_name);
       return (
         <Link key={index} href={{ pathname: "/Shared", params: { data: JSON.stringify({ environment_title: images.environment_title, selectedIndex: fullDataIndex, data: images.allData }) } }} asChild>
-          <TouchableOpacity onPress={() => onImagePress(image.previewLink as string, fullDataIndex)} className="p-[0.2px] flex-1">
+          <TouchableOpacity onPress={() => onImagePress(image.previewLink as string, fullDataIndex)} className="flex-1">
             <View className="relative">
-              <Image
-                source={{ uri: image.previewLink as string }}
-                style={{ height: 50, borderWidth: 1, width: "100%", borderRadius: 4, borderColor: Colorizer(image.primary, 0.5) }}
-                cachePolicy="memory-disk"
-                contentFit="cover"
-              />
+              <Image source={{ uri: image.previewLink as string }} style={{ height: 60, borderWidth: 1, width: "100%" }} cachePolicy="memory-disk" contentFit="cover" />
               <Text
                 className="absolute m-1 bottom-1 right-1 px-2 text-xs rounded-2xl"
                 style={{ fontFamily: "Lobster_Regular", color: Colorizer("#0C0C0C", 1.0), backgroundColor: Colorizer(image.primary, 1.0) }}
@@ -125,17 +120,17 @@ const Card: FC<CardProps> = memo(({ data }) => {
   );
   const animateImageOut = useCallback(
     (cb: () => void) => {
-      Animated.timing(imageFadeValue, { toValue: 0, duration: 800, easing: Easing.inOut(Easing.ease), useNativeDriver: true }).start(() => cb());
+      Animated.timing(imageFadeValue, { toValue: 0, duration: 2500, easing: Easing.quad, useNativeDriver: true }).start(() => cb());
     },
     [imageFadeValue]
   );
   const animateImageIn = useCallback(() => {
-    Animated.timing(imageFadeValue, { toValue: 1, duration: 800, easing: Easing.inOut(Easing.ease), useNativeDriver: true }).start();
+    Animated.timing(imageFadeValue, { toValue: 1, duration: 3000, easing: Easing.quad, useNativeDriver: true }).start();
   }, [imageFadeValue]);
   const animateText = useCallback(() => {
     Animated.parallel([
-      Animated.timing(textOpacity, { toValue: 1, duration: 800, easing: Easing.inOut(Easing.ease), useNativeDriver: true }),
-      Animated.timing(textScale, { toValue: 1, duration: 800, easing: Easing.inOut(Easing.ease), useNativeDriver: true })
+      Animated.timing(textOpacity, { toValue: 1, duration: 2500, easing: Easing.quad, useNativeDriver: true }),
+      Animated.timing(textScale, { toValue: 1, duration: 2500, easing: Easing.quad, useNativeDriver: true })
     ]).start();
   }, [textOpacity, textScale]);
   const startTransition = useCallback(
@@ -389,7 +384,7 @@ const CategoryButton: FC<CategoryButtonExtendedProps> = memo(({ category, select
     updateShuffleImage();
   }, [updateShuffleImage]);
   return (
-    <TouchableOpacity onPress={() => onPress()} style={{ flex: 1, height: 70, width: "100%", borderWidth: 1, borderColor: Colorizer("#FFFFFF", 0.1), borderRadius: 10, margin: 1, overflow: "hidden" }}>
+    <TouchableOpacity onPress={() => onPress()} style={{ flex: 1, height: 70, width: "100%", borderRadius: 10, margin: 1, overflow: "hidden" }}>
       <View style={{ borderRadius: 4, overflow: "hidden", width: "100%", height: "100%" }}>
         <Image
           source={category === "Shuffle Wallpapers" ? require("@/assets/images/shuffle.gif") : { uri: currentImage }}
@@ -398,8 +393,8 @@ const CategoryButton: FC<CategoryButtonExtendedProps> = memo(({ category, select
         />
         <LinearGradient colors={["transparent", Colorizer("#0C0C0C", 0.8), Colorizer("#0C0C0C", 1.0)]} style={{ position: "absolute", width: "100%", height: "100%", borderRadius: 10 }} />
         <View style={{ position: "absolute", width: "100%", height: "100%", justifyContent: "center", alignItems: "center", flexDirection: "row", borderRadius: 10 }}>
-          <FontAwesome6 name={category === "Categories and Styles" ? "list" : "image"} size={16} color="#FFFFFF" style={{ marginRight: 8 }} />
-          <Text style={{ fontFamily: "Lobster_Regular", color: Colorizer("#FFFFFF", 1.0), fontSize: 14, textAlign: "center", paddingHorizontal: 4 }}> {category} </Text>
+          <MaterialCommunityIcons name={category === "Categories and Styles" ? "image-filter-vintage" : "dice-multiple"} size={30} color="#FFFFFF" style={{ marginRight: 8 }} />
+          <Text style={{ fontFamily: "Lobster_Regular", color: Colorizer("#FFFFFF", 1.0), fontSize: 16, textAlign: "center" }}> {category} </Text>
         </View>
       </View>
     </TouchableOpacity>
