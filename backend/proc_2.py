@@ -2,7 +2,7 @@ import os
 from shutil import copy2
 from collections import defaultdict
 output_directory = os.path.join("backend", "sources", "input")
-input_directory = os.path.join("scripts", "Generated", "Images")
+input_directory = os.path.join("backend", "scripts", "Generated", "Images")
 prefixes_to_remove = [
     "Leonardo Lightning XL", 
     "Leonardo Anime XL", 
@@ -36,7 +36,7 @@ for root, _, files in os.walk(input_directory):
         base_name = clean_base_name(filename)
         grouped_files[base_name].append(filename)
     for group, group_files in grouped_files.items():
-        for index, filename in enumerate(group_files):
+        for index, filename in enumerate(group_files, start=0): 
             old_file = os.path.join(root, filename)
             new_name = generate_new_name(group, index)
             new_file = os.path.join(target_folder, new_name)

@@ -1,0 +1,29 @@
+Play Account: 
+    0 - picwalldev@gmail.com
+Testers Accounts: 
+    1 - picwall.org.tester.1@gmail.com
+    2 - picwall.org.tester.2@gmail.com
+    3 - picwall.org.tester.3@gmail.com
+    4 - picwall.org.tester.4@gmail.com
+    5 - picwall.org.tester.5@gmail.com
+    6 - picwall.org.tester.6@gmail.com
+    6 - picwall.org.tester.7@gmail.com
+    6 - picwall.org.tester.8@gmail.com
+    7 - picwall.one@gmail.com
+    8 - picwall.two@gmail.com
+    9 - picwallone@gmail.com
+    10 - picwalltwo@gmail.com
+    11 - picwallthree@gmail.com
+    12 - picwallfour@gmail.com
+    13 - picwallfive@gmail.com
+    14 - picwallsix@gmail.com
+    15 - picwallseven@gmail.com
+Production Accounts: 
+    16 - shovitdutta1@gmail.com
+    17 - nicorp719@gmail.com
+    18 - krakinzkon@gmail.com
+    19 - magneumpro@gmail.com
+    20 - larissaparishmita77@gmail.com
+
+Opt-In: 
+    - https://play.google.com/store/apps/details?id=com.shovit.picWall
