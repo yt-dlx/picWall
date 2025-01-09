@@ -4,7 +4,7 @@ from rich.console import Console
 from colorthief import ColorThief
 console = Console()
 GITHUB_OWNER = "yt-dlx"
-GITHUB_REPO = "picbook"
+GITHUB_REPO = "picWall"
 def log(message, level="info"):
     timestamp = time.strftime("[%Y-%m-%d %H:%M:%S]")
     if level == "info":
