@@ -15,7 +15,7 @@ def clean_base_name(filename):
         filename = filename.rsplit("(", 1)[0].strip()
     if filename.endswith(".jpg"):
         filename = filename[:-4].strip()
-    return filename
+    return filename.capitalize()
 def generate_new_name(base_name):
     return f"{base_name}.jpg"
 for root, _, files in os.walk(input_directory):
