@@ -1,7 +1,8 @@
 import os
+from shutil import copy2
 from collections import defaultdict
-input_directory = os.path.join("download")
-output_directory = os.path.join("sources", "input")
+output_directory = os.path.join("backend", "sources", "input")
+input_directory = os.path.join("scripts", "Generated", "Images")
 prefixes_to_remove = [
     "Leonardo Lightning XL", 
     "Leonardo Anime XL", 
@@ -39,5 +40,5 @@ for root, _, files in os.walk(input_directory):
             old_file = os.path.join(root, filename)
             new_name = generate_new_name(group, index)
             new_file = os.path.join(target_folder, new_name)
-            os.rename(old_file, new_file)
-            print(f'Renamed: "{filename}" to "{new_name}" in "{target_folder}"')
+            copy2(old_file, new_file)
+            print(f'Copied: "{filename}" to "{new_name}" in "{target_folder}"')
