@@ -8,6 +8,7 @@ dist/
 .expo/
 *.pem
 *.orig.*
+/scripts
 android
 .DS_Store
 web-build/
@@ -19,7 +20,5 @@ app-example
 yarn-debug.*
 expo-env.d.ts
 node_modules/
-/scripts/Themes
 *.mobileprovision
-/scripts/Generated
 .metro-health-check*
