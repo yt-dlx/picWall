@@ -22,9 +22,11 @@ def clean_base_name(filename):
             break
     if "(" in filename and ")" in filename:
         filename = filename.rsplit("(", 1)[0].strip()
+    if filename.endswith(".jpg"):
+        filename = filename[:-4].strip()
     return filename
-def generate_new_name(base_name, index):
-    return f"{base_name} ({index}).jpg"
+def generate_new_name(base_name):
+    return f"{base_name}.jpg"
 for root, _, files in os.walk(input_directory):
     relative_path = os.path.relpath(root, input_directory)
     target_folder = os.path.join(output_directory, relative_path)
@@ -36,9 +38,9 @@ for root, _, files in os.walk(input_directory):
         base_name = clean_base_name(filename)
         grouped_files[base_name].append(filename)
     for group, group_files in grouped_files.items():
-        for index, filename in enumerate(group_files, start=0): 
+        for filename in group_files:
             old_file = os.path.join(root, filename)
-            new_name = generate_new_name(group, index)
+            new_name = generate_new_name(group)
             new_file = os.path.join(target_folder, new_name)
             copy2(old_file, new_file)
-            print(f'Copied: "{filename}" to "{new_name}" in "{target_folder}"')
+            print(f'Done: {new_name} (in) {target_folder}"')
