@@ -19,6 +19,7 @@ app-example
 yarn-debug.*
 expo-env.d.ts
 node_modules/
+/backend/python
 /backend/sources
 *.mobileprovision
 .metro-health-check*
