@@ -1,5 +1,5 @@
 import os
-from shutil import copy2
+from shutil import copy2, move, rmtree
 from dotenv import load_dotenv
 from collections import defaultdict
 load_dotenv("../.env")
@@ -36,3 +36,16 @@ for root, _, files in os.walk(input_directory):
             new_file = os.path.join(target_folder, new_name)
             copy2(old_file, new_file)
             print(f"Done: {new_name} (in) {target_folder}")
+for subdir in os.listdir(output_directory):
+    subdir_path = os.path.join(output_directory, subdir)
+    if os.path.isdir(subdir_path):
+        for folder in os.listdir(subdir_path):
+            folder_path = os.path.join(subdir_path, folder)
+            target_path = os.path.join(output_directory, folder)
+            if os.path.isdir(folder_path):
+                move(folder_path, target_path)
+                print(f"Moved: {folder_path} to {target_path}")
+        if not os.listdir(subdir_path):
+            rmtree(subdir_path)
+            print(f"Deleted empty folder: {subdir_path}")
+print("Processing, folder reorganization, and cleanup complete!")
