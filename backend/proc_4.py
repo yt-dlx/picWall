@@ -23,7 +23,7 @@ def add_watermark_to_image(input_path, output_path, text, font_path, orientation
         for position in positions:
             draw.text(position, text, font=font, fill=(255, 255, 255, opacity))
     watermarked_image = Image.alpha_composite(image, watermark).convert("RGB")
-    watermarked_image.save(output_path, format=original_format, quality=100)
+    watermarked_image.save(output_path, format=original_format, quality=90, optimize=True)
     print(f"Saved watermarked image: {output_path}")
 def generate_watermark_grid(image_size, text, font, spacing_multiplier=3.0):
     draw = ImageDraw.Draw(Image.new("RGBA", image_size, (255, 255, 255, 0)))
