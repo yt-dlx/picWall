@@ -1,0 +1,6 @@
+Follow These Rules:
+    - Give Me Entire Updated Code
+    - Use Print Width 300 Formatting
+    - No Need Of Imports Unless I Say
+    - No Need Of Comments And Explanations
+    - Use The Comment Divider Design As Usual
