@@ -16,12 +16,12 @@ yarn-error.*
 *.tsbuildinfo
 npm-debug.*
 app-example
-yarn-debug.*
 expo-env.d.ts
+/core/python
+/core/sources
+yarn-debug.*
 node_modules/
-/backend/python
-/backend/sources
 *.mobileprovision
 .metro-health-check*
-/backend/scripts/Themes
-/backend/scripts/Generated
+/core/scripts/Themes
+/core/scripts/Generated
