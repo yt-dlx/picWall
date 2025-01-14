@@ -20,6 +20,7 @@ expo-env.d.ts
 /core/python
 /core/sources
 yarn-debug.*
+/core/previous
 node_modules/
 *.mobileprovision
 .metro-health-check*
