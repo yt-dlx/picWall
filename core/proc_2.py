@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from collections import defaultdict
 load_dotenv("../.env")
 prerem = os.getenv("PREREM", "").split(",")
-output_directory = os.path.join("sources", "input")
+output_directory = os.path.join("assets", "input")
 input_directory = os.path.join("scripts", "Generated", "Images")
 def clean_base_name(filename):
     for prefix in prerem:

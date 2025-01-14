@@ -34,7 +34,7 @@ if __name__ == "__main__":
     else:
         print("Invalid choice. Exiting the program.")
         exit()
-    output_base_dir = os.path.join("sources", "output")
+    output_base_dir = os.path.join("assets", "output")
     directories = [
         (folder, os.path.join(output_base_dir, folder, "max"), os.path.join(output_base_dir, folder, "min"))
         for folder in os.listdir(output_base_dir)

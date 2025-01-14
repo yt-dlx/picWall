@@ -141,7 +141,7 @@ if __name__ == "__main__":
     @sharpness >>> (Optional):Adjusts the sharpness of the image. Limit: (-)100 - (+)100
     @contrast >>> (Optional):Adjusts the contrast of the image. Limit: (-)100 - (+)100
     """
-    main_directory = os.path.join("sources", "input")
+    main_directory = os.path.join("assets", "input")
     folder_names = [name for name in os.listdir(main_directory) if os.path.isdir(os.path.join(main_directory, name))]
     for name in folder_names:
         inference(

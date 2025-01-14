@@ -47,8 +47,8 @@ def process_images(input_folder, output_folder, text, font_path, orientation):
             output_path = os.path.join(output_folder, filename)
             add_watermark_to_image(input_path, output_path, text, font_path, orientation)
 def main():
-    input_base_dir = os.path.join("sources", "input")
-    output_base_dir = os.path.join("sources", "output")
+    input_base_dir = os.path.join("assets", "input")
+    output_base_dir = os.path.join("assets", "output")
     input_folders = [os.path.join(input_base_dir, folder) for folder in os.listdir(input_base_dir) if os.path.isdir(os.path.join(input_base_dir, folder))]
     output_folders = [os.path.join(output_base_dir, folder, "max") for folder in os.listdir(input_base_dir) if os.path.isdir(os.path.join(input_base_dir, folder))]
     for output_folder in output_folders:

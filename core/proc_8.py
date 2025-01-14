@@ -86,7 +86,7 @@ def write_output_file(output_ts_path, parent_data):
         ts_file.write(";\n")
     log(f"Output written successfully to: {output_ts_path}", level="success")
 data_folder = "data"
-output_base_dir = os.path.join("sources", "output")
+output_base_dir = os.path.join("assets", "output")
 folder_paths = [(folder, os.path.join(output_base_dir, folder)) for folder in os.listdir(output_base_dir) if os.path.isdir(os.path.join(output_base_dir, folder))]
 for folder_name, folder_path in folder_paths:
     try:

@@ -21,7 +21,7 @@ function getDirectories(basePath) {
     return [];
   }
 }
-const directories = getDirectories("./sources/output");
+const directories = getDirectories("./assets/output");
 async function fetchBranch(branch) {
   try {
     console.log(`Fetching branch: ${branch}`);

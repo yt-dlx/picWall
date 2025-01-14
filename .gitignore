@@ -13,12 +13,12 @@ android
 web-build/
 .env*.local
 yarn-error.*
+/core/assets
 *.tsbuildinfo
 npm-debug.*
 app-example
 expo-env.d.ts
 /core/python
-/core/sources
 yarn-debug.*
 /core/previous
 node_modules/
