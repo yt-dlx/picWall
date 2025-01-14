@@ -14,6 +14,7 @@ web-build
 core/assets
 .env*.local
 core/python
+core/upload
 yarn-error.*
 *.tsbuildinfo
 npm-debug.*

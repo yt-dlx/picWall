@@ -1,0 +1,2962 @@
+export const database: unknown[] = [
+  {
+    "City Lights Blur Long Exposure Capturing St 0": {
+      environment_title: "City Lights Blur Long Exposure Capturing St 0",
+      images: [
+        {
+          original_file_name: "City Lights Blur Long Exposure Capturing St 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 42089,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#d5a073",
+          secondary: "#1f191a",
+          tertiary: "#81503f",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "City Lights Blur Long Exposure Capturing St 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2343532,
+          file_size_megabytes: 2.23,
+          width: 3072,
+          height: 5472,
+          primary: "#d6a072",
+          secondary: "#20191a",
+          tertiary: "#825040",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "City Lights Blur Long Exposure Capturing St 1": {
+      environment_title: "City Lights Blur Long Exposure Capturing St 1",
+      images: [
+        {
+          original_file_name: "City Lights Blur Long Exposure Capturing St 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 42397,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#d0ad8b",
+          secondary: "#1d1615",
+          tertiary: "#765744",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "City Lights Blur Long Exposure Capturing St 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2081686,
+          file_size_megabytes: 1.99,
+          width: 3072,
+          height: 5472,
+          primary: "#d2ad8a",
+          secondary: "#1d1715",
+          tertiary: "#775745",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "City Lights Blur Long Exposure Capturing St 2": {
+      environment_title: "City Lights Blur Long Exposure Capturing St 2",
+      images: [
+        {
+          original_file_name: "City Lights Blur Long Exposure Capturing St 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 47630,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#cfa385",
+          secondary: "#241919",
+          tertiary: "#80543e",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "City Lights Blur Long Exposure Capturing St 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2427582,
+          file_size_megabytes: 2.32,
+          width: 3072,
+          height: 5472,
+          primary: "#d0a284",
+          secondary: "#251a19",
+          tertiary: "#80533e",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "City Lights Blur Long Exposure Capturing St 3": {
+      environment_title: "City Lights Blur Long Exposure Capturing St 3",
+      images: [
+        {
+          original_file_name: "City Lights Blur Long Exposure Capturing St 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 44802,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#d49b6b",
+          secondary: "#1f1513",
+          tertiary: "#804e34",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "City Lights Blur Long Exposure Capturing St 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2595204,
+          file_size_megabytes: 2.47,
+          width: 3072,
+          height: 5472,
+          primary: "#d69b6a",
+          secondary: "#1f1513",
+          tertiary: "#804e34",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Cloud Motion Dramatic Clouds Moving Swiftly 0": {
+      environment_title: "Cloud Motion Dramatic Clouds Moving Swiftly 0",
+      images: [
+        {
+          original_file_name: "Cloud Motion Dramatic Clouds Moving Swiftly 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 28725,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#cf9265",
+          secondary: "#323642",
+          tertiary: "#825140",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Cloud Motion Dramatic Clouds Moving Swiftly 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1444440,
+          file_size_megabytes: 1.38,
+          width: 3072,
+          height: 5472,
+          primary: "#cf9264",
+          secondary: "#323642",
+          tertiary: "#815141",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Cloud Motion Dramatic Clouds Moving Swiftly 1": {
+      environment_title: "Cloud Motion Dramatic Clouds Moving Swiftly 1",
+      images: [
+        {
+          original_file_name: "Cloud Motion Dramatic Clouds Moving Swiftly 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 27281,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#d6a77e",
+          secondary: "#242d36",
+          tertiary: "#85665d",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Cloud Motion Dramatic Clouds Moving Swiftly 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1373665,
+          file_size_megabytes: 1.31,
+          width: 3072,
+          height: 5472,
+          primary: "#d6a77d",
+          secondary: "#232d35",
+          tertiary: "#85655c",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Cloud Motion Dramatic Clouds Moving Swiftly 2": {
+      environment_title: "Cloud Motion Dramatic Clouds Moving Swiftly 2",
+      images: [
+        {
+          original_file_name: "Cloud Motion Dramatic Clouds Moving Swiftly 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 26669,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#dca579",
+          secondary: "#293239",
+          tertiary: "#896a61",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Cloud Motion Dramatic Clouds Moving Swiftly 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1277789,
+          file_size_megabytes: 1.22,
+          width: 3072,
+          height: 5472,
+          primary: "#dca57a",
+          secondary: "#293239",
+          tertiary: "#896a61",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Cloud Motion Dramatic Clouds Moving Swiftly 3": {
+      environment_title: "Cloud Motion Dramatic Clouds Moving Swiftly 3",
+      images: [
+        {
+          original_file_name: "Cloud Motion Dramatic Clouds Moving Swiftly 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 25790,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#d9b690",
+          secondary: "#252d33",
+          tertiary: "#7f6e63",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Cloud Motion Dramatic Clouds Moving Swiftly 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1411249,
+          file_size_megabytes: 1.35,
+          width: 3072,
+          height: 5472,
+          primary: "#d9b690",
+          secondary: "#242c32",
+          tertiary: "#7f6d61",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Fireworks Trails Fireworks Explosions Creat 0": {
+      environment_title: "Fireworks Trails Fireworks Explosions Creat 0",
+      images: [
+        {
+          original_file_name: "Fireworks Trails Fireworks Explosions Creat 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 45819,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#d78f6c",
+          secondary: "#1a151f",
+          tertiary: "#8b5846",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Fireworks Trails Fireworks Explosions Creat 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2514476,
+          file_size_megabytes: 2.4,
+          width: 3072,
+          height: 5472,
+          primary: "#d78e6c",
+          secondary: "#1a161f",
+          tertiary: "#8c5845",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Fireworks Trails Fireworks Explosions Creat 1": {
+      environment_title: "Fireworks Trails Fireworks Explosions Creat 1",
+      images: [
+        {
+          original_file_name: "Fireworks Trails Fireworks Explosions Creat 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 49352,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#d6976a",
+          secondary: "#19161b",
+          tertiary: "#895944",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Fireworks Trails Fireworks Explosions Creat 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2797549,
+          file_size_megabytes: 2.67,
+          width: 3072,
+          height: 5472,
+          primary: "#d7976a",
+          secondary: "#19161b",
+          tertiary: "#895943",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Fireworks Trails Fireworks Explosions Creat 2": {
+      environment_title: "Fireworks Trails Fireworks Explosions Creat 2",
+      images: [
+        {
+          original_file_name: "Fireworks Trails Fireworks Explosions Creat 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 52827,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#db906b",
+          secondary: "#1c0c0d",
+          tertiary: "#945342",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Fireworks Trails Fireworks Explosions Creat 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2605195,
+          file_size_megabytes: 2.48,
+          width: 3072,
+          height: 5472,
+          primary: "#dc906b",
+          secondary: "#1b0c0d",
+          tertiary: "#945341",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Fireworks Trails Fireworks Explosions Creat 3": {
+      environment_title: "Fireworks Trails Fireworks Explosions Creat 3",
+      images: [
+        {
+          original_file_name: "Fireworks Trails Fireworks Explosions Creat 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 44446,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#d6986c",
+          secondary: "#1d171a",
+          tertiary: "#805641",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Fireworks Trails Fireworks Explosions Creat 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2603392,
+          file_size_megabytes: 2.48,
+          width: 3072,
+          height: 5472,
+          primary: "#d6976c",
+          secondary: "#1d171a",
+          tertiary: "#805641",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Flowing River River Captured With Soft Flow 0": {
+      environment_title: "Flowing River River Captured With Soft Flow 0",
+      images: [
+        {
+          original_file_name: "Flowing River River Captured With Soft Flow 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 33454,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#d4d4cf",
+          secondary: "#262424",
+          tertiary: "#9caab3",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Flowing River River Captured With Soft Flow 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2249747,
+          file_size_megabytes: 2.15,
+          width: 3072,
+          height: 5472,
+          primary: "#d4d3cf",
+          secondary: "#262424",
+          tertiary: "#9baab3",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Flowing River River Captured With Soft Flow 1": {
+      environment_title: "Flowing River River Captured With Soft Flow 1",
+      images: [
+        {
+          original_file_name: "Flowing River River Captured With Soft Flow 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 32563,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#37342d",
+          secondary: "#cfd8db",
+          tertiary: "#8b9bab",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Flowing River River Captured With Soft Flow 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2091933,
+          file_size_megabytes: 2.0,
+          width: 3072,
+          height: 5472,
+          primary: "#37342d",
+          secondary: "#cfd8db",
+          tertiary: "#8a9bab",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Flowing River River Captured With Soft Flow 2": {
+      environment_title: "Flowing River River Captured With Soft Flow 2",
+      images: [
+        {
+          original_file_name: "Flowing River River Captured With Soft Flow 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 33056,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#32332b",
+          secondary: "#c9d1d7",
+          tertiary: "#9bacb6",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Flowing River River Captured With Soft Flow 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2252807,
+          file_size_megabytes: 2.15,
+          width: 3072,
+          height: 5472,
+          primary: "#32332b",
+          secondary: "#c9d1d7",
+          tertiary: "#9bacb6",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Flowing River River Captured With Soft Flow 3": {
+      environment_title: "Flowing River River Captured With Soft Flow 3",
+      images: [
+        {
+          original_file_name: "Flowing River River Captured With Soft Flow 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 31090,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#453e3a",
+          secondary: "#cfd3d1",
+          tertiary: "#9cabb3",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Flowing River River Captured With Soft Flow 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2126773,
+          file_size_megabytes: 2.03,
+          width: 3072,
+          height: 5472,
+          primary: "#453e3a",
+          secondary: "#d0d3d2",
+          tertiary: "#9cabb3",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Beam Lighthouse Raytraced Light Beam 0": {
+      environment_title: "Light Beam Lighthouse Raytraced Light Beam 0",
+      images: [
+        {
+          original_file_name: "Light Beam Lighthouse Raytraced Light Beam 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 21536,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#c89b6e",
+          secondary: "#17161e",
+          tertiary: "#57636e",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Beam Lighthouse Raytraced Light Beam 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1055801,
+          file_size_megabytes: 1.01,
+          width: 3072,
+          height: 5472,
+          primary: "#c89b6d",
+          secondary: "#16171e",
+          tertiary: "#57636e",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Beam Lighthouse Raytraced Light Beam 1": {
+      environment_title: "Light Beam Lighthouse Raytraced Light Beam 1",
+      images: [
+        {
+          original_file_name: "Light Beam Lighthouse Raytraced Light Beam 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 28204,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#d09c64",
+          secondary: "#1b1b25",
+          tertiary: "#704632",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Beam Lighthouse Raytraced Light Beam 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1379285,
+          file_size_megabytes: 1.32,
+          width: 3072,
+          height: 5472,
+          primary: "#d19c63",
+          secondary: "#151b28",
+          tertiary: "#704631",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Beam Lighthouse Raytraced Light Beam 2": {
+      environment_title: "Light Beam Lighthouse Raytraced Light Beam 2",
+      images: [
+        {
+          original_file_name: "Light Beam Lighthouse Raytraced Light Beam 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 25259,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#d9b58b",
+          secondary: "#1a1d23",
+          tertiary: "#786b67",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Beam Lighthouse Raytraced Light Beam 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1552914,
+          file_size_megabytes: 1.48,
+          width: 3072,
+          height: 5472,
+          primary: "#dab58b",
+          secondary: "#1b1e23",
+          tertiary: "#786b67",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Beam Lighthouse Raytraced Light Beam 3": {
+      environment_title: "Light Beam Lighthouse Raytraced Light Beam 3",
+      images: [
+        {
+          original_file_name: "Light Beam Lighthouse Raytraced Light Beam 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 20661,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#473f47",
+          secondary: "#e0b89a",
+          tertiary: "#8d6d68",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Beam Lighthouse Raytraced Light Beam 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1140814,
+          file_size_megabytes: 1.09,
+          width: 3072,
+          height: 5472,
+          primary: "#473f47",
+          secondary: "#e0b99a",
+          tertiary: "#8d6d68",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Bridges Bridges Lit With Moving Light 0": {
+      environment_title: "Light Bridges Bridges Lit With Moving Light 0",
+      images: [
+        {
+          original_file_name: "Light Bridges Bridges Lit With Moving Light 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 45160,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#d4b59b",
+          secondary: "#1d110e",
+          tertiary: "#7f5844",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Bridges Bridges Lit With Moving Light 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2139645,
+          file_size_megabytes: 2.04,
+          width: 3072,
+          height: 5472,
+          primary: "#d5b49a",
+          secondary: "#1d110d",
+          tertiary: "#7f5743",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Bridges Bridges Lit With Moving Light 1": {
+      environment_title: "Light Bridges Bridges Lit With Moving Light 1",
+      images: [
+        {
+          original_file_name: "Light Bridges Bridges Lit With Moving Light 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 53179,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#cfa886",
+          secondary: "#784b30",
+          tertiary: "#130b08",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Bridges Bridges Lit With Moving Light 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2532155,
+          file_size_megabytes: 2.41,
+          width: 3072,
+          height: 5472,
+          primary: "#d1a884",
+          secondary: "#794b2d",
+          tertiary: "#130b08",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Bridges Bridges Lit With Moving Light 2": {
+      environment_title: "Light Bridges Bridges Lit With Moving Light 2",
+      images: [
+        {
+          original_file_name: "Light Bridges Bridges Lit With Moving Light 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 39577,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#c08d68",
+          secondary: "#1a1010",
+          tertiary: "#78513e",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Bridges Bridges Lit With Moving Light 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2406936,
+          file_size_megabytes: 2.3,
+          width: 3072,
+          height: 5472,
+          primary: "#c08c66",
+          secondary: "#1a1110",
+          tertiary: "#78513d",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Bridges Bridges Lit With Moving Light 3": {
+      environment_title: "Light Bridges Bridges Lit With Moving Light 3",
+      images: [
+        {
+          original_file_name: "Light Bridges Bridges Lit With Moving Light 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 49688,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#c69d71",
+          secondary: "#180c08",
+          tertiary: "#795130",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Bridges Bridges Lit With Moving Light 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2453305,
+          file_size_megabytes: 2.34,
+          width: 3072,
+          height: 5472,
+          primary: "#c79d6e",
+          secondary: "#180b08",
+          tertiary: "#7a512e",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Painting Bright Light Streaks Creatin 0": {
+      environment_title: "Light Painting Bright Light Streaks Creatin 0",
+      images: [
+        {
+          original_file_name: "Light Painting Bright Light Streaks Creatin 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 49059,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#d1ad80",
+          secondary: "#120c0c",
+          tertiary: "#7f5639",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Painting Bright Light Streaks Creatin 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2523020,
+          file_size_megabytes: 2.41,
+          width: 3072,
+          height: 5472,
+          primary: "#d2ac7e",
+          secondary: "#120c0c",
+          tertiary: "#7e5638",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Painting Bright Light Streaks Creatin 1": {
+      environment_title: "Light Painting Bright Light Streaks Creatin 1",
+      images: [
+        {
+          original_file_name: "Light Painting Bright Light Streaks Creatin 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 47193,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#c49254",
+          secondary: "#663e29",
+          tertiary: "#0b0709",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Painting Bright Light Streaks Creatin 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2359324,
+          file_size_megabytes: 2.25,
+          width: 3072,
+          height: 5472,
+          primary: "#c69250",
+          secondary: "#663d28",
+          tertiary: "#0b0709",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Painting Bright Light Streaks Creatin 2": {
+      environment_title: "Light Painting Bright Light Streaks Creatin 2",
+      images: [
+        {
+          original_file_name: "Light Painting Bright Light Streaks Creatin 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 47201,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#c89865",
+          secondary: "#6b422d",
+          tertiary: "#0d0809",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Painting Bright Light Streaks Creatin 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2571224,
+          file_size_megabytes: 2.45,
+          width: 3072,
+          height: 5472,
+          primary: "#c99762",
+          secondary: "#6b422c",
+          tertiary: "#0d0809",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Painting Bright Light Streaks Creatin 3": {
+      environment_title: "Light Painting Bright Light Streaks Creatin 3",
+      images: [
+        {
+          original_file_name: "Light Painting Bright Light Streaks Creatin 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 51280,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#d7a466",
+          secondary: "#764621",
+          tertiary: "#100705",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Painting Bright Light Streaks Creatin 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2727953,
+          file_size_megabytes: 2.6,
+          width: 3072,
+          height: 5472,
+          primary: "#d8a365",
+          secondary: "#76451e",
+          tertiary: "#0e0604",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Trails Traffic Light Trails From Movi 0": {
+      environment_title: "Light Trails Traffic Light Trails From Movi 0",
+      images: [
+        {
+          original_file_name: "Light Trails Traffic Light Trails From Movi 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 53981,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#d2ac87",
+          secondary: "#211d1c",
+          tertiary: "#8b694c",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Trails Traffic Light Trails From Movi 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2534090,
+          file_size_megabytes: 2.42,
+          width: 3072,
+          height: 5472,
+          primary: "#d2ab86",
+          secondary: "#211e1d",
+          tertiary: "#8a694c",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Trails Traffic Light Trails From Movi 1": {
+      environment_title: "Light Trails Traffic Light Trails From Movi 1",
+      images: [
+        {
+          original_file_name: "Light Trails Traffic Light Trails From Movi 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 43708,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#d8b7ae",
+          secondary: "#1b181a",
+          tertiary: "#7f524e",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Trails Traffic Light Trails From Movi 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2331308,
+          file_size_megabytes: 2.22,
+          width: 3072,
+          height: 5472,
+          primary: "#d7b6ad",
+          secondary: "#1b181a",
+          tertiary: "#7f524e",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Trails Traffic Light Trails From Movi 2": {
+      environment_title: "Light Trails Traffic Light Trails From Movi 2",
+      images: [
+        {
+          original_file_name: "Light Trails Traffic Light Trails From Movi 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 56334,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#d7b8a5",
+          secondary: "#23191a",
+          tertiary: "#8f6652",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Trails Traffic Light Trails From Movi 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2641799,
+          file_size_megabytes: 2.52,
+          width: 3072,
+          height: 5472,
+          primary: "#d7b7a4",
+          secondary: "#23191a",
+          tertiary: "#8f6551",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Light Trails Traffic Light Trails From Movi 3": {
+      environment_title: "Light Trails Traffic Light Trails From Movi 3",
+      images: [
+        {
+          original_file_name: "Light Trails Traffic Light Trails From Movi 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 45413,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#caa481",
+          secondary: "#1b1619",
+          tertiary: "#775540",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Light Trails Traffic Light Trails From Movi 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2463470,
+          file_size_megabytes: 2.35,
+          width: 3072,
+          height: 5472,
+          primary: "#cba37f",
+          secondary: "#1b1619",
+          tertiary: "#77553f",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Lonely Lighthouse A Solitary Lighthouse Sta 0": {
+      environment_title: "Lonely Lighthouse A Solitary Lighthouse Sta 0",
+      images: [
+        {
+          original_file_name: "Lonely Lighthouse A Solitary Lighthouse Sta 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 23799,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#b1bac3",
+          secondary: "#1e252d",
+          tertiary: "#6f7c88",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Lonely Lighthouse A Solitary Lighthouse Sta 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1374054,
+          file_size_megabytes: 1.31,
+          width: 3072,
+          height: 5472,
+          primary: "#b1bac3",
+          secondary: "#1e252d",
+          tertiary: "#6f7c88",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Lonely Lighthouse A Solitary Lighthouse Sta 1": {
+      environment_title: "Lonely Lighthouse A Solitary Lighthouse Sta 1",
+      images: [
+        {
+          original_file_name: "Lonely Lighthouse A Solitary Lighthouse Sta 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 25031,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#b3bec8",
+          secondary: "#171d24",
+          tertiary: "#798994",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Lonely Lighthouse A Solitary Lighthouse Sta 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1507287,
+          file_size_megabytes: 1.44,
+          width: 3072,
+          height: 5472,
+          primary: "#b2bec8",
+          secondary: "#171d24",
+          tertiary: "#798894",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Lonely Lighthouse A Solitary Lighthouse Sta 2": {
+      environment_title: "Lonely Lighthouse A Solitary Lighthouse Sta 2",
+      images: [
+        {
+          original_file_name: "Lonely Lighthouse A Solitary Lighthouse Sta 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 22107,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#c0b7b0",
+          secondary: "#232a31",
+          tertiary: "#7e8184",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Lonely Lighthouse A Solitary Lighthouse Sta 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1280139,
+          file_size_megabytes: 1.22,
+          width: 3072,
+          height: 5472,
+          primary: "#c0b6b0",
+          secondary: "#232a31",
+          tertiary: "#7e8184",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Lonely Lighthouse A Solitary Lighthouse Sta 3": {
+      environment_title: "Lonely Lighthouse A Solitary Lighthouse Sta 3",
+      images: [
+        {
+          original_file_name: "Lonely Lighthouse A Solitary Lighthouse Sta 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 25724,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#b6bbc0",
+          secondary: "#303e4b",
+          tertiary: "#7d8993",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Lonely Lighthouse A Solitary Lighthouse Sta 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1620591,
+          file_size_megabytes: 1.55,
+          width: 3072,
+          height: 5472,
+          primary: "#b6bbc0",
+          secondary: "#303e4b",
+          tertiary: "#7d8993",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Milky Way A Clear View Of The Milky Way Gal 0": {
+      environment_title: "Milky Way A Clear View Of The Milky Way Gal 0",
+      images: [
+        {
+          original_file_name: "Milky Way A Clear View Of The Milky Way Gal 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 26869,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#212025",
+          secondary: "#bf9374",
+          tertiary: "#77665f",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Milky Way A Clear View Of The Milky Way Gal 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1813571,
+          file_size_megabytes: 1.73,
+          width: 3072,
+          height: 5472,
+          primary: "#212025",
+          secondary: "#bf9273",
+          tertiary: "#77655d",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Milky Way A Clear View Of The Milky Way Gal 1": {
+      environment_title: "Milky Way A Clear View Of The Milky Way Gal 1",
+      images: [
+        {
+          original_file_name: "Milky Way A Clear View Of The Milky Way Gal 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 24796,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#231f22",
+          secondary: "#c5a691",
+          tertiary: "#7d6b63",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Milky Way A Clear View Of The Milky Way Gal 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1727770,
+          file_size_megabytes: 1.65,
+          width: 3072,
+          height: 5472,
+          primary: "#c5a691",
+          secondary: "#231f22",
+          tertiary: "#7e6b63",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Milky Way A Clear View Of The Milky Way Gal 2": {
+      environment_title: "Milky Way A Clear View Of The Milky Way Gal 2",
+      images: [
+        {
+          original_file_name: "Milky Way A Clear View Of The Milky Way Gal 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 26197,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#201e23",
+          secondary: "#c2a487",
+          tertiary: "#5e6e7f",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Milky Way A Clear View Of The Milky Way Gal 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1831491,
+          file_size_megabytes: 1.75,
+          width: 3072,
+          height: 5472,
+          primary: "#201e23",
+          secondary: "#c2a486",
+          tertiary: "#5f6f7f",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Milky Way A Clear View Of The Milky Way Gal 3": {
+      environment_title: "Milky Way A Clear View Of The Milky Way Gal 3",
+      images: [
+        {
+          original_file_name: "Milky Way A Clear View Of The Milky Way Gal 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 22219,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#bf9877",
+          secondary: "#222023",
+          tertiary: "#7b6559",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Milky Way A Clear View Of The Milky Way Gal 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1543825,
+          file_size_megabytes: 1.47,
+          width: 3072,
+          height: 5472,
+          primary: "#c09777",
+          secondary: "#222023",
+          tertiary: "#7b6659",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Moon Path Moons Journey Across The Night Sk 0": {
+      environment_title: "Moon Path Moons Journey Across The Night Sk 0",
+      images: [
+        {
+          original_file_name: "Moon Path Moons Journey Across The Night Sk 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 31635,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#bb966e",
+          secondary: "#1a1819",
+          tertiary: "#785a3c",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Moon Path Moons Journey Across The Night Sk 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1929918,
+          file_size_megabytes: 1.84,
+          width: 3072,
+          height: 5472,
+          primary: "#bb956b",
+          secondary: "#1b1819",
+          tertiary: "#795a3b",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Moon Path Moons Journey Across The Night Sk 1": {
+      environment_title: "Moon Path Moons Journey Across The Night Sk 1",
+      images: [
+        {
+          original_file_name: "Moon Path Moons Journey Across The Night Sk 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 25340,
+          file_size_megabytes: 0.02,
+          width: 360,
+          height: 640,
+          primary: "#c1a384",
+          secondary: "#14171d",
+          tertiary: "#705742",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Moon Path Moons Journey Across The Night Sk 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1380633,
+          file_size_megabytes: 1.32,
+          width: 3072,
+          height: 5472,
+          primary: "#c1a283",
+          secondary: "#14171d",
+          tertiary: "#705741",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Moon Path Moons Journey Across The Night Sk 2": {
+      environment_title: "Moon Path Moons Journey Across The Night Sk 2",
+      images: [
+        {
+          original_file_name: "Moon Path Moons Journey Across The Night Sk 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 26599,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#24262c",
+          secondary: "#cfb69c",
+          tertiary: "#735b4d",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Moon Path Moons Journey Across The Night Sk 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1614206,
+          file_size_megabytes: 1.54,
+          width: 3072,
+          height: 5472,
+          primary: "#24262c",
+          secondary: "#cfb59c",
+          tertiary: "#735b4e",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Moon Path Moons Journey Across The Night Sk 3": {
+      environment_title: "Moon Path Moons Journey Across The Night Sk 3",
+      images: [
+        {
+          original_file_name: "Moon Path Moons Journey Across The Night Sk 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 37249,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#1d1b1d",
+          secondary: "#bea48e",
+          tertiary: "#6d5f58",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Moon Path Moons Journey Across The Night Sk 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2192914,
+          file_size_megabytes: 2.09,
+          width: 3072,
+          height: 5472,
+          primary: "#1d1c1d",
+          secondary: "#bea48d",
+          tertiary: "#6e5f58",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Moving Clouds Dramatic Cloud Movements Over 0": {
+      environment_title: "Moving Clouds Dramatic Cloud Movements Over 0",
+      images: [
+        {
+          original_file_name: "Moving Clouds Dramatic Cloud Movements Over 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 31160,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#cdb49d",
+          secondary: "#232526",
+          tertiary: "#7f6f66",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Moving Clouds Dramatic Cloud Movements Over 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1998273,
+          file_size_megabytes: 1.91,
+          width: 3072,
+          height: 5472,
+          primary: "#cdb39d",
+          secondary: "#242526",
+          tertiary: "#7f6f66",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Moving Clouds Dramatic Cloud Movements Over 1": {
+      environment_title: "Moving Clouds Dramatic Cloud Movements Over 1",
+      images: [
+        {
+          original_file_name: "Moving Clouds Dramatic Cloud Movements Over 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 32934,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#c7bdbb",
+          secondary: "#21242a",
+          tertiary: "#7d706b",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Moving Clouds Dramatic Cloud Movements Over 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2200867,
+          file_size_megabytes: 2.1,
+          width: 3072,
+          height: 5472,
+          primary: "#c7bdba",
+          secondary: "#21252a",
+          tertiary: "#7d706c",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Moving Clouds Dramatic Cloud Movements Over 2": {
+      environment_title: "Moving Clouds Dramatic Cloud Movements Over 2",
+      images: [
+        {
+          original_file_name: "Moving Clouds Dramatic Cloud Movements Over 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 28850,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#d6b79c",
+          secondary: "#212326",
+          tertiary: "#7f6f6a",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Moving Clouds Dramatic Cloud Movements Over 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1797455,
+          file_size_megabytes: 1.71,
+          width: 3072,
+          height: 5472,
+          primary: "#d6b79c",
+          secondary: "#212326",
+          tertiary: "#7f6f6a",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Moving Clouds Dramatic Cloud Movements Over 3": {
+      environment_title: "Moving Clouds Dramatic Cloud Movements Over 3",
+      images: [
+        {
+          original_file_name: "Moving Clouds Dramatic Cloud Movements Over 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 27078,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#d9a77d",
+          secondary: "#27272c",
+          tertiary: "#707886",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Moving Clouds Dramatic Cloud Movements Over 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1772443,
+          file_size_megabytes: 1.69,
+          width: 3072,
+          height: 5472,
+          primary: "#daa77d",
+          secondary: "#27282d",
+          tertiary: "#707886",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Night Flora Flowers In A Garden Illuminated 0": {
+      environment_title: "Night Flora Flowers In A Garden Illuminated 0",
+      images: [
+        {
+          original_file_name: "Night Flora Flowers In A Garden Illuminated 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 28270,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#dda872",
+          secondary: "#121513",
+          tertiary: "#636460",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Night Flora Flowers In A Garden Illuminated 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1059876,
+          file_size_megabytes: 1.01,
+          width: 3072,
+          height: 5472,
+          primary: "#dea872",
+          secondary: "#111514",
+          tertiary: "#665448",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Night Flora Flowers In A Garden Illuminated 1": {
+      environment_title: "Night Flora Flowers In A Garden Illuminated 1",
+      images: [
+        {
+          original_file_name: "Night Flora Flowers In A Garden Illuminated 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 30944,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#bc879b",
+          secondary: "#111615",
+          tertiary: "#646fa5",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Night Flora Flowers In A Garden Illuminated 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1204249,
+          file_size_megabytes: 1.15,
+          width: 3072,
+          height: 5472,
+          primary: "#bc889e",
+          secondary: "#111615",
+          tertiary: "#636ea4",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Night Flora Flowers In A Garden Illuminated 2": {
+      environment_title: "Night Flora Flowers In A Garden Illuminated 2",
+      images: [
+        {
+          original_file_name: "Night Flora Flowers In A Garden Illuminated 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 28975,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#c2976d",
+          secondary: "#607ea4",
+          tertiary: "#0c0e0d",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Night Flora Flowers In A Garden Illuminated 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1175657,
+          file_size_megabytes: 1.12,
+          width: 3072,
+          height: 5472,
+          primary: "#c3976c",
+          secondary: "#607fa5",
+          tertiary: "#0c0e0d",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Night Flora Flowers In A Garden Illuminated 3": {
+      environment_title: "Night Flora Flowers In A Garden Illuminated 3",
+      images: [
+        {
+          original_file_name: "Night Flora Flowers In A Garden Illuminated 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 30418,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#c19a72",
+          secondary: "#0e100f",
+          tertiary: "#62565d",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Night Flora Flowers In A Garden Illuminated 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1173834,
+          file_size_megabytes: 1.12,
+          width: 3072,
+          height: 5472,
+          primary: "#c19a72",
+          secondary: "#0e100f",
+          tertiary: "#62565c",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Night Traffic Light Trails From Cars Creati 0": {
+      environment_title: "Night Traffic Light Trails From Cars Creati 0",
+      images: [
+        {
+          original_file_name: "Night Traffic Light Trails From Cars Creati 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 51936,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#cfa381",
+          secondary: "#7e5033",
+          tertiary: "#151016",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Night Traffic Light Trails From Cars Creati 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2470926,
+          file_size_megabytes: 2.36,
+          width: 3072,
+          height: 5472,
+          primary: "#d0a380",
+          secondary: "#7d4f33",
+          tertiary: "#151016",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Night Traffic Light Trails From Cars Creati 1": {
+      environment_title: "Night Traffic Light Trails From Cars Creati 1",
+      images: [
+        {
+          original_file_name: "Night Traffic Light Trails From Cars Creati 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 57966,
+          file_size_megabytes: 0.06,
+          width: 360,
+          height: 640,
+          primary: "#d0a9a1",
+          secondary: "#201815",
+          tertiary: "#805850",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Night Traffic Light Trails From Cars Creati 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2558909,
+          file_size_megabytes: 2.44,
+          width: 3072,
+          height: 5472,
+          primary: "#d0a9a1",
+          secondary: "#201815",
+          tertiary: "#805850",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Night Traffic Light Trails From Cars Creati 2": {
+      environment_title: "Night Traffic Light Trails From Cars Creati 2",
+      images: [
+        {
+          original_file_name: "Night Traffic Light Trails From Cars Creati 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 53996,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#cfa089",
+          secondary: "#21191a",
+          tertiary: "#815043",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Night Traffic Light Trails From Cars Creati 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2509102,
+          file_size_megabytes: 2.39,
+          width: 3072,
+          height: 5472,
+          primary: "#d09f88",
+          secondary: "#22191a",
+          tertiary: "#805042",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Night Traffic Light Trails From Cars Creati 3": {
+      environment_title: "Night Traffic Light Trails From Cars Creati 3",
+      images: [
+        {
+          original_file_name: "Night Traffic Light Trails From Cars Creati 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 53601,
+          file_size_megabytes: 0.05,
+          width: 360,
+          height: 640,
+          primary: "#d4b18a",
+          secondary: "#1e1312",
+          tertiary: "#815637",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Night Traffic Light Trails From Cars Creati 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2564908,
+          file_size_megabytes: 2.45,
+          width: 3072,
+          height: 5472,
+          primary: "#d5b089",
+          secondary: "#1e1312",
+          tertiary: "#815637",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "River Silk Smooth Flowing River Surface Cap 0": {
+      environment_title: "River Silk Smooth Flowing River Surface Cap 0",
+      images: [
+        {
+          original_file_name: "River Silk Smooth Flowing River Surface Cap 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 33886,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#d0c7b6",
+          secondary: "#2a2219",
+          tertiary: "#837962",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "River Silk Smooth Flowing River Surface Cap 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2382717,
+          file_size_megabytes: 2.27,
+          width: 3072,
+          height: 5472,
+          primary: "#d0c7b7",
+          secondary: "#2a2219",
+          tertiary: "#837962",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "River Silk Smooth Flowing River Surface Cap 1": {
+      environment_title: "River Silk Smooth Flowing River Surface Cap 1",
+      images: [
+        {
+          original_file_name: "River Silk Smooth Flowing River Surface Cap 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 34548,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#c4c6c7",
+          secondary: "#9eb8c7",
+          tertiary: "#291f19",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "River Silk Smooth Flowing River Surface Cap 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2194517,
+          file_size_megabytes: 2.09,
+          width: 3072,
+          height: 5472,
+          primary: "#c4c6c7",
+          secondary: "#9db8c8",
+          tertiary: "#2a1f19",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "River Silk Smooth Flowing River Surface Cap 2": {
+      environment_title: "River Silk Smooth Flowing River Surface Cap 2",
+      images: [
+        {
+          original_file_name: "River Silk Smooth Flowing River Surface Cap 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 31661,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#322f2d",
+          secondary: "#cdc4ae",
+          tertiary: "#9caab3",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "River Silk Smooth Flowing River Surface Cap 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2115490,
+          file_size_megabytes: 2.02,
+          width: 3072,
+          height: 5472,
+          primary: "#322f2d",
+          secondary: "#cec5af",
+          tertiary: "#9cabb3",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "River Silk Smooth Flowing River Surface Cap 3": {
+      environment_title: "River Silk Smooth Flowing River Surface Cap 3",
+      images: [
+        {
+          original_file_name: "River Silk Smooth Flowing River Surface Cap 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 30404,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#323131",
+          secondary: "#c9d9e6",
+          tertiary: "#9eb1c2",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "River Silk Smooth Flowing River Surface Cap 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1801354,
+          file_size_megabytes: 1.72,
+          width: 3072,
+          height: 5472,
+          primary: "#323131",
+          secondary: "#c9d9e7",
+          tertiary: "#9eb1c3",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Seashore Glow Gentle Waves Illuminated By L 0": {
+      environment_title: "Seashore Glow Gentle Waves Illuminated By L 0",
+      images: [
+        {
+          original_file_name: "Seashore Glow Gentle Waves Illuminated By L 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 30545,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#ddb899",
+          secondary: "#291f20",
+          tertiary: "#86685d",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Seashore Glow Gentle Waves Illuminated By L 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1761467,
+          file_size_megabytes: 1.68,
+          width: 3072,
+          height: 5472,
+          primary: "#ddb898",
+          secondary: "#291f20",
+          tertiary: "#86675d",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Seashore Glow Gentle Waves Illuminated By L 1": {
+      environment_title: "Seashore Glow Gentle Waves Illuminated By L 1",
+      images: [
+        {
+          original_file_name: "Seashore Glow Gentle Waves Illuminated By L 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 31585,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#383132",
+          secondary: "#d8a580",
+          tertiary: "#8c6e65",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Seashore Glow Gentle Waves Illuminated By L 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1750856,
+          file_size_megabytes: 1.67,
+          width: 3072,
+          height: 5472,
+          primary: "#383132",
+          secondary: "#d8a47f",
+          tertiary: "#8c6f65",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Seashore Glow Gentle Waves Illuminated By L 2": {
+      environment_title: "Seashore Glow Gentle Waves Illuminated By L 2",
+      images: [
+        {
+          original_file_name: "Seashore Glow Gentle Waves Illuminated By L 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 31927,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#473b39",
+          secondary: "#d5a88a",
+          tertiary: "#93776d",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Seashore Glow Gentle Waves Illuminated By L 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1899151,
+          file_size_megabytes: 1.81,
+          width: 3072,
+          height: 5472,
+          primary: "#483b39",
+          secondary: "#d5a88a",
+          tertiary: "#93786d",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Seashore Glow Gentle Waves Illuminated By L 3": {
+      environment_title: "Seashore Glow Gentle Waves Illuminated By L 3",
+      images: [
+        {
+          original_file_name: "Seashore Glow Gentle Waves Illuminated By L 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 28506,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#665656",
+          secondary: "#e2a57a",
+          tertiary: "#1c191c",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Seashore Glow Gentle Waves Illuminated By L 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1763401,
+          file_size_megabytes: 1.68,
+          width: 3072,
+          height: 5472,
+          primary: "#665656",
+          secondary: "#e2a57a",
+          tertiary: "#1c191c",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Star Trails Night Continuous Star Trails Fo 0": {
+      environment_title: "Star Trails Night Continuous Star Trails Fo 0",
+      images: [
+        {
+          original_file_name: "Star Trails Night Continuous Star Trails Fo 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 40936,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#2d2d32",
+          secondary: "#ccc2b8",
+          tertiary: "#817f84",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Star Trails Night Continuous Star Trails Fo 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2156578,
+          file_size_megabytes: 2.06,
+          width: 3072,
+          height: 5472,
+          primary: "#2d2d32",
+          secondary: "#cdc2b8",
+          tertiary: "#817f83",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Star Trails Night Continuous Star Trails Fo 1": {
+      environment_title: "Star Trails Night Continuous Star Trails Fo 1",
+      images: [
+        {
+          original_file_name: "Star Trails Night Continuous Star Trails Fo 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 42218,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#2a292e",
+          secondary: "#ce9056",
+          tertiary: "#7a6454",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Star Trails Night Continuous Star Trails Fo 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2211569,
+          file_size_megabytes: 2.11,
+          width: 3072,
+          height: 5472,
+          primary: "#2a292e",
+          secondary: "#ce8f54",
+          tertiary: "#7a6657",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Star Trails Night Continuous Star Trails Fo 2": {
+      environment_title: "Star Trails Night Continuous Star Trails Fo 2",
+      images: [
+        {
+          original_file_name: "Star Trails Night Continuous Star Trails Fo 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 42975,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#3d3b3e",
+          secondary: "#7c756e",
+          tertiary: "#080607",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Star Trails Night Continuous Star Trails Fo 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2222281,
+          file_size_megabytes: 2.12,
+          width: 3072,
+          height: 5472,
+          primary: "#3d3c3e",
+          secondary: "#7c766e",
+          tertiary: "#080607",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Star Trails Night Continuous Star Trails Fo 3": {
+      environment_title: "Star Trails Night Continuous Star Trails Fo 3",
+      images: [
+        {
+          original_file_name: "Star Trails Night Continuous Star Trails Fo 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 41749,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#4a443f",
+          secondary: "#7e7060",
+          tertiary: "#21160e",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Star Trails Night Continuous Star Trails Fo 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2387697,
+          file_size_megabytes: 2.28,
+          width: 3072,
+          height: 5472,
+          primary: "#453f38",
+          secondary: "#7e705f",
+          tertiary: "#b29972",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Sunset Stream Flowing Stream Reflected With 0": {
+      environment_title: "Sunset Stream Flowing Stream Reflected With 0",
+      images: [
+        {
+          original_file_name: "Sunset Stream Flowing Stream Reflected With 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 42846,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#dc935c",
+          secondary: "#2f2019",
+          tertiary: "#915941",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Sunset Stream Flowing Stream Reflected With 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2663868,
+          file_size_megabytes: 2.54,
+          width: 3072,
+          height: 5472,
+          primary: "#dc925b",
+          secondary: "#2f2018",
+          tertiary: "#915941",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Sunset Stream Flowing Stream Reflected With 1": {
+      environment_title: "Sunset Stream Flowing Stream Reflected With 1",
+      images: [
+        {
+          original_file_name: "Sunset Stream Flowing Stream Reflected With 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 38187,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#de9a6b",
+          secondary: "#2d201d",
+          tertiary: "#8c6862",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Sunset Stream Flowing Stream Reflected With 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2215772,
+          file_size_megabytes: 2.11,
+          width: 3072,
+          height: 5472,
+          primary: "#de9a6a",
+          secondary: "#2d201e",
+          tertiary: "#8c6861",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Sunset Stream Flowing Stream Reflected With 2": {
+      environment_title: "Sunset Stream Flowing Stream Reflected With 2",
+      images: [
+        {
+          original_file_name: "Sunset Stream Flowing Stream Reflected With 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 32809,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#d79764",
+          secondary: "#281d1d",
+          tertiary: "#805a4f",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Sunset Stream Flowing Stream Reflected With 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2050346,
+          file_size_megabytes: 1.96,
+          width: 3072,
+          height: 5472,
+          primary: "#d89764",
+          secondary: "#281d1d",
+          tertiary: "#7f5b4f",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Sunset Stream Flowing Stream Reflected With 3": {
+      environment_title: "Sunset Stream Flowing Stream Reflected With 3",
+      images: [
+        {
+          original_file_name: "Sunset Stream Flowing Stream Reflected With 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 37514,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#db996c",
+          secondary: "#2e201d",
+          tertiary: "#8e5d4e",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Sunset Stream Flowing Stream Reflected With 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2364260,
+          file_size_megabytes: 2.25,
+          width: 3072,
+          height: 5472,
+          primary: "#dc996c",
+          secondary: "#2e201d",
+          tertiary: "#8e5d4e",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Train Trails Light Trails From Passing Trai 0": {
+      environment_title: "Train Trails Light Trails From Passing Trai 0",
+      images: [
+        {
+          original_file_name: "Train Trails Light Trails From Passing Trai 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 33640,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#cda87e",
+          secondary: "#150f0c",
+          tertiary: "#704928",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Train Trails Light Trails From Passing Trai 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2125626,
+          file_size_megabytes: 2.03,
+          width: 3072,
+          height: 5472,
+          primary: "#cea77c",
+          secondary: "#150f0c",
+          tertiary: "#704828",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Train Trails Light Trails From Passing Trai 1": {
+      environment_title: "Train Trails Light Trails From Passing Trai 1",
+      images: [
+        {
+          original_file_name: "Train Trails Light Trails From Passing Trai 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 43014,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#cea678",
+          secondary: "#1d1716",
+          tertiary: "#785135",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Train Trails Light Trails From Passing Trai 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2633853,
+          file_size_megabytes: 2.51,
+          width: 3072,
+          height: 5472,
+          primary: "#cfa677",
+          secondary: "#1d1716",
+          tertiary: "#785134",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Train Trails Light Trails From Passing Trai 2": {
+      environment_title: "Train Trails Light Trails From Passing Trai 2",
+      images: [
+        {
+          original_file_name: "Train Trails Light Trails From Passing Trai 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 44206,
+          file_size_megabytes: 0.04,
+          width: 360,
+          height: 640,
+          primary: "#d6aa74",
+          secondary: "#23110a",
+          tertiary: "#80532c",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Train Trails Light Trails From Passing Trai 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2224315,
+          file_size_megabytes: 2.12,
+          width: 3072,
+          height: 5472,
+          primary: "#d6a972",
+          secondary: "#23110a",
+          tertiary: "#80522a",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Train Trails Light Trails From Passing Trai 3": {
+      environment_title: "Train Trails Light Trails From Passing Trai 3",
+      images: [
+        {
+          original_file_name: "Train Trails Light Trails From Passing Trai 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 35076,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#bc8b5d",
+          secondary: "#231e21",
+          tertiary: "#6d4429",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Train Trails Light Trails From Passing Trai 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1930588,
+          file_size_megabytes: 1.84,
+          width: 3072,
+          height: 5472,
+          primary: "#bc8a5b",
+          secondary: "#231e21",
+          tertiary: "#6d4429",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Waterfall Motion Waterfall Rendered With Si 0": {
+      environment_title: "Waterfall Motion Waterfall Rendered With Si 0",
+      images: [
+        {
+          original_file_name: "Waterfall Motion Waterfall Rendered With Si 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 31871,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#c3c8cd",
+          secondary: "#1e1f1b",
+          tertiary: "#72716d",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Waterfall Motion Waterfall Rendered With Si 0.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2251228,
+          file_size_megabytes: 2.15,
+          width: 3072,
+          height: 5472,
+          primary: "#c3c7cc",
+          secondary: "#1e1f1b",
+          tertiary: "#737370",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Waterfall Motion Waterfall Rendered With Si 1": {
+      environment_title: "Waterfall Motion Waterfall Rendered With Si 1",
+      images: [
+        {
+          original_file_name: "Waterfall Motion Waterfall Rendered With Si 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 32479,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#1d1f1b",
+          secondary: "#c4cbca",
+          tertiary: "#71756c",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Waterfall Motion Waterfall Rendered With Si 1.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2169388,
+          file_size_megabytes: 2.07,
+          width: 3072,
+          height: 5472,
+          primary: "#1e1f1b",
+          secondary: "#c4cacb",
+          tertiary: "#71746b",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Waterfall Motion Waterfall Rendered With Si 2": {
+      environment_title: "Waterfall Motion Waterfall Rendered With Si 2",
+      images: [
+        {
+          original_file_name: "Waterfall Motion Waterfall Rendered With Si 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 32725,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#21211a",
+          secondary: "#c5c7c7",
+          tertiary: "#787a65",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Waterfall Motion Waterfall Rendered With Si 2.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 2262561,
+          file_size_megabytes: 2.16,
+          width: 3072,
+          height: 5472,
+          primary: "#21211a",
+          secondary: "#c5c7c8",
+          tertiary: "#787a65",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  },
+  {
+    "Waterfall Motion Waterfall Rendered With Si 3": {
+      environment_title: "Waterfall Motion Waterfall Rendered With Si 3",
+      images: [
+        {
+          original_file_name: "Waterfall Motion Waterfall Rendered With Si 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 30636,
+          file_size_megabytes: 0.03,
+          width: 360,
+          height: 640,
+          primary: "#cfbcb3",
+          secondary: "#23231f",
+          tertiary: "#7e7473",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "min"
+        },
+        {
+          original_file_name: "Waterfall Motion Waterfall Rendered With Si 3.jpg",
+          format: "JPEG",
+          mode: "RGB",
+          file_size_bytes: 1840978,
+          file_size_megabytes: 1.76,
+          width: 3072,
+          height: 5472,
+          primary: "#cfbdb3",
+          secondary: "#232320",
+          tertiary: "#7e7473",
+          Branch: "Realism",
+          FolderName: "Long Exposure",
+          Type: "max"
+        }
+      ]
+    }
+  }
+];
