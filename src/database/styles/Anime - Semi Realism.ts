@@ -1,5 +1,5 @@
 import { EnvironmentEntry } from "@/types/database";
-const Anime_Background: Record<string, EnvironmentEntry> = {
+const Anime_SemiRealism: Record<string, EnvironmentEntry> = {
   "Ancient Temple": {
     environment_title: "Ancient Temple 0",
     images: [
@@ -1961,3 +1961,4 @@ const Anime_Background: Record<string, EnvironmentEntry> = {
     ]
   }
 };
+export default Anime_SemiRealism;

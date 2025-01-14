@@ -1,22 +1,23 @@
 // src/database/index.ts
-import Anime_Monochrome from "./styles/Anime - Monochrome";
 import Anime_Background from "./styles/Anime - Background";
 import Anime_Illustration from "./styles/Anime - Illustration";
 import Anime_Manga from "./styles/Anime - Manga";
-import DSLR_Photography from "./styles/DSLR - Photography";
-import Graphic_2D_Design from "./styles/Graphic - 2D Design";
-import Graphic_3D_Design from "./styles/Graphic - 3D Design";
-import Graphic_ArtDeco from "./styles/Graphic - Art Deco";
-import Graphic_PopArt from "./styles/Graphic - Pop Art";
-import Graphic_Vector from "./styles/Graphic - Vector";
-import Portrait_Bokeh from "./styles/Portrait - Bokeh";
-import Portrait_Cinematic from "./styles/Portrait - Cinematic";
-import Portrait_CloseUp from "./styles/Portrait - Close Up";
-import Portrait_Fashion from "./styles/Portrait - Fashion";
-import Portrait_Film from "./styles/Portrait - Film";
-import Portrait_Moody from "./styles/Portrait - Moody";
-import Portrait_Retro from "./styles/Portrait - Retro";
-
+import Anime_Monochrome from "./styles/Anime - Monochrome";
+import Anime_SemiRealism from "./styles/Anime - Semi Realism";
+import Cinematic_Bokeh from "./styles/Cinematic - Bokeh";
+import Cinematic_Cinematic from "./styles/Cinematic - Cinematic";
+import Cinematic_CloseUp from "./styles/Cinematic - Close Up";
+import Cinematic_Film from "./styles/Cinematic - Film";
+import Cinematic_Moody from "./styles/Cinematic - Moody";
+import Cinematic_Retro from "./styles/Cinematic - Retro";
+import Cinematic_Unprocessed from "./styles/Cinematic - Unprocessed";
+import Geometry_2D from "./styles/Geometry - 2D";
+import Geometry_3D from "./styles/Geometry - 3D";
+import Geometry_PopArt from "./styles/Geometry - Pop Art";
+import Geometry_Vector from "./styles/Geometry - Vector";
+import Realism_LongExposure from "./styles/Realism - Long Exposure";
+import Realism_Minimalist from "./styles/Realism - Minimalist";
+import Realism_RayTraced from "./styles/Realism - Ray Traced";
 type StyleComponent = typeof Anime_Monochrome;
 interface MetaBase {
   Anime: {
@@ -24,25 +25,27 @@ interface MetaBase {
     Background: StyleComponent;
     Illustration: StyleComponent;
     Manga: StyleComponent;
+    SemiRealism: StyleComponent;
   };
-  DSLR: {
-    Photography: StyleComponent;
-  };
-  Graphic: {
-    TwoDDesign: StyleComponent;
-    ThreeDDesign: StyleComponent;
-    ArtDeco: StyleComponent;
-    PopArt: StyleComponent;
-    Vector: StyleComponent;
-  };
-  Portrait: {
+  Cinematic: {
     Bokeh: StyleComponent;
     Cinematic: StyleComponent;
     CloseUp: StyleComponent;
-    Fashion: StyleComponent;
     Film: StyleComponent;
     Moody: StyleComponent;
     Retro: StyleComponent;
+    Unprocessed: StyleComponent;
+  };
+  Geometry: {
+    TwoD: StyleComponent;
+    ThreeD: StyleComponent;
+    PopArt: StyleComponent;
+    Vector: StyleComponent;
+  };
+  Realism: {
+    LongExposure: StyleComponent;
+    Minimalist: StyleComponent;
+    RayTraced: StyleComponent;
   };
 }
 const metaBase: MetaBase = {
@@ -50,27 +53,28 @@ const metaBase: MetaBase = {
     Monochrome: Anime_Monochrome,
     Background: Anime_Background,
     Illustration: Anime_Illustration,
-    Manga: Anime_Manga
+    Manga: Anime_Manga,
+    SemiRealism: Anime_SemiRealism
   },
-  DSLR: {
-    Photography: DSLR_Photography
+  Cinematic: {
+    Bokeh: Cinematic_Bokeh,
+    Cinematic: Cinematic_Cinematic,
+    CloseUp: Cinematic_CloseUp,
+    Film: Cinematic_Film,
+    Moody: Cinematic_Moody,
+    Retro: Cinematic_Retro,
+    Unprocessed: Cinematic_Unprocessed
   },
-  Graphic: {
-    TwoDDesign: Graphic_2D_Design,
-    ThreeDDesign: Graphic_3D_Design,
-    ArtDeco: Graphic_ArtDeco,
-    PopArt: Graphic_PopArt,
-    Vector: Graphic_Vector
+  Geometry: {
+    TwoD: Geometry_2D,
+    ThreeD: Geometry_3D,
+    PopArt: Geometry_PopArt,
+    Vector: Geometry_Vector
   },
-  Portrait: {
-    Bokeh: Portrait_Bokeh,
-    Cinematic: Portrait_Cinematic,
-    CloseUp: Portrait_CloseUp,
-    Fashion: Portrait_Fashion,
-    Film: Portrait_Film,
-    Moody: Portrait_Moody,
-    Retro: Portrait_Retro
+  Realism: {
+    LongExposure: Realism_LongExposure,
+    Minimalist: Realism_Minimalist,
+    RayTraced: Realism_RayTraced
   }
 };
-
 export default metaBase;

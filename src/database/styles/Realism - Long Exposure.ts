@@ -1,5 +1,5 @@
 import { EnvironmentEntry } from "@/types/database";
-const Anime_Background: Record<string, EnvironmentEntry> = {
+const Realism_LongExposure: Record<string, EnvironmentEntry> = {
   "City Lights": {
     environment_title: "City Lights 0",
     images: [
@@ -2801,3 +2801,4 @@ const Anime_Background: Record<string, EnvironmentEntry> = {
     ]
   }
 };
+export default Realism_LongExposure;

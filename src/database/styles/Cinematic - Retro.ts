@@ -1,5 +1,5 @@
 import { EnvironmentEntry } from "@/types/database";
-const Anime_Background: Record<string, EnvironmentEntry> = {
+const Cinematic_Retro: Record<string, EnvironmentEntry> = {
   "Arcade Lights": {
     environment_title: "Arcade Lights 0",
     images: [
@@ -1401,3 +1401,4 @@ const Anime_Background: Record<string, EnvironmentEntry> = {
     ]
   }
 };
+export default Cinematic_Retro;

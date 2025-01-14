@@ -1,5 +1,5 @@
 import { EnvironmentEntry } from "@/types/database";
-const Anime_Background: Record<string, EnvironmentEntry> = {
+const Geometry_2D: Record<string, EnvironmentEntry> = {
   "Abstract Shapes": {
     environment_title: "Abstract Shapes 0",
     images: [
@@ -2801,3 +2801,4 @@ const Anime_Background: Record<string, EnvironmentEntry> = {
     ]
   }
 };
+export default Geometry_2D;

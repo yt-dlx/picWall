@@ -1,5 +1,5 @@
 import { EnvironmentEntry } from "@/types/database";
-const Anime_Background: Record<string, EnvironmentEntry> = {
+const Realism_RayTraced: Record<string, EnvironmentEntry> = {
   "Crystal Prism": {
     environment_title: "Crystal Prism 0",
     images: [
@@ -2801,3 +2801,4 @@ const Anime_Background: Record<string, EnvironmentEntry> = {
     ]
   }
 };
+export default Realism_RayTraced;
