@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "upload": "node work (7).js && node work (8).js && node work (9).js"
+    "upload": "node work (7).js && node work (8).py"
   },
   "dependencies": {
     "dotenv": "^16.4.7",

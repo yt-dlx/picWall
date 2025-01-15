@@ -1,7 +1,10 @@
+// Import Section
 import dotenv from "dotenv";
 import fetch from "node-fetch";
 import { join, basename } from "path";
 import { readFileSync, readdirSync, statSync } from "fs";
+
+// Configuration
 dotenv.config({ path: "../.env" });
 const repo = "picWall";
 const owner = "yt-dlx";
@@ -9,6 +12,8 @@ const defaultBaseBranch = "empty";
 const commitMessage = "picWall™ AI";
 const token = process.env.GITHUB_TOKEN;
 const apiUrl = `https://api.github.com/repos/${owner}/${repo}`;
+
+// Utility Functions
 function getDirectories(basePath) {
   try {
     const directories = readdirSync(basePath)
@@ -21,7 +26,9 @@ function getDirectories(basePath) {
     return [];
   }
 }
+
 const directories = getDirectories("./assets/output");
+
 async function fetchBranch(branch) {
   try {
     console.log(`Fetching branch: ${branch}`);
@@ -39,6 +46,28 @@ async function fetchBranch(branch) {
     return null;
   }
 }
+
+async function getRemoteFiles(branch) {
+  try {
+    const refData = await fetchBranch(branch);
+    if (!refData) return new Set();
+    const commitSha = refData.object.sha;
+    const treeResponse = await fetch(`${apiUrl}/git/trees/${commitSha}?recursive=1`, { headers: { Authorization: `token ${token}` } });
+    if (treeResponse.ok) {
+      const treeData = await treeResponse.json();
+      const files = treeData.tree.filter((item) => item.type === "blob").map((item) => item.path);
+      console.log(`Fetched ${files.length} files from branch ${branch}.`);
+      return new Set(files);
+    } else {
+      console.error(`Error fetching tree for branch ${branch}:`, await treeResponse.text());
+      return new Set();
+    }
+  } catch (error) {
+    console.error(`Error getting remote files for branch ${branch}:`, error);
+    return new Set();
+  }
+}
+
 async function deleteContent(path, branch) {
   try {
     const response = await fetch(`${apiUrl}/contents/${path}?ref=${branch}`, { headers: { Authorization: `token ${token}` } });
@@ -61,6 +90,7 @@ async function deleteContent(path, branch) {
     console.error(`Error deleting content at path ${path}:`, error);
   }
 }
+
 async function deleteFilesInBranch(branch) {
   try {
     console.log(`Deleting all content in branch: ${branch}`);
@@ -70,6 +100,7 @@ async function deleteFilesInBranch(branch) {
     console.error(`Error deleting files in branch ${branch}:`, error);
   }
 }
+
 async function createBranch(newBranch, sourceBranch = defaultBaseBranch) {
   try {
     console.log(`Creating branch: ${newBranch} from ${sourceBranch}`);
@@ -90,6 +121,7 @@ async function createBranch(newBranch, sourceBranch = defaultBaseBranch) {
     console.error(`Error creating branch ${newBranch}:`, error);
   }
 }
+
 async function uploadFileToGitHub(filePath, remotePath, branch) {
   try {
     console.log(`Uploading file: ${filePath} to ${remotePath} on branch ${branch}`);
@@ -105,6 +137,8 @@ async function uploadFileToGitHub(filePath, remotePath, branch) {
     console.error(`Error uploading file ${filePath}:`, error);
   }
 }
+
+// Processing Functions
 async function processDirectory(directory) {
   try {
     const folderName = basename(directory);
@@ -115,7 +149,8 @@ async function processDirectory(directory) {
       console.log(`Branch ${branchName} does not exist. Creating it now.`);
       await createBranch(branchName);
     }
-    const subdirectories = ["min"];
+    const remoteFiles = await getRemoteFiles(branchName);
+    const subdirectories = ["min", "max"];
     for (const subdir of subdirectories) {
       const subdirPath = join(directory, subdir);
       if (statSync(subdirPath).isDirectory()) {
@@ -124,7 +159,11 @@ async function processDirectory(directory) {
         for (const file of files) {
           const filePath = join(subdirPath, file);
           const remotePath = `${subFolderName}/${subdir}/${file}`;
-          await uploadFileToGitHub(filePath, remotePath, branchName);
+          if (!remoteFiles.has(remotePath)) {
+            await uploadFileToGitHub(filePath, remotePath, branchName);
+          } else {
+            console.log(`File already exists on remote: ${remotePath}`);
+          }
         }
       } else console.log(`No directory found: ${subdirPath}`);
     }
@@ -132,6 +171,7 @@ async function processDirectory(directory) {
     console.error(`Error processing directory ${directory}:`, error);
   }
 }
+
 async function processAllDirectories() {
   try {
     for (const directory of directories) await processDirectory(directory);
@@ -140,4 +180,6 @@ async function processAllDirectories() {
     console.error("Error processing all directories:", error);
   }
 }
+
+// Execution
 processAllDirectories();
