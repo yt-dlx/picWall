@@ -102,7 +102,7 @@ async function processDirectory(directory) {
     await createBranch(branchName);
   }
   const remoteFiles = await getRemoteFiles(branchName);
-  const subdirectories = ["min"];
+  const subdirectories = ["max"];
   for (const subdir of subdirectories) {
     const subdirPath = join(directory, subdir);
     if (statSync(subdirPath).isDirectory()) {
