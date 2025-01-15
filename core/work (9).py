@@ -49,9 +49,9 @@ def create_image_data(file_path, branch_name, folder_name, type_):
         "primary": hex_colors[0],
         "secondary": hex_colors[1],
         "tertiary": hex_colors[2],
-        "Branch": branch_name,
-        "FolderName": folder_name,
-        "Type": type_,
+        "branch": branch_name,
+        "folder": folder_name,
+        "type": type_,
     }
 def process_images_in_folder(base_path, branch_name, folder_name):
     log(f"Processing folder: {base_path}")

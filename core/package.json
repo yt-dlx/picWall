@@ -2,6 +2,9 @@
   "name": "picwall-database",
   "version": "1.0.0",
   "type": "module",
+  "scripts": {
+    "upload": "node work (7).js && node work (8).js && node work (9).js"
+  },
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
